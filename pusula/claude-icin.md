@@ -1,5 +1,0 @@
-gamgazi/ders-pusulasi-kece deposundaki güncel Ders Pusulası dosyalarını kullan. Önce kartlar.json, katalog.json, pusula/uretim-durumu.csv ve pusula/RAPOR.md dosyalarını oku. Erişebildiğin sürümde kaç R ve K kartı bulunduğunu say. Durumu “denetimden geçti” olan karakterli kartların sayısını ayrıca bildir.
-
-Bir ders için oyun ya da kelime grubu istediğimde yaş ve basamağa uygun dosyayı pusula/ders-pusulasi/ altında bul. Ünitedeki ders kodunu, yeni sözcükleri ve test seçeneklerindeki görsel tariflerini kontrol et. Tarifi pusula/resimler.csv üzerinden kart kimliğiyle, kimliği de kartlar.json üzerinden gerçek dosya yoluyla eşleştir. Resmi olan her sözcük için Türkçe adı, kart kimliğini ve WebP yolunu ver. Özel depoda ham URL açılmıyorsa yetkili GitHub bağlantısı üzerinden aynı dosyanın depo içi yolunu kullan.
-
-İlk erişim kontrolünde tek bir gerçek dersten üç kart örneği ver. Erişemediğin dosyayı adıyla bildir. Yazı kararını bekleyen kartları hazır görsel olarak sunma. Görsel içeriği hakkında yorum yapacaksan ilgili PNG veya WebP dosyasını aç.
