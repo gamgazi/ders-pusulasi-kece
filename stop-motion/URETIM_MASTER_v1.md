@@ -27,3 +27,18 @@
 - Diğer: çöl, uzay
 
 **Kontrol:** Yüksek çözünürlüklü ayrı PNG dosyaları, gerçek alfa kanalı ve tam müfredat eşleştirmesi doğrulanmadan seri üretim tamamlandı işareti verilmez.
+
+## EK-01 — Gerçek fiziksel kâğıt / keçeli kalem kalite kapısı (2026-11-21)
+
+Bu ek, kullanıcının son görsel geri bildirimine dayanır ve sonraki bütün **yardımcı kâğıt nesne** üretimlerinde zorunludur.
+
+1. Kâğıt kesimi şablon gibi kusursuz ve simetrik görünmemelidir: sınır çizgisinde el makası kaynaklı küçük oynamalar, yer yer geniş/dar beyaz kenar ve doğal hafif el kaymaları olmalıdır.
+2. En az bir veya iki kenarda fiziksel kâğıt kıvrılması/kalkması, eğim, çok hafif katlanma, kırışıklık veya bükülme hissi aranır; abartılı yırtık ve sahte eskimiş kâğıt zorunlu değildir.
+3. Boyama mekanik ve kusursuz görünmemelidir: fiber uçlu **keçeli kalem**in aynı yöndeki boyama geçişleri, üst üste binen yerlerde koyu mürekkep bölgeleri ve yer yer ufak beyaz boşluklar görünür. Çizgi yoğunluğu ve elle kontrolü değişken olmalıdır.
+4. **Mum boya, pastel, kuru boya, boya kalemi, keçeleşmiş kumaş, nakış veya dijital düz renk dolgusu yardımcı nesneye uygulanmaz.** Bu malzemeler kendi tanımlı farklı katmanlarında kullanılabilir.
+5. Yardımcı bulut: yüzsüz, içi gerçek beyaz kâğıt, mavi keçeli kalemle çizilmiş çevre; bulutun gövdesine mavi pastel gölgelendirme doldurulmaz.
+6. Her nesne **tek başına gerçek alfa kanallı şeffaf PNG** olmalı. Dama deseninin resme baskı olarak gömülmesi veya kâğıdı gölgede yüzdürmek başarısızlıktır.
+7. Aynı modelden varyasyonlar görünür el farklılığı taşımalı; yalnız renk değişimi veya ölçekleme yeni farklı varlık sayılmaz.
+8. Nesnenin üretimi tamamlandı denmeden önce **görsel malzeme kontrolü + RGBA alfa kontrolü + gerçekten ayrı dosya kontrolü** yapılır. Sanatsal onay alınmayan ürünler yalnızca prototiptir.
+
+**Durum:** 2026-11-21 seri prototiplerdeki görsel kalite onayı henüz verilmemiştir.
