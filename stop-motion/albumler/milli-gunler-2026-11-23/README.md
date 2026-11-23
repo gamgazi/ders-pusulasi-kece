@@ -2,7 +2,7 @@
 
 Bu klasör, stop motion ve oyun çalışmalarında sahneye girebilecek temsili çizim sayfalarını içerir. Çizimler hayalî bir albüm için hazırlanmıştır. Özgün PNG dosyalarının kâğıt dokusu, el yazısı ve kadrajı korunur.
 
-20 özgün PNG bu dalda doğrulandı. Albümde toplam 36 çizim var. Kalan 16 dosya aktarım bekliyor.
+24 özgün PNG bu dalda doğrulandı. Albümde toplam 36 çizim var. Kalan 12 dosya aktarım bekliyor.
 
 ### 23 Nisan · 5/9
 
@@ -12,20 +12,24 @@ Bu klasör, stop motion ve oyun çalışmalarında sahneye girebilecek temsili �
 - [23 Nisan şenliğinde renkli seksek](23-nisan/seksek.png)
 - [23 Nisan’da Uçurtma Hazırlığı](23-nisan/ucurtma.png)
 
-### 10 Kasım · 4/8
+### 10 Kasım · 5/8
 
 - [Anıtkabir basamaklarında 10 Kasım](10-kasim/anitkabir-basamaklari.png)
 - [Anıtkabir ve karanfiller, 10 Kasım](10-kasim/anitkabir-ve-karanfiller.png)
 - [10 Kasım: Anıtkabir'e uzanan yol](10-kasim/anitkabire-uzanan-yol.png)
 - [10 Kasım’da grafit Atatürk portresi](10-kasim/ataturk-portresi.png)
+- [Üç çocuğun Anıtkabir’e kırmızı çiçek taşıması](10-kasim/cicek-tasiyan-uc-cocuk.png)
 
-### 29 Ekim · 5/9
+### 29 Ekim · 8/9
 
 - [29 Ekim’de babamın omzundan bayrak](29-ekim/babamin-omzundan.png)
 - [29 Ekim’de Eski Meclis](29-ekim/eski-meclis.png)
+- [Çocuk çizimiyle 29 Ekim bayrağı](29-ekim/keceli-kalemle-bayrak.png)
 - [29 Ekim'de mor gökyüzü](29-ekim/mor-gokyuzu.png)
 - [29 Ekim parkında anne ve çocuk](29-ekim/parkta-anne-ve-cocuk.png)
 - [Pencerede bayrak, iki kuşak](29-ekim/pencerede-bayrak-iki-kusak.png)
+- [Vapurda 29 Ekim ışıkları](29-ekim/vapurda-bayram-isiklari.png)
+- [Yağmurlu Sokakta 29 Ekim Yürüyüşü](29-ekim/yagmurlu-sokakta-yuruyus.png)
 
 ### 30 Ağustos · 6/10
 
