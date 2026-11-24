@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 387,
-  "image_generation_calls": 195,
-  "final_accepted": 174,
-  "rejected": 213,
+  "png_revisions": 401,
+  "image_generation_calls": 202,
+  "final_accepted": 180,
+  "rejected": 221,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -3321,7 +3321,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/okul/beslenme-cantasi/beslenme_cantasi_kapali_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "eeaab5f7e81c2d5c8fceee5129a55ba0596985cf"
     },
     {
       "id": "bez_canta_bos_001",
@@ -3763,7 +3764,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/bez-canta/bez_canta_bos_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "eeaab5f7e81c2d5c8fceee5129a55ba0596985cf"
     },
     {
       "id": "bilet_tek_001",
@@ -5356,7 +5358,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/cam-sise/cam_sise_bos_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "eeaab5f7e81c2d5c8fceee5129a55ba0596985cf"
     },
     {
       "id": "camasir_makinesi_001",
@@ -6703,6 +6706,225 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "f3e9c0d8230ff0ffd865456d990937558a04e432"
+    },
+    {
+      "id": "civi_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-4fb935a0-abc8-47f9-b031-5151f6ce9838.png",
+      "candidate_path": "adaylar/civi_tek_001/r01/civi_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8486142961015717,
+        "opaque_fraction": 0.00027965769897645283,
+        "bbox": [
+          0,
+          58,
+          1572,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 668,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 135
+        },
+        "largest_component_pixels": {
+          "1": 235999,
+          "16": 223994,
+          "32": 223384,
+          "64": 222523,
+          "128": 221284,
+          "192": 219992,
+          "250": 214865
+        },
+        "tiny_component_pixels": {
+          "1": 1425,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 229
+        },
+        "sha256": "52a0588ba68b24e2eee8e80b3e19d5f45500e8af905c58d13bfa0b2723f65deb",
+        "bytes": 619709,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 4,
+          "unit_title": "Neden Oldu?",
+          "lesson": "D4",
+          "evidence": "Mıknatıs çiviyi çekti, çünkü çivi demirden.",
+          "json_pointer": "/uniteler/3/dersler/3/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:36:58.683093+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "civi_tek_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "civi_tek_001_r02.png",
+      "candidate_path": "adaylar/civi_tek_001/r02/civi_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9729945505401234,
+        "opaque_fraction": 0.026521990740740742,
+        "bbox": [
+          1310,
+          869,
+          2530,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 223994,
+          "16": 223994,
+          "32": 223994,
+          "64": 223994,
+          "128": 223994,
+          "192": 219984,
+          "250": 219984
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "3356fa896ef21aa167e1a99fc280743c40b2ac6abf92c922e40dd872d39acfe5",
+        "bytes": 617792,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 4,
+          "unit_title": "Neden Oldu?",
+          "lesson": "D4",
+          "evidence": "Mıknatıs çiviyi çekti, çünkü çivi demirden.",
+          "json_pointer": "/uniteler/3/dersler/3/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç önizleme incelendi: tek çivi, üst solda geniş yassı baş, düz dişsiz gövde, alt sağda tam sivri uç; vida/çekiç/tahta yok. Baş ve uç beyaz makas payıyla kesilmeden korunmuş. Mavi-gri yönlü mürekkep geçişleri yoğun; başta kâğıt köşesi kıvrılmış. Renkli zeminler dışta tamamen temiz, alfa tek parça. 1220×751 yerli çizim büyütülmedi."
+      },
+      "ingested_at_utc": "2026-11-24T23:37:00.122599+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:37:25.291416+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/deney/civi/civi_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "52a0588ba68b24e2eee8e80b3e19d5f45500e8af905c58d13bfa0b2723f65deb",
+        "output_sha256": "3356fa896ef21aa167e1a99fc280743c40b2ac6abf92c922e40dd872d39acfe5",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1220,
+          751
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 14189,
+        "changed_alpha_pixels": 237724,
+        "bbox_in_canvas": [
+          1310,
+          869,
+          2530,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          173,
+          97,
+          1393,
+          848
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/deney/civi/civi_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "cizme_tek_sari_001",
@@ -11778,7 +12000,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/giysi/forma/forma_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "eeaab5f7e81c2d5c8fceee5129a55ba0596985cf"
     },
     {
       "id": "gazete_acik_001",
@@ -11997,7 +12220,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/gazete/gazete_acik_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "eeaab5f7e81c2d5c8fceee5129a55ba0596985cf"
     },
     {
       "id": "gitar_tek_001",
@@ -23101,6 +23325,468 @@
       "upload_verified_commit": "04ac34c0e1778c08b75ec4b8bec2ffec2fa67d31"
     },
     {
+      "id": "mektup_acik_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-6f702477-2a4e-4e3a-82e2-d1e0016bd60f.png",
+      "candidate_path": "adaylar/mektup_acik_001/r01/mektup_acik_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.637974210475469,
+        "opaque_fraction": 0.0002561410288352511,
+        "bbox": [
+          25,
+          21,
+          1634,
+          917
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 223,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 245
+        },
+        "largest_component_pixels": {
+          "1": 569112,
+          "16": 562099,
+          "32": 561564,
+          "64": 560811,
+          "128": 559532,
+          "192": 558267,
+          "250": 550081
+        },
+        "tiny_component_pixels": {
+          "1": 403,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 822
+        },
+        "sha256": "ec93a36efe5c39ae2ae8a4928705bda690a683b151102799fd84d769c0be624e",
+        "bytes": 1047477,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D1",
+          "evidence": "mektup",
+          "json_pointer": "/uniteler/6/dersler/0/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0533",
+        "R2148",
+        "R2150",
+        "R3155",
+        "R3225",
+        "R3378"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:37:45.995298+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "mektup_acik_001",
+      "revision": "r02",
+      "status": "REJECTED",
+      "source": "mektup_acik_001_r02.png",
+      "candidate_path": "adaylar/mektup_acik_001/r02/mektup_acik_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9322315055941358,
+        "opaque_fraction": 0.06734350887345679,
+        "bbox": [
+          1570,
+          745,
+          2269,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 562099,
+          "16": 562099,
+          "32": 562099,
+          "64": 562099,
+          "128": 562099,
+          "192": 558574,
+          "250": 558574
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "1c1ffc435f061a2be442920bb09b36cec1629cc6e6c29b08ef97f143fffa67c1",
+        "bytes": 1061544,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D1",
+          "evidence": "mektup",
+          "json_pointer": "/uniteler/6/dersler/0/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0533",
+        "R2148",
+        "R2150",
+        "R3155",
+        "R3225",
+        "R3378"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": false,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, mor ve alfa incelendi. Tek mektup; 'Sevgili Arkadaşım,' Türkçe yazımı, dört temsili satır, kâğıda çizilmiş kalp, iki yatay kat ve sağ alt kıvrım uygun. RET: lacivert çevre çizgisi doğrudan alfa sınırına değiyor; çizginin dışında beyaz makas payı yok. Dış çevreye gerçek beyaz düzensiz kâğıt payı eklenmeli."
+      },
+      "ingested_at_utc": "2026-11-24T23:37:47.547265+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:38:23.892995+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "ec93a36efe5c39ae2ae8a4928705bda690a683b151102799fd84d769c0be624e",
+        "output_sha256": "1c1ffc435f061a2be442920bb09b36cec1629cc6e6c29b08ef97f143fffa67c1",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          699,
+          875
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7495,
+        "changed_alpha_pixels": 569171,
+        "bbox_in_canvas": [
+          1570,
+          745,
+          2269,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          483,
+          32,
+          1182,
+          907
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "mektup_acik_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-4de12bad-e67c-4721-8728-e9ff3ac59858.png",
+      "candidate_path": "adaylar/mektup_acik_001/r03/mektup_acik_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 254,
+        "zero_alpha_fraction": 0.6104612598105712,
+        "opaque_fraction": 0.0,
+        "bbox": [
+          97,
+          15,
+          1643,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 74,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 6
+        },
+        "largest_component_pixels": {
+          "1": 612396,
+          "16": 603024,
+          "32": 602374,
+          "64": 601447,
+          "128": 599896,
+          "192": 598280,
+          "250": 547055
+        },
+        "tiny_component_pixels": {
+          "1": 119,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 5
+        },
+        "sha256": "50813acdd4083916d09768cb918ac79156c53bc0afd33fdb4138fcce9d6d27f4",
+        "bytes": 1060451,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D1",
+          "evidence": "mektup",
+          "json_pointer": "/uniteler/6/dersler/0/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0533",
+        "R2148",
+        "R2150",
+        "R3155",
+        "R3225",
+        "R3378"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:38:48.455439+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "mektup_acik_001",
+      "revision": "r04",
+      "status": "FINAL_ACCEPTED",
+      "source": "mektup_acik_001_r04.png",
+      "candidate_path": "adaylar/mektup_acik_001/r04/mektup_acik_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9272974537037038,
+        "opaque_fraction": 0.07225043402777778,
+        "bbox": [
+          1557,
+          718,
+          2282,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 603024,
+          "16": 603024,
+          "32": 603024,
+          "64": 603024,
+          "128": 603024,
+          "192": 599274,
+          "250": 599274
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "e7ef2bf671ab86c6535ce57c5ff7d76659a8a26263d55929d830914dcbd77041",
+        "bytes": 1073971,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D1",
+          "evidence": "mektup",
+          "json_pointer": "/uniteler/6/dersler/0/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0533",
+        "R2148",
+        "R2150",
+        "R3155",
+        "R3225",
+        "R3378"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "R04 yeşil, mor ve alfa yeniden incelendi. Önceki ret giderildi: lacivert çizginin dışında tüm çevrede düzensiz beyaz makas payı var. 'Sevgili Arkadaşım,' yazımı (ş ve ı dahil) doğru; dört temsili satır ve kırmızı kalp tek mektup üzerinde çizili, ayrı nesne değil. İki yatay kâğıt katı ve sağ alt köşe kıvrımı korunmuş. Beyaz sayfa opak, dışı gerçek alfa, tek parça. 725×902 yerli çizim büyütülmedi."
+      },
+      "ingested_at_utc": "2026-11-24T23:38:50.039967+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:39:10.500043+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/iletisim/mektup/mektup_acik_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "50813acdd4083916d09768cb918ac79156c53bc0afd33fdb4138fcce9d6d27f4",
+        "output_sha256": "e7ef2bf671ab86c6535ce57c5ff7d76659a8a26263d55929d830914dcbd77041",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          725,
+          902
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9491,
+        "changed_alpha_pixels": 612488,
+        "bbox_in_canvas": [
+          1557,
+          718,
+          2282,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          470,
+          18,
+          1195,
+          920
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/iletisim/mektup/mektup_acik_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "merdane_tek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -23544,6 +24230,229 @@
       "upload_verified_commit": "a4f6065b6b21a6cc7d18085bad69c8aeacfebefc"
     },
     {
+      "id": "miknatis_at_nali_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-373168f4-09cf-4db9-a9fb-dfdc8e8cbd62.png",
+      "candidate_path": "adaylar/miknatis_at_nali_001/r01/miknatis_at_nali_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7043579567700045,
+        "opaque_fraction": 0.0001760572332192669,
+        "bbox": [
+          0,
+          33,
+          1644,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 295,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 145
+        },
+        "largest_component_pixels": {
+          "1": 464555,
+          "16": 447382,
+          "32": 445716,
+          "64": 444257,
+          "128": 442532,
+          "192": 440812,
+          "250": 433526
+        },
+        "tiny_component_pixels": {
+          "1": 562,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 418
+        },
+        "sha256": "2ede9e3c712335a2f183fd97df3a739ed00bf95102b0341dd4d646774a7e537a",
+        "bytes": 957757,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 4,
+          "unit_title": "Neden Oldu?",
+          "lesson": "D4",
+          "evidence": "mıknatıs",
+          "json_pointer": "/uniteler/3/dersler/3/yeni/0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2025"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:36:09.623427+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "miknatis_at_nali_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "miknatis_at_nali_001_r02.png",
+      "candidate_path": "adaylar/miknatis_at_nali_001/r02/miknatis_at_nali_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9460621624228395,
+        "opaque_fraction": 0.05339699074074074,
+        "bbox": [
+          1487,
+          827,
+          2353,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 447382,
+          "16": 447382,
+          "32": 447382,
+          "64": 447382,
+          "128": 447382,
+          "192": 442896,
+          "250": 442896
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "dea93bad6a96a40146c649a412d39806335d58c2b47f292a9f2bb7f5c9458bed",
+        "bytes": 1021726,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 4,
+          "unit_title": "Neden Oldu?",
+          "lesson": "D4",
+          "evidence": "mıknatıs",
+          "json_pointer": "/uniteler/3/dersler/3/yeni/0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2025"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, mor ve alfa ayrı incelendi: tek U biçimli kırmızı at nalı mıknatıs, iki mavi-gri uç, dışa açık iç boşluk gerçek alfa. Keçeli kalem yönlü çizgileri ve koyu üst üste geçişleri yoğun, lacivert dış çizgi dalgalı, beyaz makas payı değişken. Sağ üst köşe kalkmış; alt kıvrımda kâğıt izi var. Ek çivi/alan çizgisi/zemin/gölge yok. 866×793 yerli çizim büyütülmedi."
+      },
+      "ingested_at_utc": "2026-11-24T23:36:11.150624+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:36:33.870900+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/deney/miknatis/miknatis_at_nali_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "2ede9e3c712335a2f183fd97df3a739ed00bf95102b0341dd4d646774a7e537a",
+        "output_sha256": "dea93bad6a96a40146c649a412d39806335d58c2b47f292a9f2bb7f5c9458bed",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          866,
+          793
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 17767,
+        "changed_alpha_pixels": 464861,
+        "bbox_in_canvas": [
+          1487,
+          827,
+          2353,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          384,
+          98,
+          1250,
+          891
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/deney/miknatis/miknatis_at_nali_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "mikrofon_tek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -23766,7 +24675,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/teknoloji/mikrofon/mikrofon_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "eeaab5f7e81c2d5c8fceee5129a55ba0596985cf"
     },
     {
       "id": "mont_mavi_001",
@@ -28577,6 +29487,229 @@
       "upload_verified_commit": "c751c96a11de9584ba703a2757bd11abb50f3fa9"
     },
     {
+      "id": "pul_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-84016f81-4c00-4920-ac19-ad09a1a59d7b.png",
+      "candidate_path": "adaylar/pul_tek_001/r01/pul_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6932847830618959,
+        "opaque_fraction": 0.00013537974973178285,
+        "bbox": [
+          73,
+          29,
+          1600,
+          890
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 92,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 166
+        },
+        "largest_component_pixels": {
+          "1": 482431,
+          "16": 470253,
+          "32": 469627,
+          "64": 468687,
+          "128": 467185,
+          "192": 465698,
+          "250": 458578
+        },
+        "tiny_component_pixels": {
+          "1": 140,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 298
+        },
+        "sha256": "a72a4998f41f115e308cf7144fdd214fd35b3ffdd3ac82e849e3a794837c05cf",
+        "bytes": 1084953,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D3",
+          "evidence": "pul",
+          "json_pointer": "/uniteler/6/dersler/2/yeni/4"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0170"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:40:26.837226+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "pul_tek_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "pul_tek_001_r02.png",
+      "candidate_path": "adaylar/pul_tek_001/r02/pul_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9433047598379629,
+        "opaque_fraction": 0.056165364583333335,
+        "bbox": [
+          1579,
+          841,
+          2261,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 470253,
+          "16": 470253,
+          "32": 470253,
+          "64": 470253,
+          "128": 470253,
+          "192": 465858,
+          "250": 465858
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "f670df528665b43e5d9ae3ffa2812f8b0d7dd7c6ea4202c2c6b2b822d1f7b658",
+        "bytes": 1135329,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D3",
+          "evidence": "pul",
+          "json_pointer": "/uniteler/6/dersler/2/yeni/4"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0170"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, mor ve alfa incelendi. Tek pul; tırtıklı beyaz dış kenar ve iç lacivert çerçeve ayrı okunuyor. POSTA yazımı doğru. Turkuaz zemin/kırmızı lale/yeşil yapraklar pulun üzerinde mürekkep, ayrı fiziksel varlık ya da kolaj değil. Yönlü keçeli kalem dokusu, dalgalı el çizgisi, değişken beyaz pay ve sol alt kâğıt kıvrımı uygun. Opak kâğıt ve şeffaf dış alan tek parça; 682×779 yerli çizim büyütülmedi."
+      },
+      "ingested_at_utc": "2026-11-24T23:40:28.357573+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:40:53.815425+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/iletisim/pul/pul_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "a72a4998f41f115e308cf7144fdd214fd35b3ffdd3ac82e849e3a794837c05cf",
+        "output_sha256": "f670df528665b43e5d9ae3ffa2812f8b0d7dd7c6ea4202c2c6b2b822d1f7b658",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          682,
+          779
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 12318,
+        "changed_alpha_pixels": 482334,
+        "bbox_in_canvas": [
+          1579,
+          841,
+          2261,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          487,
+          84,
+          1169,
+          863
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/iletisim/pul/pul_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "pusula_tek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -31010,6 +32143,225 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "cc7f80b732d52f8376c79bb491608445769568a9"
+    },
+    {
+      "id": "saksi_devrilmis_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-337d6496-91c4-47d6-8798-873a6b3f2608.png",
+      "candidate_path": "adaylar/saksi_devrilmis_001/r01/saksi_devrilmis_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8685939319364008,
+        "opaque_fraction": 6.99144247441132e-06,
+        "bbox": [
+          33,
+          9,
+          1634,
+          901
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 164,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 71
+        },
+        "largest_component_pixels": {
+          "1": 206337,
+          "16": 199924,
+          "32": 199293,
+          "64": 198566,
+          "128": 197566,
+          "192": 196651,
+          "250": 192437
+        },
+        "tiny_component_pixels": {
+          "1": 322,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 115
+        },
+        "sha256": "671c39edbd965627b84b427b0dafe5c65c2d0802e93966d8b16a12a0ee1f84d1",
+        "bytes": 495536,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 1,
+          "unit_title": "Ne Olmuş?",
+          "lesson": "D5",
+          "evidence": "Saksı devrilmiş, rüzgâr esmiş.",
+          "json_pointer": "/uniteler/0/dersler/4/yeni/4"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:31:07.443854+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saksi_devrilmis_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saksi_devrilmis_001_r02.png",
+      "candidate_path": "adaylar/saksi_devrilmis_001/r02/saksi_devrilmis_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9758965084876543,
+        "opaque_fraction": 0.023850670331790124,
+        "bbox": [
+          1649,
+          1113,
+          2190,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 199924,
+          "16": 199924,
+          "32": 199924,
+          "64": 199924,
+          "128": 199924,
+          "192": 197827,
+          "250": 197827
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "e47c1dfda0ceb0084124a6431fa6a58068f6ccdc4841ae1681b2eb27043388ae",
+        "bytes": 516727,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 1,
+          "unit_title": "Ne Olmuş?",
+          "lesson": "D5",
+          "evidence": "Saksı devrilmiş, rüzgâr esmiş.",
+          "json_pointer": "/uniteler/0/dersler/4/yeni/4"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, mor ve alfa önizlemeleri incelendi. Tek boş saksı yan yatmış; ağız solda, taban sağda, kalın turuncu ağız halkası/kahverengi çizgi/küçük drenaj noktası dik saksı kimliğini koruyor. Yoğun keçeli kalem geçişleri, değişken beyaz makas payı ve sol alt kâğıt kıvrımı görülüyor. Toprak/bitki/rüzgâr çizgisi/zemin yok. Yerli çizim sınırı 541×507 px; büyütülmeden 3840×2160 alfa tuvale yerleşti, özgün 4K ayrıntı değildir. Dik saksıyla kareler arası doğrudan ölçek/pivot eşleşmesi test edilmedi; sahne yerleşiminde büyük temel poz küçültülerek ölçek eşlenmeli, bu varlık büyütülmemeli. Ayrı devrilmiş poz olarak kabul."
+      },
+      "ingested_at_utc": "2026-11-24T23:31:08.873620+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:35:38.803164+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/doga/saksi/saksi_devrilmis_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "671c39edbd965627b84b427b0dafe5c65c2d0802e93966d8b16a12a0ee1f84d1",
+        "output_sha256": "e47c1dfda0ceb0084124a6431fa6a58068f6ccdc4841ae1681b2eb27043388ae",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          541,
+          507
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 6824,
+        "changed_alpha_pixels": 206732,
+        "bbox_in_canvas": [
+          1649,
+          1113,
+          2190,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          561,
+          224,
+          1102,
+          731
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/doga/saksi/saksi_devrilmis_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "salincak_tek_001",
@@ -43151,6 +44503,237 @@
       "upload_verified_commit": "61342c41b8b7a9a148d3f467f86cd2622580020c"
     },
     {
+      "id": "zarf_kapali_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-85cae68b-015e-4462-a59e-ce58bfc844ed.png",
+      "candidate_path": "adaylar/zarf_kapali_001/r01/zarf_kapali_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5015609984288322,
+        "opaque_fraction": 0.0001830486756936782,
+        "bbox": [
+          0,
+          19,
+          1632,
+          917
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 106,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 105
+        },
+        "largest_component_pixels": {
+          "1": 783772,
+          "16": 772117,
+          "32": 771327,
+          "64": 770376,
+          "128": 769015,
+          "192": 767429,
+          "250": 760395
+        },
+        "tiny_component_pixels": {
+          "1": 286,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 287
+        },
+        "sha256": "2dcea7066bae1c58b706e98941d7f43c5add98c0a274ea8cca79cd7feea49753",
+        "bytes": 1467721,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D3",
+          "evidence": "zarf",
+          "json_pointer": "/uniteler/6/dersler/2/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2242",
+        "R2249",
+        "R2253",
+        "R3276",
+        "R3281"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T23:39:37.108729+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "zarf_kapali_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "zarf_kapali_001_r02.png",
+      "candidate_path": "adaylar/zarf_kapali_001/r02/zarf_kapali_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9069110484182099,
+        "opaque_fraction": 0.09261369116512345,
+        "bbox": [
+          1339,
+          928,
+          2501,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 772117,
+          "16": 772117,
+          "32": 772117,
+          "64": 772117,
+          "128": 772117,
+          "192": 768175,
+          "250": 768175
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "23e1efa5cbe9632ed44dcf7e1887ef4a149065e78e06543a7b08916a2ea92ac9",
+        "bytes": 1574767,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 7,
+          "unit_title": "Mektup Yazıyorum",
+          "lesson": "D3",
+          "evidence": "zarf",
+          "json_pointer": "/uniteler/6/dersler/2/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2242",
+        "R2249",
+        "R2253",
+        "R3276",
+        "R3281"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor/alfa incelendi. Tek kapalı sarı zarf: üst iki köşeden ortaya inen üçgen kapak ve üstüne çizilmiş kırmızı mühür; açık ağız ya da içinden çıkan mektup yok. Sarı/turuncu keçeli kalem geçişleri, koyu çakışmalar, küçük beyaz boyasız aralıklar belirgin. Çevrede değişken beyaz makas payı, sağ üstte kalkmış kâğıt ve alt sağda kıvrım var. Tek alfa parçası, dış gölge yok. 1162×692 yerli çizim büyütülmedi."
+      },
+      "ingested_at_utc": "2026-11-24T23:39:38.772595+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T23:40:03.626014+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/iletisim/zarf/zarf_kapali_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "2dcea7066bae1c58b706e98941d7f43c5add98c0a274ea8cca79cd7feea49753",
+        "output_sha256": "23e1efa5cbe9632ed44dcf7e1887ef4a149065e78e06543a7b08916a2ea92ac9",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1162,
+          692
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 12103,
+        "changed_alpha_pixels": 783910,
+        "bbox_in_canvas": [
+          1339,
+          928,
+          2501,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          240,
+          132,
+          1402,
+          824
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/iletisim/zarf/zarf_kapali_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "zeytin_tek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -43835,10 +45418,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 168,
-    "accepted_png_count": 174,
+    "verified_png_count": 174,
+    "accepted_png_count": 180,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-24T23:27:56.814342+00:00"
+  "updated_at_utc": "2026-11-24T23:41:12.718518+00:00"
 }
