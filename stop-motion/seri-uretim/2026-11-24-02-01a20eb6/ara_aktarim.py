@@ -18,7 +18,7 @@ def public(j):
     if isinstance(j,str) and (j.startswith('C:\\') or j.startswith('C:/')):return pathlib.PureWindowsPath(j).name
     return j
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--repo',required=True);p.add_argument('--verify-commit');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--repo',required=True);p.add_argument('--verify-commit');p.add_argument('--verify-only',action='store_true');a=p.parse_args()
     repo=pathlib.Path(a.repo).resolve();dest=repo/BATCH
     reports=[load(p) for p in sorted((ROOT/'adaylar').glob('*/*/qa.json'))]
     accepted=[r for r in reports if r['final_accepted']]
@@ -40,6 +40,8 @@ def main():
             except Exception as e:checkpoint['errors'].append({'id':r['id'],'error':str(e)})
         proof['checkpoints'].append(checkpoint);save(proof_path,proof)
         if checkpoint['errors']:raise SystemExit(json.dumps(checkpoint['errors'],ensure_ascii=False))
+        if a.verify_only:
+            print(json.dumps({'new_pngs_download_verified':len(checkpoint['assets']),'commit':a.verify_commit}));return
     verified={}
     for c in proof['checkpoints']:
         for x in c['assets']:verified[x['sha256']]=c['commit']
