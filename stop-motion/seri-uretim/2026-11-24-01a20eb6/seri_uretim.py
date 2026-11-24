@@ -34,7 +34,7 @@ def previews(path,directory):
 def ingest(args):
     queue=json.loads((ROOT/'uretim_kuyrugu.json').read_text(encoding='utf-8'))
     item=next(x for x in queue['items'] if x['id']==args.id)
-    if item['state'].startswith('BLOCKED') or item['state']=='REVIEW_POSSIBLE_EXISTING_ASSET': raise SystemExit('Dedup/reference gate blocks production')
+    if item['state'].startswith('BLOCKED') or item['state'] in ['REVIEW_POSSIBLE_EXISTING_ASSET','FINAL_ACCEPTED']: raise SystemExit('Dedup/reference gate blocks production')
     folder=ROOT/'adaylar'/args.id/args.revision
     folder.mkdir(parents=True,exist_ok=True)
     target=folder/f'{args.id}_{args.revision}.png'
