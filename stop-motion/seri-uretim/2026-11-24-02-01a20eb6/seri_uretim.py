@@ -30,6 +30,7 @@ def previews(path,directory):
         if bbox:
             crop=(max(0,bbox[0]-32),max(0,bbox[1]-32),min(im.width,bbox[2]+32),min(im.height,bbox[3]+32))
             bg.crop(crop).convert('RGB').save(directory/f'{name}_detay.jpg',quality=97)
+            bg.crop(crop).convert('RGB').save(directory/f'{name}_detay.png')
     im.getchannel('A').save(directory/'alfa.png')
     alpha_preview=im.getchannel('A'); alpha_preview.thumbnail((960,540)); alpha_preview.save(directory/'alfa_onizleme.png')
 def ingest(args):
