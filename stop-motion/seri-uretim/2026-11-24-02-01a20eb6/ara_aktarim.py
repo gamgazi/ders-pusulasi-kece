@@ -101,7 +101,7 @@ Bu özgün 4K ayrıntı değildir; nesneler doğal boyutunda veya küçük kulla
 RGB korunumu her kabul edilmiş dosyada yeniden karşılaştırıldı.
 
 Kaynak denetimi 4158 benzersiz R/K kartı doğruladı (R3434/K724); mevcut
-keçe kartları tekrar üretilmedi. 30 öğelik bu sıra JSON konumlarıyla doğrulandı.
+keçe kartları tekrar üretilmedi. {len(load(ROOT/'uretim_kuyrugu.json')['items'])} öğelik bu sıra JSON konumlarıyla doğrulandı.
 35 Ders Pusulası kaynağındaki bütün derslerin sahne ayrıştırması bitmedi.
 Tarihsel Solmuş Çiçek ve Yatak R02 PNG'leri erişilemedi; yeniden üretilmedi
 ve bu oturumda görsel kontrol edilmiş sayılmadı. Arka plan envanteri taslaktır.
