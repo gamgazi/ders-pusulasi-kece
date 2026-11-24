@@ -1,0 +1,29 @@
+ROOTS & TALKS — SERİ ÜRETİM HATTININ DEVAMI
+
+Bu hat ücretli API çağırmaz; yeni ajan veya zamanlanmış görev başlatmaz.
+Görsel üretimi yerleşik görsel aracıyla, her nesne/poz için tek çağrı ve ayrı PNG
+olarak yapılır. Teknik araçlar sanatsal kabulü kendiliğinden vermez.
+
+1. Güncel depo ağacı, katalog ve üretim kayıtlarını yeniden eşleştir. Kayıtlı fakat
+   dosyası erişilemeyen varlığı otomatik olarak yeniden üretme. Kurtarma kuyruğunu kullan.
+2. Ders Pusulası kaynak konumuyla doğrulanmış, bağımlılığı açık olmayan öğeyi seç.
+   Mevcut R/K keçe kartlarını ve onaylı arka planları koru.
+3. uretim_prompts.json dosyasındaki malzeme standardını izleyerek tek
+   nesne üret. Gerçek dosyayı kaynak olarak aday_hazirla.py aracına ver.
+4. aday_hazirla.py --id NESNE_KIMLIGI --source GERCEK_PNG
+   Araç r01 ham dosyasını saklar, gerçek alfa kontrolü yapar; yetkilendirilmiş
+   yerel alfa temizliği ve büyütmesiz 4K tuval yerleşimiyle r02 adayı hazırlar.
+   Kesim boşlukları, ince parçalar veya yarı saydam gerçek malzemeler otomatik
+   maskeyle işlenmez; teknik_duzeltme.py bu tür nesneler için genel çözüm değildir.
+5. Yeşil/mor ayrıntı görünümünü ve alfa sonuçlarını gerçekten incele. Her ölçütü
+   not dosyasında doğru/yanlış ve nesneye özel gerekçeyle kaydet. Kabul:
+   seri_uretim.py review --id NESNE_KIMLIGI --revision r02 --notes NOT_DOSYASI
+   Yalnız bütün teknik ve görsel koşullar geçerse nihai klasöre kopyalanır.
+6. Yüklemeden hemen önce uzak depo başını kontrol et. Yalnız yeni dosyaları ekle,
+   mevcut dosyayı sessizce ezme. PNG'yi depodan indirip SHA-256 karşılaştırmadan
+   aktarımı başarılı sayma. Kabul, yayın ve gerçek geri okuma ayrı durumlardır.
+
+Gerekli yerel kütüphaneler: Python, Pillow, NumPy, SciPy.
+Kaynak çizim büyütülmez; 3840×2160 tuval özgün 4K ayrıntı sayılmaz.
+Bu partinin 6 nesnesini tekrar üretme. Aynı çiçeğin dik pozu için özgün solmuş
+çiçek PNG'sini kurtar; yalnız kayıt metni kimlik eşleştirmesine yetmez.

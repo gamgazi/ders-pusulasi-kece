@@ -91,7 +91,7 @@ def rebuild():
     write(ROOT/'ilerleme_manifesti.json',manifest)
     lines=[]
     for p in sorted(ROOT.rglob('*')):
-        if p.is_file() and p.name!='SHA256SUMS.txt': lines.append(f'{sha(p)}  {p.relative_to(ROOT).as_posix()}')
+        if p.is_file() and p.name!='SHA256SUMS.txt' and '__pycache__' not in p.parts: lines.append(f'{sha(p)}  {p.relative_to(ROOT).as_posix()}')
     (ROOT/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 if __name__=='__main__':
     parser=argparse.ArgumentParser(); sub=parser.add_subparsers(dest='action',required=True)
