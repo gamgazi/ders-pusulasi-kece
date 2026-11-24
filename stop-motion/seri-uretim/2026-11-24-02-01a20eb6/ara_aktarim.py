@@ -29,7 +29,9 @@ def main():
     proof=load(proof_path) if proof_path.exists() else {'checkpoints':[]}
     if a.verify_commit:
         checkpoint={'commit':a.verify_commit,'assets':[],'errors':[]}
+        known_hashes={x['sha256'] for c in proof['checkpoints'] for x in c['assets']}
         for r in accepted:
+            if r['metrics']['sha256'] in known_hashes:continue
             rel='stop-motion/'+r['final_path'];url='https://raw.githubusercontent.com/gamgazi/ders-pusulasi-kece/'+a.verify_commit+'/'+rel
             try:
                 data=urllib.request.urlopen(url,timeout=45).read();digest=hashlib.sha256(data).hexdigest()

@@ -89,6 +89,8 @@ def rebuild():
     reports=[json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'adaylar').glob('*/*/qa.json'))]
     previous=json.loads((ROOT/'ilerleme_manifesti.json').read_text(encoding='utf-8')) if (ROOT/'ilerleme_manifesti.json').exists() else {}
     manifest={'schema_version':1,'date':'2026-11-24','workflow':'one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback','complete_library':False,'png_revisions':len(reports),'image_generation_calls':sum('source_revision' not in x['metrics'] for x in reports),'final_accepted':sum(x['final_accepted'] for x in reports),'rejected':sum(x['status']=='REJECTED' for x in reports),'native_asset_pass_4k_pending':sum(x['status']=='NATIVE_ASSET_PASS_4K_TARGET_PENDING' for x in reports),'assets':reports,'historical_recheck':{'cicek_solmus_001':'PNG_UNAVAILABLE_NOT_REVIEWED','yatak_mavi_yandan_001_r02':'PNG_UNAVAILABLE_NOT_REVIEWED'},'upload':previous.get('upload',{'status':'NOT_YET_ATTEMPTED'})}
+    verified_count=sum(x['final_accepted'] and x.get('github_binary_uploaded',False) for x in reports)
+    manifest['upload'].update(verified_png_count=verified_count,accepted_png_count=manifest['final_accepted'],status='ALL_CURRENT_PNGS_DOWNLOAD_VERIFIED' if verified_count==manifest['final_accepted'] and verified_count else 'CHECKPOINT_PARTIAL_OR_PENDING')
     write(ROOT/'ilerleme_manifesti.json',manifest)
     state_path=ROOT/'DEVAM_KAYDI.json'
     if state_path.exists():
