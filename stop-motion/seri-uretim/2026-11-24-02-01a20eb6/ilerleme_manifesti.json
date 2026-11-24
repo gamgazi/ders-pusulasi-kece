@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 309,
-  "image_generation_calls": 156,
-  "final_accepted": 144,
-  "rejected": 165,
+  "png_revisions": 325,
+  "image_generation_calls": 164,
+  "final_accepted": 150,
+  "rejected": 175,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -5823,7 +5823,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/giysi/dans-ayakkabisi/dans_ayakkabisi_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "cab7a731271f1d20b49a662d71f111f155374cfe"
     },
     {
       "id": "darbuka_tek_001",
@@ -6046,7 +6047,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/muzik/darbuka/darbuka_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "cab7a731271f1d20b49a662d71f111f155374cfe"
     },
     {
       "id": "davetiye_tek_001",
@@ -13673,6 +13675,452 @@
       "upload_verified_commit": "0d9f2a96b20aeb32cf679a680f2db6dc6e30d648"
     },
     {
+      "id": "keman_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-20573fe5-81bd-4e62-b5ed-841aa7c3d704.png",
+      "candidate_path": "adaylar/keman_tek_001/r01/keman_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.805615653712583,
+        "opaque_fraction": 0.00013601533541127478,
+        "bbox": [
+          79,
+          14,
+          1640,
+          929
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 267,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 119
+        },
+        "largest_component_pixels": {
+          "1": 305340,
+          "16": 292526,
+          "32": 290728,
+          "64": 289145,
+          "128": 287422,
+          "192": 285955,
+          "250": 280722
+        },
+        "tiny_component_pixels": {
+          "1": 495,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 277
+        },
+        "sha256": "9a4dd1907c17d0fce1c53e9f36a293f7183f6f633443b43aa2ab22a6ff7dbaaa",
+        "bytes": 729435,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "keman",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1135"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:47:35.418196+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "keman_tek_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "keman_tek_001_r02.png",
+      "candidate_path": "adaylar/keman_tek_001/r02/keman_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9647321084104938,
+        "opaque_fraction": 0.03485689139660494,
+        "bbox": [
+          1666,
+          713,
+          2174,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 292526,
+          "16": 292526,
+          "32": 292526,
+          "64": 292526,
+          "128": 292526,
+          "192": 289117,
+          "250": 289117
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "f140ec8cc36c332a3973c6e21962347c27eda301ee8f437d0ccfc735d16c1784",
+        "bytes": 772189,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "keman",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/3"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1135"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor detay ve alfa incelendi. Tek keman: spiral salyangoz, iki yanda ikişer toplam dört burgu, dört ayrı beyaz tel ve dört kuyruk bağlantısı görünür. Üst-alt bombeler ve içbükey bel oyukları, iki stilize ses yarığı, köprü ve bağlı çenelik keman kimliğini kuruyor. Kemençenin dar düz gövdesinden farklı; yay/ikinci nesne yok. Yoğun turuncu/kahverengi yönlü marker, koyu bindirme, çocuksu lacivert çizgi, değişken beyaz pay, alt sağ kıvrım ve gövdede kat izi var. Dış alfa temiz, tek bağlı nesne."
+      },
+      "ingested_at_utc": "2026-11-24T22:47:36.930735+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:48:11.074988+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/muzik/keman/keman_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "9a4dd1907c17d0fce1c53e9f36a293f7183f6f633443b43aa2ab22a6ff7dbaaa",
+        "output_sha256": "f140ec8cc36c332a3973c6e21962347c27eda301ee8f437d0ccfc735d16c1784",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          508,
+          907
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 13309,
+        "changed_alpha_pixels": 305616,
+        "bbox_in_canvas": [
+          1666,
+          713,
+          2174,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          565,
+          17,
+          1073,
+          924
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/muzik/keman/keman_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "kemence_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-79952be3-8e5c-47fe-9ea1-c5ea47f70ee1.png",
+      "candidate_path": "adaylar/kemence_tek_001/r01/kemence_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.898532559783189,
+        "opaque_fraction": 8.071938129547616e-05,
+        "bbox": [
+          33,
+          38,
+          1640,
+          921
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 243,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 99
+        },
+        "largest_component_pixels": {
+          "1": 159161,
+          "16": 153004,
+          "32": 152147,
+          "64": 151246,
+          "128": 149855,
+          "192": 148556,
+          "250": 143704
+        },
+        "tiny_component_pixels": {
+          "1": 483,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 362
+        },
+        "sha256": "d3f87831627a90530ec8a1a6466924c770b3c80afaa531ea74a0d5815455b3f7",
+        "bytes": 411063,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "kemençe",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/1"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1137"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:43:27.865070+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "kemence_tek_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "kemence_tek_001_r02.png",
+      "candidate_path": "adaylar/kemence_tek_001/r02/kemence_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9815533371913581,
+        "opaque_fraction": 0.01817431037808642,
+        "bbox": [
+          1816,
+          751,
+          2024,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 153004,
+          "16": 153004,
+          "32": 153004,
+          "64": 153004,
+          "128": 153004,
+          "192": 150745,
+          "250": 150745
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "a06ee37472a4899aea247b45839fa6e27d7e12adfc0f46a1dd6abb4f3589eaa4",
+        "bytes": 431415,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "kemençe",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/1"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1137"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor detay ve alfa incelendi. Tek Karadeniz kemençesi: uzun dar dik kenarlı gövde, kısa boyun, önden üç burgu, üç ayrı sürekli tel, üç kuyruk bağlantısı ve köprü okunuyor. İki ses yarığı yüzeye çizili, yay/ikinci nesne yok. Yapı kaynakları denetim/kemence_bicim_kaynagi.json içinde; Rize KTB yapım kaynağı ve Doğu Karadeniz kültür envanteriyle karşılaştırıldı. Yoğun turuncu yönlü marker, lacivert yan kontur, düzensiz çocuk çizgisi, değişken beyaz kesim payı, alt sağ kıvrım ve gövde kat izi mevcut. Teknik ölçülü çalgı planı değil; tek opak kâğıt yardımcı nesne, dış alfa temiz."
+      },
+      "ingested_at_utc": "2026-11-24T22:43:29.317858+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:44:15.225506+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/muzik/kemence/kemence_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "d3f87831627a90530ec8a1a6466924c770b3c80afaa531ea74a0d5815455b3f7",
+        "output_sha256": "a06ee37472a4899aea247b45839fa6e27d7e12adfc0f46a1dd6abb4f3589eaa4",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          208,
+          869
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 6640,
+        "changed_alpha_pixels": 159506,
+        "bbox_in_canvas": [
+          1816,
+          751,
+          2024,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          725,
+          42,
+          933,
+          911
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/muzik/kemence/kemence_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "kizak_kirmizi_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -17509,6 +17957,231 @@
       "upload_verified_commit": "e562f93c0222e350d7b541ffa641b571be450b3e"
     },
     {
+      "id": "maraka_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-a3591620-674f-4866-b8aa-4bac729d8196.png",
+      "candidate_path": "adaylar/maraka_tek_001/r01/maraka_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8178303393010592,
+        "opaque_fraction": 0.00013665092109076672,
+        "bbox": [
+          0,
+          9,
+          1636,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 121,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 88
+        },
+        "largest_component_pixels": {
+          "1": 286358,
+          "16": 278251,
+          "32": 277716,
+          "64": 277051,
+          "128": 276061,
+          "192": 275020,
+          "250": 270193
+        },
+        "tiny_component_pixels": {
+          "1": 259,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 219
+        },
+        "sha256": "8b0037a0b5b56b2aadad954d867e53fcf4b2ca580f33d467418d163d51185ae9",
+        "bytes": 670798,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "maraka",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1134",
+        "R3330"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:41:58.412904+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "maraka_tek_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "maraka_tek_001_r02.png",
+      "candidate_path": "adaylar/maraka_tek_001/r02/maraka_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9664531491126543,
+        "opaque_fraction": 0.03319167148919753,
+        "bbox": [
+          1658,
+          745,
+          2182,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 278251,
+          "16": 278251,
+          "32": 278251,
+          "64": 278251,
+          "128": 278251,
+          "192": 275305,
+          "250": 275305
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "46c33a7000f164e1beafca724a8240edd1f2e1f4909e7563dba5dddddb9bc971",
+        "bytes": 720960,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "maraka",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1134",
+        "R3330"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, alfa ve mor görünüm incelendi. Tek maraka: yeşil oval kapalı baş ve bağlı turuncu/kırmızı sap, yüzeye çizili turuncu zikzak ve iki mavi bant var. Çift maraka, ayrık tohum ya da ses işareti yok. Yoğun yönlü mürekkep, koyu bindirme, küçük beyaz eksikler, düzensiz lacivert kontur, değişken beyaz makas payı mevcut. Başta kat izi ve sap ucunda kıvrım okunuyor. Dış alfa temiz."
+      },
+      "ingested_at_utc": "2026-11-24T22:42:00.054081+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:43:02.661873+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/muzik/maraka/maraka_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "8b0037a0b5b56b2aadad954d867e53fcf4b2ca580f33d467418d163d51185ae9",
+        "output_sha256": "46c33a7000f164e1beafca724a8240edd1f2e1f4909e7563dba5dddddb9bc971",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          524,
+          875
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 8366,
+        "changed_alpha_pixels": 286396,
+        "bbox_in_canvas": [
+          1658,
+          745,
+          2182,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          591,
+          42,
+          1115,
+          917
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/muzik/maraka/maraka_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "masal_kitabi_acik_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -19526,7 +20199,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/kamp/olta/olta_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "cab7a731271f1d20b49a662d71f111f155374cfe"
     },
     {
       "id": "oyun_hamuru_kapali_001",
@@ -22087,7 +22761,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/muzik/piyano/piyano_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "cab7a731271f1d20b49a662d71f111f155374cfe"
     },
     {
       "id": "portakal_butun_001",
@@ -24095,6 +24770,448 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "4102af7a308a468fca23316dfc386ae2dfb3471b"
+    },
+    {
+      "id": "saksafon_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-729b7782-d055-4076-953b-a54d357bcd4a.png",
+      "candidate_path": "adaylar/saksafon_tek_001/r01/saksafon_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8067539876645531,
+        "opaque_fraction": 0.00013156623565483121,
+        "bbox": [
+          49,
+          63,
+          1604,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 116,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 84
+        },
+        "largest_component_pixels": {
+          "1": 303655,
+          "16": 288358,
+          "32": 285302,
+          "64": 283549,
+          "128": 281876,
+          "192": 280416,
+          "250": 274403
+        },
+        "tiny_component_pixels": {
+          "1": 205,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 145
+        },
+        "sha256": "ae6f5e3f930daa08752b725dce431fc616269c34b82c620a2b686f31bb906b7c",
+        "bytes": 733947,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "saksafon",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1136"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:44:40.014696+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saksafon_tek_001",
+      "revision": "r02",
+      "status": "REJECTED",
+      "source": "saksafon_tek_001_r02.png",
+      "candidate_path": "adaylar/saksafon_tek_001/r02/saksafon_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9652346161265432,
+        "opaque_fraction": 0.034260947145061726,
+        "bbox": [
+          1507,
+          777,
+          2332,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 288358,
+          "16": 288358,
+          "32": 288358,
+          "64": 288358,
+          "128": 288358,
+          "192": 284174,
+          "250": 284174
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "0d4c04ac0a8c364a0ea2e930991d070f6378dbe04d83c0a94e33efde02edfcdc",
+        "bytes": 781528,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "saksafon",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1136"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": false,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç önizleme incelendi. Saksafon J gövdesi, ağızlık ve altı bağlı tuş okunuyor. Ancak yükselen huni ile ana gövde arasındaki alt iç aralıkta beyaz makas payları birleşerek geniş opak bir yama oluşturmuş. Aynı açıklığın üstü alfa, altı doldurulmuş: iç kesim tutarlılığı geçmedi. r02 reddedildi; yalnız bu aralığı açarak ana gövde, tuşlar ve alt U bağlantısı korunmalı."
+      },
+      "ingested_at_utc": "2026-11-24T22:44:41.483562+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:45:42.912673+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "ae6f5e3f930daa08752b725dce431fc616269c34b82c620a2b686f31bb906b7c",
+        "output_sha256": "0d4c04ac0a8c364a0ea2e930991d070f6378dbe04d83c0a94e33efde02edfcdc",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          825,
+          843
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 15686,
+        "changed_alpha_pixels": 303836,
+        "bbox_in_canvas": [
+          1507,
+          777,
+          2332,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          388,
+          68,
+          1213,
+          911
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saksafon_tek_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-54ed9b45-4979-4c45-988a-3c46f19e0ab5.png",
+      "candidate_path": "adaylar/saksafon_tek_001/r03/saksafon_tek_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8106035890107611,
+        "opaque_fraction": 0.0001965135069647821,
+        "bbox": [
+          65,
+          30,
+          1641,
+          922
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 135,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 52
+        },
+        "largest_component_pixels": {
+          "1": 297502,
+          "16": 286277,
+          "32": 285540,
+          "64": 284520,
+          "128": 282860,
+          "192": 281283,
+          "250": 275138
+        },
+        "tiny_component_pixels": {
+          "1": 307,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 74
+        },
+        "sha256": "310bcd3d50f75e2e6f0ea5c4e825209693add284f790d33eb4f3d3c4c2932c2b",
+        "bytes": 701775,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "saksafon",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1136"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:46:02.701684+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saksafon_tek_001",
+      "revision": "r04",
+      "status": "FINAL_ACCEPTED",
+      "source": "saksafon_tek_001_r04.png",
+      "candidate_path": "adaylar/saksafon_tek_001/r04/saksafon_tek_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9654855082947531,
+        "opaque_fraction": 0.03397171585648148,
+        "bbox": [
+          1506,
+          773,
+          2333,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 286277,
+          "16": 286277,
+          "32": 286277,
+          "64": 286277,
+          "128": 286277,
+          "192": 281775,
+          "250": 281775
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "07ee2caba3073b0d097253d0b3d0772557afcc80d131e5859da572b69d656115",
+        "bytes": 756517,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D7",
+          "evidence": "saksafon",
+          "json_pointer": "/uniteler/18/dersler/6/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1136"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r04 yeşil/mor detay ve alfa yeniden incelendi. Ana gövde ile yükselen huni arasındaki beyaz tıkaç kaldırılmış; açıklık alt U kıvrımına kadar kesintisiz gerçek alfa. Altı yuvarlak tuş ana gövdeye bağlı ve alt boru bağlantısı sağlam. Ağızlık, J gövde ve açık huni saksafon kimliğini koruyor. Yoğun sarı/turuncu marker, koyu bindirmeler, düzensiz lacivert kontur, değişken dar beyaz kesim payı ve alt sağ kıvrım/kat izi mevcut. r02 ret kaydı korunarak yalnız r04 kabul edildi."
+      },
+      "ingested_at_utc": "2026-11-24T22:46:04.185993+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:47:09.529595+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/muzik/saksafon/saksafon_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "310bcd3d50f75e2e6f0ea5c4e825209693add284f790d33eb4f3d3c4c2932c2b",
+        "output_sha256": "07ee2caba3073b0d097253d0b3d0772557afcc80d131e5859da572b69d656115",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          827,
+          847
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11532,
+        "changed_alpha_pixels": 297480,
+        "bbox_in_canvas": [
+          1506,
+          773,
+          2333,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          386,
+          66,
+          1213,
+          913
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/muzik/saksafon/saksafon_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "saksi_bos_001",
@@ -29603,6 +30720,231 @@
       "upload_verified_commit": "71baec4cebc8ac204cc2fd28faaab3ec4f920f96"
     },
     {
+      "id": "tef_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-a5a9a4ee-5656-4036-b53e-7da20d6fd75a.png",
+      "candidate_path": "adaylar/tef_tek_001/r01/tef_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5558470068999182,
+        "opaque_fraction": 0.0002027518317579283,
+        "bbox": [
+          23,
+          17,
+          1658,
+          896
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 156,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 212
+        },
+        "largest_component_pixels": {
+          "1": 698414,
+          "16": 685855,
+          "32": 685320,
+          "64": 684493,
+          "128": 683288,
+          "192": 682014,
+          "250": 675399
+        },
+        "tiny_component_pixels": {
+          "1": 306,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 460
+        },
+        "sha256": "8405dcce186fc0e73bb43094a30b3f267ff158e8043ac26fb493cdcb3c0cb3bb",
+        "bytes": 1402010,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D4",
+          "evidence": "tef",
+          "json_pointer": "/uniteler/18/dersler/3/yeni/1"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0720",
+        "R1128"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:36:53.068766+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "tef_tek_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "tef_tek_001_r02.png",
+      "candidate_path": "adaylar/tef_tek_001/r02/tef_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.917311077353395,
+        "opaque_fraction": 0.08223054108796296,
+        "bbox": [
+          1373,
+          847,
+          2466,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 685855,
+          "16": 685855,
+          "32": 685855,
+          "64": 685855,
+          "128": 685855,
+          "192": 682053,
+          "250": 682053
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "0fc4d3757dfd8fbb41d7d91a2d178126ba716e65c361492c49dc08a13479f4d3",
+        "bytes": 1428997,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D4",
+          "evidence": "tef",
+          "json_pointer": "/uniteler/18/dersler/3/yeni/1"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0720",
+        "R1128"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor detay ve alfa incelendi. Tek sığ tef; kırmızı/turuncu halka, opak beyaz zar ve çerçeveye bağlı altı çift küçük zil var. Çiftler üst üste iki disk olarak okunuyor, ayrık metal parçalar yok. Derin davuldan sığ çerçeve ve zillerle ayrılıyor. Halka yoğun yönlü marker, koyu bindirmeler; çocuksu lacivert kontur, değişken beyaz kesim payı, alt sağ kıvrım ve zar/çerçevede kat izi mevcut. Dış alfa temiz."
+      },
+      "ingested_at_utc": "2026-11-24T22:36:54.651958+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:37:52.801870+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/muzik/tef/tef_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "8405dcce186fc0e73bb43094a30b3f267ff158e8043ac26fb493cdcb3c0cb3bb",
+        "output_sha256": "0fc4d3757dfd8fbb41d7d91a2d178126ba716e65c361492c49dc08a13479f4d3",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1093,
+          773
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 12954,
+        "changed_alpha_pixels": 698477,
+        "bbox_in_canvas": [
+          1373,
+          847,
+          2466,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          268,
+          88,
+          1361,
+          861
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/muzik/tef/tef_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "telefon_mobil_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -31284,6 +32626,448 @@
       "upload_verified_commit": "93bb41a7939768cdd38d3432eae0cf7d193274b1"
     },
     {
+      "id": "trompet_tek_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-647cad79-1bae-4c51-8700-152331ba6294.png",
+      "candidate_path": "adaylar/trompet_tek_001/r01/trompet_tek_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6266201078970249,
+        "opaque_fraction": 0.00045126583243927616,
+        "bbox": [
+          0,
+          0,
+          1664,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 1558,
+          "16": 2,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 209
+        },
+        "largest_component_pixels": {
+          "1": 582767,
+          "16": 543883,
+          "32": 540089,
+          "64": 537156,
+          "128": 533870,
+          "192": 530772,
+          "250": 517153
+        },
+        "tiny_component_pixels": {
+          "1": 3110,
+          "16": 3,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 415
+        },
+        "sha256": "9bb98a61b939a9490082585f55c8bd16dea2c0fdf7ccd24077eb9731f8987ae3",
+        "bytes": 1233123,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D4",
+          "evidence": "trompet",
+          "json_pointer": "/uniteler/18/dersler/3/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1126"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:38:19.117941+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "trompet_tek_001",
+      "revision": "r02",
+      "status": "REJECTED",
+      "source": "trompet_tek_001_r02.png",
+      "candidate_path": "adaylar/trompet_tek_001/r02/trompet_tek_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9344276861496914,
+        "opaque_fraction": 0.06461082175925927,
+        "bbox": [
+          1144,
+          1025,
+          2695,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 543883,
+          "16": 543883,
+          "32": 543883,
+          "64": 543883,
+          "128": 543883,
+          "192": 535908,
+          "250": 535908
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "bf1d5404bda94dcde88f2a4dd55ce6692dc5b41aa98c2fdfa9a1eca1122a703d",
+        "bytes": 1288352,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D4",
+          "evidence": "trompet",
+          "json_pointer": "/uniteler/18/dersler/3/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1126"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": false,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor detay ve alfa incelendi. Üç piston ve ana borular nesne olarak doğru; büyük iki boşluk alfa. Ancak pistonlararası dört küçük açıklıkta beyaz makas payı tutarsız biçimde alanı kapatıyor: sağ üst açıklık tümden opak, sağ alt açıklık iki parçalı ince yarık. İç kesim standardı/siluet temizliği geçmedi; r02 reddedildi. Yalnız dört küçük açıklık daha düzenli gerçek alfa olacak şekilde düzeltilmeli, borular ve bağlantılar korunmalı."
+      },
+      "ingested_at_utc": "2026-11-24T22:38:20.731658+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:39:30.179485+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "9bb98a61b939a9490082585f55c8bd16dea2c0fdf7ccd24077eb9731f8987ae3",
+        "output_sha256": "bf1d5404bda94dcde88f2a4dd55ce6692dc5b41aa98c2fdfa9a1eca1122a703d",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1551,
+          595
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 43575,
+        "changed_alpha_pixels": 586726,
+        "bbox_in_canvas": [
+          1144,
+          1025,
+          2695,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          59,
+          206,
+          1610,
+          801
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "trompet_tek_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-43dd36d8-0c8b-4259-af6a-0493f7b0125e.png",
+      "candidate_path": "adaylar/trompet_tek_001/r03/trompet_tek_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6444714518023595,
+        "opaque_fraction": 0.00039111911580369253,
+        "bbox": [
+          0,
+          39,
+          1659,
+          872
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 135,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 9
+        },
+        "largest_component_pixels": {
+          "1": 558811,
+          "16": 541958,
+          "32": 540048,
+          "64": 537448,
+          "128": 533589,
+          "192": 529676,
+          "250": 520457
+        },
+        "tiny_component_pixels": {
+          "1": 226,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 11
+        },
+        "sha256": "c24b22e7086532c098589b364b74b1138336caaf4f066b3ebd01eff9f7b34ccb",
+        "bytes": 1133229,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D4",
+          "evidence": "trompet",
+          "json_pointer": "/uniteler/18/dersler/3/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1126"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-24T22:39:56.198275+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "trompet_tek_001",
+      "revision": "r04",
+      "status": "FINAL_ACCEPTED",
+      "source": "trompet_tek_001_r04.png",
+      "candidate_path": "adaylar/trompet_tek_001/r04/trompet_tek_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9346597704475309,
+        "opaque_fraction": 0.06433039158950617,
+        "bbox": [
+          1143,
+          1023,
+          2696,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 541958,
+          "16": 541958,
+          "32": 541958,
+          "64": 541958,
+          "128": 541958,
+          "192": 533582,
+          "250": 533582
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "c098db7e793e6e04e4ccdf246fbdc736bd47ad92a821f52b8e1c090960684452",
+        "bytes": 1216339,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 19,
+          "unit_title": "Müzik Zamanı",
+          "lesson": "D4",
+          "evidence": "trompet",
+          "json_pointer": "/uniteler/18/dersler/3/yeni/2"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1126"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r04 yeşil detay, alfa ve mor detay yeniden incelendi. Üç piston arası dört küçük dikdörtgen açıklığın tümü artık tek, kesintisiz gerçek alfa; beyaz tıkaç ve parçalı yarık yok. İki ana boru boşluğu da temiz. Üç piston/düğme, sol ağızlık, sağ huni ve bağlı borular nesne kimliğini koruyor. Yoğun sarı/turuncu keçeli kalem, koyu bindirmeler, düzensiz kontur, dar değişken beyaz makas payı, sol alt kıvrım ve kat izi mevcut. Tek bağlantılı nesne. r02 ret kaydı korundu; yalnız r04 nihai kabul."
+      },
+      "ingested_at_utc": "2026-11-24T22:39:57.717492+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-24T22:41:32.968298+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/muzik/trompet/trompet_tek_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "c24b22e7086532c098589b364b74b1138336caaf4f066b3ebd01eff9f7b34ccb",
+        "output_sha256": "c098db7e793e6e04e4ccdf246fbdc736bd47ad92a821f52b8e1c090960684452",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          1553,
+          597
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 17079,
+        "changed_alpha_pixels": 558394,
+        "bbox_in_canvas": [
+          1143,
+          1023,
+          2696,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          59,
+          205,
+          1612,
+          802
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/muzik/trompet/trompet_tek_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "tuval_bos_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -31506,7 +33290,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/sanat/tuval/tuval_bos_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "cab7a731271f1d20b49a662d71f111f155374cfe"
     },
     {
       "id": "utu_tek_001",
@@ -35099,7 +36884,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/muzik/zil/zil_muzik_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "cab7a731271f1d20b49a662d71f111f155374cfe"
     }
   ],
   "historical_recheck": {
@@ -35108,10 +36894,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 138,
-    "accepted_png_count": 144,
+    "verified_png_count": 144,
+    "accepted_png_count": 150,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-24T22:36:20.618707+00:00"
+  "updated_at_utc": "2026-11-24T22:49:10.677208+00:00"
 }
