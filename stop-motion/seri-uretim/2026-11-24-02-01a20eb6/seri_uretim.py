@@ -1,10 +1,13 @@
 """Offline serial ingestion and QA. Never calls a paid service or accepts art automatically."""
 import argparse, hashlib, json, pathlib, shutil
+from datetime import datetime, timezone, timedelta
 import numpy as np
 from PIL import Image, ImageDraw
 from scipy import ndimage
 
 ROOT=pathlib.Path(__file__).resolve().parent
+def now_utc(): return datetime.now(timezone.utc).isoformat()
+def local_date(): return datetime.now(timezone(timedelta(hours=3))).date().isoformat()
 def write(path,obj):
     path.parent.mkdir(parents=True,exist_ok=True)
     path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -55,6 +58,8 @@ def ingest(args):
     metrics['technical_rgba_pass']=metrics['mode']=='RGBA' and metrics['alpha_min']==0 and metrics['alpha_max']==255 and metrics['transparent_edges'] and all(n==1 for n in metrics['components_all_pixels'].values()) and not matches
     metrics['master_canvas_target_pass']=metrics['dimensions']==[3840,2160]
     report={'id':args.id,'revision':args.revision,'status':'AWAITING_VISUAL_REVIEW','source':str(pathlib.Path(args.source).resolve()),'candidate_path':target.relative_to(ROOT).as_posix(),'metrics':metrics,'curriculum':item['source_evidence'],'felt_cards_preserved':item['felt_cards_preserved'],'final_accepted':False,'visual_review':None}
+    report['ingested_at_utc']=now_utc()
+    report['batch_started_on']='2026-11-24'
     write(folder/'qa.json',report); previews(target,folder)
     print(json.dumps(report,ensure_ascii=False))
 def review(args):
@@ -65,6 +70,7 @@ def review(args):
     if any(k not in notes for k in required): raise SystemExit('Missing visual criteria')
     art=all(notes[k] is True for k in required)
     report['visual_review']=notes
+    report['visual_reviewed_at_utc']=now_utc()
     report['artistic_accepted']=art
     full=art and report['metrics']['technical_rgba_pass'] and report['metrics']['master_canvas_target_pass']
     report['final_accepted']=full
@@ -90,6 +96,7 @@ def rebuild():
     reports=[json.loads(p.read_text(encoding='utf-8')) for p in sorted((ROOT/'adaylar').glob('*/*/qa.json'))]
     previous=json.loads((ROOT/'ilerleme_manifesti.json').read_text(encoding='utf-8')) if (ROOT/'ilerleme_manifesti.json').exists() else {}
     manifest={'schema_version':1,'date':'2026-11-24','workflow':'one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback','complete_library':False,'png_revisions':len(reports),'image_generation_calls':sum('source_revision' not in x['metrics'] for x in reports),'final_accepted':sum(x['final_accepted'] for x in reports),'rejected':sum(x['status']=='REJECTED' for x in reports),'native_asset_pass_4k_pending':sum(x['status']=='NATIVE_ASSET_PASS_4K_TARGET_PENDING' for x in reports),'assets':reports,'historical_recheck':{'cicek_solmus_001':'PNG_UNAVAILABLE_NOT_REVIEWED','yatak_mavi_yandan_001_r02':'PNG_UNAVAILABLE_NOT_REVIEWED'},'upload':previous.get('upload',{'status':'NOT_YET_ATTEMPTED'})}
+    manifest.update(date=local_date(),batch_started_on='2026-11-24',updated_at_utc=now_utc())
     verified_count=sum(x['final_accepted'] and x.get('github_binary_uploaded',False) for x in reports)
     manifest['upload'].update(verified_png_count=verified_count,accepted_png_count=manifest['final_accepted'],status='ALL_CURRENT_PNGS_DOWNLOAD_VERIFIED' if verified_count==manifest['final_accepted'] and verified_count else 'CHECKPOINT_PARTIAL_OR_PENDING')
     write(ROOT/'ilerleme_manifesti.json',manifest)

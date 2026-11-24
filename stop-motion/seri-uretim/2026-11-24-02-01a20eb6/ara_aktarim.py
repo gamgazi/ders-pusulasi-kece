@@ -2,6 +2,7 @@
 Never generates art, grants artistic approval, commits or pushes automatically.
 """
 import argparse,hashlib,json,pathlib,shutil,subprocess,sys,urllib.request
+from datetime import datetime, timezone, timedelta
 import numpy as np
 from PIL import Image
 from scipy import ndimage
@@ -83,7 +84,7 @@ def main():
     save(ROOT/'denetim/son_dogrulama.json',{'accepted':len(accepted),'checks':validation})
     count=len(accepted);remote=sum(x['github_download_sha256_match'] for x in validation)
     text=f'''ROOTS & TALKS — SERİ ÜRETİM 02 / ARA KALİTE RAPORU
-24 Kasım 2026
+Seri başlangıcı: 24 Kasım 2026. Rapor: {datetime.now(timezone(timedelta(hours=3))).isoformat(timespec='seconds')}.
 
 Bu seri: {count} kabul edilmiş ayrı PNG. Önceki değişmez seriyle toplam: {count+6}.
 GitHub'dan indirilerek SHA-256 eşleştirilen bu seri PNG sayısı: {remote}.
