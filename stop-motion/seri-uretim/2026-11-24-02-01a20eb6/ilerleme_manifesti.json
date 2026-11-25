@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 1427,
-  "image_generation_calls": 718,
-  "final_accepted": 643,
-  "rejected": 784,
+  "png_revisions": 1445,
+  "image_generation_calls": 727,
+  "final_accepted": 649,
+  "rejected": 796,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -43411,7 +43411,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/ev/ev-isleri-cizelgesi/ev_isleri_cizelgesi_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "22c5c8296db51f74c2de057adea35f1b8ee63b49"
     },
     {
       "id": "ev_maketi_karton_001",
@@ -84411,7 +84412,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/uzay/kuyruklu-yildiz/kuyruklu_yildiz_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "22c5c8296db51f74c2de057adea35f1b8ee63b49"
     },
     {
       "id": "kuyu_tek_001",
@@ -99061,7 +99063,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/muzik/nota/nota_sekizlik_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "22c5c8296db51f74c2de057adea35f1b8ee63b49"
     },
     {
       "id": "ocak_tezgah_001",
@@ -121622,6 +121625,787 @@
       "upload_verified_commit": "266d6d6a769dade8c733ca2d789f9a88645edff5"
     },
     {
+      "id": "saat_calar_02_30_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-6f0c2a7b-f4a0-4559-afdb-217bd334d33f.png",
+      "candidate_path": "adaylar/saat_calar_02_30_001/r01/saat_calar_02_30_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6642645765219735,
+        "opaque_fraction": 0.0002561410288352511,
+        "bbox": [
+          138,
+          28,
+          1642,
+          925
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 61,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 98
+        },
+        "largest_component_pixels": {
+          "1": 528149,
+          "16": 517360,
+          "32": 516700,
+          "64": 515776,
+          "128": 514256,
+          "192": 512722,
+          "250": 506543
+        },
+        "tiny_component_pixels": {
+          "1": 81,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 163
+        },
+        "sha256": "241ee5980e8a9f07f313a3de0b0f6396af6cf8d8b6abdf4095b36312a616ba70",
+        "bytes": 1107318,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "Saat 2:30.",
+          "json_pointer": "/uniteler/4/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ef2664173bab9cee6a1155171545a0440158e4b44d606f74e450ee34b50ad3a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:51:32.436757+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_02_30_001",
+      "revision": "r02",
+      "status": "REJECTED",
+      "source": "saat_calar_02_30_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_02_30_001/r02/saat_calar_02_30_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9376253858024691,
+        "opaque_fraction": 0.06184787326388889,
+        "bbox": [
+          1553,
+          728,
+          2287,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 517360,
+          "16": 517360,
+          "32": 517360,
+          "64": 517360,
+          "128": 517360,
+          "192": 512991,
+          "250": 512991
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "c5beace0c52c44fca797b1e3b002d24530b2bcef1a4c738562b68b6cab1d108c",
+        "bytes": 1187727,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "Saat 2:30.",
+          "json_pointer": "/uniteler/4/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ef2664173bab9cee6a1155171545a0440158e4b44d606f74e450ee34b50ad3a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": false,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. ANLAMSAL RET: yelkovan aşağıda 6 rakamının üst çizgisine temas ederek birleşmiş; ayrıca kısa akrep uzun yelkovana göre yeterince kısa değil. 02.30 yönü doğru fakat öğretim okunaklılığı geçmiyor. Düzeltmede akrep yaklaşık yüzde 25 kısalmalı; yelkovanın ucu ile 6 arasında açık krem kâğıt boşluğu kalmalı. Diğer kâğıt/alfa/mürekkep ölçütleri geçti; ret korunur."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:51:34.195641+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:52:18.606155+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "241ee5980e8a9f07f313a3de0b0f6396af6cf8d8b6abdf4095b36312a616ba70",
+        "output_sha256": "c5beace0c52c44fca797b1e3b002d24530b2bcef1a4c738562b68b6cab1d108c",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          734,
+          892
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 10870,
+        "changed_alpha_pixels": 527808,
+        "bbox_in_canvas": [
+          1553,
+          728,
+          2287,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          460,
+          31,
+          1194,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_02_30_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-2f72a506-88dc-4d65-b854-3dd3ec676380.png",
+      "candidate_path": "adaylar/saat_calar_02_30_001/r03/saat_calar_02_30_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6621048822477075,
+        "opaque_fraction": 7.186416274116628e-05,
+        "bbox": [
+          63,
+          25,
+          1198,
+          927
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 76,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 13
+        },
+        "largest_component_pixels": {
+          "1": 531212,
+          "16": 521415,
+          "32": 520245,
+          "64": 518831,
+          "128": 516814,
+          "192": 514771,
+          "250": 509684
+        },
+        "tiny_component_pixels": {
+          "1": 98,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 18
+        },
+        "sha256": "6ca3c3806db5c4cbe4076dffefd7e10d8a9c8a43ea11dac056131511e93ce809",
+        "bytes": 1056587,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "Saat 2:30.",
+          "json_pointer": "/uniteler/4/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ef2664173bab9cee6a1155171545a0440158e4b44d606f74e450ee34b50ad3a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:52:54.825944+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_02_30_001",
+      "revision": "r04",
+      "status": "REJECTED",
+      "source": "saat_calar_02_30_001_r04.png",
+      "candidate_path": "adaylar/saat_calar_02_30_001/r04/saat_calar_02_30_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9371365017361111,
+        "opaque_fraction": 0.062339289158950616,
+        "bbox": [
+          1552,
+          725,
+          2288,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 521415,
+          "16": 521415,
+          "32": 521415,
+          "64": 521415,
+          "128": 521415,
+          "192": 517067,
+          "250": 517067
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "fa195947769dec1346b22f0a57f29d3db6bdf14493cc802ab00ff90b48683104",
+        "bytes": 1132849,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "Saat 2:30.",
+          "json_pointer": "/uniteler/4/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ef2664173bab9cee6a1155171545a0440158e4b44d606f74e450ee34b50ad3a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": false,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r04 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. RET: ibre boyları ve 02.30 yönleri düzelmiş, yelkovan 6'dan ayrılmış; fakat 6 rakamının alt kapalı halkası açılıp C benzeri hale gelmiş. Kadran rakamı eğitim nesnesinde doğru değil. Yalnız 6'nın alt halkası kapatılarak okunur gerçek 6 yapılmalı, ibreler ve boşluk korunmalı. Kâğıt, marker, kesim payı ve alfa geçiyor; önceki r02 ve bu r04 retleri korunur."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:52:56.421306+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:53:29.589046+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "6ca3c3806db5c4cbe4076dffefd7e10d8a9c8a43ea11dac056131511e93ce809",
+        "output_sha256": "fa195947769dec1346b22f0a57f29d3db6bdf14493cc802ab00ff90b48683104",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          736,
+          895
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9895,
+        "changed_alpha_pixels": 531183,
+        "bbox_in_canvas": [
+          1552,
+          725,
+          2288,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          459,
+          29,
+          1195,
+          924
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_02_30_001",
+      "revision": "r05",
+      "status": "REJECTED",
+      "source": "exec-3b6ffc4c-9184-4e9e-a3c4-a9e7be0f6d01.png",
+      "candidate_path": "adaylar/saat_calar_02_30_001/r05/saat_calar_02_30_001_r05.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1670,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6617071913558642,
+        "opaque_fraction": 8.017970435324887e-05,
+        "bbox": [
+          0,
+          25,
+          1634,
+          927
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 69,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 50
+        },
+        "largest_component_pixels": {
+          "1": 531444,
+          "16": 520285,
+          "32": 519283,
+          "64": 518072,
+          "128": 516281,
+          "192": 514596,
+          "250": 508588
+        },
+        "tiny_component_pixels": {
+          "1": 141,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 76
+        },
+        "sha256": "f074d65bc4c95e70bed3c0cda6db27aa908dc82db29719081c844e5259188483",
+        "bytes": 1030084,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "Saat 2:30.",
+          "json_pointer": "/uniteler/4/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ef2664173bab9cee6a1155171545a0440158e4b44d606f74e450ee34b50ad3a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:54:07.409439+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_02_30_001",
+      "revision": "r06",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_02_30_001_r06.png",
+      "candidate_path": "adaylar/saat_calar_02_30_001/r06/saat_calar_02_30_001_r06.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9372727382330247,
+        "opaque_fraction": 0.06220293209876543,
+        "bbox": [
+          1551,
+          725,
+          2288,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 520285,
+          "16": 520285,
+          "32": 520285,
+          "64": 520285,
+          "128": 520285,
+          "192": 515936,
+          "250": 515936
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "9b76de92676c1a8b25832663271a912c406b81ae0567cc2dd71a725eb646abb2",
+        "bytes": 1107698,
+        "original_generated_dimensions": [
+          1670,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r05",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "Saat 2:30.",
+          "json_pointer": "/uniteler/4/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ef2664173bab9cee6a1155171545a0440158e4b44d606f74e450ee34b50ad3a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r06 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. Önceki iki ret giderildi: 6 rakamının alt halkası kapalı ve okunur; dik aşağı yelkovan ile 6 arasında krem kâğıt boşluğu var. Kısa-kalın akrep sağa yaklaşık 15 derece yukarıda, 2 ile 3 ortasında; uzun-ince yelkovan 6 yönünde, 02.30 doğru. Ortak merkezli yalnız iki ibre; 12/3/6/9 okunur. Yoğun turkuaz/kırmızı marker bindirmeleri, düzensiz lacivert çizgi, beyaz atlamalar korunmuş; beyaz makas payı dış ve kulp iç kenarında tam. Üst sağ kâğıt kıvrımı ve krem kadran katları görünür. Temiz gerçek dış/iç alfa, tek bağlı nesne. 737×895 özgün nesne RGB'si büyütülmeden korundu; kaynak 1670×941. r02 ve r04 retleri saklanır; piksel hizası/animasyon doğrulanmadı."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:54:09.033076+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:54:30.349785+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_02_30_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "f074d65bc4c95e70bed3c0cda6db27aa908dc82db29719081c844e5259188483",
+        "output_sha256": "9b76de92676c1a8b25832663271a912c406b81ae0567cc2dd71a725eb646abb2",
+        "source_dimensions": [
+          1670,
+          941
+        ],
+        "native_crop_dimensions": [
+          737,
+          895
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11332,
+        "changed_alpha_pixels": 531480,
+        "bbox_in_canvas": [
+          1551,
+          725,
+          2288,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          459,
+          29,
+          1196,
+          924
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_02_30_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "saat_calar_03_00_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -121884,6 +122668,1054 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
+    },
+    {
+      "id": "saat_calar_03_30_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-d6d4b8e4-2a0b-4e02-8034-b56d786f54d7.png",
+      "candidate_path": "adaylar/saat_calar_03_30_001/r01/saat_calar_03_30_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6656450686178299,
+        "opaque_fraction": 0.00035719915187446927,
+        "bbox": [
+          113,
+          30,
+          1644,
+          927
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 69,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 113
+        },
+        "largest_component_pixels": {
+          "1": 525960,
+          "16": 514249,
+          "32": 513543,
+          "64": 512635,
+          "128": 511151,
+          "192": 509631,
+          "250": 504010
+        },
+        "tiny_component_pixels": {
+          "1": 98,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 243
+        },
+        "sha256": "18933eed596098f2d5ee29cd29fcfae119f489706f6e823affee05efea95bdb0",
+        "bytes": 1077922,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D2",
+          "evidence": "Saat üç buçuk.",
+          "json_pointer": "/uniteler/4/dersler/1/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "541ff932032f3471708cfb5c3d2acff2a3199e83b31c6e8eecb7bb7a0329c1e9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:45:52.019460+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_03_30_001",
+      "revision": "r02",
+      "status": "REJECTED",
+      "source": "saat_calar_03_30_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_03_30_001/r02/saat_calar_03_30_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9380004581404321,
+        "opaque_fraction": 0.06147653838734568,
+        "bbox": [
+          1553,
+          732,
+          2287,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 514249,
+          "16": 514249,
+          "32": 514249,
+          "64": 514249,
+          "128": 514249,
+          "192": 509911,
+          "250": 509911
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "a6462b5bfbc447745b475eeee4c53a42ec6499cf6cdd20bc3b1c32d37332e44d",
+        "bytes": 1159874,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D2",
+          "evidence": "Saat üç buçuk.",
+          "json_pointer": "/uniteler/4/dersler/1/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "541ff932032f3471708cfb5c3d2acff2a3199e83b31c6e8eecb7bb7a0329c1e9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": false,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02 yeşil, alfa ve ayrı mor görünümde incelendi. Saatin 03.30 yönleri doğru, ancak akrep ile yelkovan görünür uzunlukları yaklaşık eşit; öğretim nesnesinde kısa akrep/uzun yelkovan ayrımı yeterli değil. Bu nedenle ARTİSTİK/ANLAMSAL RET. Kâğıt, yoğun marker, beyaz iç/dış makas payı ve gerçek alfa geçiyor. Düzeltme: akrebi aynı 15 derece aşağı-sağ yönünde yaklaşık yüzde 40 kısalt, yelkovanı 6 yönünde koru; aynı saat kimliği korunmalı."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:45:53.677419+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:46:56.288447+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "18933eed596098f2d5ee29cd29fcfae119f489706f6e823affee05efea95bdb0",
+        "output_sha256": "a6462b5bfbc447745b475eeee4c53a42ec6499cf6cdd20bc3b1c32d37332e44d",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          734,
+          888
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11809,
+        "changed_alpha_pixels": 525480,
+        "bbox_in_canvas": [
+          1553,
+          732,
+          2287,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          461,
+          33,
+          1195,
+          921
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_03_30_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-35756d6d-da65-42c7-addf-cf5bf32616ef.png",
+      "candidate_path": "adaylar/saat_calar_03_30_001/r03/saat_calar_03_30_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6607426429858352,
+        "opaque_fraction": 0.00013864059714667476,
+        "bbox": [
+          322,
+          19,
+          1203,
+          927
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 45,
+          "16": 2,
+          "32": 2,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 33
+        },
+        "largest_component_pixels": {
+          "1": 533388,
+          "16": 522337,
+          "32": 521656,
+          "64": 520756,
+          "128": 519304,
+          "192": 517756,
+          "250": 511614
+        },
+        "tiny_component_pixels": {
+          "1": 64,
+          "16": 4,
+          "32": 1,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 69
+        },
+        "sha256": "763167f622f66e72f84f397520eef64ed6cc94a1c47f97de6ccde987a6773f77",
+        "bytes": 1055442,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D2",
+          "evidence": "Saat üç buçuk.",
+          "json_pointer": "/uniteler/4/dersler/1/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "541ff932032f3471708cfb5c3d2acff2a3199e83b31c6e8eecb7bb7a0329c1e9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:47:48.811700+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_03_30_001",
+      "revision": "r04",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_03_30_001_r04.png",
+      "candidate_path": "adaylar/saat_calar_03_30_001/r04/saat_calar_03_30_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9370253423996914,
+        "opaque_fraction": 0.06244827835648148,
+        "bbox": [
+          1550,
+          728,
+          2290,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 522337,
+          "16": 522337,
+          "32": 522337,
+          "64": 522337,
+          "128": 522337,
+          "192": 517971,
+          "250": 517971
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "e19a1f8f5c52be7b64cbb8d1fef05798612bb37911019825cf2d1ec5a1392907",
+        "bytes": 1134077,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D2",
+          "evidence": "Saat üç buçuk.",
+          "json_pointer": "/uniteler/4/dersler/1/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "541ff932032f3471708cfb5c3d2acff2a3199e83b31c6e8eecb7bb7a0329c1e9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r04 son PNG yeşil, alfa ve ayrıca mor görünümde incelendi. Önceki r02 uzunluk sorunu düzeldi: ortak merkezden ince uzun yelkovan dik aşağı 6'ya, belirgin kısa-kalın akrep sağa yaklaşık 15 derece aşağıya (3 ile 4 ortası) yöneliyor; 03.30 okunuyor. İki ibre var, ilave ibre/kuyruk yok; 12/3/6/9 konumları korunmuş. Turkuaz gövde/kulp/ayaklar ve kırmızı çanlarda yoğun yönlü marker örtüşmeleri, küçük beyaz atlamalar var. Beyaz değişken makas payı dış çevre ve kulp iç açıklığında tam, sağ üst kıvrım ve krem kadranda kat izleri görünür. Kulp deliği gerçek alfa, dış artık yok. 740×892 nesne RGB'si büyütülmeden korundu; 1671×941 üretilen kaynaktır. Önceki ret saklanır; pozların piksel hizası ve animasyon oynatımı doğrulanmış değildir."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:47:50.480785+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:48:14.223221+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_03_30_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "763167f622f66e72f84f397520eef64ed6cc94a1c47f97de6ccde987a6773f77",
+        "output_sha256": "e19a1f8f5c52be7b64cbb8d1fef05798612bb37911019825cf2d1ec5a1392907",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          740,
+          892
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11115,
+        "changed_alpha_pixels": 533216,
+        "bbox_in_canvas": [
+          1550,
+          728,
+          2290,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          457,
+          31,
+          1197,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_03_30_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "saat_calar_04_00_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-ca3916fd-b5f1-470a-8d91-263d3543c711.png",
+      "candidate_path": "adaylar/saat_calar_04_00_001/r01/saat_calar_04_00_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.665087024391236,
+        "opaque_fraction": 0.00016906579074485556,
+        "bbox": [
+          451,
+          23,
+          1443,
+          925
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 73,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 58
+        },
+        "largest_component_pixels": {
+          "1": 526828,
+          "16": 516795,
+          "32": 515951,
+          "64": 514793,
+          "128": 513143,
+          "192": 511427,
+          "250": 505819
+        },
+        "tiny_component_pixels": {
+          "1": 108,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 109
+        },
+        "sha256": "730e96f20e22fdd162d45f354dc7a20d99efe36785a51a946bbc3eb68622120b",
+        "bytes": 1069125,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D2",
+          "evidence": "Dersim saat dörtte.",
+          "json_pointer": "/uniteler/4/dersler/1/yeni/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "97991677cf50184e4cfbe70e6eefc2c612bb32cebf826b523c9ec8587d384032"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:49:04.355865+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_04_00_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_04_00_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_04_00_001/r02/saat_calar_04_00_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9376935040509259,
+        "opaque_fraction": 0.06178120177469136,
+        "bbox": [
+          1552,
+          728,
+          2288,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 516795,
+          "16": 516795,
+          "32": 516795,
+          "64": 516795,
+          "128": 516795,
+          "192": 512438,
+          "250": 512438
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "9e785428d9d4bb671ec04d430548a314b9ad4706396076c3fc21dcfe3f7aac99",
+        "bytes": 1153869,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D2",
+          "evidence": "Dersim saat dörtte.",
+          "json_pointer": "/uniteler/4/dersler/1/yeni/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "97991677cf50184e4cfbe70e6eefc2c612bb32cebf826b523c9ec8587d384032"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. Ortak merkezden ince uzun yelkovan dik 12'ye, kısa kalın akrep sağ aşağı 4 yönüne uzanıyor; 04.00 doğru. Rakamlarla çakışma ve üçüncü ibre yok, akrep/yelkovan uzunluğu ayırt ediliyor. Aynı turkuaz gövde ve kırmızı çan kimliği, yoğun geniş marker geçişleri, düzensiz lacivert hat, küçük beyaz atlamalar korunuyor. Dışta ve kulp açıklığında beyaz makas payı; üst sağ kıvrım ile kadran katları görünür. İç kulp ve dış alan gerçek temiz alfa, tek bağlı kâğıt. 736×892 nesne RGB'si büyütülmeden korundu; poz hizası ve animasyon oynatımı ayrıca doğrulanmış değildir."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:49:06.041375+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:49:26.604576+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_04_00_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "730e96f20e22fdd162d45f354dc7a20d99efe36785a51a946bbc3eb68622120b",
+        "output_sha256": "9e785428d9d4bb671ec04d430548a314b9ad4706396076c3fc21dcfe3f7aac99",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          736,
+          892
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 10141,
+        "changed_alpha_pixels": 526643,
+        "bbox_in_canvas": [
+          1552,
+          728,
+          2288,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          459,
+          30,
+          1195,
+          922
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_04_00_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "saat_calar_04_45_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-34907840-7621-4e22-b4ec-65145ab216fc.png",
+      "candidate_path": "adaylar/saat_calar_04_45_001/r01/saat_calar_04_45_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6634777214507624,
+        "opaque_fraction": 0.00018686218977062983,
+        "bbox": [
+          0,
+          28,
+          1616,
+          929
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 72,
+          "16": 2,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 124
+        },
+        "largest_component_pixels": {
+          "1": 529279,
+          "16": 517848,
+          "32": 517109,
+          "64": 516086,
+          "128": 514526,
+          "192": 512962,
+          "250": 506469
+        },
+        "tiny_component_pixels": {
+          "1": 189,
+          "16": 1,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 212
+        },
+        "sha256": "971cadba4f8c11608f3c0f3f0dacb0bc54aedb0a39e49fcf9e231a1311b03030",
+        "bytes": 1083363,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "(4:45)",
+          "json_pointer": "/uniteler/4/dersler/7/test/1/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "26c39ea6f80f90b405e7e088aeafffdc5031c33ca58081d08daa0002edff27de"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:55:18.927773+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_04_45_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_04_45_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_04_45_001/r02/saat_calar_04_45_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9375665509259259,
+        "opaque_fraction": 0.061904296875,
+        "bbox": [
+          1550,
+          728,
+          2289,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 517848,
+          "16": 517848,
+          "32": 517848,
+          "64": 517848,
+          "128": 517848,
+          "192": 513459,
+          "250": 513459
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "9e3b711dc3474d568a225cb50edc01e00f41a41f9f53efdca711071582646583",
+        "bytes": 1166478,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D8",
+          "evidence": "(4:45)",
+          "json_pointer": "/uniteler/4/dersler/7/test/1/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "26c39ea6f80f90b405e7e088aeafffdc5031c33ca58081d08daa0002edff27de"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. İnce uzun yelkovan yatay sola 9 yönünde, 9'a çok yakın fakat arada krem boşluk var; rakamla birleşmiyor. Kısa kalın akrep sağ aşağı 4 ile 5 arasında 5'e yaklaşmış, yaklaşık 52 derece aşağı-sağ yönünde; 04.45 doğru. Ortak merkezli iki ibre, açık 12/3/6/9 rakamları, aynı turkuaz gövde ve kırmızı çanlar korunuyor. Geniş yoğun marker izleri/koyu bindirmeler, düzensiz lacivert kontur ve beyaz atlamalar görülüyor. Beyaz makas payı dış ve kulp iç çevresinde; üst sağ kıvrım/kadran katları görünür. Kulp açıklığı ve dış alan temiz gerçek alfa, tek bağlı kâğıt. 739×892 özgün nesne RGB'si büyütülmeden korundu; animasyon/piksel hizası doğrulanmadı."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:55:20.559939+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:55:42.512497+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_04_45_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "971cadba4f8c11608f3c0f3f0dacb0bc54aedb0a39e49fcf9e231a1311b03030",
+        "output_sha256": "9e3b711dc3474d568a225cb50edc01e00f41a41f9f53efdca711071582646583",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          739,
+          892
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11620,
+        "changed_alpha_pixels": 529153,
+        "bbox_in_canvas": [
+          1550,
+          728,
+          2289,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          456,
+          31,
+          1195,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_04_45_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "saat_calar_05_00_001",
@@ -122414,6 +124246,269 @@
       "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
     },
     {
+      "id": "saat_calar_07_15_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-4229f230-bcb9-484b-8ce9-156213d69597.png",
+      "candidate_path": "adaylar/saat_calar_07_15_001/r01/saat_calar_07_15_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6623959546242671,
+        "opaque_fraction": 0.00013283740701381508,
+        "bbox": [
+          53,
+          25,
+          1529,
+          929
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 80,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 87
+        },
+        "largest_component_pixels": {
+          "1": 531063,
+          "16": 519908,
+          "32": 519053,
+          "64": 517980,
+          "128": 516367,
+          "192": 514656,
+          "250": 508106
+        },
+        "tiny_component_pixels": {
+          "1": 107,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 154
+        },
+        "sha256": "ceb05f7219b3b023567860509af213740b541e0d931b7d3f365e7f4377d47df5",
+        "bytes": 1093473,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D6",
+          "evidence": "Saat yediyi çeyrek geçiyor.",
+          "json_pointer": "/uniteler/4/dersler/5/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "e226cd97f83d8536a53a493f9ebdc8b174af999f41bcba78fc0dbdf9e07e0ac9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:50:13.875835+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_07_15_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_07_15_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_07_15_001/r02/saat_calar_07_15_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9373181905864197,
+        "opaque_fraction": 0.062155671296296296,
+        "bbox": [
+          1549,
+          727,
+          2290,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 519908,
+          "16": 519908,
+          "32": 519908,
+          "64": 519908,
+          "128": 519908,
+          "192": 515544,
+          "250": 515544
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "0b5b63853e02c5dcd08fd8be1d73fb79ef1e273de4312562fcc2107d2ab61337",
+        "bytes": 1173084,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 5,
+          "unit_title": "Sayılar ve Saat",
+          "lesson": "D6",
+          "evidence": "Saat yediyi çeyrek geçiyor.",
+          "json_pointer": "/uniteler/4/dersler/5/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "e226cd97f83d8536a53a493f9ebdc8b174af999f41bcba78fc0dbdf9e07e0ac9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. İnce uzun yelkovan yatay sağa 3 yönünde; kısa-kalın akrep aşağı sola 7'yi geçmiş ve 8'e ulaşmamış konumda. Çocuk çizgisi toleransı içinde 07.15 okunuyor, ibre uzunluk farkı belirgin, ortak merkezli yalnız iki ibre var. 12/3/6/9 rakamları doğru yerde ve açık. Turkuaz gövde/kulp/iki ayak, kırmızı iki çan, yoğun geniş keçeli kalem örtüşmeleri ve küçük beyaz atlamalar korunmuş. Değişken beyaz dış kesim payı ve kulp deliğinin iç payı, üst sağ kıvrım ve krem kadran katları görülüyor. Kulp içi ve dışı gerçek temiz alfa; tek parça. 741×893 nesne RGB'si büyütülmeden korundu; poz hizası/animasyon ayrıca test edilmedi."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:50:15.556530+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:50:45.972359+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_07_15_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "ceb05f7219b3b023567860509af213740b541e0d931b7d3f365e7f4377d47df5",
+        "output_sha256": "0b5b63853e02c5dcd08fd8be1d73fb79ef1e273de4312562fcc2107d2ab61337",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          741,
+          893
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11262,
+        "changed_alpha_pixels": 530939,
+        "bbox_in_canvas": [
+          1549,
+          727,
+          2290,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          456,
+          30,
+          1197,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_07_15_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "saat_calar_08_00_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -122676,6 +124771,269 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "46caf548c2f804516dfa5069c9891206bd14fe84"
+    },
+    {
+      "id": "saat_calar_08_30_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-d700f944-c497-4682-bf32-84d755877a00.png",
+      "candidate_path": "adaylar/saat_calar_08_30_001/r01/saat_calar_08_30_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6649128739150553,
+        "opaque_fraction": 0.00030508112615613037,
+        "bbox": [
+          451,
+          26,
+          1642,
+          925
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 50,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 110
+        },
+        "largest_component_pixels": {
+          "1": 527129,
+          "16": 515331,
+          "32": 514620,
+          "64": 513655,
+          "128": 512250,
+          "192": 510702,
+          "250": 504843
+        },
+        "tiny_component_pixels": {
+          "1": 81,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 202
+        },
+        "sha256": "e4777968eb0eaad088b593d534c2d54c6028d58c2130fb9b6566c25fbf55df82",
+        "bytes": 1088239,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 12,
+          "unit_title": "Günlerim",
+          "lesson": "D5",
+          "evidence": "Okul sekiz buçukta başlıyor.",
+          "json_pointer": "/uniteler/11/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ad16a5b3c3a302cb7a86ec5b0a61379e75c413e51f1a2ed6f45045a73dc3142"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:56:25.931808+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_08_30_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_08_30_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_08_30_001/r02/saat_calar_08_30_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9378700086805556,
+        "opaque_fraction": 0.061604697145061726,
+        "bbox": [
+          1553,
+          728,
+          2287,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 515331,
+          "16": 515331,
+          "32": 515331,
+          "64": 515331,
+          "128": 515331,
+          "192": 510974,
+          "250": 510974
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "a7c04dcdd34ae40505f3d8c595e9e63903b07b9dc991d707164a854d5ac579f9",
+        "bytes": 1167676,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-tohum.json",
+          "source_blob_sha": "d3f81b0a97b9b27def7b0cd250ad969dba8eea32",
+          "unit": 12,
+          "unit_title": "Günlerim",
+          "lesson": "D5",
+          "evidence": "Okul sekiz buçukta başlıyor.",
+          "json_pointer": "/uniteler/11/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "9ad16a5b3c3a302cb7a86ec5b0a61379e75c413e51f1a2ed6f45045a73dc3142"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02 son PNG yeşil, alfa ve ayrı mor görünümde incelendi. Uzun ince yelkovan dik aşağı 6 yönünde; 6'nın üst çizgisiyle birleşmiyor, krem boşluk kalmış ve alt halka kapalı. Daha kısa kalın akrep sola hafif aşağı, 8 ile 9 arasında; çocuk çizgisi içinde 08.30 okunuyor. Ortak merkezli iki ibre, 12/3/6/9 okunur. Aynı turkuaz gövde/kulp/ayaklar ve kırmızı çanlar, geniş yoğun keçeli kalem izleri/koyu bindirmeler, düzensiz lacivert kontur ve beyaz atlamalar korunmuş. Dış ve kulp iç kenarında beyaz makas payı; üst sağ kıvrım ve kadran katları görünür. Gerçek temiz alfa ve tek bağlı kâğıt. 734×892 özgün nesne RGB'si büyütülmeden korundu. Poz hizası/animasyon oynatımı doğrulanmadı."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T16:56:27.581509+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T16:56:58.607651+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_08_30_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "e4777968eb0eaad088b593d534c2d54c6028d58c2130fb9b6566c25fbf55df82",
+        "output_sha256": "a7c04dcdd34ae40505f3d8c595e9e63903b07b9dc991d707164a854d5ac579f9",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          734,
+          892
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11879,
+        "changed_alpha_pixels": 526707,
+        "bbox_in_canvas": [
+          1553,
+          728,
+          2287,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          461,
+          30,
+          1195,
+          922
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_08_30_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "saat_calar_09_00_001",
@@ -128517,7 +130875,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/oyun/satranc-tahtasi/satranc_tahtasi_bos_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "22c5c8296db51f74c2de057adea35f1b8ee63b49"
     },
     {
       "id": "seftali_butun_001",
@@ -156758,7 +159117,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/uzay/venus/venus_gezegen_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "22c5c8296db51f74c2de057adea35f1b8ee63b49"
     },
     {
       "id": "yag_sisesi_kapali_001",
@@ -165011,10 +167371,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 638,
-    "accepted_png_count": 643,
+    "verified_png_count": 643,
+    "accepted_png_count": 649,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-25T16:42:42.602744+00:00"
+  "updated_at_utc": "2026-11-25T16:58:33.804045+00:00"
 }
