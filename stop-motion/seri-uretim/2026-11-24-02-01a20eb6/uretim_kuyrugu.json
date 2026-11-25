@@ -28371,6 +28371,277 @@
       "semantic_review": "Kesilmiş öyküde Unutmamak ipucu ve altı boş kare açık. Tek kâğıt yüzeyinde bu giriş temsil edilir; bilinmeyen çözüm veya öykü sonu üretilmez. Altı kutu asset grid değildir, bulmaca kâğıdının üzerindeki hücrelerdir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
       "accepted_revision": "r02",
       "final_sha256": "cbcfac3cd94d3b99bc74e0db862cb14223ad41ef5ddf04eb00ba257e649e08df"
+    },
+    {
+      "id": "yapboz_tam_001",
+      "title": "Tek tamamlanmış güneşli yapboz tahtası",
+      "category": "yardimci-nesneler/oyun/yapboz",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-orman.json",
+          "source_blob_sha": "df16c8d689bd6eeabcffaa140a4529f8315b6b3d",
+          "unit": 19,
+          "unit_title": "Sorunu Bildiriyorum",
+          "lesson": "D2",
+          "evidence": "resim: tam yapboz",
+          "json_pointer": "/uniteler/18/dersler/1/test/1/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "25abddedde878a25a830d2cd240c894295d07887883f25e9fb39034454ac3e97"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0293",
+        "R0804",
+        "R1996",
+        "R1997",
+        "R2784",
+        "R2785"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "yapboz_tam",
+        "tam_yapboz",
+        "yapboz_tamamlanmis"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Mevcut güneşli yapbozun ham çizimi görüldü: üst solda ve alt sağda iki kahverengi eksik yuva var. Bu iki yuva doldurulur; eksik parçalı kayıt korunur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "yapboz_iki_parca_eksik_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/yapboz-parcasi/yapboz_iki_parca_eksik_001.png",
+        "sha256": "12d095492d151840ab360ef4c7f6743b96ab93939d4038bc25b1808c9531a89b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/yapboz_iki_parca_eksik_001/r01/yapboz_iki_parca_eksik_001_r01.png",
+        "native_reference_sha256": "ec1bb53c0b6c6f12611824bd3bdf205ae999fcc3d3c179500e709b72d0e27dfd"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "c5ff5ac56bb58304f27ee6b23dac3357785787bf4a6fd893d1d785c8b4838254"
+    },
+    {
+      "id": "yapboz_bir_parca_eksik_001",
+      "title": "Tek bir parçası eksik güneşli yapboz tahtası",
+      "category": "yardimci-nesneler/oyun/yapboz",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-orman.json",
+          "source_blob_sha": "df16c8d689bd6eeabcffaa140a4529f8315b6b3d",
+          "unit": 19,
+          "unit_title": "Sorunu Bildiriyorum",
+          "lesson": "D2",
+          "evidence": "Bir parçası eksik yapboza dokun!",
+          "json_pointer": "/uniteler/18/dersler/1/test/1/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "2ae8b975cde4b0f110123170157e73a3a77a60deb6d944ebbc6bd67ef9b00252"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0293",
+        "R0804",
+        "R1996",
+        "R1997",
+        "R2784",
+        "R2785"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "yapboz_bir_parca_eksik",
+        "yapboz_tek_parca_eksik",
+        "yapboz_1_parca_eksik"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Kaynak bir eksik parça diyor; mevcut iki eksik parçalı yapboz eşdeğer değil. Yalnız alt sağ yuva tamamlanır, üst sol kahverengi yuva kalır. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "yapboz_iki_parca_eksik_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/yapboz-parcasi/yapboz_iki_parca_eksik_001.png",
+        "sha256": "12d095492d151840ab360ef4c7f6743b96ab93939d4038bc25b1808c9531a89b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/yapboz_iki_parca_eksik_001/r01/yapboz_iki_parca_eksik_001_r01.png",
+        "native_reference_sha256": "ec1bb53c0b6c6f12611824bd3bdf205ae999fcc3d3c179500e709b72d0e27dfd"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "5433690804dea7d1857b2fb1c8e80a3a4ac89bf6a27b13fe3598b34193a3a126"
+    },
+    {
+      "id": "yapboz_iki_parcali_tam_001",
+      "title": "Tek iki parçadan oluşan tamamlanmış yapboz",
+      "category": "yardimci-nesneler/oyun/yapboz",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-orman.json",
+          "source_blob_sha": "df16c8d689bd6eeabcffaa140a4529f8315b6b3d",
+          "unit": 6,
+          "unit_title": "Fark Ettirmek",
+          "lesson": "D1",
+          "evidence": "resim: iki parçalı yapboz",
+          "json_pointer": "/uniteler/5/dersler/0/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "f8433703c4a0896b4b6f0fe660bf72a70b86943f4f914981fb4029f3f11321f9"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "yapboz_iki_parcali_tam",
+        "yapboz_iki_parcali",
+        "yapboz_2_parcali"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "İki parçalı kolay yapboz, iki parçası eksik çok parçalı yapboz değildir. Tek taşıyıcı üzerinde bitişik iki parça; ayrı iki obje PNGsi yapılmaz. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "5f3c4459cc417e53c8439eb55fccb2bba2374540403356973bbd9d4f88384927"
+    },
+    {
+      "id": "mevsim_dongusu_cember_001",
+      "title": "Tek dört mevsim döngüsü çember posteri",
+      "category": "yardimci-nesneler/egitim/poster",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-cinar.json",
+          "source_blob_sha": "fd1c9660dc546124e27cf514291ae3d921c13ec8",
+          "unit": 7,
+          "unit_title": "Mevsim Döngüsü",
+          "lesson": "D1",
+          "evidence": "resim: dört mevsim çemberi",
+          "json_pointer": "/uniteler/6/dersler/0/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "9081168aaa6d4abfd85b224d3a807c24395a66bc21845d3e2548fa563ecdb80f"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2054"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "mevsim_dongusu",
+        "mevsim_cemberi",
+        "dort_mevsim_cember",
+        "mevsimler_cember"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Dört mevsim döngüsü, mevcut mevsim seçimi sütun grafiğinden farklı tek poster yüzeyidir. Mevsimler saat yönünde ilkbahar-yaz-sonbahar-kış, eşit alanlar nicel süre grafiği değildir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "2b183e74653373cf2c1749a36fb83e3b55a06c78207c368863472ef1d9421a63"
+    },
+    {
+      "id": "isik_anahtari_kapali_001",
+      "title": "Tek kapalı duvar ışık anahtarı",
+      "category": "yardimci-nesneler/ev/isik-anahtari",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 10,
+          "unit_title": "Evimiz",
+          "lesson": "D5",
+          "evidence": "Işığı kapat!",
+          "json_pointer": "/uniteler/9/dersler/4/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "4fd31ce0bedbcb6499532647c806a5db005e373f4277d6698984a2518a0d360a"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "isik_anahtari",
+        "duvar_anahtari",
+        "elektrik_anahtari"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Kapı anahtarı ve duvar prizi ışık anahtarı değildir. Kaynaktaki kapatma eylemi için tek rocker duvar anahtarı temsili; ışık/oda görüntüsü eklenmez. Masa lambası tarihsel PNG beklemesindedir, yeniden üretilmez. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r04",
+      "final_sha256": "1ffe6136714a64525e97ee4a80dc858364e4b16f7304db3f6a608df353a35b01"
+    },
+    {
+      "id": "kagit_duz_bos_001",
+      "title": "Tek düz boş çizim kâğıdı",
+      "category": "yardimci-nesneler/egitim/kagit",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-cinar.json",
+          "source_blob_sha": "fd1c9660dc546124e27cf514291ae3d921c13ec8",
+          "unit": 7,
+          "unit_title": "Mevsim Döngüsü",
+          "lesson": "D1",
+          "evidence": "resim: boş kâğıt",
+          "json_pointer": "/uniteler/6/dersler/0/test/0/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0568f9843decff091f0c621e3e9894ff8ddc02c829b070ebef155b915f54fc34"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1867"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kagit_duz_bos",
+        "kagit_bos",
+        "bos_kagit",
+        "kagit_yeni"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Boş düz yaprak mevcut katlanmış kâğıt veya renkli kartonla aynı durum değildir. Nesne doğal olarak yazısız; yüzeyde çok açık krem geniş keçeli kalem izi, düzensiz beyaz kenar ve küçük kıvrım korunur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "fbadef6842800499fb97b77712683d0aaf4f15511fc6ccb14a187b7e6c7225f5"
+    },
+    {
+      "id": "ampul_yanan_001",
+      "title": "Tek yanan ampul çizimi",
+      "category": "yardimci-nesneler/ev/ampul",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 10,
+          "unit_title": "Evimiz",
+          "lesson": "D5",
+          "evidence": "Işığı aç!",
+          "json_pointer": "/uniteler/9/dersler/4/yeni/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "b126d1aa5a268d7ecaa340b828edd50be21465e15e4a26e343b27a43dd612d3f"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "ampul_yanan",
+        "ampul_acik",
+        "yanan_ampul"
+      ],
+      "dedup_scope": "873 records, 790 canonical PNGs, 784 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Mevcut sönük ampul ham çizimi görüldü: açık mavi cam, gri spiral taban, gri tel, sağ alt kıvrım. Yanan poz sarı/turuncu yoğun mürekkeple yalnız ampul yüzeyinde; dış ışık halesi yok. Masa lambası kopyalanmaz. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "ampul_sonuk_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/ev/ampul/ampul_sonuk_001.png",
+        "sha256": "9d5f278ec2580bd1d98f76ba0891312e1e622c680a05c2dca284c7c84a284e81",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/ampul_sonuk_001/r01/ampul_sonuk_001_r01.png",
+        "native_reference_sha256": "e40338ea204fd7ae0cac3a57ac0ec399a9186b84aa44aba46edec8dde2352f53"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "91786784ad551f302fd39a1ebdb64590b01526c728ef5204884a429cb47a6e15"
     }
   ]
 }
