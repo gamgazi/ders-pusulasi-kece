@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 1274,
-  "image_generation_calls": 641,
-  "final_accepted": 571,
-  "rejected": 703,
+  "png_revisions": 1286,
+  "image_generation_calls": 647,
+  "final_accepted": 577,
+  "rejected": 709,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -7718,6 +7718,658 @@
       "upload_verified_commit": "0d9f2a96b20aeb32cf679a680f2db6dc6e30d648"
     },
     {
+      "id": "balon_beyaz_saglam_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-0590d6fa-2d41-45f6-8ed8-f8c5b7bfa009.png",
+      "candidate_path": "adaylar/balon_beyaz_saglam_001/r01/balon_beyaz_saglam_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7844760740126812,
+        "opaque_fraction": 1.5889641987298456e-05,
+        "bbox": [
+          515,
+          0,
+          1537,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 44,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 35
+        },
+        "largest_component_pixels": {
+          "1": 339035,
+          "16": 331937,
+          "32": 331317,
+          "64": 330469,
+          "128": 329222,
+          "192": 327952,
+          "250": 323668
+        },
+        "tiny_component_pixels": {
+          "1": 60,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 48
+        },
+        "sha256": "6e4c715693d075e3871c071f6e22fddc7ba76e96e51c5c8fa8ddeccc1608c5d2",
+        "bytes": 708611,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: beyaz balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/1/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "f065d63fe03508e5f9b4625a2a266eac94db50af1ce77bbe804e658232a7e92a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:59:13.969475+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "balon_beyaz_saglam_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "balon_beyaz_saglam_001_r02.png",
+      "candidate_path": "adaylar/balon_beyaz_saglam_001/r02/balon_beyaz_saglam_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9599805893132716,
+        "opaque_fraction": 0.03963963638117284,
+        "bbox": [
+          1626,
+          686,
+          2214,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 331937,
+          "16": 331937,
+          "32": 331937,
+          "64": 331937,
+          "128": 331937,
+          "192": 328787,
+          "250": 328787
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "e9646048a106dbe192c5f01944b023bf61689e28618a2dd919a6ad4e68bb9839",
+        "bytes": 726844,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: beyaz balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/1/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "f065d63fe03508e5f9b4625a2a266eac94db50af1ce77bbe804e658232a7e92a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": [
+          "Yeşil, mor ve alfa görselleri açılıp incelendi. Tek beyaz balon; geniş beyaz gövde çok açık gri geniş marker vuruşlarıyla modellenmiş, önceki orta gri balondan belirgin açık. Beyaz merkez, parıltı ve düğüm tamamıyla opak kâğıt.",
+          "Lacivert yoğun/düzensiz kontur ve bağlı kısa S ipi balon kimliğini koruyor. Değişken beyaz dış makas payı, üst sağ kâğıt kıvrımı ve çapraz kat izi açık; beyaz yüzeyde koyu doldurma yapılmadı.",
+          "İki renk fonda beyaz gövdeye zemin sızmıyor; alfa görünümü tek dolu siluet. Dış alan sıfır, bağımsız artık/gölge ve gömülü arka plan yok.",
+          "588×934 özgün nesne büyütülmeden 3840×2160 RGBA tuvale kondu; native_4k=false. Tek bileşen/SHA geçti; poz hizası/animasyon doğrulanmadı."
+        ]
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:59:15.548440+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T13:59:42.090700+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/oyun/balon/balon_beyaz_saglam_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "6e4c715693d075e3871c071f6e22fddc7ba76e96e51c5c8fa8ddeccc1608c5d2",
+        "output_sha256": "e9646048a106dbe192c5f01944b023bf61689e28618a2dd919a6ad4e68bb9839",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          588,
+          934
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7158,
+        "changed_alpha_pixels": 339060,
+        "bbox_in_canvas": [
+          1626,
+          686,
+          2214,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          519,
+          3,
+          1107,
+          937
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/oyun/balon/balon_beyaz_saglam_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "balon_gri_saglam_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-e291b88c-4848-47fb-9983-09a1fa3d3f9e.png",
+      "candidate_path": "adaylar/balon_gri_saglam_001/r01/balon_gri_saglam_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7851319984339169,
+        "opaque_fraction": 1.5254056307806518e-05,
+        "bbox": [
+          0,
+          0,
+          1178,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 47,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 40
+        },
+        "largest_component_pixels": {
+          "1": 337998,
+          "16": 331172,
+          "32": 330619,
+          "64": 329862,
+          "128": 328718,
+          "192": 327496,
+          "250": 322351
+        },
+        "tiny_component_pixels": {
+          "1": 65,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 85
+        },
+        "sha256": "c8c9cea8f16b99e7d6233d1259e98f7dd73478873a524e3d60dc92dce9ee6bfb",
+        "bytes": 769066,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: gri balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0c573de0f96bdcb03c5a79bc5ef08742eda0cf896716d84baa198c21dc02cc10"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:57:56.853768+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "balon_gri_saglam_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "balon_gri_saglam_001_r02.png",
+      "candidate_path": "adaylar/balon_gri_saglam_001/r02/balon_gri_saglam_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9600728202160493,
+        "opaque_fraction": 0.03954740547839506,
+        "bbox": [
+          1625,
+          689,
+          2215,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 331172,
+          "16": 331172,
+          "32": 331172,
+          "64": 331172,
+          "128": 331172,
+          "192": 328022,
+          "250": 328022
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "8854b368d5e13dd9bc8a27cfc9af2cf0165abc9b358b5ea8a0f8044a119accde",
+        "bytes": 771953,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: gri balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0c573de0f96bdcb03c5a79bc5ef08742eda0cf896716d84baa198c21dc02cc10"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": [
+          "Yeşil, mor ve alfa görselleri açılıp incelendi. Tek nötr orta gri balon; gri gövde ve düğüm, lacivert bağlı kısa S ipi. Gri renk mavi/mor tona kaymıyor; siyaha göre belirgin açık.",
+          "Geniş diagonal gri marker çizgileri ve koyu gri bindirme, az beyaz boşluk ve opak sol üst beyaz parlama görüldü. Düzensiz lacivert kontur ve değişken beyaz makas payı tam çevrede, üst sağ kıvrım ve diagonal kat izi var.",
+          "İki renk fonda dış kenar temiz; parıltı opak, dış alfa sıfır ve bağlı tek nesne. Gömülü fon veya yüzen gölge yok.",
+          "590×931 özgün nesne büyütülmeden 3840×2160 RGBA tuvale kondu; native_4k=false. Tek bileşen/SHA geçti; poz hizası/animasyon doğrulanmadı."
+        ]
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:57:58.392079+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T13:58:23.479061+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/oyun/balon/balon_gri_saglam_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "c8c9cea8f16b99e7d6233d1259e98f7dd73478873a524e3d60dc92dce9ee6bfb",
+        "output_sha256": "8854b368d5e13dd9bc8a27cfc9af2cf0165abc9b358b5ea8a0f8044a119accde",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          590,
+          931
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 6891,
+        "changed_alpha_pixels": 338026,
+        "bbox_in_canvas": [
+          1625,
+          689,
+          2215,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          519,
+          6,
+          1109,
+          937
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/oyun/balon/balon_gri_saglam_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "balon_kirmizi_saglam_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -8038,6 +8690,332 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "3fa17d8eb3eaecf38ea451b3b2bb7a95f81931b0"
+    },
+    {
+      "id": "balon_lacivert_saglam_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-9861b99d-2819-4230-9861-129fe176e81c.png",
+      "candidate_path": "adaylar/balon_lacivert_saglam_001/r01/balon_lacivert_saglam_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7839193009574462,
+        "opaque_fraction": 6.419415362868576e-05,
+        "bbox": [
+          258,
+          0,
+          1652,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 54,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 45
+        },
+        "largest_component_pixels": {
+          "1": 339823,
+          "16": 332351,
+          "32": 331722,
+          "64": 330978,
+          "128": 329853,
+          "192": 328731,
+          "250": 324667
+        },
+        "tiny_component_pixels": {
+          "1": 80,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 102
+        },
+        "sha256": "2433d2784a7dd6275cad44c7b0ef542c5e1b3fbcfa249f4f714a7450a3488891",
+        "bytes": 679466,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: lacivert balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/1/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2bd433648a36102df8d32885798c7271e8fd1598e39127f02f3789ae57f0f593"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:00:36.735321+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "balon_lacivert_saglam_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "balon_lacivert_saglam_001_r02.png",
+      "candidate_path": "adaylar/balon_lacivert_saglam_001/r02/balon_lacivert_saglam_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9599306761188272,
+        "opaque_fraction": 0.03968774112654321,
+        "bbox": [
+          1625,
+          684,
+          2215,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 332351,
+          "16": 332351,
+          "32": 332351,
+          "64": 332351,
+          "128": 332351,
+          "192": 329186,
+          "250": 329186
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "7ba806b762ea161cb93d171bc6ddd1ee017039d3a2d2fca65440283cfac1d4eb",
+        "bytes": 735218,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: lacivert balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/1/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2bd433648a36102df8d32885798c7271e8fd1598e39127f02f3789ae57f0f593"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": [
+          "Yeşil, mor ve alfa görselleri açılıp incelendi. Tek lacivert balon; gövde koyu gece mavisi, mevcut parlak mavi tabandan açıkça daha koyu ve nötr siyah değil mavi renkli. Bağlı düğüm ve kısa S ipi korunmuş.",
+          "Yoğun koyu marker mürekkebi içinde diagonal vuruşlar ve küçük beyaz kaçırmalar hâlâ seçiliyor. Sol üst parıltı opak beyaz; düzensiz çevre, beyaz değişken makas payı, üst sağ kıvrım ve çapraz kat izi mevcut.",
+          "İki fonda dış kontur temiz, alfa tek dolu nesne; gövde/shine opak ve dış alan sıfır. Ayrık artık, gömülü fon veya yüzen gölge yok.",
+          "590×936 özgün nesne büyütülmeden 3840×2160 RGBA tuvale kondu; native_4k=false. Tek bileşen/SHA geçti; poz hizası/animasyon doğrulanmadı."
+        ]
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:00:38.337264+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:01:09.159793+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/oyun/balon/balon_lacivert_saglam_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "2433d2784a7dd6275cad44c7b0ef542c5e1b3fbcfa249f4f714a7450a3488891",
+        "output_sha256": "7ba806b762ea161cb93d171bc6ddd1ee017039d3a2d2fca65440283cfac1d4eb",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          590,
+          936
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7620,
+        "changed_alpha_pixels": 339858,
+        "bbox_in_canvas": [
+          1625,
+          684,
+          2215,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          519,
+          1,
+          1109,
+          937
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/oyun/balon/balon_lacivert_saglam_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "balon_mavi_patlamis_001",
@@ -8968,6 +9946,984 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "7d039c3078e6537734f8896a0bf6bc2ba9fdf6ca"
+    },
+    {
+      "id": "balon_mor_saglam_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-6935836b-340e-4c34-af57-f3f1a3da6a80.png",
+      "candidate_path": "adaylar/balon_mor_saglam_001/r01/balon_mor_saglam_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7870527383573416,
+        "opaque_fraction": 3.940631212850017e-05,
+        "bbox": [
+          134,
+          0,
+          1540,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 79,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 56
+        },
+        "largest_component_pixels": {
+          "1": 334868,
+          "16": 327411,
+          "32": 326821,
+          "64": 326104,
+          "128": 325011,
+          "192": 323913,
+          "250": 319320
+        },
+        "tiny_component_pixels": {
+          "1": 115,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 137
+        },
+        "sha256": "73885f15cad66edfd3cc300685db08489fcaada21eed6f0f4e967c8328a7aaad",
+        "bytes": 768551,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D3",
+          "evidence": "resim: mor balon",
+          "json_pointer": "/uniteler/2/dersler/2/test/1/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "67c969ffdac1de816ac0a898e6c9a332c45ee2798f8cafee9480657219d6809a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:56:37.219618+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "balon_mor_saglam_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "balon_mor_saglam_001_r02.png",
+      "candidate_path": "adaylar/balon_mor_saglam_001/r02/balon_mor_saglam_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9605262586805555,
+        "opaque_fraction": 0.039095775462962966,
+        "bbox": [
+          1627,
+          691,
+          2212,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 327411,
+          "16": 327411,
+          "32": 327411,
+          "64": 327411,
+          "128": 327411,
+          "192": 324276,
+          "250": 324276
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "0618b598a3bb0383c6824164e97e99399d7fcdc25f15b1586b2d6adeac56e231",
+        "bytes": 814775,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D3",
+          "evidence": "resim: mor balon",
+          "json_pointer": "/uniteler/2/dersler/2/test/1/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "67c969ffdac1de816ac0a898e6c9a332c45ee2798f8cafee9480657219d6809a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": [
+          "Yeşil, mor ve alfa görselleri açılıp incelendi. Tek mor sağlam balon; canlı mor gövde/koyu erik bindirmeler, mor düğüm ve bağlı lacivert kısa S ipi var. Mavi veya pembe değil mor renk kimliği açık.",
+          "Geniş diagonal marker vuruşları ve küçük beyaz kaçırmalar; sol üst opak beyaz parlama ve düzensiz lacivert çizgi korunmuş. Değişken beyaz makas payı, üst sağ kıvrım ve diagonal kat izi mevcut.",
+          "Mor zemin dâhil iki renk fonda nesnenin dış kenarı temiz. Parıltı beyaz opak kâğıt; dış alfa sıfır ve tek bağlı siluet, ayrık artık/gölge yok.",
+          "585×929 özgün nesne büyütülmeden 3840×2160 RGBA tuvale kondu; native_4k=false. Tek bileşen ve SHA kontrolü geçti. Temel balon korunur; poz hizası/animasyon doğrulanmadı."
+        ]
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:56:38.789435+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T13:57:04.221789+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/oyun/balon/balon_mor_saglam_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "73885f15cad66edfd3cc300685db08489fcaada21eed6f0f4e967c8328a7aaad",
+        "output_sha256": "0618b598a3bb0383c6824164e97e99399d7fcdc25f15b1586b2d6adeac56e231",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          585,
+          929
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7630,
+        "changed_alpha_pixels": 334965,
+        "bbox_in_canvas": [
+          1627,
+          691,
+          2212,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          521,
+          7,
+          1106,
+          936
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/oyun/balon/balon_mor_saglam_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "balon_pembe_saglam_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-05a9326e-950e-43eb-9d75-7dcae663834c.png",
+      "candidate_path": "adaylar/balon_pembe_saglam_001/r01/balon_pembe_saglam_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.78346422161093,
+        "opaque_fraction": 5.021126867986312e-05,
+        "bbox": [
+          0,
+          0,
+          1535,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 59,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 33
+        },
+        "largest_component_pixels": {
+          "1": 340568,
+          "16": 331871,
+          "32": 331224,
+          "64": 330397,
+          "128": 329189,
+          "192": 327989,
+          "250": 323896
+        },
+        "tiny_component_pixels": {
+          "1": 119,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 98
+        },
+        "sha256": "d0476bd8597de1fd748c7eaab5cc05cf15a3d87ff92f6ad024ed3dee14d70078",
+        "bytes": 751763,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: pembe balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/1/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2e262dae52f2c4907ef19a69fe193ba796604621963df59f90b53249c88552f9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:02:10.962446+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "balon_pembe_saglam_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "balon_pembe_saglam_001_r02.png",
+      "candidate_path": "adaylar/balon_pembe_saglam_001/r02/balon_pembe_saglam_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9599885464891975,
+        "opaque_fraction": 0.039630955825617285,
+        "bbox": [
+          1626,
+          685,
+          2214,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 331871,
+          "16": 331871,
+          "32": 331871,
+          "64": 331871,
+          "128": 331871,
+          "192": 328715,
+          "250": 328715
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "6936f7f79d0e2e201905d4190bcff754f5e4bcdc4ace4bad4c3c4ec8f40c302f",
+        "bytes": 812776,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D4",
+          "evidence": "resim: pembe balon",
+          "json_pointer": "/uniteler/2/dersler/3/test/1/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2e262dae52f2c4907ef19a69fe193ba796604621963df59f90b53249c88552f9"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": [
+          "Yeşil, mor ve alfa görselleri açılıp incelendi. Tek canlı pembe balon; koyu gül pembesi bindirmeler ve pembe düğüm, mevcut kırmızı/mor balonlardan açıkça ayrılan renk. Kısa bağlı lacivert S ipi, oval biçim ve sol üst opak beyaz parlama korunmuş.",
+          "Geniş diagonal yoğun marker vuruşları, küçük beyaz kaçırmalar ve düzensiz lacivert kontur var. Bütün çevrede değişken beyaz makas payı, üst sağ kıvrım ve çapraz kâğıt katı görülüyor.",
+          "İki zeminde dış kenar temiz; gövde/shine opak, dış alfa sıfır ve tek bağlı siluet. Ayrık artık/gölge veya gömülü fon yok.",
+          "588×935 özgün nesne büyütülmeden 3840×2160 RGBA tuvale kondu; native_4k=false. Tek bileşen ve SHA geçti; poz hizası/animasyon doğrulanmadı."
+        ]
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:02:12.545389+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:02:37.006509+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/oyun/balon/balon_pembe_saglam_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "d0476bd8597de1fd748c7eaab5cc05cf15a3d87ff92f6ad024ed3dee14d70078",
+        "output_sha256": "6936f7f79d0e2e201905d4190bcff754f5e4bcdc4ace4bad4c3c4ec8f40c302f",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          588,
+          935
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 8816,
+        "changed_alpha_pixels": 340597,
+        "bbox_in_canvas": [
+          1626,
+          685,
+          2214,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          520,
+          2,
+          1108,
+          937
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/oyun/balon/balon_pembe_saglam_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "balon_sari_saglam_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-4263fe16-6ea0-4f12-bb78-3f08cd2fc752.png",
+      "candidate_path": "adaylar/balon_sari_saglam_001/r01/balon_sari_saglam_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7866612175787745,
+        "opaque_fraction": 7.055001042360514e-05,
+        "bbox": [
+          27,
+          0,
+          1596,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 49,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 61
+        },
+        "largest_component_pixels": {
+          "1": 335567,
+          "16": 328633,
+          "32": 328136,
+          "64": 327483,
+          "128": 326521,
+          "192": 325460,
+          "250": 321325
+        },
+        "tiny_component_pixels": {
+          "1": 90,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 150
+        },
+        "sha256": "271b94c74fae609371797c3ed36319a214aa9365e73b4bf49342f9a418cd1d4d",
+        "bytes": 671117,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D1",
+          "evidence": "resim: sarı balon",
+          "json_pointer": "/uniteler/2/dersler/0/test/0/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "5c6c739a8dfdc623b73556ac150bee4e16593e01c9bdab1abfac72eec5be0d54"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:54:24.886870+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "balon_sari_saglam_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "balon_sari_saglam_001_r02.png",
+      "candidate_path": "adaylar/balon_sari_saglam_001/r02/balon_sari_saglam_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9603789303626543,
+        "opaque_fraction": 0.039242139274691355,
+        "bbox": [
+          1626,
+          689,
+          2213,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 328633,
+          "16": 328633,
+          "32": 328633,
+          "64": 328633,
+          "128": 328633,
+          "192": 325490,
+          "250": 325490
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "f54b4dbcec5187c64d4b4c2e9d72f870d5d5eb20dc3eb9ba66cac7e1a99548b3",
+        "bytes": 741115,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 3,
+          "unit_title": "Renkli Balonlar",
+          "lesson": "D1",
+          "evidence": "resim: sarı balon",
+          "json_pointer": "/uniteler/2/dersler/0/test/0/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "5c6c739a8dfdc623b73556ac150bee4e16593e01c9bdab1abfac72eec5be0d54"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0368",
+        "R0074",
+        "R0075",
+        "R0076",
+        "R0077",
+        "R0086",
+        "R0087",
+        "R0088",
+        "R0089",
+        "R0090",
+        "R0094",
+        "R0097",
+        "R0098",
+        "R0099",
+        "R0108",
+        "R0109",
+        "R0110",
+        "R0412",
+        "R0416",
+        "R0418",
+        "R0424",
+        "R0429",
+        "R0579",
+        "R0580",
+        "R0634",
+        "R0635",
+        "R0752",
+        "R0806",
+        "R1047",
+        "R1211",
+        "R1212",
+        "R1239",
+        "R1469",
+        "R1518",
+        "R1811",
+        "R1818",
+        "R1953",
+        "R3000"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": [
+          "Yeşil, mor ve alfa görselleri açılıp incelendi. Tek sarı sağlam balon; oval gövde, bağlı sarı üçgen düğüm ve kısa lacivert S ipi var. Sol üst parıltı opak beyaz; ikinci nesne yok.",
+          "Parlak sarı geniş diagonal marker vuruşları ve altın sarısı koyu bindirmeler açık; turuncu değil sarı kimliği okunuyor. Temelin düzensiz lacivert çevre çizgisi, değişken beyaz makas payı, üst sağ kıvrım ve çapraz kat izi korunmuş.",
+          "İki zeminde dış kenar tamamen ayrılıyor, gömülü fon/ayrı gölge yok. Üst kıvrım ve ip ucu eksiksiz; dış alfa sıfır, tek bağlı siluet.",
+          "587×931 özgün nesne büyütülmeden 3840×2160 RGBA tuvale kondu; native_4k=false. Tek bileşen ve SHA kontrolleri geçti. Temel balon korunur; poz hizası/animasyon doğrulanmadı."
+        ]
+      },
+      "pose_reference": {
+        "base_id": "balon_mavi_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/balon/balon_mavi_saglam_001.png",
+        "sha256": "f60df37f91e3d178e6bf27d33b86544d65687584d69f0de168e75799afc0f2e4",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/balon_mavi_saglam_001/r01/balon_mavi_saglam_001_r01.png",
+        "native_reference_sha256": "ab1c8862424e9d5ab8a487f10276b592b137586688ad468e3bb5e586ab7b2ec3"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T13:54:26.551352+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T13:55:08.511262+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/oyun/balon/balon_sari_saglam_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "271b94c74fae609371797c3ed36319a214aa9365e73b4bf49342f9a418cd1d4d",
+        "output_sha256": "f54b4dbcec5187c64d4b4c2e9d72f870d5d5eb20dc3eb9ba66cac7e1a99548b3",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          587,
+          931
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7024,
+        "changed_alpha_pixels": 335532,
+        "bbox_in_canvas": [
+          1626,
+          689,
+          2213,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          520,
+          6,
+          1107,
+          937
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/oyun/balon/balon_sari_saglam_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "balon_sicak_hava_001",
@@ -10636,7 +12592,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/mutfak/bardak/bardak_kirik_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
     },
     {
       "id": "bardak_su_dolu_001",
@@ -27221,7 +29178,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/bahce/dal/dal_cicekli_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
     },
     {
       "id": "dal_karli_001",
@@ -27719,7 +29677,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/bahce/dal/dal_karli_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
     },
     {
       "id": "dal_kuru_tek_001",
@@ -30889,7 +32848,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/semboller/dikkat/dikkat_isareti_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
     },
     {
       "id": "dilekce_ornek_001",
@@ -70021,7 +71981,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/kova/kova_mavi_dolu_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
     },
     {
       "id": "kova_mavi_kirik_001",
@@ -70291,7 +72252,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/kova/kova_mavi_kirik_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
     },
     {
       "id": "koza_tek_001",
@@ -145523,10 +147485,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 565,
-    "accepted_png_count": 571,
+    "verified_png_count": 571,
+    "accepted_png_count": 577,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-25T13:53:05.844409+00:00"
+  "updated_at_utc": "2026-11-25T14:04:01.299407+00:00"
 }
