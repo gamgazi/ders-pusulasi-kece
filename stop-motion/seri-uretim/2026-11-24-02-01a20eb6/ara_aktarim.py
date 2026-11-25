@@ -96,7 +96,8 @@ payı ve kâğıt kıvrımı/kat izi için ayrı gerekçe inceleme-notlari için
 Alfa dışı sıfırdır; yedi eşikte nesne tek bağlantılıdır. Retler saklanır.
 Çizimler fiziksel kâğıdın dijital simülasyonudur.
 
-Kaynak çıktı 1672×941 civarındadır. Kullanıcının yetkisiyle alfa temizlenir,
+Kaynak boyutları dosya bazında kayıttadır; çoğunluğu 1672×941 pikseldir.
+Kullanıcının yetkisiyle alfa temizlenir,
 özgün RGB pikselleri büyütülmeden 3840×2160 şeffaf tuvale yerleştirilir.
 Bu özgün 4K ayrıntı değildir; nesneler doğal boyutunda veya küçük kullanılır.
 RGB korunumu her kabul edilmiş dosyada yeniden karşılaştırıldı.
