@@ -1,0 +1,269 @@
+{
+  "source": "10-12-tohum.json",
+  "unit": {
+    "no": 1,
+    "ad": "Merhaba, Ben Geldim",
+    "konu": "Tanışma",
+    "hedef": "Selamlaşma ve kendini tanıtma. Dil: ben + -(y)Im, adım …, kaç yaşındasın?.",
+    "dersler": [
+      {
+        "kod": "D1",
+        "tur": "yeni",
+        "yeni": [
+          "Merhaba, benim adım …",
+          "On bir yaşındayım.",
+          "Senin adın ne?",
+          "Günaydın.",
+          "İyi akşamlar.",
+          "Hoşça kal."
+        ],
+        "ornek": {
+          "Merhaba, benim adım …": [
+            "Merhaba, benim adım Gazi.",
+            "Merhaba, benim adım Eylül."
+          ]
+        },
+        "test": [
+          {
+            "tip": "dinle-sec",
+            "soru": "Dinle ve seç. Sabah ne denir?",
+            "sec": [
+              "Hoşça kal.",
+              "Günaydın.",
+              "İyi akşamlar."
+            ],
+            "cevap": "Günaydın."
+          },
+          {
+            "tip": "sec",
+            "soru": "\"Senin adın ne?\" Cevap hangisi?",
+            "sec": [
+              "Benim adım Gazi.",
+              "On bir yaşındayım.",
+              "Hoşça kal."
+            ],
+            "cevap": "Benim adım Gazi."
+          },
+          {
+            "tip": "tamamla",
+            "soru": "On bir ____.",
+            "sec": [
+              "adım",
+              "günaydın",
+              "yaşındayım"
+            ],
+            "cevap": "yaşındayım"
+          }
+        ]
+      },
+      {
+        "kod": "D2",
+        "tur": "yeni",
+        "yeni": [
+          "Nasılsın?",
+          "İyiyim, sen?",
+          "teşekkür ederim",
+          "lütfen",
+          "özür dilerim",
+          "rica ederim"
+        ],
+        "test": [
+          {
+            "tip": "dinle-sec",
+            "soru": "Dinle ve seç. Hangisi bir soru?",
+            "sec": [
+              "Görüşürüz.",
+              "Teşekkür ederim.",
+              "Nasılsın?"
+            ],
+            "cevap": "Nasılsın?"
+          },
+          {
+            "tip": "sec",
+            "soru": "\"Nasılsın?\" Cevap hangisi?",
+            "sec": [
+              "Lütfen.",
+              "İyiyim, sen?",
+              "Özür dilerim."
+            ],
+            "cevap": "İyiyim, sen?"
+          }
+        ]
+      },
+      {
+        "kod": "D3",
+        "tur": "pekistirme",
+        "yeni": [
+          "Görüşürüz."
+        ],
+        "test": [
+          {
+            "tip": "sec",
+            "soru": "\"Teşekkür ederim.\" Cevap hangisi?",
+            "sec": [
+              "Rica ederim.",
+              "Günaydın.",
+              "Nasılsın?"
+            ],
+            "cevap": "Rica ederim."
+          },
+          {
+            "tip": "dinle-sec",
+            "soru": "Dinle ve seç: «Rica ederim.» Ne duydun?",
+            "sec": [
+              "Özür dilerim.",
+              "İyi akşamlar.",
+              "Rica ederim."
+            ],
+            "cevap": "Rica ederim."
+          }
+        ]
+      },
+      {
+        "kod": "D4",
+        "tur": "yeni",
+        "yeni": [
+          "Kaç yaşındasın?",
+          "Memnun oldum.",
+          "Ben de memnun oldum.",
+          "isim",
+          "soyadı",
+          "yaş"
+        ],
+        "test": [
+          {
+            "tip": "dinle-sec",
+            "soru": "Dinle: «Kaç yaşındasın?» Bu soruya hangi cevap uyar?",
+            "sec": [
+              "Hoşça kal.",
+              "On iki yaşındayım.",
+              "Benim adım Eylül."
+            ],
+            "cevap": "On iki yaşındayım."
+          },
+          {
+            "tip": "sec",
+            "soru": "Biriyle yeni tanışıyorsun. Ne dersin?",
+            "sec": [
+              "Memnun oldum.",
+              "Afiyet olsun.",
+              "Geçmiş olsun."
+            ],
+            "cevap": "Memnun oldum."
+          }
+        ]
+      },
+      {
+        "kod": "D5",
+        "tur": "oku-yaz",
+        "yeni": [],
+        "oku": "{\"baslik\": \"Merhaba, Ben Geldim\", \"metin\": \"Bugün Gazi için yeni bir gün. Gazi yeni bir okula başlıyor. Sabah okulun kapısında öğretmen onu bekliyor. “Günaydın! Hoş geldin!” diyor. Gazi biraz utangaç ama gülümsüyor: “Hoş bulduk.” Sınıfta bir kız ona el sallıyor. “Merhaba, benim adım Eylül. Senin adın ne?” Gazi cevap veriyor: “Merhaba, benim adım Gazi. Memnun oldum.” Eylül de “Ben de memnun oldum. Kaç yaşındasın?” diye soruyor. “On bir yaşındayım. Sen kaç yaşındasın?” “Ben de on bir yaşındayım!” İki kız gülüyor. Teneffüste Eylül, Gazi'ye bir kalem veriyor. Gazi “Teşekkür ederim.” diyor. Eylül “Ri"
+      },
+      {
+        "kod": "D6",
+        "tur": "yeni",
+        "yeni": [
+          "Hoş geldin!",
+          "Hoş bulduk.",
+          "Ben öğrenciyim.",
+          "iyi günler",
+          "iyi geceler",
+          "selam"
+        ],
+        "test": [
+          {
+            "tip": "dinle-sec",
+            "soru": "Dinle: «Hoş geldin!» Ne cevap verirsin?",
+            "sec": [
+              "Memnun oldum.",
+              "İyi geceler.",
+              "Hoş bulduk."
+            ],
+            "cevap": "Hoş bulduk."
+          },
+          {
+            "tip": "sec",
+            "soru": "Akşam yatmadan önce annene ne dersin?",
+            "sec": [
+              "İyi geceler.",
+              "Günaydın.",
+              "Hoş geldin!"
+            ],
+            "cevap": "İyi geceler."
+          },
+          {
+            "tip": "tamamla",
+            "soru": "Ben öğrenci___.",
+            "sec": [
+              "yim",
+              "sin",
+              "siniz"
+            ],
+            "cevap": "yim"
+          }
+        ]
+      },
+      {
+        "kod": "D7",
+        "tur": "sarmal",
+        "yeni": []
+      },
+      {
+        "kod": "D8",
+        "tur": "gorev",
+        "yeni": [],
+        "test": [
+          {
+            "tip": "sirala",
+            "soru": "Sırala: adım / benim / Merhaba,",
+            "sec": [
+              "adım",
+              "benim",
+              "Merhaba,"
+            ],
+            "cevap": "Merhaba, benim adım …"
+          },
+          {
+            "tip": "sec",
+            "soru": "Akşam kulüpten çıkıyorsun. Ne dersin?",
+            "sec": [
+              "Günaydın.",
+              "Senin adın ne?",
+              "İyi akşamlar."
+            ],
+            "cevap": "İyi akşamlar."
+          }
+        ]
+      },
+      {
+        "kod": "D9",
+        "tur": "mini-gorev",
+        "yeni": [],
+        "test": [
+          {
+            "tip": "dinle-sec",
+            "soru": "Dinle ve seç. Vedalaşma hangisi?",
+            "sec": [
+              "Nasılsın?",
+              "Günaydın.",
+              "Hoşça kal."
+            ],
+            "cevap": "Hoşça kal."
+          },
+          {
+            "tip": "tamamla",
+            "soru": "Senin ____ ne?",
+            "sec": [
+              "yaşındayım",
+              "benim",
+              "adın"
+            ],
+            "cevap": "adın"
+          }
+        ]
+      }
+    ]
+  },
+  "review": "Dokuz dersin tüm alanı okundu. Özgün yeni yardımcı nesne saptanmadı; kalem mevcut, okul kapısı/sınıf ve karakter sahneleri ayrı. D5 oku metni kaynakta yarım, düzeltilmedi.",
+  "complete_file_review": false
+}
