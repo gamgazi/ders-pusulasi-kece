@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 888,
-  "image_generation_calls": 448,
-  "final_accepted": 392,
-  "rejected": 496,
+  "png_revisions": 900,
+  "image_generation_calls": 454,
+  "final_accepted": 398,
+  "rejected": 502,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -3854,7 +3854,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/ev/ayakkabilik/ayakkabilik_bos_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "752a52fa8e773d6ee4afdd9d8241ba99f90f6ed5"
     },
     {
       "id": "ayna_tek_001",
@@ -21318,6 +21319,237 @@
       "upload_verified_commit": "0d9f2a96b20aeb32cf679a680f2db6dc6e30d648"
     },
     {
+      "id": "denizalti_yandan_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-8dc376ed-4d36-4137-822f-e67697f45453.png",
+      "candidate_path": "adaylar/denizalti_yandan_001/r01/denizalti_yandan_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5699945085397292,
+        "opaque_fraction": 8.199055265446003e-05,
+        "bbox": [
+          65,
+          29,
+          1604,
+          923
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 245,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 199
+        },
+        "largest_component_pixels": {
+          "1": 675976,
+          "16": 653590,
+          "32": 652050,
+          "64": 650340,
+          "128": 648027,
+          "192": 645766,
+          "250": 635317
+        },
+        "tiny_component_pixels": {
+          "1": 457,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 394
+        },
+        "sha256": "cb3539eb029e19e80d116c9c70386182fb2b79d1a45f1f3a3a8e36bd30bf6599",
+        "bytes": 1314487,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D2",
+          "evidence": "denizaltı",
+          "json_pointer": "/uniteler/6/dersler/1/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "c899785434f790ccda9422fdec858a4f5d5855b52973062f4aa088fcc67cd9cb"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0205",
+        "R0395",
+        "R2998"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-25T07:02:26.472837+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "denizalti_yandan_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "denizalti_yandan_001_r02.png",
+      "candidate_path": "adaylar/denizalti_yandan_001/r02/denizalti_yandan_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9212010513117284,
+        "opaque_fraction": 0.07811077353395061,
+        "bbox": [
+          1189,
+          843,
+          2650,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 653590,
+          "16": 653590,
+          "32": 653590,
+          "64": 653590,
+          "128": 653590,
+          "192": 647882,
+          "250": 647882
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "a2ba09b6fb50d1778904116995142ca3e9d73e82ee9258c11ae39a648fe9491b",
+        "bytes": 1404987,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D2",
+          "evidence": "denizaltı",
+          "json_pointer": "/uniteler/6/dersler/1/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "c899785434f790ccda9422fdec858a4f5d5855b52973062f4aa088fcc67cd9cb"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0205",
+        "R0395",
+        "R2998"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç görünüm gerçekten incelendi. Tek sarı denizaltı, üç opak mavi lomboz/turuncu çerçeve, bağlı kule ve turuncu periskop, mavi kuyruk yüzgeci ve bağlı gri mil üzerinde iki görünür turuncu pervane kanadı. Prompttaki üç kanat tercihi gerçekleşmedi; dersin genel denizaltı tanıma ihtiyacına iki görünür kanat yeterli, mühendislik şeması iddiası yok. Yoğun sarı/turuncu/mavi marker geçişleri, koyu bindirmeler, düzensiz kontur, beyaz değişken makas payı ve periskop köşesinde kıvrım/gövdede kat izi var. Periskop altı ve kuyruk çevresi temiz alfa. Su/balık/insan/ikinci nesne/gölge yok. RGB korunmuş 1461×777 resim büyütülmedi; doğal 4K değildir."
+      },
+      "ingested_at_utc": "2026-11-25T07:02:28.144422+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T07:03:11.857366+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/denizalti/denizalti_yandan_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "cb3539eb029e19e80d116c9c70386182fb2b79d1a45f1f3a3a8e36bd30bf6599",
+        "output_sha256": "a2ba09b6fb50d1778904116995142ca3e9d73e82ee9258c11ae39a648fe9491b",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1461,
+          777
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 22960,
+        "changed_alpha_pixels": 676399,
+        "bbox_in_canvas": [
+          1189,
+          843,
+          2650,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          100,
+          89,
+          1561,
+          866
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/denizalti/denizalti_yandan_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "dilekce_ornek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -25768,6 +26000,233 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "b2e9133a6f54afbbe1b1a6c2837bc3bff3735bac"
+    },
+    {
+      "id": "esofman_alti_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-ed3187e0-83c6-47fa-87c6-6df190120ed6.png",
+      "candidate_path": "adaylar/esofman_alti_001/r01/esofman_alti_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6973709633953495,
+        "opaque_fraction": 0.0002078365171938638,
+        "bbox": [
+          0,
+          0,
+          1658,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 788,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 181
+        },
+        "largest_component_pixels": {
+          "1": 473673,
+          "16": 457644,
+          "32": 456649,
+          "64": 455485,
+          "128": 453787,
+          "192": 452115,
+          "250": 443810
+        },
+        "tiny_component_pixels": {
+          "1": 1622,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 429
+        },
+        "sha256": "bdf9d7234d98022684cfb677d074fde08985490d8d9e450e31643937081dbc0a",
+        "bytes": 1000033,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 6,
+          "unit_title": "Kıyafetler",
+          "lesson": "D6",
+          "evidence": "eşofman",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0fb388bd31105901cbe06d6f0d01e2ae41fb02c25a24da31f8fc3da952616ddd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0452"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-25T06:59:40.682522+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "esofman_alti_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "esofman_alti_001_r02.png",
+      "candidate_path": "adaylar/esofman_alti_001/r02/esofman_alti_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9448249421296296,
+        "opaque_fraction": 0.054674479166666665,
+        "bbox": [
+          1574,
+          756,
+          2265,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 457644,
+          "16": 457644,
+          "32": 457644,
+          "64": 457644,
+          "128": 457644,
+          "192": 453492,
+          "250": 453492
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "79e1980ab66f35297203ab1c939901bff710aa0fc7c5e6a86b3a01783a0d82ad",
+        "bytes": 1071748,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 6,
+          "unit_title": "Kıyafetler",
+          "lesson": "D6",
+          "evidence": "eşofman",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0fb388bd31105901cbe06d6f0d01e2ae41fb02c25a24da31f8fc3da952616ddd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0452"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç görünüm gerçekten incelendi. Tek giysi olarak mavi eşofman altı, lastikli bel ve iki paça manşeti, iki çizili cep ve yanlarda iki opak beyaz şerit. Bacak arası gerçek alfa; iç ve dış değişken beyaz kâğıt kenarları temiz. Yoğun yönlü mavi marker, koyu üst üste geçişler, lacivert düzensiz kontur, sağ bel köşesinde kıvrım ve sağ cep boyunca kat izi görüldü. Kişi, ikinci üst giysi, kumaş fotoğrafı veya gölge yok. Kaynak eşofman sözcüğü alt giysi olarak temsil edildiği açıkça kayıtlı. RGB korunmuş 691×864 yerel çizim büyütülmedi; 4K tuval doğal 4K ayrıntı değildir."
+      },
+      "ingested_at_utc": "2026-11-25T06:59:42.331976+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T07:00:23.869665+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/giyim/esofman/esofman_alti_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "bdf9d7234d98022684cfb677d074fde08985490d8d9e450e31643937081dbc0a",
+        "output_sha256": "79e1980ab66f35297203ab1c939901bff710aa0fc7c5e6a86b3a01783a0d82ad",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          691,
+          864
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 18498,
+        "changed_alpha_pixels": 475798,
+        "bbox_in_canvas": [
+          1574,
+          756,
+          2265,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          471,
+          47,
+          1162,
+          911
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/giyim/esofman/esofman_alti_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "fare_bilgisayar_001",
@@ -45299,6 +45758,229 @@
       "upload_verified_commit": "e1d9983afae3a55c546aedda382b8718583d9044"
     },
     {
+      "id": "kemer_giysi_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-09f6caa5-df88-4d4c-a2ed-c517766436e9.png",
+      "candidate_path": "adaylar/kemer_giysi_001/r01/kemer_giysi_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8016807427708484,
+        "opaque_fraction": 0.00010741397983413756,
+        "bbox": [
+          67,
+          32,
+          1626,
+          844
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 121,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 107
+        },
+        "largest_component_pixels": {
+          "1": 311773,
+          "16": 293621,
+          "32": 291922,
+          "64": 290327,
+          "128": 288397,
+          "192": 286571,
+          "250": 279327
+        },
+        "tiny_component_pixels": {
+          "1": 253,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 194
+        },
+        "sha256": "2c7901e9a9d35ca89bf14552a278442c43660f86e508c0086e0fcfd146520694",
+        "bytes": 750399,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 6,
+          "unit_title": "Kıyafetler",
+          "lesson": "D6",
+          "evidence": "kemer",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "140b65e662876b8b9dd6b60518c52ead619c5ee3fbfd6ae4500faa3338264f46"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-25T06:58:23.790563+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "kemer_giysi_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "kemer_giysi_001_r02.png",
+      "candidate_path": "adaylar/kemer_giysi_001/r02/kemer_giysi_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9646000916280865,
+        "opaque_fraction": 0.03487196180555555,
+        "bbox": [
+          1207,
+          1322,
+          2633,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 293621,
+          "16": 293621,
+          "32": 293621,
+          "64": 293621,
+          "128": 293621,
+          "192": 289242,
+          "250": 289242
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "dff250bef9b99897ae14c6ee72325041d3056ad471d7ef8424bc01f40fe77770",
+        "bytes": 733586,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 6,
+          "unit_title": "Kıyafetler",
+          "lesson": "D6",
+          "evidence": "kemer",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "140b65e662876b8b9dd6b60518c52ead619c5ee3fbfd6ae4500faa3338264f46"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç görünüm gerçekten incelendi. Tek açık hafif S kıvrımlı kahverengi giysi kemeri, solda bağlı gri dikdörtgen toka ve kısa dil; sağ uçta beş opak delik işareti. Toka içi temiz alfa, iç beyaz makas payı korunmuş. Yoğun yönlü kahverengi/gri keçeli kalem çizgileri, koyu mürekkep bindirmeleri, düzensiz lacivert çevre ve değişken beyaz dış pay var. Uç sağ üst kıvrımı ve orta sağ kat izi görüldü. Emniyet kemeri veya ikinci nesne değil, arka plan/gölge yok. RGB korunmuş 1426×298 resim büyütülmeden 3840×2160 tuvalde; doğal 4K değil."
+      },
+      "ingested_at_utc": "2026-11-25T06:58:25.426741+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T06:59:02.226401+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/giyim/kemer/kemer_giysi_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "2c7901e9a9d35ca89bf14552a278442c43660f86e508c0086e0fcfd146520694",
+        "output_sha256": "dff250bef9b99897ae14c6ee72325041d3056ad471d7ef8424bc01f40fe77770",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1426,
+          298
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 18405,
+        "changed_alpha_pixels": 311851,
+        "bbox_in_canvas": [
+          1207,
+          1322,
+          2633,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          123,
+          358,
+          1549,
+          656
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/giyim/kemer/kemer_giysi_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "kitap_ayraci_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -46193,7 +46875,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/ev/klozet/klozet_kapali_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "752a52fa8e773d6ee4afdd9d8241ba99f90f6ed5"
     },
     {
       "id": "kofte_tek_001",
@@ -49140,7 +49823,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/teknoloji/kumanda/kumanda_televizyon_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "752a52fa8e773d6ee4afdd9d8241ba99f90f6ed5"
     },
     {
       "id": "kumbara_tek_001",
@@ -56800,6 +57484,235 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "a4f6065b6b21a6cc7d18085bad69c8aeacfebefc"
+    },
+    {
+      "id": "metro_vagon_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-04c0c5f1-9366-437a-82cb-aa14d519a901.png",
+      "candidate_path": "adaylar/metro_vagon_001/r01/metro_vagon_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5398639338177343,
+        "opaque_fraction": 4.385541188494374e-05,
+        "bbox": [
+          19,
+          0,
+          1656,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 234,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 59
+        },
+        "largest_component_pixels": {
+          "1": 723192,
+          "16": 706038,
+          "32": 704891,
+          "64": 703421,
+          "128": 701677,
+          "192": 699752,
+          "250": 692121
+        },
+        "tiny_component_pixels": {
+          "1": 432,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 112
+        },
+        "sha256": "ee23fd5a56265db9d2a459e427add1a774da970d4fc25cf9c565a8447c4451a1",
+        "bytes": 1594464,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D4",
+          "evidence": "metro",
+          "json_pointer": "/uniteler/6/dersler/3/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0bc851d8e8861b20da271d23994b9bc2604785313d3369acd3a2f8121b97be61"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0240",
+        "K0648"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-25T07:03:55.340946+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "metro_vagon_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "metro_vagon_001_r02.png",
+      "candidate_path": "adaylar/metro_vagon_001/r02/metro_vagon_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9148777488425925,
+        "opaque_fraction": 0.08460370852623457,
+        "bbox": [
+          1214,
+          1041,
+          2625,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 706038,
+          "16": 706038,
+          "32": 706038,
+          "64": 706038,
+          "128": 706038,
+          "192": 701737,
+          "250": 701737
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "1e4a073e6562676ac0bf62267317c08a13b88d9b016ac61aea8dc7b7c78d26fe",
+        "bytes": 1567817,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D4",
+          "evidence": "metro",
+          "json_pointer": "/uniteler/6/dersler/3/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0bc851d8e8861b20da271d23994b9bc2604785313d3369acd3a2f8121b97be61"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0240",
+        "K0648"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç görünüm gerçekten incelendi. Tek modern metro sürücü vagonu, sola eğimli kabin camı, iki çift kapalı sürgülü kapı/dört dar cam, ortada bir büyük yolcu camı ve iki bağlı boji üzerinde dört küçük tekerlek. METRO yazısı doğru. Camlar ve küçük gri boji plakası alanları opak çizim; dış çevre temiz alfa. Yoğun gri/turkuaz/mavi marker, koyu bindirmeler, düzensiz kontur ve değişken beyaz makas payı mevcut. Üst sağ köşe kıvrımı/sağ gövde kat izi var. Ray, istasyon, ikinci vagon, kişi veya gölge yok. 1411×579 resim RGB korunarak büyütülmeden 3840×2160 tuval; doğal 4K değildir."
+      },
+      "ingested_at_utc": "2026-11-25T07:03:57.082416+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T07:04:35.877445+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/metro/metro_vagon_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "ee23fd5a56265db9d2a459e427add1a774da970d4fc25cf9c565a8447c4451a1",
+        "output_sha256": "1e4a073e6562676ac0bf62267317c08a13b88d9b016ac61aea8dc7b7c78d26fe",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1411,
+          579
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 17918,
+        "changed_alpha_pixels": 723878,
+        "bbox_in_canvas": [
+          1214,
+          1041,
+          2625,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          106,
+          216,
+          1517,
+          795
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/metro/metro_vagon_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "meyve_suyu_bardagi_001",
@@ -68948,6 +69861,233 @@
       "upload_verified_commit": "aa8111e75ea6c005d21f95fadcf05dc5e03f5d37"
     },
     {
+      "id": "polis_arabasi_yandan_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-21c184ed-ce17-4ecf-b642-8a6441808732.png",
+      "candidate_path": "adaylar/polis_arabasi_yandan_001/r01/polis_arabasi_yandan_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5652377853144115,
+        "opaque_fraction": 0.000473511331221494,
+        "bbox": [
+          79,
+          25,
+          1592,
+          921
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 168,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 213
+        },
+        "largest_component_pixels": {
+          "1": 683708,
+          "16": 670411,
+          "32": 669807,
+          "64": 668880,
+          "128": 667481,
+          "192": 666025,
+          "250": 658478
+        },
+        "tiny_component_pixels": {
+          "1": 264,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 595
+        },
+        "sha256": "eab41b726ccb1ab794daddb4c4a9807a3724b4c91011752e22112d655d5cef61",
+        "bytes": 1428104,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D2",
+          "evidence": "polis arabası",
+          "json_pointer": "/uniteler/6/dersler/1/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "4e3c6f1e883095ff0ff356abd422c059bbcc85763c5a52cc2bd4458b0c89c4ff"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0407"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-25T07:01:04.088057+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "polis_arabasi_yandan_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "polis_arabasi_yandan_001_r02.png",
+      "candidate_path": "adaylar/polis_arabasi_yandan_001/r02/polis_arabasi_yandan_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9191730565200618,
+        "opaque_fraction": 0.08026186342592592,
+        "bbox": [
+          1172,
+          903,
+          2667,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 670411,
+          "16": 670411,
+          "32": 670411,
+          "64": 670411,
+          "128": 670411,
+          "192": 665724,
+          "250": 665724
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "34de83a3668fd7342cf1102d90313a27719335938cec4e91911b3525aeddbba3",
+        "bytes": 1461769,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D2",
+          "evidence": "polis arabası",
+          "json_pointer": "/uniteler/6/dersler/1/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "4e3c6f1e883095ff0ff356abd422c059bbcc85763c5a52cc2bd4458b0c89c4ff"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0407"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, mor ve alfa görünümleri gerçekten incelendi. Tek sola bakan beyaz-mavi polis sedanı, iki görünür tekerlek, iki kapı, boş açık mavi camlar ve bağlı kırmızı-mavi tepe lambası. POLİS yazısı ve noktalı İ doğru. Beyaz alanlar opak kâğıt; mavi bant/tekerlek/lambada yoğun yönlü marker, koyu bindirmeler var. Düzensiz çevre, değişken beyaz makas payı, sağ bagaj kenarında kıvrım ve gövdede çapraz kat izi mevcut. Kişi, kurum arması, ikinci araç, arka plan/gölge yok. RGB korunmuş 1495×717 resim büyütülmedi; 4K tuval doğal 4K ayrıntı değil."
+      },
+      "ingested_at_utc": "2026-11-25T07:01:05.820030+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T07:01:40.536239+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/polis-arabasi/polis_arabasi_yandan_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "eab41b726ccb1ab794daddb4c4a9807a3724b4c91011752e22112d655d5cef61",
+        "output_sha256": "34de83a3668fd7342cf1102d90313a27719335938cec4e91911b3525aeddbba3",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1495,
+          717
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 13623,
+        "changed_alpha_pixels": 683258,
+        "bbox_in_canvas": [
+          1172,
+          903,
+          2667,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          86,
+          135,
+          1581,
+          852
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/polis-arabasi/polis_arabasi_yandan_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "pompa_el_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -72506,7 +73646,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/mutfak/rende/rende_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "752a52fa8e773d6ee4afdd9d8241ba99f90f6ed5"
     },
     {
       "id": "robot_kol_001",
@@ -79531,7 +80672,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/kamp/sinek-kovucu/sinek_kovucu_kapali_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "752a52fa8e773d6ee4afdd9d8241ba99f90f6ed5"
     },
     {
       "id": "sira_numarasi_fisi_001",
@@ -82704,7 +83846,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/okul/sulu-boya/sulu_boya_paleti_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "752a52fa8e773d6ee4afdd9d8241ba99f90f6ed5"
     },
     {
       "id": "sunger_tek_001",
@@ -89942,6 +91085,233 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "45f5ee03bb4469707182ed3e22a2406a3b150062"
+    },
+    {
+      "id": "tramvay_vagon_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-bea28c40-c740-4394-bb95-084ec6827d4f.png",
+      "candidate_path": "adaylar/tramvay_vagon_001/r01/tramvay_vagon_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5712262735865846,
+        "opaque_fraction": 0.00014745587764212968,
+        "bbox": [
+          0,
+          7,
+          1656,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 199,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 137
+        },
+        "largest_component_pixels": {
+          "1": 674153,
+          "16": 659413,
+          "32": 657455,
+          "64": 655359,
+          "128": 652960,
+          "192": 650962,
+          "250": 643016
+        },
+        "tiny_component_pixels": {
+          "1": 407,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 403
+        },
+        "sha256": "01605e961c01187389530707729952a64b201fe7c4c9dfdcfa449283b11b6810",
+        "bytes": 1608171,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D4",
+          "evidence": "tramvay",
+          "json_pointer": "/uniteler/6/dersler/3/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "be135c7dda0c5325beb6561c0d0923dc88b0f8188ee82d998fd7cff0eb816d02"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R3001"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-25T07:05:14.866874+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "tramvay_vagon_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "tramvay_vagon_001_r02.png",
+      "candidate_path": "adaylar/tramvay_vagon_001/r02/tramvay_vagon_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9204990113811728,
+        "opaque_fraction": 0.07889937789351852,
+        "bbox": [
+          1314,
+          778,
+          2526,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 659413,
+          "16": 659413,
+          "32": 659413,
+          "64": 659413,
+          "128": 659413,
+          "192": 654423,
+          "250": 654423
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "35bd32710d0e3136a7e5deaa78be14b154bbc8790e03069bbf2fb98e8d780781",
+        "bytes": 1631722,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D4",
+          "evidence": "tramvay",
+          "json_pointer": "/uniteler/6/dersler/3/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "be135c7dda0c5325beb6561c0d0923dc88b0f8188ee82d998fd7cff0eb816d02"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R3001"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Üç görünüm gerçekten incelendi. Tek kırmızı-krem tramvay; beş geniş cam, uçlarda iki kapalı dar kapı ve camları, iki boji grubunda dört tekerlek; çatıya bağlı tek turuncu akım kolu var. TRAMVAY yazısı doğru, bütün parçalar tek silüet. Kırmızı/turuncu/mavi alanlarda yönlü yoğun marker ve koyu bindirmeler, düzensiz lacivert çevre ve değişken beyaz makas payı görülüyor. Akım kolu altı temiz alfa, üst sağ çatı kıvrımı ve çatı kat izi mevcut. Ray, havai tel, kişi veya ikinci vagon yok. RGB korunmuş 1212×842 resim büyütülmedi; 3840×2160 tuval doğal 4K ayrıntı değil."
+      },
+      "ingested_at_utc": "2026-11-25T07:05:16.614708+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T07:05:47.232037+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/tramvay/tramvay_vagon_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "01605e961c01187389530707729952a64b201fe7c4c9dfdcfa449283b11b6810",
+        "output_sha256": "35bd32710d0e3136a7e5deaa78be14b154bbc8790e03069bbf2fb98e8d780781",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1212,
+          842
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 15199,
+        "changed_alpha_pixels": 674369,
+        "bbox_in_canvas": [
+          1314,
+          778,
+          2526,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          223,
+          53,
+          1435,
+          895
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/tramvay/tramvay_vagon_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "tren_lokomotif_001",
@@ -100782,10 +102152,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 386,
-    "accepted_png_count": 392,
+    "verified_png_count": 392,
+    "accepted_png_count": 398,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-25T06:56:53.368810+00:00"
+  "updated_at_utc": "2026-11-25T07:06:33.107688+00:00"
 }
