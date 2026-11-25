@@ -10307,6 +10307,520 @@
       "semantic_review": "Seçili dersin tam mevcut alanı okundu. Balonun patlaması ve havasının boşalması iki ayrı durumdur; her PNG tek bağlı balon parçası içerir, dağılmış parça kolajı yapılmaz. Açık zarf ders görselindeki açma eyleminden; boş açık buzdolabı nesne koyma eyleminden; kırık kalem ucu doğrudan hikâyeden; açık valiz kapatma eyleminin önceki durumundan çıkarılır. Ana nesnenin renk, tasarım ve yönü gerçek kaynak PNG referansıyla korunur. Kaynakta bulunan başka kişiler/nesneler eklenmez. Kapaklar nesneye bağlı kalır. Mevcut sağlam/kapalı PNG yeniden üretilmez ve üzerine yazılmaz. Bu kayıt poz ihtiyacını doğrular; pozun sanatsal kabulü veya animasyon hizası henüz doğrulanmış değildir. Her üretim sonrası ayrı QA gerekir. Tüm müfredat ve poz ayrıştırması bitmedi.",
       "accepted_revision": "r02",
       "final_sha256": "61b1d96890b95c2354a1faaeff61baf529c9619facacac4c4e4bb4a4d4787c1e"
+    },
+    {
+      "id": "kalemtiras_tek_001",
+      "title": "Tek delikli kalemtıraş",
+      "category": "yardimci-nesneler/egitim/kalemtiras",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 15,
+          "unit_title": "Okulda",
+          "lesson": "D6",
+          "evidence": "Kalemtıraşla açıyor.",
+          "json_pointer": "/uniteler/14/dersler/5/hikaye",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "a34bcf98835645118c9b3f9ac65737217ec76f8da0342641b1c6bde05e63c1e0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0378"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kalemtiras",
+        "kalem_tiras"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 324 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Kırık kalem ucunu açmak için hikâyede açıkça geçen ayrı el aleti. Tek gövde, bir kalem girişi ve gövdeye sabit tek bıçak; kalem veya talaş aynı PNG içine eklenmez. Renk tasarım kararıdır. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "8353a1e4b0441062e0ef74907d6230453dd00669fb9b899be93c6c6eb453506a"
+    },
+    {
+      "id": "sirt_cantasi_acik_001",
+      "title": "Sırt çantasının boş açık pozu",
+      "category": "yardimci-nesneler/kamp/sirt-cantasi",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 15,
+          "unit_title": "Okulda",
+          "lesson": "D6",
+          "evidence": "Çantanı aç!",
+          "json_pointer": "/uniteler/14/dersler/5/hikaye",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "a34bcf98835645118c9b3f9ac65737217ec76f8da0342641b1c6bde05e63c1e0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1078"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "sirt_cantasi_acik"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 324 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Okul hikâyesindeki çanta açma eylemi için mevcut mor/turuncu sırt çantasının ana bölmesi açılır; öndeki cep kapalı kalır. Hikâye çantanın rengini/modelini belirtmez; mevcut yardımcı tasarımın kullanılması sahne tasarım kararıdır. İçine kitap, kalem, makas veya kişi eklenmez. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "sirt_cantasi_kapali_001",
+        "base_revision": "r04",
+        "canonical_png": "stop-motion/yardimci-nesneler/kamp/sirt-cantasi/sirt_cantasi_kapali_001.png",
+        "sha256": "f1b2f76b1657c6d66b59b2741d56b83cc1181beb7551a4465224b5a0246d33cc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/sirt_cantasi_kapali_001/r03/sirt_cantasi_kapali_001_r03.png",
+        "native_reference_sha256": "645446f407803ed67c599c35aa9ba845d24cbea37bd0ea986e6446d14768dbfe"
+      },
+      "accepted_revision": "r04",
+      "final_sha256": "cf83c932123f1930630a44862ecadcc7a48cbe41a6142ad9888cfb9b19eefbef"
+    },
+    {
+      "id": "hediye_paket_acik_001",
+      "title": "Hediye kutusunun boş açık pozu",
+      "category": "yardimci-nesneler/kutlama/hediye",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 17,
+          "unit_title": "İyi ki Doğdun",
+          "lesson": "D1",
+          "evidence": "Hediyeni aç!",
+          "json_pointer": "/uniteler/16/dersler/0/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "c6c03c6b26620eba3945c284dd5c0c90ab48cb8a04ac40579e4ff044351c581c"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0410",
+        "R0413",
+        "R0414",
+        "R0428",
+        "R0442",
+        "R0698",
+        "R3006",
+        "R3220"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "hediye_paket_acik",
+        "hediye_kutusu_acik"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 324 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Açma yönergesinden açık kutu pozu. Mevcut yeşil kutu ve sarı kurdele kimliği korunur; kapak tek kenardan kutuya bağlı açık tutulur ve fiyonk kapağın üzerinde kalır. Bu nesne renk belirtmeyen 4–6 Kök D1 yönergesine bağlıdır; 7–9 Tohum D6 kırmızı kurdeleli hikâyenin birebir tasviri değildir. Boş kutuya hediye veya kopuk ambalaj parçası eklenmez. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "hediye_paket_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kutlama/hediye/hediye_paket_001.png",
+        "sha256": "b2d2cb821e83fe88d2ce5aae6738f67cc35dc8d11b15d6a86113e377b2ba001f",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/hediye_paket_001/r01/hediye_paket_001_r01.png",
+        "native_reference_sha256": "6b993d01c550e69815c45211f9c159eb7d32dffb72f90005a947045f806b7aae"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "b51b6e0cd31e63b2553307cc766def3a30fd91ac6180acf1a95d4a722217fe63"
+    },
+    {
+      "id": "pasta_devrilmis_001",
+      "title": "Pastanın tek bağlı devrilmiş pozu",
+      "category": "yardimci-nesneler/yiyecek/pasta",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-fidan.json",
+          "source_blob_sha": "b7ef3b085abafd691da4fb719ef2065f19b8d55d",
+          "unit": 1,
+          "unit_title": "O Gün Neler Oluyordu?",
+          "lesson": "D6",
+          "evidence": "pasta yere düştü",
+          "json_pointer": "/uniteler/0/dersler/5/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "9fcc4183ca271a6ec6130a8f2a8916e95efd946ac70f552864a25b729c1f4b78"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0436",
+        "K0530",
+        "K0561",
+        "R0409",
+        "R0411",
+        "R0423",
+        "R0434",
+        "R0435",
+        "R1486",
+        "R1514",
+        "R1519",
+        "R2240",
+        "R2451",
+        "R2793",
+        "R2860",
+        "R2861",
+        "R2862",
+        "R2873",
+        "R2874",
+        "R2884",
+        "R3007",
+        "R3019",
+        "R3020",
+        "R3039",
+        "R3040",
+        "R3076",
+        "R3212"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "pasta_devrilmis"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 324 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Düşme eylemi için mevcut pembe gövdeli beyaz kremalı pasta yana devrilmiş ve alt yanında biraz ezilmiş tek bağlı kütle olur. Sadece döndürme yeni varlık sayılmaz; ezilmiş yan/kaymış ama bağlı krema görünür. Kopuk kırıntı, ayrı mum, tabak veya zemin yok. Kaynak dersin mum üfleme cümlesi ayrıca vardır; bu PNG mum sayısı veya tüm hikâye sahnesi iddiası taşımaz. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "pasta_butun_001",
+        "base_revision": "r04",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/pasta/pasta_butun_001.png",
+        "sha256": "125bad842eae08d5d1fab756ce00cf8b78f1f78923cd977fcd5936dc99372850",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/pasta_butun_001/r03/pasta_butun_001_r03.png",
+        "native_reference_sha256": "fd5c97c0fed588e042d85cb79158b7a5179e60ab87a426c2b0e0c4e4642d691c"
+      },
+      "accepted_revision": "r04",
+      "final_sha256": "7e672f38a252bfbdd38cf07228dbf5e9fe2ba8c76763b2c6754442d46f736e62"
+    },
+    {
+      "id": "masal_kitabi_kapali_001",
+      "title": "Masal kitabının kapalı pozu",
+      "category": "yardimci-nesneler/egitim/masal-kitabi",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 15,
+          "unit_title": "Okulda",
+          "lesson": "D6",
+          "evidence": "Kitabı kapat!",
+          "json_pointer": "/uniteler/14/dersler/5/hikaye",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "a34bcf98835645118c9b3f9ac65737217ec76f8da0342641b1c6bde05e63c1e0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1636",
+        "R2820",
+        "R3514"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "masal_kitabi_kapali"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 324 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Genel kitap kapatma yönergesinde kullanılacak, mevcut kırmızı kapaklı açık masal kitabının kapalı pozu. Kaynak kitap türü söylemez; masal kitabını kullanmak mevcut varlıkla süreklilik sağlayan sahne kararıdır. Kırmızı kapak ve beyaz sayfa bloğu korunur. Yeni kitap hedef kelimesi veya kaynakta verilmiş kapak tasarımı iddiası yoktur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "masal_kitabi_acik_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/masal-kitabi/masal_kitabi_acik_001.png",
+        "sha256": "d3b8460bb476128c73905dec45058b99139cc33b0440a5c267a6595aba51c0b1",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/masal_kitabi_acik_001/r01/masal_kitabi_acik_001_r01.png",
+        "native_reference_sha256": "1b524fbfda55b0c06809700afd009806ef9f977593b3c1b3157cebff48049dca"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "30ea06c2101b8cdee7259affc9c3a9f50f2e1d7dd613599aa04891a475f21749"
+    },
+    {
+      "id": "yumurta_catlak_001",
+      "title": "Yumurtanın çatlamış birleşik kabuk pozu",
+      "category": "yardimci-nesneler/yiyecek/yumurta",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-fidan.json",
+          "source_blob_sha": "2c4f413b329e2d23b038aa65712c0716d0ce0fa4",
+          "unit": 3,
+          "unit_title": "Nasıl Yapılır?",
+          "lesson": "D4",
+          "evidence": "yumurta kırmak",
+          "json_pointer": "/uniteler/2/dersler/3/yeni/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "b606f179174c59028b0f4e590068a91c5677160189fd110cd25879a4ca0b0865"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0494",
+        "R0214",
+        "R2759",
+        "R2923",
+        "R3295",
+        "R3465",
+        "R3467"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "yumurta_catlak",
+        "yumurta_kirik"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 324 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Yumurta kırma eyleminin kabuğun çatladığı ara durumu. Mevcut kahverengi yumurta dış biçimi korunur; kabuk hâlâ tek bağlı parça, koyu zikzak çatlak çizgisi vardır. Bu tam açılmış iki yarım yumurta değildir; yumurta sarısı, akı, kopuk kabuk veya kap aynı PNG içine eklenmez. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "yumurta_saglam_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/yumurta/yumurta_saglam_001.png",
+        "sha256": "0be0e013154d0f1396d7f338230bf0d157d574f3075e344c6452e3cf68765520",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/yumurta_saglam_001/r01/yumurta_saglam_001_r01.png",
+        "native_reference_sha256": "4900d59519b3cbc3e934ce3b2e6102a6e886578fa21879c93c167ca1c0a1df71"
+      },
+      "accepted_revision": "r04",
+      "final_sha256": "8b3b98f16b3f8278854995ebd7140120b31f8cb91f733595fdc2c706c0246f9e"
+    },
+    {
+      "id": "uniforma_gomlek_001",
+      "title": "Tek okul üniforması gömleği",
+      "category": "yardimci-nesneler/giyim/okul-uniformasi",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-agac.json",
+          "source_blob_sha": "213b97c05c3ce20d8c64355807d48b5045f4b1e8",
+          "unit": 1,
+          "unit_title": "Tartışalım: Okul Kuralları",
+          "lesson": "D1",
+          "evidence": "üniforma",
+          "json_pointer": "/uniteler/0/dersler/0/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "3b5ecffe8daba3cbc71e4840c21590e059ad83d30fc26a67c0d7c71d47ffc7b0"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0317",
+        "K0595"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "uniforma_gomlek",
+        "okul_uniformasi",
+        "uniforma"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Okul kuralları bağlamındaki üniforma için tek gömlek seçilir. Takım kolajı, pantolon, etek veya öğrenci eklenmez. Mavi kısa kollu yakalı gömlek, küçük boş göğüs cebi; spor forması/önlük/ceketten farklıdır. Renk ve model genel tasarım kararıdır; belirli okulun üniforması iddiası yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "dilekce_ornek_001",
+      "title": "Tek boş örnek dilekçe",
+      "category": "yardimci-nesneler/kirtasiye/dilekce",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-agac.json",
+          "source_blob_sha": "213b97c05c3ce20d8c64355807d48b5045f4b1e8",
+          "unit": 1,
+          "unit_title": "Tartışalım: Okul Kuralları",
+          "lesson": "D4",
+          "evidence": "dilekçe",
+          "json_pointer": "/uniteler/0/dersler/3/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0cc928757ed725313777c395323c061168bf18d1800b8591e42775a7bf4d3e2e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "dilekce"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Öğrenci meclisi ve kural değişikliği bağlamında yalnız örnek sahne kâğıdı. DİLEKÇE ve ÖRNEK başlığı, boş Konu ve Tarih alanları; kişi adı, imza, kurum, gerçek talep veya hukuki metin yok. Mevcut samimi mektup/izin/garanti kâğıdından işlevi ve görünür başlığıyla ayrılır. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "geri_donusum_kutusu_001",
+      "title": "Tek kâğıt geri dönüşüm kutusu",
+      "category": "yardimci-nesneler/cevre/geri-donusum-kutusu",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-agac.json",
+          "source_blob_sha": "213b97c05c3ce20d8c64355807d48b5045f4b1e8",
+          "unit": 5,
+          "unit_title": "Neden-Sonuç Zinciri",
+          "lesson": "D6",
+          "evidence": "Okulda geri dönüşüm kutusu yok.",
+          "json_pointer": "/uniteler/4/dersler/5/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "e40bca5b502b7673e4d5fefad08219b59d34184727dc1e691fa92c059fd73da1"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2163"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "geri_donusum_kutusu"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Kaynağın yokluk cümlesi sahnede gereksinimi anlatır; var olan kutunun fotoğrafı/kanıtı değildir. Tek kapalı mavi gövdeli kâğıt toplama kutusu; üstte dar giriş, KAĞIT başlığı ve düz çizilmiş sayfa simgesi. Renk/biçim genel sahne kararıdır; bölgesel atık renk standardı iddiası yok. Normal çöp kovası ve bağış/öneri kutularından amaç/etiketiyle farklı. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "ozgecmis_ornek_001",
+      "title": "Tek boş örnek özgeçmiş",
+      "category": "yardimci-nesneler/kirtasiye/ozgecmis",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-agac.json",
+          "source_blob_sha": "213b97c05c3ce20d8c64355807d48b5045f4b1e8",
+          "unit": 6,
+          "unit_title": "İş Görüşmesi Provası",
+          "lesson": "D6",
+          "evidence": "özgeçmiş",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "e3a45f914b2c8a9bbe294db4561aa5fc95065d4240a91aa970ff187586958d71"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "ozgecmis"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "İş görüşmesi provasında genel ÖZGEÇMİŞ / ÖRNEK kâğıdı. Ad, Eğitim, Deneyim alanları boş bırakılır; gerçek kişi bilgisi, fotoğraf, iletişim veya çalışma iddiası yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "mozaik_pano_tek_001",
+      "title": "Tek mozaik pano",
+      "category": "yardimci-nesneler/kultur/mozaik-pano",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-agac.json",
+          "source_blob_sha": "213b97c05c3ce20d8c64355807d48b5045f4b1e8",
+          "unit": 7,
+          "unit_title": "Bir Yer, Bir Hikâye",
+          "lesson": "D6",
+          "evidence": "mozaik",
+          "json_pointer": "/uniteler/6/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "9eb86aacdc6e9cb747ceeea13725cb5efe6ae33dd8dcca426ce4c1a27b46d61f"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0638"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "mozaik"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Küçük renkli taşlarla yapılmış resim kavramı için tek dikdörtgen panelin üzerine düzensiz küçük taş alanlarıyla oluşturulmuş bir turkuaz balık motifi çizilir. Her taş ve balık panelin üzerine çizilmiş motif, ayrı nesne değildir; varlık grid/kolajı yapılmaz. Antakya'daki belirli tarihî eser kopyası veya özgün buluntu iddiası yok; genel öğretim aksesuarı. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "kazan_bos_001",
+      "title": "Tek boş açık kazan",
+      "category": "yardimci-nesneler/mutfak/kazan",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-cinar.json",
+          "source_blob_sha": "9076cdfa18587d5559f6e2570e645fc72641418a",
+          "unit": 4,
+          "unit_title": "İma ve Mizah",
+          "lesson": "D6",
+          "evidence": "Nasreddin Hoca kazanın doğurduğunu söylemiş.",
+          "json_pointer": "/uniteler/3/dersler/5/yeni/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "d4b85c37601dc7651316637b47fd71738bc8ebdf7f9f7f019b753547682cf8ef"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kazan"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Fıkradaki büyük pişirme kazanı için tek açık boş bakır renkli yuvarlak derin kap, iki gövdeye bağlı yan kulp. Kapak, ateş, içine küçük kazan veya karakter eklenmez; doğurma mecazı fiziksel olay gibi çizilmez. Mevcut kapalı tencere ve düz tavadan ayrı biçim/işlev. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "sozlesme_ornek_001",
+      "title": "Tek boş örnek sözleşme",
+      "category": "yardimci-nesneler/kirtasiye/sozlesme",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-cinar.json",
+          "source_blob_sha": "9076cdfa18587d5559f6e2570e645fc72641418a",
+          "unit": 8,
+          "unit_title": "Bir Metni Sadeleştirmek",
+          "lesson": "D1",
+          "evidence": "sözleşme",
+          "json_pointer": "/uniteler/7/dersler/0/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "6baaa212f79ce7d2862a089575cbf757c0b7d0c3fd67391da0d22613b0c22762"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "sozlesme"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Metni sadeleştirme bağlamında SÖZLEŞME / ÖRNEK başlığıyla tek genel sahne kâğıdı. Taraf 1, Taraf 2 ve Tarih alanları boş; gerçek taraf, imza, şart, hukuki tavsiye veya bağlayıcı sözleşme içeriği yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "tutanak_ornek_001",
+      "title": "Tek boş örnek toplantı tutanağı",
+      "category": "yardimci-nesneler/kirtasiye/tutanak",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-cinar.json",
+          "source_blob_sha": "9076cdfa18587d5559f6e2570e645fc72641418a",
+          "unit": 14,
+          "unit_title": "Toplantı Yönetmek",
+          "lesson": "D1",
+          "evidence": "tutanak",
+          "json_pointer": "/uniteler/13/dersler/0/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "8b3cef7e6c963a3218523e480d9ccbb2b311de22cb8e461512a357510bb94dda"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "tutanak"
+      ],
+      "dedup_scope": "413 records, 330 canonical PNGs, 330 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Toplantı yönetimi için TOPLANTI TUTANAĞI / ÖRNEK başlıklı tek sahne kâğıdı. Tarih, Konu ve Karar alanları boş; gerçek toplantı, imza veya kişisel bilgi yok. Mevcut görev listesi ve not kartından farklı belge işlevi. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
     }
   ]
 }
