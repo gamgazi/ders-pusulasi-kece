@@ -12381,7 +12381,7 @@
       "id": "sulu_boya_paleti_001",
       "title": "Tek sulu boya paleti",
       "category": "yardimci-nesneler/okul/sulu-boya",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/7-9-kok.json",
@@ -12407,13 +12407,15 @@
       ],
       "dedup_scope": "469 records, 386 canonical PNGs, 385 queue items",
       "source_is_action_inference": false,
-      "semantic_review": "Tek oval beyaz plastik sulu boya paleti; tek gövdeye gömülü altı renk yuvası kavis üzerinde, merkezde karıştırma alanı ve bir başparmak deliği. Nesne sulu boyadır ama çizim yoğun keçeli kalem kâğıt tekniğidir. Ayrı fırça/tüp/renk dairesi yok; asset kolajı veya grid değil, tek fiziksel paletin parçaları. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+      "semantic_review": "Tek oval beyaz plastik sulu boya paleti; tek gövdeye gömülü altı renk yuvası kavis üzerinde, merkezde karıştırma alanı ve bir başparmak deliği. Nesne sulu boyadır ama çizim yoğun keçeli kalem kâğıt tekniğidir. Ayrı fırça/tüp/renk dairesi yok; asset kolajı veya grid değil, tek fiziksel paletin parçaları. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r04",
+      "final_sha256": "be1959e3e9fc6fa47cddd3b8a30a782b54eb261c4c4b26cdb311144d69c3da6d"
     },
     {
       "id": "sinek_kovucu_kapali_001",
       "title": "Tek kapalı sinek kovucu şişesi",
       "category": "yardimci-nesneler/kamp/sinek-kovucu",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/7-9-kok.json",
@@ -12435,7 +12437,472 @@
       ],
       "dedup_scope": "469 records, 386 canonical PNGs, 385 queue items",
       "source_is_action_inference": false,
-      "semantic_review": "Kaynak kamp dersinde sinek kovucu açıkça geçiyor. Tek yeşil küçük şişe ve bağlı kapalı turuncu koruyucu kapak; etiket SİNEK KOVUCU. Kullanım/doz/etken madde/koruma oranı veya gerçek marka yok; püskürtme, böcek, insan veya ikinci şişe yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+      "semantic_review": "Kaynak kamp dersinde sinek kovucu açıkça geçiyor. Tek yeşil küçük şişe ve bağlı kapalı turuncu koruyucu kapak; etiket SİNEK KOVUCU. Kullanım/doz/etken madde/koruma oranı veya gerçek marka yok; püskürtme, böcek, insan veya ikinci şişe yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "7aaf529e70172d385f2eeca209d08be99ecb26836f24bb76d17c8f0d801168cd"
+    },
+    {
+      "id": "rende_tek_001",
+      "title": "Tek mutfak rendesi",
+      "category": "yardimci-nesneler/mutfak/rende",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 2,
+          "unit_title": "Bir Tarif",
+          "lesson": "D3",
+          "evidence": "rendele",
+          "json_pointer": "/uniteler/1/dersler/2/yeni/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "a2b00deb2323a8ea3c077df1be292f957022d5f33dd787ec3fb9824cc973d85e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "rende",
+        "rende_tek"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Rendele eyleminden araç gereksinimi çıkarımı; kaynakta rende adı değil fiil var. Tek düz el rendesi: turuncu bağlı tutamak, gri metal yüzeyde küçük çizili delik/diş işaretleri. Delikler kâğıt üzeri opak resim; yalnız tutamak iç açıklığı gerçek alfa. Yiyecek veya ayrı parça yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "518227abb35265575952224f28e05997dd0ebf2298028dfd408852dbf25db0c8"
+    },
+    {
+      "id": "klozet_kapali_001",
+      "title": "Tek kapalı klozet",
+      "category": "yardimci-nesneler/ev/klozet",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 3,
+          "unit_title": "Nerede?",
+          "lesson": "D3",
+          "evidence": "klozet",
+          "json_pointer": "/uniteler/2/dersler/2/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "d38d75c1df2f6115726ba19ac7eeb6046dd5b395c3b577c59b9502ae41ce1e99"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0253"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "klozet"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek kapalı kapaklı krem klozet; bağlı rezervuar, küçük sifon düğmesi, kapalı oval kapak ve kaide. Banyo arka planı, insan, tuvalet kâğıdı yok. Beyaz yüzey opak çizilmiş kâğıt. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "dad569d9ce8ef1ca6bbd4ac736105cee357844ea29d66c64d3eff5fd96e0e4d6"
+    },
+    {
+      "id": "kumanda_televizyon_001",
+      "title": "Tek televizyon kumandası",
+      "category": "yardimci-nesneler/teknoloji/kumanda",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 3,
+          "unit_title": "Nerede?",
+          "lesson": "D6",
+          "evidence": "kumanda",
+          "json_pointer": "/uniteler/2/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "ff084664bba316b9cdffa566bc2363b4cc12127fe576bdfbc1e3c67c55ab1b80"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0444"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kumanda"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek uzun mavi televizyon kumandası, üstte kırmızı güç düğmesi, merkezde yön halkası, altta küçük düğmeler. Oyun kolu/telefon değil; ekran, marka, sayılar veya televizyon yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "e8b33dc0a39248c551e49af6ce816e22c8539a755db3a9f913533da0a0d9b990"
+    },
+    {
+      "id": "ayakkabilik_bos_001",
+      "title": "Tek boş ayakkabılık",
+      "category": "yardimci-nesneler/ev/ayakkabilik",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 3,
+          "unit_title": "Nerede?",
+          "lesson": "D6",
+          "evidence": "ayakkabılık",
+          "json_pointer": "/uniteler/2/dersler/5/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "d09919f3a5a40e1be898b227591579131f4549fed46206e50178fba6104ac99f"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1341"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "ayakkabilik"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek alçak iki katlı açık ayakkabılık; turuncu ahşap yan dikmeler ve iki mavi geniş ayakkabı rafı, boş. Genel duvar rafından ayrı ayaklı alçak eşya. Aralıklar gerçek alfa, iç kenarlar beyaz makas paylı; ayakkabı yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "b394b8f15a6dc07cda8ecaee679b6ed7b2f82db085a281316b526803c88cc70f"
+    },
+    {
+      "id": "kemer_giysi_001",
+      "title": "Tek giysi kemeri",
+      "category": "yardimci-nesneler/giyim/kemer",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 6,
+          "unit_title": "Kıyafetler",
+          "lesson": "D6",
+          "evidence": "kemer",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "140b65e662876b8b9dd6b60518c52ead619c5ee3fbfd6ae4500faa3338264f46"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kemer_giysi",
+        "giysi_kemeri",
+        "bel_kemeri"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek kahverengi giysi kemeri yumuşak açık kıvrımda; bağlı gri dikdörtgen toka ve kısa toka dili, sivri uçta delik işaretleri. Emniyet kemerinden farklı bel giysisi. İnsan veya pantolon yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "esofman_alti_001",
+      "title": "Tek eşofman altı",
+      "category": "yardimci-nesneler/giyim/esofman",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 6,
+          "unit_title": "Kıyafetler",
+          "lesson": "D6",
+          "evidence": "eşofman",
+          "json_pointer": "/uniteler/5/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0fb388bd31105901cbe06d6f0d01e2ae41fb02c25a24da31f8fc3da952616ddd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0452"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "esofman"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Kaynak eşofman sözcüğü tek parça eşofman altı ile temsil edilir; takımın ikinci giysisi yok. Mavi bel lastikli uzun spor pantolon, iki paça ve yanlarda beyaz çizgi; kumaş/örgü değil yoğun marker kâğıt resmi. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "polis_arabasi_yandan_001",
+      "title": "Tek polis arabası",
+      "category": "yardimci-nesneler/ulasim/polis-arabasi",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D2",
+          "evidence": "polis arabası",
+          "json_pointer": "/uniteler/6/dersler/1/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "4e3c6f1e883095ff0ff356abd422c059bbcc85763c5a52cc2bd4458b0c89c4ff"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0407"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "polis_arabasi",
+        "polis_araci"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek beyaz/mavi sedan yandan, iki görünür tekerlek, bağlı kırmızı-mavi tepe lambası ve POLİS yazısı. Genel görev aracı, resmî logo/plaka/kişi/silah yok; taksi ve oyuncak arabasından görev farklı. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "denizalti_yandan_001",
+      "title": "Tek denizaltı",
+      "category": "yardimci-nesneler/ulasim/denizalti",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D2",
+          "evidence": "denizaltı",
+          "json_pointer": "/uniteler/6/dersler/1/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "c899785434f790ccda9422fdec858a4f5d5855b52973062f4aa088fcc67cd9cb"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0205",
+        "R0395",
+        "R2998"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "denizalti"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek sarı basit denizaltı yandan; yuvarlak gövde, üç mavi lomboz, üstte bağlı periskop ve arkada bağlı küçük pervane. Su/baloncuk/insan/silah yok; mühendislik şeması değil genel anlatı aracı. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "metro_vagon_001",
+      "title": "Tek metro vagonu",
+      "category": "yardimci-nesneler/ulasim/metro",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D4",
+          "evidence": "metro",
+          "json_pointer": "/uniteler/6/dersler/3/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "0bc851d8e8861b20da271d23994b9bc2604785313d3369acd3a2f8121b97be61"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0240",
+        "K0648"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "metro_vagon",
+        "metro"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek metro sürücü vagonu yandan, kısa ön kabin ve uzun dikdörtgen gövde, sürgülü çift kapı ve mavi camlar, dört küçük tekerlek. Ray/tünel/istasyon veya ikinci vagon yok. METRO yazısı; belirli şehir/model kopyası değil. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "tramvay_vagon_001",
+      "title": "Tek tramvay",
+      "category": "yardimci-nesneler/ulasim/tramvay",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 7,
+          "unit_title": "Ulaşım",
+          "lesson": "D4",
+          "evidence": "tramvay",
+          "json_pointer": "/uniteler/6/dersler/3/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "be135c7dda0c5325beb6561c0d0923dc88b0f8188ee82d998fd7cff0eb816d02"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R3001"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "tramvay"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek kırmızı krem nostaljik tramvay vagonu; dik ön/arka uç, uzun cam sırası, iki tekerlek grubu ve gövdeye bağlı üst akım kolu. TRAMVAY yazısı. Ray/tel/şehir/kişi/ikinci vagon yok; model kopyası değil. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "merhem_tupu_kapali_001",
+      "title": "Tek kapalı merhem tüpü",
+      "category": "yardimci-nesneler/saglik/merhem",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 10,
+          "unit_title": "Hasta Oldum",
+          "lesson": "D6",
+          "evidence": "merhem",
+          "json_pointer": "/uniteler/9/dersler/5/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "26f07154a855b48800e39c075db7d8db0f501c5508e8bd5b663f3504eeb48193"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0454"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "merhem"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek kapalı turkuaz tüp, bağlı turuncu vidalı kapak ve MERHEM yazısı. İlaç adı/doz/uygulama/iyileştirme iddiası veya sağlık amblemi yok. Genel ders aksesuarı. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "toz_bezi_katli_001",
+      "title": "Tek katlı toz bezi",
+      "category": "yardimci-nesneler/temizlik/toz-bezi",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 13,
+          "unit_title": "Ev İşleri",
+          "lesson": "D3",
+          "evidence": "toz bezi",
+          "json_pointer": "/uniteler/12/dersler/2/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "8f56a091a2ad0c3644f1c6c03f0d94fb8590be88625e77f9e4f36952de399b36"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0458"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "toz_bezi"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek katlanmış sarı temizlik bezi, üst üste bağlı kıvrımlar; havlu veya peçeteden renk/biçim/işlev ayrı. Fotoğrafik tekstil değil yoğun keçeli kalem kâğıt resmi; toz bulutu veya el yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "deterjan_sisesi_kapali_001",
+      "title": "Tek kapalı deterjan şişesi",
+      "category": "yardimci-nesneler/temizlik/deterjan",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 13,
+          "unit_title": "Ev İşleri",
+          "lesson": "D3",
+          "evidence": "deterjan",
+          "json_pointer": "/uniteler/12/dersler/2/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "abb7feec99ab948f4cebd03c3c3679f41a7b6622ebdd748270cc99f63c9acbc6"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0459"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "deterjan"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek turuncu çamaşır deterjanı şişesi, bağlı mavi vidalı kapak, yanda gövdeye bağlı kavrama deliği ve DETERJAN yazısı. Delik gerçek alfa ve beyaz iç paylı; sıvı/çamaşır/marka/etiket iddiası yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "supurge_el_001",
+      "title": "Tek el süpürgesi",
+      "category": "yardimci-nesneler/temizlik/supurge",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 13,
+          "unit_title": "Ev İşleri",
+          "lesson": "D3",
+          "evidence": "süpürge",
+          "json_pointer": "/uniteler/12/dersler/2/yeni/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2a17e2650526034425ed9d44d1c45b9161eb12fe5cccf4f5ecc6cbc2028cabad"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "supurge_el",
+        "el_supurgesi",
+        "calı_supurgesi"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek uzun saplı kuru yer süpürgesi; turuncu sap, bağlı mavi boyun ve sarı geniş kıllı başlık. Elektrikli süpürgeden ayrı; faraş/toz/elin olmadığı tek nesne. Çizili kıllar tek bağlı kâğıt silüette. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "elektrik_supurgesi_001",
+      "title": "Tek elektrik süpürgesi",
+      "category": "yardimci-nesneler/temizlik/elektrik-supurgesi",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 13,
+          "unit_title": "Ev İşleri",
+          "lesson": "D7",
+          "evidence": "elektrik süpürgesi",
+          "json_pointer": "/uniteler/12/dersler/6/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "6d9317b5bd792bd9ce2cb53212eeb30163f6be4e2b514c29c4b7e48cabaf56b7"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0461"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "elektrik_supurgesi",
+        "elektrikli_supurge"
+      ],
+      "dedup_scope": "475 records, 392 canonical PNGs, 388 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek dik kablosuz elektrikli süpürge; turkuaz sap/gövde, turuncu motor haznesi ve bağlı geniş mavi zemin başlığı. Hortumlu ikinci gövde, gevşek kablo, toz veya kişi yok. Genel model; performans iddiası değil. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
     }
   ]
 }
