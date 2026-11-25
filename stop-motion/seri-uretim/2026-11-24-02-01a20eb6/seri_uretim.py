@@ -58,6 +58,9 @@ def ingest(args):
     metrics['technical_rgba_pass']=metrics['mode']=='RGBA' and metrics['alpha_min']==0 and metrics['alpha_max']==255 and metrics['transparent_edges'] and all(n==1 for n in metrics['components_all_pixels'].values()) and not matches
     metrics['master_canvas_target_pass']=metrics['dimensions']==[3840,2160]
     report={'id':args.id,'revision':args.revision,'status':'AWAITING_VISUAL_REVIEW','source':str(pathlib.Path(args.source).resolve()),'candidate_path':target.relative_to(ROOT).as_posix(),'metrics':metrics,'curriculum':item['source_evidence'],'felt_cards_preserved':item['felt_cards_preserved'],'final_accepted':False,'visual_review':None}
+    if item.get('pose_reference'):
+        report['pose_reference']=item['pose_reference']
+        report['pose_alignment_validated']=False
     report['ingested_at_utc']=now_utc()
     report['batch_started_on']='2026-11-24'
     write(folder/'qa.json',report); previews(target,folder)
