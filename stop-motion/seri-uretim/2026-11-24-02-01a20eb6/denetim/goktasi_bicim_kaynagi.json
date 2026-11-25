@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "url": "https://planetary.msfc.nasa.gov/Meteorites_and_Craters.html",
+      "actually_read": true,
+      "findings": [
+        "Recently fallen meteorites may have a thin dark fusion crust.",
+        "Irregular shape; some shallow thumbprint depressions. Porous bubbly rocks are not the intended form."
+      ]
+    },
+    {
+      "url": "https://www.lpi.usra.edu/science/kring/epo_web/meteorites/composition.html",
+      "actually_read_web_text": true,
+      "direct_download": "Cloudflare challenge; not bypassed",
+      "findings": [
+        "Chondrites may have dark fusion crust and lighter gray interior."
+      ]
+    },
+    {
+      "url": "https://nightsky.jpl.nasa.gov/documents/302/SRocksManual.pdf",
+      "local_pdf": "work/music-references/goktasi-jpl.pdf",
+      "page_rendered_and_viewed": 76,
+      "render": "work/music-references/goktasi-jpl-s76.png",
+      "note": "Instruction page and small specimen activity photos actually viewed; no exact specimen or subtype reproduction claimed."
+    }
+  ],
+  "unused_visuals": [
+    {
+      "file": "goktasi-nasa.png",
+      "reason": "Button graphic, not rock photo."
+    },
+    {
+      "file": "goktasi-nasa-alabama.jpg",
+      "reason": "Distribution map, not specimen closeup."
+    }
+  ],
+  "design_decision": "One fallen stony meteorite; irregular dark exterior with one small light gray fracture face; no flame, tail, sphere or vesicular holes. Identification is illustrative, not a diagnostic field test.",
+  "pdf_text_extraction": "Bundled pypdf used; page49 hit parsing limit and was skipped; page76 rendered with pdftoppm."
+}
