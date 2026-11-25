@@ -20663,7 +20663,7 @@
       "id": "basketbol_potasi_001",
       "title": "Tek basketbol potası",
       "category": "yardimci-nesneler/spor/basketbol-potasi",
-      "state": "DEFERRED_ART_REDESIGN",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/7-9-kok.json",
@@ -20691,7 +20691,7 @@
       "source_is_action_inference": false,
       "semantic_review": "Tek bağlı basketbol potası: beyaz dikdörtgen arkalık üstünde turuncu hedef dikdörtgeni, arkalığa bağlı turuncu çember ve ona bağlı kısa ağ. Ağ delikleri gerçek alfa ve dar beyaz kesim paylı; tüm yapı tek bağlı kâğıt silueti. Top, kişi, saha, duvar, ikinci nesne yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
       "retry_history": {
-        "generated_candidates": 3,
+        "generated_candidates": 4,
         "rejected_final_revisions": [
           "r02",
           "r04",
@@ -20699,8 +20699,12 @@
         ],
         "reason": "Ağ/çember iç açıklıklarında beyaz kesim payı sağlanamadı.",
         "next_action": "Aynı düzenleme isteğini yinelemek yerine daha sade ve geniş beyaz kâğıt şeritli ağ ile yeni tasarım; ayrı üretim öncesi kontrol ve QA zorunlu.",
-        "final_accepted": false
-      }
+        "final_accepted": true,
+        "resolved_revision": "r08",
+        "resolution": "Yeni geniş beyaz şeritli ağ tasarımı üç görünümde QA geçti. Eski üç ret korundu."
+      },
+      "accepted_revision": "r08",
+      "final_sha256": "f086cd0582024f4c2c56204e1861f9727ce6d28e731246b886f4736342ecf164"
     },
     {
       "id": "hazine_sandigi_acik_bos_001",
@@ -21355,6 +21359,341 @@
       },
       "accepted_revision": "r02",
       "final_sha256": "b2722b4224a467a8beebd2d4e71e6e9daad758f0bba878b5faa66e8c35177036"
+    },
+    {
+      "id": "oyun_tahtasi_basla_yazili_001",
+      "title": "BAŞLA yazılı oyun tahtası",
+      "category": "yardimci-nesneler/oyun/oyun-tahtasi",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-cinar.json",
+          "source_blob_sha": "fd1c9660dc546124e27cf514291ae3d921c13ec8",
+          "unit": 8,
+          "unit_title": "Kurallı Oyun",
+          "lesson": "D4",
+          "evidence": "resim: «BAŞLA» yazan ilk kare",
+          "json_pointer": "/uniteler/7/dersler/3/test/1/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "ad107a9b07b4691ca0ed50eee39bc39a39e431750b69dc4b146cdca2e440bc7e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "oyun_tahtasi_basla",
+        "basla_yazili"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Mevcut kıvrımlı yol oyun tahtasının yeşil başlangıç hücresine BAŞLA yazılır. Yol ve bitiş bayrağı aynı yüzeyde; piyon/zar eklenmez. Sayılı hareket sahnesi veya animasyon hizası doğrulaması değildir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "oyun_tahtasi_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/oyun/oyun-tahtasi/oyun_tahtasi_001.png",
+        "sha256": "0287dce0fafe379933fd9c114fc660168b4ac60de088a4762f7023cecfdc6385",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/oyun_tahtasi_001/r01/oyun_tahtasi_001_r01.png",
+        "native_reference_sha256": "565de71e56786a9f4fe406d1a2433a21e86f244bfedf613d29bf4ebfa05f321c"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "026c709158e247ab0615eb5b9110e4c01f43faded682a15612dfca36854e8434"
+    },
+    {
+      "id": "fener_el_yanan_001",
+      "title": "Yanan el feneri",
+      "category": "yardimci-nesneler/esya/fener",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-filiz.json",
+          "source_blob_sha": "f7d0da3fe7ed5e098141dd0b1449e1e238001219",
+          "unit": 17,
+          "unit_title": "Kampta",
+          "lesson": "D1",
+          "evidence": "resim: karanlıkta ışık veren bir fener",
+          "json_pointer": "/uniteler/16/dersler/0/test/2/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "32b4670ae9fd528095976e6084dee97835787493b094d1c8605486ce2762d715"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1072",
+        "R1075",
+        "R1595",
+        "R1971",
+        "R2373",
+        "R3390"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "fener_el_yanan",
+        "fener_isikli"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Mavi saplı sarı başlıklı mevcut el fenerinin merceği sarı ve krem ışıklı yüzey olarak çizilir; düğme açık konumda. Ayrı ışın, karanlık fon veya ışık konisi eklenmez. Kaynağın fener nesnesinin açık durumu sağlanır; karanlık sahne arka planı ayrı tutulur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "fener_el_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/fener/fener_el_001.png",
+        "sha256": "d18c5a627c48c45d4be2d08cc354b2ba9b6b394f5333a6c1bc56b550b45ab124",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/fener_el_001/r01/fener_el_001_r01.png",
+        "native_reference_sha256": "56600e20893d6e031bff50d079e2407487deb75c9937877e3dfd9aa21653cacb"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "0930e240b1771329c7e0513bd7ac2879756d3d5282cd8181850e2d91f7fde68a"
+    },
+    {
+      "id": "kartpostal_manzarali_on_001",
+      "title": "Manzaralı kartpostal ön yüzü",
+      "category": "yardimci-nesneler/iletisim/kartpostal",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-cinar.json",
+          "source_blob_sha": "fd1c9660dc546124e27cf514291ae3d921c13ec8",
+          "unit": 16,
+          "unit_title": "Teşekkür Mektubu",
+          "lesson": "D4",
+          "evidence": "resim: önünde manzara olan kartpostal",
+          "json_pointer": "/uniteler/15/dersler/3/test/1/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2d8a32e6bfbbe00db45d0cb6da7595a3095d194e8f07c86bd82dde126fbccea4"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2251"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kartpostal_manzarali",
+        "kartpostal_on"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Mevcut kartpostalın ön yüzü: aynı yatay kâğıdın içine çizili dağ, göl ve güneş manzarası. Resim kâğıt sınırları içinde; ayrı doğal nesneler veya tam ekran arka plan değil. Arka yüzdeki yazı/adres çizgileri bulunmaz. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "kartpostal_tek_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/iletisim/kartpostal/kartpostal_tek_001.png",
+        "sha256": "28c565486265b2bd6d681a62441e9c0a606639cae94151dc50498c3d4f13fedb",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kartpostal_tek_001/r01/kartpostal_tek_001_r01.png",
+        "native_reference_sha256": "52734e47656268fdd94eba5091f974bf60b451736b39d77d778e94b8327019b1"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "7743c5a0f0a06e58e352a097d3075ad19bf9d35f7108046dc85cd7928f834dd3"
+    },
+    {
+      "id": "roket_kalkis_001",
+      "title": "Kalkış yapan roket",
+      "category": "yardimci-nesneler/uzay/roket",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-orman.json",
+          "source_blob_sha": "df16c8d689bd6eeabcffaa140a4529f8315b6b3d",
+          "unit": 14,
+          "unit_title": "Uzay Görevi",
+          "lesson": "D4",
+          "evidence": "resim: ateş ve dumanla yükselen roket",
+          "json_pointer": "/uniteler/13/dersler/3/test/1/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "723d96cf9b009e950d487a390d195789db02878e1e37bb9da7e52e0a0d8ad20b"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1496",
+        "R1777",
+        "R2678"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "roket_kalkis",
+        "roket_ucan"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Mevcut kırmızı burun/turkuaz gövdeli roketin egzozuna bağlı kısa turuncu-sarı alev ve tek gri duman kuyruğu; hepsi tek bağlı kâğıt siluetinin parçaları. Ayrık alev/duman, yer veya kişi yok. Kaynak kalkış durumu; fiziksel motor şeması değildir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "roket_duran_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/uzay/roket/roket_duran_001.png",
+        "sha256": "9c72541cce21da81f6bf16dfbb98cadcde13c80eec9a826246cfc6adf1eb55d6",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/roket_duran_001/r01/roket_duran_001_r01.png",
+        "native_reference_sha256": "233d07019abbf47289865d3b3e15b53457631220fa901edeb7eacd9c801fa629"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "86b27a628237a45e2dd62aff7646b477d640e7fe90a45b6a5d65b4b92cef38f1"
+    },
+    {
+      "id": "posta_cantasi_mektuplu_001",
+      "title": "Mektuplu posta çantası",
+      "category": "yardimci-nesneler/iletisim/posta-cantasi",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-cinar.json",
+          "source_blob_sha": "fd1c9660dc546124e27cf514291ae3d921c13ec8",
+          "unit": 16,
+          "unit_title": "Teşekkür Mektubu",
+          "lesson": "D1",
+          "evidence": "resim: posta çantasından çıkan mektuplar",
+          "json_pointer": "/uniteler/15/dersler/0/test/3/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "2a68ed3f0a15a2fab3bdaebe368b792181ff095db31fd31bda26a6125a9d92bd"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "posta_cantasi",
+        "postaci_cantasi"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek açık mavi posta çantasının ağzında kısmen görünen iki krem zarf biçimi. Zarflar bölmeye bağlı/örtüşen iç içerik, ayrı kâğıt nesneler değil. Tek çanta silueti; posta işareti olarak yüzeye çizili küçük zarf ikonu. Kişi/adres/metin yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "e82bb4241ac14ad581582b76cb5480a675667db71d419505ec9de9a9818df09b"
+    },
+    {
+      "id": "cam_kirik_parca_001",
+      "title": "Tek kırık cam parçası",
+      "category": "yardimci-nesneler/malzeme/cam-parcasi",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-fidan.json",
+          "source_blob_sha": "0869a5000110794de0ed498512721d3b952a4675",
+          "unit": 19,
+          "unit_title": "Dikkat!",
+          "lesson": "D4",
+          "evidence": "resim: yerde kırık cam parçaları",
+          "json_pointer": "/uniteler/18/dersler/3/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "21f4493e13f552e8208b4fb6886fcdb6ad0d3d8385d4d57c1886ddfd89a28a87"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "cam_kirik_parca",
+        "cam_parcasi"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Çoğul kaynak için yeniden kullanılabilir tek düzensiz köşeli cam kırığı. Açık mavi opak kâğıt üzerinde lacivert kenar ve açık yansıma çizgisi; gerçek kesici malzeme değil çizim. Bir PNG’de tek parça; yer/çoklu parça düzeni yok, çoğul sahne daha sonra kompozisyonda kurulur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "pati_izi_camurlu_001",
+      "title": "Tek çamurlu pati izi",
+      "category": "yardimci-nesneler/iz/pati",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 1,
+          "unit_title": "Ne Olmuş?",
+          "lesson": "D2",
+          "evidence": "resim: yerde çamurlu pati izleri",
+          "json_pointer": "/uniteler/0/dersler/1/test/1/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "adf5ab6b681db6b852f2f4177cb4eb7b26eed37e6b1c756e80a4ee6c6c01ad68"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R3418"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "pati_izi",
+        "camurlu_pati"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek stilize çamurlu pati izi: bir büyük taban ve dört küçük parmak lekesi kahverengi mürekkeple aynı bağlı beyaz pati biçimli kâğıt üzerine çizilir. Ayrı lekeler/zemin/hayvan yok; çoğul izler aynı varlıkla daha sonra yerleştirilir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "kok_bitki_tek_001",
+      "title": "Tek dallanan bitki kökü",
+      "category": "yardimci-nesneler/bahce/kok",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-fidan.json",
+          "source_blob_sha": "4f159426a7e9a879717dd768a1586dde8d4bc356",
+          "unit": 6,
+          "unit_title": "Bir Süreç",
+          "lesson": "D2",
+          "evidence": "resim: toprağın altındaki ince parçalar",
+          "json_pointer": "/uniteler/5/dersler/1/test/1/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "6e368d9bc6e5c92b90b89f04f88ce1581c9745dd8b7673d1d0a2bda60727fa91"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kok_bitki",
+        "bitki_koku",
+        "kok_tek"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Üstte kısa gövde boğazına bağlı açık kahverengi ana kök ve kalın yan kökler, tek bağlı siluet. Filiz_koklu_001 bütün genç bitkiyi içerir; burada hedef kök organının bağımsız görünümüdür. Yaprak, toprak, saksı yok; biyolojik tür/ölçek iddiası yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "poster_kutuplar_001",
+      "title": "Kutuplar resimli poster",
+      "category": "yardimci-nesneler/okul/afis",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-fidan.json",
+          "source_blob_sha": "4f159426a7e9a879717dd768a1586dde8d4bc356",
+          "unit": 20,
+          "unit_title": "Küçük Sunum",
+          "lesson": "D3",
+          "evidence": "resim: duvarda büyük resimli kâğıt",
+          "json_pointer": "/uniteler/19/dersler/2/test/1/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "4eea503f36c9efe20c9f8a4b70aa86242e300b8f5ecaba295118759045d3192d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0186",
+        "K0418"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "poster_kutuplar",
+        "kutuplar_afisi"
+      ],
+      "dedup_scope": "716 records, 633 canonical PNGs, 628 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek dikey kâğıt posterin yüzeyinde buz üstünde kutup ayısı, mavi deniz ve açık mavi gökyüzü çizimi. Kutuplar bağlamı tam ders okuma metninden gelir. Tüm manzara posterin sınırları içindedir; duvar/oda ayrı sahne olarak eklenmez. Başlık KUTUPLAR okunarak QA edilir. Mevcut afis_tek_001 genel çevre konusu taşır; yeni konu aynı afiş referansına bağlı bir yüzey varyantıdır. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "afis_tek_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/okul/afis/afis_tek_001.png",
+        "sha256": "ae8527055ac29f2a7666e2e1b2bcfa107645901f47d1fc98fcd8936a18d826da",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/afis_tek_001/r01/afis_tek_001_r01.png",
+        "native_reference_sha256": "3db7aad2be9dc2020f32f3b3fa9448dd9411fcb7a26e87ff722fe927697789c1"
+      }
     }
   ]
 }
