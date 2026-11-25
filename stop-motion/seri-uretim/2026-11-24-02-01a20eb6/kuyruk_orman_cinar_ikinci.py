@@ -1,4 +1,4 @@
-"""Append verified 7-9 Cinar and 4-6 Orman object queue after record/file reconciliation."""
+"""Append verified 4-6 Cinar and 7-9 Orman object queue after record/file reconciliation."""
 import json,pathlib,hashlib,unicodedata,re,subprocess
 ROOT=pathlib.Path(__file__).resolve().parent
 BASE=ROOT.parent.parent
