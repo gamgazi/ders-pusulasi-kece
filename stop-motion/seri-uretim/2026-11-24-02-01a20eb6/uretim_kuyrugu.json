@@ -15268,7 +15268,7 @@
       "id": "bardak_devrilmis_001",
       "title": "Tek devrilmiş boş bardak",
       "category": "yardimci-nesneler/mutfak/bardak",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/10-12-fidan.json",
@@ -15318,13 +15318,15 @@
         "base_preserved": true,
         "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/bardak_bos_001/r01/bardak_bos_001_r01.png",
         "native_reference_sha256": "13cbbbe27ae0694fc8c16209375fb610111e43b71452e832bf93debf26c4badc"
-      }
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "d7e6065b33f37c41282a79ea593d29d5083af3fce1384a36673641b5f0846019"
     },
     {
       "id": "kar_eriyen_001",
       "title": "Tek eriyen kar yığını",
       "category": "yardimci-nesneler/doga/kar",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/4-6-agac.json",
@@ -15359,13 +15361,15 @@
         "base_preserved": true,
         "native_reference_png": "stop-motion/seri-uretim/2026-11-24-01a20eb6/adaylar/kar_topu_001/r01/kar_topu_001_r01.png",
         "native_reference_sha256": "1ecfe06bee3d985b2960c2e7801d381eba0272ca73851db8e1228bed86fc50dc"
-      }
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "86484df829727178f0291889e75111dd2a479fe2b11a1ea3175aa4607edc919d"
     },
     {
       "id": "kale_yikilmis_001",
       "title": "Tek yıkılmış taş kale",
       "category": "yardimci-nesneler/mekan/tas-kale",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/13-15-agac.json",
@@ -15396,7 +15400,7 @@
       ],
       "dedup_scope": "559 records, 476 canonical PNGs, 476 queue items",
       "source_is_action_inference": false,
-      "semantic_review": "Kabul edilmiş taş kalenin yıkılmış/çökmüş durumu. Aynı turkuaz-gri ve lacivert çizim kimliği referansla korunur. Çöken kuleler ve kırık duvar tek bağlı alçak enkaz silueti; ayrı uçuşan taş/insan/silah/duman yok. Kaynaktaki dolaylı anlatımı gösterir; belirli gerçek tarihî yapı rekonstrüksiyonu değildir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "semantic_review": "Kabul edilmiş taş kalenin yıkılmış/çökmüş durumu. Aynı oker-gri ve lacivert çizim kimliği referansla korunur. Çöken kuleler ve kırık duvar tek bağlı alçak enkaz silueti; ayrı uçuşan taş/insan/silah/duman yok. Kaynaktaki dolaylı anlatımı gösterir; belirli gerçek tarihî yapı rekonstrüksiyonu değildir. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
       "pose_reference": {
         "base_id": "kale_tas_001",
         "base_revision": "r02",
@@ -15405,7 +15409,260 @@
         "base_preserved": true,
         "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kale_tas_001/r01/kale_tas_001_r01.png",
         "native_reference_sha256": "03805339427bafc811d0d92ea2f379b7263e4b1286d77624d67fb31f3e99f2c4"
-      }
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "8abbf7a7da645b3504015b9397cb74b1830ba5588749ef086e5da36d36d43256"
+    },
+    {
+      "id": "cilek_butun_001",
+      "title": "Tek bütün çilek",
+      "category": "yardimci-nesneler/yiyecekler/cilek",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 8,
+          "unit_title": "Ham Ham",
+          "lesson": "D2",
+          "evidence": "çilek",
+          "json_pointer": "/uniteler/7/dersler/1/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "bf70a6004a51c5a73855c89305be5be189dee398d4451fc54cd65f12def2061a"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "cilek_butun",
+        "cilek_tek"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek bütün kırmızı çilek, bağlı yeşil çanak yaprak ve sarı çekirdek izleri. Reçel kavanozu üzerindeki basılı çilek bağımsız meyve değildir. R/K keçe kartları korunur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "1668fa2b73f00285b09e4c11ed306057ba80e18d7851fe0cdef4126c3d176543"
+    },
+    {
+      "id": "uzum_salkimi_001",
+      "title": "Tek üzüm salkımı",
+      "category": "yardimci-nesneler/yiyecekler/uzum",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 8,
+          "unit_title": "Ham Ham",
+          "lesson": "D2",
+          "evidence": "üzüm",
+          "json_pointer": "/uniteler/7/dersler/1/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "b7114eba34674d4cb7643299e582471526acb39e0cb244794ff8d1d8a45773cd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0082",
+        "R0200",
+        "R3501"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "uzum"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek bağlı mor üzüm salkımı, kısa kahverengi sap ve bir bağlı yeşil yaprak. Taneler aynı nesne ve aynı kâğıt siluette; ayrı tane/kolaj yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "0087aa70708cbc6f50e2067639e03fe7db7fa81efe4919293dc2cbd0dc1b7ddb"
+    },
+    {
+      "id": "karpuz_butun_001",
+      "title": "Tek bütün karpuz",
+      "category": "yardimci-nesneler/yiyecekler/karpuz",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 8,
+          "unit_title": "Ham Ham",
+          "lesson": "D6",
+          "evidence": "karpuz",
+          "json_pointer": "/uniteler/7/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "b2059cffa68c76715743ed12164c858fc99f870f610d8e171d5d14261724d341"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0930",
+        "R1985"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "karpuz"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek bütün oval yeşil karpuz, koyu yeşil düzensiz uzun bantlar ve kısa bağlı sap. Dilim/ayrı çekirdek/bıçak yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r02",
+      "final_sha256": "0b1b3ac0fecb6ddf1e4a851eafe1770cd219c0e42abb18e066089b5abf6ecb9b"
+    },
+    {
+      "id": "kiraz_tek_001",
+      "title": "Tek saplı kiraz",
+      "category": "yardimci-nesneler/yiyecekler/kiraz",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 8,
+          "unit_title": "Ham Ham",
+          "lesson": "D6",
+          "evidence": "kiraz",
+          "json_pointer": "/uniteler/7/dersler/5/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "eb618b21e52ab732f5c83e9d34de40e09830b68f6f838c931fdfdfcbd062072f"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1986"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kiraz"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek koyu kırmızı kiraz meyvesi ve bağlı kıvrık yeşil sap; ikinci kiraz yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "pantolon_tek_001",
+      "title": "Tek uzun pantolon",
+      "category": "yardimci-nesneler/giyim/pantolon",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 9,
+          "unit_title": "Giyiniyorum",
+          "lesson": "D2",
+          "evidence": "pantolon",
+          "json_pointer": "/uniteler/8/dersler/1/yeni/3",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "4fcf1fe0fd69bbb5d83bb68ef26fb8e4e1d6bafd481e5992437d44507f3d8b47"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0226"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "pantolon"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek lacivert uzun pantolon, kemer köprülü bel, tek düğme/fermuar patı ve iki tam uzun paça. Eşofman altından elastik bağsız klasik bel ve düz paçayla ayrılır. Ayrı kemer/askı/insan yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "kazak_tek_001",
+      "title": "Tek uzun kollu kazak",
+      "category": "yardimci-nesneler/giyim/kazak",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 9,
+          "unit_title": "Giyiniyorum",
+          "lesson": "D2",
+          "evidence": "kazak",
+          "json_pointer": "/uniteler/8/dersler/1/yeni/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "ec48faf2323a7d9e141a8f456045b6ea4ce378c4934c4ff8e3f8d0f659161644"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0225"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kazak"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek turuncu yuvarlak yakalı kapalı uzun kollu kazak; lacivert yaka/manşet/bel şeritleri. Hırka, mont ve ceketten önden açılmayan sade kazak formuyla ayrılır. Örgü kumaş dokusu yerine yoğun mürekkep. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "tisort_tek_001",
+      "title": "Tek kısa kollu tişört",
+      "category": "yardimci-nesneler/giyim/tisort",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 9,
+          "unit_title": "Giyiniyorum",
+          "lesson": "D2",
+          "evidence": "tişört",
+          "json_pointer": "/uniteler/8/dersler/1/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "c7ce6f3f5b92bfe0e322e4272830dc2697db9f2aa5ac65900b3253e5d12254bd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0224",
+        "R0851",
+        "R0852",
+        "R1149",
+        "R3286"
+      ],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "tisort"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek sarı kısa kollu yuvarlak yakalı düz tişört. Numaralı spor formasından logosuz/numarasız düz gündelik giysi biçimiyle ayrılır. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
+    },
+    {
+      "id": "elbise_tek_001",
+      "title": "Tek mavi elbise",
+      "category": "yardimci-nesneler/giyim/elbise",
+      "state": "READY_MISSING_IN_RECORDS",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/4-6-kok.json",
+          "source_blob_sha": "320d9c85de721c2c4c66f00b54b124b6a703a9ae",
+          "unit": 9,
+          "unit_title": "Giyiniyorum",
+          "lesson": "D4",
+          "evidence": "elbise",
+          "json_pointer": "/uniteler/8/dersler/3/yeni/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "d824980362f14242f208942953d40d2113779581368356a7fc1da4156ce08acb"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "elbise_tek",
+        "elbise_mavi"
+      ],
+      "dedup_scope": "565 records, 482 canonical PNGs, 479 queue items",
+      "source_is_action_inference": false,
+      "semantic_review": "Tek mavi kısa kollu, yuvarlak yakalı ve belden genişleyen diz boyu elbise; küçük bağlı turuncu bel şeridi. Tek giysi; insan, askı, ayrı aksesuar yok. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi."
     }
   ]
 }
