@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 1322,
-  "image_generation_calls": 665,
-  "final_accepted": 595,
-  "rejected": 727,
+  "png_revisions": 1334,
+  "image_generation_calls": 671,
+  "final_accepted": 601,
+  "rejected": 733,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -114372,6 +114372,270 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_03_00_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
+    },
+    {
+      "id": "saat_calar_05_00_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-10609bd7-9832-4e5a-853b-b7c7ed4f119f.png",
+      "candidate_path": "adaylar/saat_calar_05_00_001/r01/saat_calar_05_00_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6640764431608438,
+        "opaque_fraction": 0.0001792351616167266,
+        "bbox": [
+          0,
+          29,
+          1401,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 59,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 76
+        },
+        "largest_component_pixels": {
+          "1": 528431,
+          "16": 517563,
+          "32": 516866,
+          "64": 515902,
+          "128": 514404,
+          "192": 512807,
+          "250": 506827
+        },
+        "tiny_component_pixels": {
+          "1": 95,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 154
+        },
+        "sha256": "5c994256a4a91796ecf13949b31302ecee3561da118d94472782b2de143c6849",
+        "bytes": 1106766,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D5",
+          "evidence": "resim: beşi gösteren saat",
+          "json_pointer": "/uniteler/12/dersler/4/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "7edf8b2a4232ae8e0268980b2163379245fa93dab3eb42fe30c678aa49c340d6"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:48:29.933172+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_05_00_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_05_00_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_05_00_001/r02/saat_calar_05_00_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9376009114583334,
+        "opaque_fraction": 0.061873432677469135,
+        "bbox": [
+          1553,
+          729,
+          2286,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 517563,
+          "16": 517563,
+          "32": 517563,
+          "64": 517563,
+          "128": 517563,
+          "192": 513203,
+          "250": 513203
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "584bc826857bbe3e9586154691022f6b4c8967f343025f4760b3a893cb32e2b4",
+        "bytes": 1190024,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D5",
+          "evidence": "resim: beşi gösteren saat",
+          "json_pointer": "/uniteler/12/dersler/4/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "7edf8b2a4232ae8e0268980b2163379245fa93dab3eb42fe30c678aa49c340d6"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, alfa ve mor detay incelendi. Saat05:00: yelkovan uzun ve dik12 yönünde; kalın kısa akrep aşağı-sağa5 yönünde. Tek merkezde iki kol,1–12 rakamları eksiksiz/doğru sırada. Turkuaz gövde/kulp/ayaklar, kırmızı ikiz zil, krem opak yüz korunmuş. Yoğun marker darbeleri, düzensiz lacivert kontur, dışta ve kulp açıklığında beyaz makas payı; üst sağ kıvrım ve yüzde kat izleri görünür. Dış alfa temiz ve üst kulp içi açık; ayrı gölge/nesne yok.733×891 doğal çizim büyütülmeden3840×2160 tuvale yerleşti. Özgün4K ve poz hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:48:31.898669+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:49:31.836039+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_05_00_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "5c994256a4a91796ecf13949b31302ecee3561da118d94472782b2de143c6849",
+        "output_sha256": "584bc826857bbe3e9586154691022f6b4c8967f343025f4760b3a893cb32e2b4",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          733,
+          891
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 10963,
+        "changed_alpha_pixels": 528218,
+        "bbox_in_canvas": [
+          1553,
+          729,
+          2286,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          462,
+          32,
+          1195,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_05_00_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": false
     },
     {
@@ -114635,6 +114899,270 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_07_00_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
+    },
+    {
+      "id": "saat_calar_08_00_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-e74e0e4e-66ba-436d-9e51-88d2726147ea.png",
+      "candidate_path": "adaylar/saat_calar_08_00_001/r01/saat_calar_08_00_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6647139355973742,
+        "opaque_fraction": 0.00021419237398878318,
+        "bbox": [
+          0,
+          23,
+          1377,
+          926
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 44,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 103
+        },
+        "largest_component_pixels": {
+          "1": 527469,
+          "16": 518430,
+          "32": 517775,
+          "64": 516773,
+          "128": 515290,
+          "192": 513703,
+          "250": 507088
+        },
+        "tiny_component_pixels": {
+          "1": 54,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 185
+        },
+        "sha256": "5b56235f72ddf4bab1837759fbc19557cc54813de4c413df12df826d93cb22a6",
+        "bytes": 1081431,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D5",
+          "evidence": "resim: sekizi gösteren saat",
+          "json_pointer": "/uniteler/12/dersler/4/test/0/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "a9a3245d9be43e2e622031f822670e955e175ea99cd8aca3d361f57196c62425"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:50:56.497044+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_08_00_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_08_00_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_08_00_001/r02/saat_calar_08_00_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9374963831018519,
+        "opaque_fraction": 0.06197699652777778,
+        "bbox": [
+          1551,
+          728,
+          2288,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 518430,
+          "16": 518430,
+          "32": 518430,
+          "64": 518430,
+          "128": 518430,
+          "192": 514062,
+          "250": 514062
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "1f270d520acd0ecf1155000903ea3ef55368e5fd3e188edd762135eb9fddb95b",
+        "bytes": 1168216,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D5",
+          "evidence": "resim: sekizi gösteren saat",
+          "json_pointer": "/uniteler/12/dersler/4/test/0/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "a9a3245d9be43e2e622031f822670e955e175ea99cd8aca3d361f57196c62425"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil detay, alfa ve mor detay ayrı incelendi. Saat 08:00: uzun ince kol dikey 12’ye, kısa kalın kol aşağı-sola 8’e uzanıyor; 7 yönüne kaymıyor. Tek göbekte iki kol ve doğru sıralı 1–12 rakamları var. Turkuaz gövde ve iki kırmızı zil, yoğun yönlü keçeli kalem darbeleri, lacivert düzensiz çocuk çizgisi korunmuş. Beyaz makas payı tüm dış çevrede ve üst kulp açıklığında; sağ üst kıvrım, krem opak yüzde kat izleri var. Üst kulp içi ile dış alan temiz alfa, ayrı gölge/artık yok. 737×892 doğal çizim büyütülmeden 3840×2160 tuvale yerleşti. Poz hizası veya özgün 4K ayrıntı iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:50:58.170174+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:51:26.954928+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_08_00_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "5b56235f72ddf4bab1837759fbc19557cc54813de4c413df12df826d93cb22a6",
+        "output_sha256": "1f270d520acd0ecf1155000903ea3ef55368e5fd3e188edd762135eb9fddb95b",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          737,
+          892
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9093,
+        "changed_alpha_pixels": 527164,
+        "bbox_in_canvas": [
+          1551,
+          728,
+          2288,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          458,
+          31,
+          1195,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_08_00_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": false
     },
     {
@@ -114897,6 +115425,270 @@
       "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_09_00_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
+    },
+    {
+      "id": "saat_calar_10_00_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-6af1d3fd-e534-440c-9a15-0d79e993a4e3.png",
+      "candidate_path": "adaylar/saat_calar_10_00_001/r01/saat_calar_10_00_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6650152032094534,
+        "opaque_fraction": 0.00021419237398878318,
+        "bbox": [
+          25,
+          29,
+          1545,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 68,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 107
+        },
+        "largest_component_pixels": {
+          "1": 526941,
+          "16": 515549,
+          "32": 514771,
+          "64": 513756,
+          "128": 512199,
+          "192": 510622,
+          "250": 504196
+        },
+        "tiny_component_pixels": {
+          "1": 108,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 271
+        },
+        "sha256": "ca0ce4cabbd12d609b74f2ff14820413b2b7ea355dc86168993bac6615de315f",
+        "bytes": 1103141,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D5",
+          "evidence": "resim: onu gösteren saat",
+          "json_pointer": "/uniteler/12/dersler/4/test/0/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "32b900b19d8e7a726d70cdbde695faedd78149e277ed989845470940211b353d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:52:20.620865+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "saat_calar_10_00_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "saat_calar_10_00_001_r02.png",
+      "candidate_path": "adaylar/saat_calar_10_00_001/r02/saat_calar_10_00_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9378437258873457,
+        "opaque_fraction": 0.0616332706404321,
+        "bbox": [
+          1553,
+          729,
+          2287,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 515549,
+          "16": 515549,
+          "32": 515549,
+          "64": 515549,
+          "128": 515549,
+          "192": 511211,
+          "250": 511211
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "29f881278a1743537a34e725d1595588e8353a6aeccfda63844ae3734d273555",
+        "bytes": 1190640,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D5",
+          "evidence": "resim: onu gösteren saat",
+          "json_pointer": "/uniteler/12/dersler/4/test/0/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "32b900b19d8e7a726d70cdbde695faedd78149e277ed989845470940211b353d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil detay, alfa ve mor detay ayrı incelendi. Saat 10:00: uzun ince yelkovan dik 12’ye, kısa kalın akrep yukarı-sola 10’a yönelmiş; tek merkezden iki kol. 1–12 rakamlarının sırası ve okunurluğu doğru. Turkuaz/kırmızı çalar saat kimliği, yoğun yönlü keçeli kalem, koyu üst üste mürekkep izleri ve düzensiz lacivert çizgiler korunmuş. Opak krem kadranda kat izleri, üst sağda beyaz kıvrım; dış çevre ile kulp içinde beyaz kesim payı var. Dış alan ve kulp içi temiz alfa; ayrı gölge/artık yok. 734×891 doğal çizim büyütülmeden 3840×2160 tuvale yerleşti. Özgün 4K ve poz hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:52:22.332310+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:52:48.142452+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/saat/saat_calar_10_00_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "ca0ce4cabbd12d609b74f2ff14820413b2b7ea355dc86168993bac6615de315f",
+        "output_sha256": "29f881278a1743537a34e725d1595588e8353a6aeccfda63844ae3734d273555",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          734,
+          891
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11500,
+        "changed_alpha_pixels": 526690,
+        "bbox_in_canvas": [
+          1553,
+          729,
+          2287,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          460,
+          32,
+          1194,
+          923
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_10_00_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": false
     },
@@ -124093,7 +124885,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/spor/skor-tabelasi/skor_tabelasi_1_0_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
     },
     {
       "id": "skor_tabelasi_3_0_001",
@@ -124342,7 +125135,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/spor/skor-tabelasi/skor_tabelasi_3_0_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
     },
     {
       "id": "skor_tabelasi_berabere_2_2_001",
@@ -130292,6 +131086,765 @@
       "upload_verified_commit": "6dbc99fc8a407a1b5265213214e68e3d627bb260"
     },
     {
+      "id": "takvim_masa_carsamba_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-ace73cbd-9dbb-41f6-88a9-4a4d4a2b7319.png",
+      "candidate_path": "adaylar/takvim_masa_carsamba_001/r01/takvim_masa_carsamba_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5795683356299163,
+        "opaque_fraction": 0.00033622482445123535,
+        "bbox": [
+          334,
+          52,
+          1495,
+          913
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 52,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 50
+        },
+        "largest_component_pixels": {
+          "1": 661380,
+          "16": 652681,
+          "32": 652048,
+          "64": 651248,
+          "128": 649930,
+          "192": 648614,
+          "250": 644279
+        },
+        "tiny_component_pixels": {
+          "1": 107,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 126
+        },
+        "sha256": "12764b48a6132bdde2b4e46aadac206de11d56ec82bde7e93ae6e52eb8f412fe",
+        "bytes": 1201484,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D4",
+          "evidence": "resim: takvimde çarşamba",
+          "json_pointer": "/uniteler/12/dersler/3/test/0/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "dc7ad3d46c649817a97c886da7138d02b42bc91b606cdf0c32bab0110465dd04"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2239",
+        "R3203",
+        "R3204",
+        "R3486"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "takvim_masa_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_001.png",
+        "sha256": "a2fe114b3ab9b1104dd597f5636a18c487f797625edee3e1b6f08242b96ef9fc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/takvim_masa_001/r01/takvim_masa_001_r01.png",
+        "native_reference_sha256": "639871e556895dcab9f5183da077ca68c8f5b900bede927959bd34f9c4319f3d"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:55:13.240134+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "takvim_masa_carsamba_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "takvim_masa_carsamba_001_r02.png",
+      "candidate_path": "adaylar/takvim_masa_carsamba_001/r02/takvim_masa_carsamba_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9213106433256173,
+        "opaque_fraction": 0.07824411651234568,
+        "bbox": [
+          1427,
+          806,
+          2413,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 652681,
+          "16": 652681,
+          "32": 652681,
+          "64": 652681,
+          "128": 652681,
+          "192": 648988,
+          "250": 648988
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "34047ab9d6295cc6d5fc2d167c551f4886cc75c40afab161dea49212213f192a",
+        "bytes": 1287628,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D4",
+          "evidence": "resim: takvimde çarşamba",
+          "json_pointer": "/uniteler/12/dersler/3/test/0/sec/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "dc7ad3d46c649817a97c886da7138d02b42bc91b606cdf0c32bab0110465dd04"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2239",
+        "R3203",
+        "R3204",
+        "R3486"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil detay, alfa ve mor detay incelendi. Tek turuncu-mavi masa takviminin krem sayfasında ÇARŞAMBA tek satırda eksiksiz; Ç ve Ş alt işaretleri okunur, harfler sayfa sınırı içine sığıyor. Eski ay/sayı yazıları yok. Turuncu cilt, mavi üçgen destek/taban, krem sayfa katmanları bağlı tek nesne. Yoğun yönlü keçeli kalem izleri, düzensiz lacivert kontur ve değişken dış beyaz makas payı mevcut; sağ alt sayfa kıvrımı ve kat izi var. Gövde opak, dış alfa temiz; gölge/artık/ayrı kart yok. 986×814 doğal çizim büyütülmeden 3840×2160 tuvalde; gerçek tarih, özgün 4K veya poz hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "takvim_masa_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_001.png",
+        "sha256": "a2fe114b3ab9b1104dd597f5636a18c487f797625edee3e1b6f08242b96ef9fc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/takvim_masa_001/r01/takvim_masa_001_r01.png",
+        "native_reference_sha256": "639871e556895dcab9f5183da077ca68c8f5b900bede927959bd34f9c4319f3d"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:55:14.905738+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:55:39.972488+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/kirtasiye/takvim/takvim_masa_carsamba_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "12764b48a6132bdde2b4e46aadac206de11d56ec82bde7e93ae6e52eb8f412fe",
+        "output_sha256": "34047ab9d6295cc6d5fc2d167c551f4886cc75c40afab161dea49212213f192a",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          986,
+          814
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 8806,
+        "changed_alpha_pixels": 660932,
+        "bbox_in_canvas": [
+          1427,
+          806,
+          2413,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          337,
+          86,
+          1323,
+          900
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_carsamba_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "takvim_masa_cuma_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-02efc70f-dde0-44a9-a53c-69e303afbc04.png",
+      "candidate_path": "adaylar/takvim_masa_cuma_001/r01/takvim_masa_cuma_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5722921507710925,
+        "opaque_fraction": 0.00017033696210383946,
+        "bbox": [
+          141,
+          15,
+          1535,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 150,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 62
+        },
+        "largest_component_pixels": {
+          "1": 672217,
+          "16": 657119,
+          "32": 656520,
+          "64": 655585,
+          "128": 654228,
+          "192": 652862,
+          "250": 647764
+        },
+        "tiny_component_pixels": {
+          "1": 415,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 165
+        },
+        "sha256": "44a10b55cb028526fc2cf7c0b5176890db6363899090b0987ada943ec3bd56f3",
+        "bytes": 1201164,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D4",
+          "evidence": "resim: takvimde cuma",
+          "json_pointer": "/uniteler/12/dersler/3/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "e9612339c61dce38b8a1eeddbb0980e33b1e5047b4d8d1609c4664c83d07a387"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2239",
+        "R3203",
+        "R3204",
+        "R3486"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "takvim_masa_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_001.png",
+        "sha256": "a2fe114b3ab9b1104dd597f5636a18c487f797625edee3e1b6f08242b96ef9fc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/takvim_masa_001/r01/takvim_masa_001_r01.png",
+        "native_reference_sha256": "639871e556895dcab9f5183da077ca68c8f5b900bede927959bd34f9c4319f3d"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:53:48.698095+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "takvim_masa_cuma_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "takvim_masa_cuma_001_r02.png",
+      "candidate_path": "adaylar/takvim_masa_cuma_001/r02/takvim_masa_cuma_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9207755835262346,
+        "opaque_fraction": 0.0787768856095679,
+        "bbox": [
+          1426,
+          803,
+          2414,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 657119,
+          "16": 657119,
+          "32": 657119,
+          "64": 657119,
+          "128": 657119,
+          "192": 653407,
+          "250": 653407
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "50a79b924c22f1286979f168044b28276df392893fe45286a02ad9f7291d5dfb",
+        "bytes": 1281748,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D4",
+          "evidence": "resim: takvimde cuma",
+          "json_pointer": "/uniteler/12/dersler/3/test/0/sec/0",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "e9612339c61dce38b8a1eeddbb0980e33b1e5047b4d8d1609c4664c83d07a387"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2239",
+        "R3203",
+        "R3204",
+        "R3486"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil detay, alfa ve mor detay incelendi. Tek masa takvimi: turuncu üst cilt bandı, mavi üçgen sağ destek ve taban, krem sayfa bloğu. Ön yüzde yalnız CUMA yazısı tek satırda doğru ve rahat okunur; eski KASIM/12 ve başka tarih yok. Krem alan opak, yazı aynı yüzeyde; bağımsız harf/kart yok. Turuncu/mavi/lacivertte yoğun yönlü keçeli kalem ve düzensiz kontur, çevrede değişken beyaz makas payı; sağ altta kalkmış sayfa kıvrımı ve onun üstünde kat izi görülüyor. Dış alfa temiz; ayrı zemin/gölge/artık yok. 988×817 doğal çizim büyütülmeden 3840×2160 tuvale yerleşti. Gerçek tarih-yıl eşleştirmesi, özgün4K veya poz hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "takvim_masa_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_001.png",
+        "sha256": "a2fe114b3ab9b1104dd597f5636a18c487f797625edee3e1b6f08242b96ef9fc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/takvim_masa_001/r01/takvim_masa_001_r01.png",
+        "native_reference_sha256": "639871e556895dcab9f5183da077ca68c8f5b900bede927959bd34f9c4319f3d"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:53:50.330392+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:54:19.430762+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/kirtasiye/takvim/takvim_masa_cuma_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "44a10b55cb028526fc2cf7c0b5176890db6363899090b0987ada943ec3bd56f3",
+        "output_sha256": "50a79b924c22f1286979f168044b28276df392893fe45286a02ad9f7291d5dfb",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          988,
+          817
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 15816,
+        "changed_alpha_pixels": 672647,
+        "bbox_in_canvas": [
+          1426,
+          803,
+          2414,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          337,
+          86,
+          1325,
+          903
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_cuma_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "takvim_masa_pazar_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-0a06f199-702e-4c8c-9c66-21e88795338e.png",
+      "candidate_path": "adaylar/takvim_masa_pazar_001/r01/takvim_masa_pazar_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5784357219490617,
+        "opaque_fraction": 0.0003114369829510497,
+        "bbox": [
+          138,
+          58,
+          1620,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 61,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 59
+        },
+        "largest_component_pixels": {
+          "1": 663165,
+          "16": 653929,
+          "32": 653372,
+          "64": 652468,
+          "128": 651348,
+          "192": 650043,
+          "250": 645801
+        },
+        "tiny_component_pixels": {
+          "1": 104,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 111
+        },
+        "sha256": "5c4fd2a4ff443285f50b2bfd10a352712db93ec8352b46d6f80eb675fa7393c8",
+        "bytes": 1254554,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D4",
+          "evidence": "resim: takvimde pazar",
+          "json_pointer": "/uniteler/12/dersler/3/test/0/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "88e2191bfa7048c0848cc1d7b471be4d3235f10a7243256e9832b53de8addbdd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2239",
+        "R3203",
+        "R3204",
+        "R3486"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "takvim_masa_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_001.png",
+        "sha256": "a2fe114b3ab9b1104dd597f5636a18c487f797625edee3e1b6f08242b96ef9fc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/takvim_masa_001/r01/takvim_masa_001_r01.png",
+        "native_reference_sha256": "639871e556895dcab9f5183da077ca68c8f5b900bede927959bd34f9c4319f3d"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:56:27.329398+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "takvim_masa_pazar_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "takvim_masa_pazar_001_r02.png",
+      "candidate_path": "adaylar/takvim_masa_pazar_001/r02/takvim_masa_pazar_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9211601803626543,
+        "opaque_fraction": 0.07839518229166667,
+        "bbox": [
+          1426,
+          806,
+          2413,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 653929,
+          "16": 653929,
+          "32": 653929,
+          "64": 653929,
+          "128": 653929,
+          "192": 650241,
+          "250": 650241
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "e4daad8c53b861524ad35cab7bda0b3e99ea3232e5db2be2685669988af1b71b",
+        "bytes": 1352489,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-kok.json",
+          "source_blob_sha": "3372ad745ed2761c94448bb93daac18eed8403c6",
+          "unit": 13,
+          "unit_title": "Ne Zaman?",
+          "lesson": "D4",
+          "evidence": "resim: takvimde pazar",
+          "json_pointer": "/uniteler/12/dersler/3/test/0/sec/2",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "88e2191bfa7048c0848cc1d7b471be4d3235f10a7243256e9832b53de8addbdd"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2239",
+        "R3203",
+        "R3204",
+        "R3486"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil, alfa ve mor detay ayrı incelendi. Krem ön sayfada PAZAR tek satırda doğru; başka ay/tarih/sayı yok. Tek masa takviminin turuncu cilt bandı, mavi üçgen sağ destek ve tabanı, bağlı krem sayfa bloğu korunmuş. Harfler aynı yüzeye çizili. Yoğun yönlü marker mürekkebi ve düzensiz lacivert çizgi var; dış çevrede beyaz makas payı, sağ alt kalkmış sayfa ve üstündeki kat izi görülüyor. Opak tek gövde; dış alfa temiz, ayrı gölge/artık yok. 987×814 doğal çizim büyütülmeden 3840×2160 tuvale yerleşti. Gerçek tarih eşleştirmesi, poz hizası ve özgün 4K iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "takvim_masa_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_001.png",
+        "sha256": "a2fe114b3ab9b1104dd597f5636a18c487f797625edee3e1b6f08242b96ef9fc",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/takvim_masa_001/r01/takvim_masa_001_r01.png",
+        "native_reference_sha256": "639871e556895dcab9f5183da077ca68c8f5b900bede927959bd34f9c4319f3d"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-25T14:56:28.971424+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-25T14:56:56.570737+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/kirtasiye/takvim/takvim_masa_pazar_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "5c4fd2a4ff443285f50b2bfd10a352712db93ec8352b46d6f80eb675fa7393c8",
+        "output_sha256": "e4daad8c53b861524ad35cab7bda0b3e99ea3232e5db2be2685669988af1b71b",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          987,
+          814
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9340,
+        "changed_alpha_pixels": 662765,
+        "bbox_in_canvas": [
+          1426,
+          806,
+          2413,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          337,
+          87,
+          1324,
+          901
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/kirtasiye/takvim/takvim_masa_pazar_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "tarak_tek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -133573,7 +135126,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/mutfak/tencere/tencere_acik_yemekli_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "787d15da95b890b3f40b4763248df22122a64fb3"
     },
     {
       "id": "tencere_kapali_001",
@@ -152189,10 +153743,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 589,
-    "accepted_png_count": 595,
+    "verified_png_count": 595,
+    "accepted_png_count": 601,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-25T14:47:06.066893+00:00"
+  "updated_at_utc": "2026-11-25T14:58:04.116258+00:00"
 }
