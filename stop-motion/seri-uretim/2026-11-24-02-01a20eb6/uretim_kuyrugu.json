@@ -33261,7 +33261,7 @@
       "id": "kazak_dikisle_onarilmis_001",
       "title": "Tek dikişle onarılmış turuncu kazak",
       "category": "yardimci-nesneler/giyim/kazak",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/16-17-agac.json",
@@ -33297,13 +33297,15 @@
         "base_preserved": true,
         "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kazak_yirtik_001/r01/kazak_yirtik_001_r01.png",
         "native_reference_sha256": "8a6c3b48311b17f9d22611227cf3fa90a54e1071823c64f5a0a4b0e4b1bb2ce2"
-      }
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "61e1f3ec1dd135e2f6e9f0bd03949a67d78504fcfc9c252e652901b019d09aec"
     },
     {
       "id": "cizgi_grafik_ekran_yillar_001",
       "title": "Tek dört yıllık ekran süresi çizgi grafiği",
       "category": "yardimci-nesneler/belgeler/cizgi-grafik",
-      "state": "READY_MISSING_IN_RECORDS",
+      "state": "FINAL_ACCEPTED",
       "source_evidence": [
         {
           "source": "pusula/ders-pusulasi/16-17-agac.json",
@@ -33338,7 +33340,99 @@
         "base_preserved": true,
         "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/cizgi_grafik_sayfasi_001/r01/cizgi_grafik_sayfasi_001_r01.png",
         "native_reference_sha256": "f5dbfc19510e6a90a1761cd0421610ebb1f891aa0602f86fcbb07c1d6cfaf4ba"
-      }
+      },
+      "accepted_revision": "r04",
+      "final_sha256": "6cbc673935d81016d88a42baeed2d445d968a3332f456907cd14aedfacb232fc"
+    },
+    {
+      "id": "yumurta_cirpilmis_kase_001",
+      "title": "Tek çırpılmış yumurta kâsesi",
+      "category": "yardimci-nesneler/yiyecek/yumurta",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/10-12-kok.json",
+          "source_blob_sha": "b1224776b20471cca0fc7d3864ae4f08e7ae9090",
+          "unit": 2,
+          "unit_title": "Bir Tarif",
+          "lesson": "D5",
+          "evidence": "Şimdi yumurtaları bir kâseye kır ve çırp.",
+          "json_pointer": "/uniteler/1/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "a20aa9e88bafe7d8b78dd9cc11dce8dbebbc537227a633479000f7c67e2c1b80"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0213",
+        "R0924",
+        "R0929"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "yumurta_cirpilmis",
+        "cirpilmis_yumurta",
+        "yumurta_kasesi",
+        "yumurta_karisimi"
+      ],
+      "dedup_scope": "983 records, 900 canonical PNGs, 896 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "10-12 kök tam U2 ve 13-15 kök tam U3 okundu. Kâsede yumurta çırpma kaynakta açık; mavi kâse rengi ve homojen sarı çizim tasarım kararıdır. Bütün yumurta, ayrı sarı/ak, kabuk veya çırpıcı yok; kâse içeriği tek bağlı nesne. Yoğurt ve diğer yiyecekler korunur. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "yogurt_kasesi_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/yogurt/yogurt_kasesi_001.png",
+        "sha256": "2bd7c7b1cf9433b44cd5d773eef202c336acd0a86e93fc72dcc931662a0781b6",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/yogurt_kasesi_001/r01/yogurt_kasesi_001_r01.png",
+        "native_reference_sha256": "7f1af218e99f5ab52f1e943908178ef084302f7e8668b8a191dc714279276dc7"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "8e484abb81f4bb86bf464ebc877016bddfd238416748d07a3cd40beba7ac7230"
+    },
+    {
+      "id": "kek_kalibi_hamurlu_001",
+      "title": "Tek çiğ kek hamuru dolu halka kalıp",
+      "category": "yardimci-nesneler/mutfak/kek-kalibi",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-kok.json",
+          "source_blob_sha": "cceeb3130f04a609b9b44bf482b23b107c188172",
+          "unit": 3,
+          "unit_title": "Bir Tarif",
+          "lesson": "D5",
+          "evidence": "hamuru kalıba dökün",
+          "json_pointer": "/uniteler/2/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "940a0338b0e172b03de3ba704e5bb1fcef8c55f83a4aacee1031699c01d9aa26"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0614"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "kek_kalibi_hamurlu",
+        "kek_hamuru_kalipta",
+        "kek_kalibi_hamur_dolu",
+        "hamurlu_kalip"
+      ],
+      "dedup_scope": "983 records, 900 canonical PNGs, 896 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Tam U3 ve mevcut kesik D5 okundu. Mavi halka kalıbın annüler boşluğunda alçak seviyede açık krem-sarı pürüzsüz çiğ hamur; pişmiş kabarmış kahverengi kekten ve boş kalıptan ayrı durum. Renk/kap seçimi tasarım çıkarımı. Merkez mavi tüpün fiziksel deliği alfa ve iç beyaz makas payıyla korunur. Ayrı dökülen akış, spatula veya el yok; kaynak kesik devamı tamamlanmaz. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "kek_kalibi_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/mutfak/kek-kalibi/kek_kalibi_bos_001.png",
+        "sha256": "3d4205b54c0e36a639d557d51f5c748a2794fb31c92c3af924eb908c5ba710d8",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kek_kalibi_bos_001/r01/kek_kalibi_bos_001_r01.png",
+        "native_reference_sha256": "529715ac0facd9a43938d14a48af9db0f0e0d82bd75c1f13efe06961a0fed1f9"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "056a2e6135a2f051e00c560cd0d82dfe27d06ff21a29481b5c81c7265a2450be"
     }
   ]
 }
