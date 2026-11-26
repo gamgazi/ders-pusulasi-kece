@@ -3,10 +3,10 @@
   "date": "2026-11-26",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 2026,
-  "image_generation_calls": 1021,
-  "final_accepted": 912,
-  "rejected": 1114,
+  "png_revisions": 2032,
+  "image_generation_calls": 1024,
+  "final_accepted": 915,
+  "rejected": 1117,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -45079,6 +45079,229 @@
       "upload_verified_commit": "6763772819f1ac0913fb8043f66d52fbc089e514"
     },
     {
+      "id": "deniz_feneri_sonuk_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-c0435cb6-5e04-4ad1-9c38-a0f3f12ff633.png",
+      "candidate_path": "adaylar/deniz_feneri_sonuk_001/r01/deniz_feneri_sonuk_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8377248066548363,
+        "opaque_fraction": 6.355856794919382e-05,
+        "bbox": [
+          33,
+          29,
+          1650,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 247,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 49
+        },
+        "largest_component_pixels": {
+          "1": 254820,
+          "16": 245663,
+          "32": 243986,
+          "64": 242522,
+          "128": 240944,
+          "192": 239678,
+          "250": 235251
+        },
+        "tiny_component_pixels": {
+          "1": 496,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 102
+        },
+        "sha256": "df2ac1da92ea2e03a1be00543e9a6f094b2ab96fb64c155ad8bdf9cbd75f46bc",
+        "bytes": 618230,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-orman.json",
+          "source_blob_sha": "cedb7f2428b938a6593e1a8471943c06c63388d0",
+          "unit": 10,
+          "unit_title": "Kitap Eleştirisi",
+          "lesson": "D6",
+          "evidence": "Bir gece köyün deniz feneri sönüyor.",
+          "json_pointer": "/uniteler/9/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "97fe3d98fed1f7cd71415cd08b61923b241701d6d2cf12ead611318ce3c8db33"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-26T06:22:18.161426+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "deniz_feneri_sonuk_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "deniz_feneri_sonuk_001_r02.png",
+      "candidate_path": "adaylar/deniz_feneri_sonuk_001/r02/deniz_feneri_sonuk_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9703820650077161,
+        "opaque_fraction": 0.029282286844135804,
+        "bbox": [
+          1709,
+          773,
+          2131,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 245663,
+          "16": 245663,
+          "32": 245663,
+          "64": 245663,
+          "128": 245663,
+          "192": 242879,
+          "250": 242879
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "1cf485b15389d62c463954eda66f852292d8c37f607511e0c64f20baabea22f6",
+        "bytes": 650695,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-orman.json",
+          "source_blob_sha": "cedb7f2428b938a6593e1a8471943c06c63388d0",
+          "unit": 10,
+          "unit_title": "Kitap Eleştirisi",
+          "lesson": "D6",
+          "evidence": "Bir gece köyün deniz feneri sönüyor.",
+          "json_pointer": "/uniteler/9/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "97fe3d98fed1f7cd71415cd08b61923b241701d6d2cf12ead611318ce3c8db33"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Ham üretim ve nihai adayın yeşil, mor ve alfa görünümleri gerçekten incelendi. Tek sönük deniz feneri kulesi: açık krem konik gövde, iki geniş kırmızı bant, iki koyu küçük pencere ve kapalı lacivert kapı. Üstte mavi çıkma, koyu opak üç bölümlü lamba odası ve kırmızı konik çatı var; ışık, sarı pencere, parıltı veya dış ışın yok. Pencereler cam/malzeme içidir ve opak; fiziksel iç delik çizilmemiş. Bütün yapı tek bağlı kâğıt, çevre/deniz/kaya/kişi yok. Doygun kırmızı-mavi yönlü mürekkep izleri, değişken beyaz makas payı, sağ alt fiziksel kıvrım ve düzensiz çocuk çizgisi görüldü. Dış alfa artığı ve gölge yok; yedi eşikte tek bağlı bileşen. 1672x941 kaynak büyütülmeden 3840x2160 tuvalde. Kaynak mimari/renk belirtmediğinden genel kule tasarımı yorumdur, gerçek bina veya ölçülü mimari çizim iddia edilmez. Özgün 4K ayrıntı/poz hizalaması yok."
+      },
+      "ingested_at_utc": "2026-11-26T06:22:19.769545+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T06:22:55.564151+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/yapilar/deniz-feneri/deniz_feneri_sonuk_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "df2ac1da92ea2e03a1be00543e9a6f094b2ab96fb64c155ad8bdf9cbd75f46bc",
+        "output_sha256": "1cf485b15389d62c463954eda66f852292d8c37f607511e0c64f20baabea22f6",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          422,
+          847
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9653,
+        "changed_alpha_pixels": 255216,
+        "bbox_in_canvas": [
+          1709,
+          773,
+          2131,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          607,
+          61,
+          1029,
+          908
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/yapilar/deniz-feneri/deniz_feneri_sonuk_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "deniz_kabugu_tek_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -62915,7 +63138,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/hatira/fotograf/fotograf_eski_iki_kiz_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "59041dfbd2e8bbddc0f5cf7943ff6f23db5b5ed5"
     },
     {
       "id": "fotokopi_makinesi_001",
@@ -102832,6 +103056,257 @@
       "upload_verified_commit": "74b6f909041a62f58746c518e687607b3826e76b"
     },
     {
+      "id": "kitap_kayip_fener_kapak_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-1111cd06-65d2-45d4-8c69-857b2168932f.png",
+      "candidate_path": "adaylar/kitap_kayip_fener_kapak_001/r01/kitap_kayip_fener_kapak_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7293701600150506,
+        "opaque_fraction": 0.00026821715674559796,
+        "bbox": [
+          121,
+          26,
+          1650,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 165,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 102
+        },
+        "largest_component_pixels": {
+          "1": 425456,
+          "16": 415066,
+          "32": 414553,
+          "64": 413756,
+          "128": 412722,
+          "192": 411525,
+          "250": 406846
+        },
+        "tiny_component_pixels": {
+          "1": 340,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 263
+        },
+        "sha256": "51f064e7d40ee7486be2ebe9dac9097d6b9da2c779c17d62152e17c617eb9a37",
+        "bytes": 902170,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-orman.json",
+          "source_blob_sha": "cedb7f2428b938a6593e1a8471943c06c63388d0",
+          "unit": 10,
+          "unit_title": "Kitap Eleştirisi",
+          "lesson": "D6",
+          "evidence": "Kapağı çok dikkat çekici: mavi bir gece ve küçük bir ışık.",
+          "json_pointer": "/uniteler/9/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "97fe3d98fed1f7cd71415cd08b61923b241701d6d2cf12ead611318ce3c8db33"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1636",
+        "R2820",
+        "R3514"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "masal_kitabi_kapali_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/masal-kitabi/masal_kitabi_kapali_001.png",
+        "sha256": "30ea06c2101b8cdee7259affc9c3a9f50f2e1d7dd613599aa04891a475f21749",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/masal_kitabi_kapali_001/r01/masal_kitabi_kapali_001_r01.png",
+        "native_reference_sha256": "c7ba106c8687badd8ad90f412a35875a8eb6b8ba3ff043d05bd5d3e4154e9697"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:23:51.741478+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "kitap_kayip_fener_kapak_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "kitap_kayip_fener_kapak_001_r02.png",
+      "candidate_path": "adaylar/kitap_kayip_fener_kapak_001/r02/kitap_kayip_fener_kapak_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9499582851080247,
+        "opaque_fraction": 0.049705463927469135,
+        "bbox": [
+          1578,
+          932,
+          2262,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 415066,
+          "16": 415066,
+          "32": 415066,
+          "64": 415066,
+          "128": 415066,
+          "192": 412277,
+          "250": 412277
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "a5555e257f85c7c751a932122fec98397e35d50486452953d18b9593644a2d9b",
+        "bytes": 966716,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-orman.json",
+          "source_blob_sha": "cedb7f2428b938a6593e1a8471943c06c63388d0",
+          "unit": 10,
+          "unit_title": "Kitap Eleştirisi",
+          "lesson": "D6",
+          "evidence": "Kapağı çok dikkat çekici: mavi bir gece ve küçük bir ışık.",
+          "json_pointer": "/uniteler/9/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "97fe3d98fed1f7cd71415cd08b61923b241701d6d2cf12ead611318ce3c8db33"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1636",
+        "R2820",
+        "R3514"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Ham üretim ile nihai r02 yeşil, mor ve alfa görünümleri gerçekten incelendi. Tek kapalı kitap: kırmızı sırt, krem sayfa bloğu, doygun mavi ön kapak. Kayıp / Fener başlığı doğru, Kayıp sözcüğünde noktasız ı var. Alt kapakta küçük açık gri fener silueti ve sarı pencere ışığı; altında iki lacivert dalga çizgisi yalnız kapağa çizilmiş, ayrı arka plan/nesne yok. Başka yazar/yayınevi/tarih/yaş adı eklenmemiş. Yönlü yoğun mürekkep ve koyu bindirmeler, el çizgisi düzensizliği, değişken beyaz makas payı, üst sağ kâğıt kıvrımı ve kapakta hafif kat izi var. Tek bağlı opak kitap; dış alfa temiz, gölge yok, yedi alfa eşiği geçti. 1672x941 kaynak büyütülmeden 3840x2160 tuvalde. Kaynaktaki kurmaca kitabın mavi gece/küçük ışık kapağı yorumudur; gerçek basılmış kitabın kapağı veya ayrı karakter/kule dosyası olduğu iddia edilmez. Özgün 4K ayrıntı veya poz hizalaması yok."
+      },
+      "pose_reference": {
+        "base_id": "masal_kitabi_kapali_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/masal-kitabi/masal_kitabi_kapali_001.png",
+        "sha256": "30ea06c2101b8cdee7259affc9c3a9f50f2e1d7dd613599aa04891a475f21749",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/masal_kitabi_kapali_001/r01/masal_kitabi_kapali_001_r01.png",
+        "native_reference_sha256": "c7ba106c8687badd8ad90f412a35875a8eb6b8ba3ff043d05bd5d3e4154e9697"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:23:53.318590+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T06:24:34.482773+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/egitim/kitap/kitap_kayip_fener_kapak_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "51f064e7d40ee7486be2ebe9dac9097d6b9da2c779c17d62152e17c617eb9a37",
+        "output_sha256": "a5555e257f85c7c751a932122fec98397e35d50486452953d18b9593644a2d9b",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          684,
+          688
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 10730,
+        "changed_alpha_pixels": 425357,
+        "bbox_in_canvas": [
+          1578,
+          932,
+          2262,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          476,
+          158,
+          1160,
+          846
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/egitim/kitap/kitap_kayip_fener_kapak_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "kitaplik_bos_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -122793,7 +123268,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/kagit/mektup/mektup_agac_ipucu_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "59041dfbd2e8bbddc0f5cf7943ff6f23db5b5ed5"
     },
     {
       "id": "mektup_sararmis_acik_001",
@@ -144156,7 +144632,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/yiyecek/pasta/pasta_ahmet_yazili_cikolatali_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "59041dfbd2e8bbddc0f5cf7943ff6f23db5b5ed5"
     },
     {
       "id": "pasta_butun_001",
@@ -213194,6 +213671,249 @@
       "upload_verified_commit": "2200d25eb721c0dca5abc671bfe70fc6cb68a346"
     },
     {
+      "id": "termometre_hava_35_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-84e6660c-805b-49e0-a7e7-6370b344061c.png",
+      "candidate_path": "adaylar/termometre_hava_35_001/r01/termometre_hava_35_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6070745770812889,
+        "opaque_fraction": 0.0001627099339499362,
+        "bbox": [
+          340,
+          109,
+          1521,
+          922
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 51,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 134
+        },
+        "largest_component_pixels": {
+          "1": 617961,
+          "16": 611103,
+          "32": 610433,
+          "64": 609703,
+          "128": 608467,
+          "192": 607336,
+          "250": 601823
+        },
+        "tiny_component_pixels": {
+          "1": 110,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 338
+        },
+        "sha256": "166396a892e1411ba612b0d5eacc84c0cf5662ee2c64b5ece7e5ff83f11d2fbe",
+        "bytes": 1201880,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-tohum.json",
+          "source_blob_sha": "5d40b2f6d13ed99b6845928f358d67a06a46e02b",
+          "unit": 8,
+          "unit_title": "Hava Nasıl?",
+          "lesson": "D2",
+          "evidence": "Termometre 35 derece gösteriyor. Hava nasıl?",
+          "json_pointer": "/uniteler/7/dersler/1/test/1/soru",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "57ed8fbda650079def4b0b425c54a1e05cc7b5eb157f07d08bfcdbbdaa41f5f3"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "termometre_hava_eksi_5_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/hava/termometre/termometre_hava_eksi_5_001.png",
+        "sha256": "8439f344d23b47988e772c9c81394b9cb1970af8f203383db9c483e11617b18e",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/termometre_hava_eksi_5_001/r01/termometre_hava_eksi_5_001_r01.png",
+        "native_reference_sha256": "710f006d4fb0b23457c94199c7468f3e606136c66cf63176e53510055029c0ca"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:28:44.079491+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "termometre_hava_35_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "termometre_hava_35_001_r02.png",
+      "candidate_path": "adaylar/termometre_hava_35_001/r02/termometre_hava_35_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9263234230324074,
+        "opaque_fraction": 0.0732593074845679,
+        "bbox": [
+          1443,
+          912,
+          2396,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 611103,
+          "16": 611103,
+          "32": 611103,
+          "64": 611103,
+          "128": 611103,
+          "192": 607642,
+          "250": 607642
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "aa033c9de48d3825fe488252fb5fff7e5e27b7374f95e5bf5111621a999104a2",
+        "bytes": 1271018,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-tohum.json",
+          "source_blob_sha": "5d40b2f6d13ed99b6845928f358d67a06a46e02b",
+          "unit": 8,
+          "unit_title": "Hava Nasıl?",
+          "lesson": "D2",
+          "evidence": "Termometre 35 derece gösteriyor. Hava nasıl?",
+          "json_pointer": "/uniteler/7/dersler/1/test/1/soru",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "57ed8fbda650079def4b0b425c54a1e05cc7b5eb157f07d08bfcdbbdaa41f5f3"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Ham üretim ve r02 yeşil, mor, alfa görünümleri gerçekten incelendi. Tek mavi hava termometresinde 35°C büyük ve doğru; eksi işareti kaldırılmış, sayı3/5, derece halkası ve C ayrı okunuyor. Krem ekran, turuncu güç düğmesi, üç lacivert havalandırma çizgisi ve sağ alt kâğıt kıvrımı korunuyor. Yoğun mavi keçeli kalem taramaları ve koyu bindirmeler, değişken beyaz kesim payı, düzensiz el yazısı ve çapraz kat izi var. Dış alfa temiz, tüm iç yüzey opak, yedi eşikte tek bağlı nesne. 1672x941 kaynak büyütülmeden 3840x2160 tuvalde; özgün4K veya poz hizalaması iddiası yok. Kaynağın35derece hava sıcaklığı soru durumudur; canlı hava ölçümü veya vücut termometresi değildir."
+      },
+      "pose_reference": {
+        "base_id": "termometre_hava_eksi_5_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/hava/termometre/termometre_hava_eksi_5_001.png",
+        "sha256": "8439f344d23b47988e772c9c81394b9cb1970af8f203383db9c483e11617b18e",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/termometre_hava_eksi_5_001/r01/termometre_hava_eksi_5_001_r01.png",
+        "native_reference_sha256": "710f006d4fb0b23457c94199c7468f3e606136c66cf63176e53510055029c0ca"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:28:45.711501+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T06:29:35.210813+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/olcum/termometre/termometre_hava_35_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "166396a892e1411ba612b0d5eacc84c0cf5662ee2c64b5ece7e5ff83f11d2fbe",
+        "output_sha256": "aa033c9de48d3825fe488252fb5fff7e5e27b7374f95e5bf5111621a999104a2",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          953,
+          708
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7107,
+        "changed_alpha_pixels": 617943,
+        "bbox_in_canvas": [
+          1443,
+          912,
+          2396,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          342,
+          112,
+          1295,
+          820
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/olcum/termometre/termometre_hava_35_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "termometre_hava_eksi_5_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -240274,10 +240994,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 909,
-    "accepted_png_count": 912,
+    "verified_png_count": 912,
+    "accepted_png_count": 915,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-26T06:18:02.683591+00:00"
+  "updated_at_utc": "2026-11-26T06:32:39.038092+00:00"
 }
