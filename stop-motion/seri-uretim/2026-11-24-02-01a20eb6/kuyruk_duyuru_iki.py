@@ -46,6 +46,9 @@ for aid,title,cat,tag,un,ln,term,aliases,baseid,semantic in specs:
     existing=[x['id'] for x in q['items']+new if any(matches(a,x['id']) for a in aliases)]
     files=[x for x in canonical if any(matches(a,x) for a in aliases)]
     assert not historical and not existing and not files,(aid,historical,existing,files)
+    # Exact lesson depiction already has a card: reuse before producing another asset.
+    exact_card_matches=[c['id'] for c in cards if norm(c['ad'])==norm(re.sub(r'^resim:\s*','',term))]
+    assert not exact_card_matches,('EXISTING_CARD_REUSE_REQUIRED',aid,exact_card_matches)
     reference=None;cardids=[c['id'] for c in cards if any(matches(a,c['ad']) for a in aliases)]
     if baseid:
         b=canonical_records[baseid];cardids=b.get('felt_cards_preserved',[])

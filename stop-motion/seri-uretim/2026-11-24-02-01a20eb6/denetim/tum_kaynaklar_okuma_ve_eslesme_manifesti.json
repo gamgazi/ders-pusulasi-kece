@@ -2,7 +2,7 @@
   "full_source_files_read": 35,
   "units_read": 616,
   "lessons_read": 5040,
-  "explicitly_linked_lessons": 625,
+  "explicitly_linked_lessons": 628,
   "full_curriculum_decomposition_complete": false,
   "library_complete": false,
   "note": "Okuma kayıtları kaynak SHA ve tam ünite/ders sayılarıyla doğrulandı. Açık kuyruk ve mevcut varlık tekrar-kullanım bağlantıları birleştirildi; tekrar-kullanım kanıtlarında gerçek PNG SHA, JSON alanı ve alan SHA eşleşmesi denetlendi. Bağlantı bulunması tüm ders sahnesinin tamamlandığı anlamına gelmez. Bağlantısız ders otomatik eksik asset sayılmaz.",
@@ -10392,7 +10392,10 @@
             "bilim_fuari_toplanti_notu_001",
             "toprak_nem_sensoru_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "bilim_fuari_toplanti_notu_001",
+            "toprak_nem_sensoru_001"
+          ],
           "linked_final_accepted_ids": [
             "bilim_fuari_toplanti_notu_001",
             "toprak_nem_sensoru_001"
@@ -11233,9 +11236,13 @@
           "unit": 3,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "kurs_kayit_1_haziran_duyurusu_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "kurs_kayit_1_haziran_duyurusu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -12722,9 +12729,13 @@
           "unit": 5,
           "lesson": "D3",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "muze_grev_kapali_duyurusu_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "muze_grev_kapali_duyurusu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -12749,9 +12760,13 @@
           "unit": 5,
           "lesson": "D6",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "kayitlar_doldu_duyurusu_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "kayitlar_doldu_duyurusu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -13296,7 +13311,9 @@
             "telefon_dogrulama_kodu_001",
             "telefon_kisi_engellendi_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "telefon_dogrulama_kodu_001"
+          ],
           "linked_final_accepted_ids": [
             "telefon_dogrulama_kodu_001",
             "telefon_kisi_engellendi_001"
@@ -14851,10 +14868,14 @@
           "lesson": "D5",
           "all_present_fields_read": true,
           "explicit_queue_links": [
+            "bugday_suda_kase_001",
+            "nohut_suda_kase_001",
             "tarcin_cubugu_tek_001"
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
+            "bugday_suda_kase_001",
+            "nohut_suda_kase_001",
             "tarcin_cubugu_tek_001"
           ],
           "all_scene_requirements_reconciled": false
@@ -14866,13 +14887,15 @@
           "explicit_queue_links": [
             "nohut_tek_001",
             "seker_paketi_kapali_001",
-            "tereyagi_kalip_001"
+            "tereyagi_kalip_001",
+            "zamanlayici_otuz_dakika_001"
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
             "nohut_tek_001",
             "seker_paketi_kapali_001",
-            "tereyagi_kalip_001"
+            "tereyagi_kalip_001",
+            "zamanlayici_otuz_dakika_001"
           ],
           "all_scene_requirements_reconciled": false
         },
@@ -48824,7 +48847,7 @@
       ]
     }
   ],
-  "validated_reuse_link_records": 42,
+  "validated_reuse_link_records": 45,
   "reuse_evidence_records": [
     {
       "record": "denetim/brokoli_yeniden_kullanim_843.json",
@@ -49153,6 +49176,30 @@
       "unit": 5,
       "lesson": "D7",
       "sha256": "114905b22d25a8320cba68bec5462421c5b41be5f72943e9a65be56f622a1a6f"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_881.json",
+      "id": "telefon_dogrulama_kodu_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 12,
+      "lesson": "D2",
+      "sha256": "47c646b9a40b50b614ce6be4156143c000e42a77972d27e8c162300eb763b651"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_881.json",
+      "id": "toprak_nem_sensoru_001",
+      "source": "pusula/ders-pusulasi/13-15-agac.json",
+      "unit": 9,
+      "lesson": "D5",
+      "sha256": "4941f10f658eea9f98792dcf504c24d1caca177e6a838bd465de6e64572b3476"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_881.json",
+      "id": "bilim_fuari_toplanti_notu_001",
+      "source": "pusula/ders-pusulasi/13-15-agac.json",
+      "unit": 9,
+      "lesson": "D5",
+      "sha256": "3f8d771b6e3916fd453195b68092904735fb74ca1ab301ca84345cf69bf0206b"
     },
     {
       "record": "denetim/saksi_yeniden_kullanim_825.json",
