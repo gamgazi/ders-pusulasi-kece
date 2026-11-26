@@ -3,10 +3,10 @@
   "date": "2026-11-26",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 1830,
-  "image_generation_calls": 921,
-  "final_accepted": 827,
-  "rejected": 1003,
+  "png_revisions": 1851,
+  "image_generation_calls": 932,
+  "final_accepted": 837,
+  "rejected": 1014,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -5138,7 +5138,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/uzay/astronot-yemegi/astronot_yemegi_tup_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "asure_kasesi_001",
@@ -36150,7 +36151,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/egitim/cocuk-resmi/cocuk_resmi_kedi_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "cocuk_resmi_kedi_ucak_001",
@@ -36397,7 +36399,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/egitim/cocuk-resmi/cocuk_resmi_kedi_ucak_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "cocuk_resmi_kirmizi_ev_gunes_001",
@@ -40458,6 +40461,253 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "f02d6be7c22f23ffab3e576e8713c4018d3bc487"
+    },
+    {
+      "id": "dal_kiragili_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-71aee763-2abd-429b-bad8-9140ffd6a901.png",
+      "candidate_path": "adaylar/dal_kiragili_001/r01/dal_kiragili_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7834688258985724,
+        "opaque_fraction": 5.723694377615013e-06,
+        "bbox": [
+          0,
+          0,
+          1494,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 2284,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 56
+        },
+        "largest_component_pixels": {
+          "1": 335384,
+          "16": 169587,
+          "32": 167549,
+          "64": 165445,
+          "128": 162802,
+          "192": 160375,
+          "250": 151670
+        },
+        "tiny_component_pixels": {
+          "1": 4014,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 78
+        },
+        "sha256": "fdc64e3e07e948fde2b1f62b26adabd2b97610438c7b6afcb25da9e724428a3c",
+        "bytes": 758434,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-fidan.json",
+          "source_blob_sha": "4f159426a7e9a879717dd768a1586dde8d4bc356",
+          "unit": 10,
+          "unit_title": "Hava Olayları",
+          "lesson": "D3",
+          "evidence": "kırağı",
+          "json_pointer": "/uniteler/9/dersler/2/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "216c9fced1e0065e0217c0b92fcfde689f87695045c6f91e2ee265574ff81edc"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2082"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "dal_kuru_tek_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/bahce/dal/dal_kuru_tek_001.png",
+        "sha256": "d3faaaa593e794fe0f7a66d4cb609970413a85323dd91020b684f30e070e2fe7",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/dal_kuru_tek_001/r01/dal_kuru_tek_001_r01.png",
+        "native_reference_sha256": "a87a1d9b381e8ba6d268440cf54c367bfe79e812a7780f9c3634fbded4bd42f6"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:28:50.722527+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "dal_kiragili_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "dal_kiragili_001_r02.png",
+      "candidate_path": "adaylar/dal_kiragili_001/r02/dal_kiragili_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9795540364583334,
+        "opaque_fraction": 0.019882209683641974,
+        "bbox": [
+          1550,
+          784,
+          2290,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 169587,
+          "16": 169587,
+          "32": 169587,
+          "64": 169587,
+          "128": 169587,
+          "192": 164911,
+          "250": 164911
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "b0d4f4963df838a058da623a2bc8e501a486c677b3a2328cc7ce67fd5f892fe9",
+        "bytes": 603863,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-fidan.json",
+          "source_blob_sha": "4f159426a7e9a879717dd768a1586dde8d4bc356",
+          "unit": 10,
+          "unit_title": "Hava Olayları",
+          "lesson": "D3",
+          "evidence": "kırağı",
+          "json_pointer": "/uniteler/9/dersler/2/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "216c9fced1e0065e0217c0b92fcfde689f87695045c6f91e2ee265574ff81edc"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R2082"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor kayıpsız detaylar ve alfa görünümü gerçekten incelendi. Tek kahverengi dal sol alttan sağ üste uzanıyor; iki sol bir sağ yan dal korunmuş. Kahverengi kabuğu görünür bırakan ince beyaz dallanan kristal izleri kırağıyı anlatıyor; kar yastığı, yaprak, çiçek veya dışarıda uçuşan kristal yok. Yoğun kahverengi keçeli izler/koyu örtüşmeler, düzensiz lacivert çizgi, bütün uçlarda beyaz kesim payı ve sol alt kıvrım/kat izi görülüyor. Ham görünümdeki geniş düşük-alfa hale yerel alfa temizliğiyle çıkarılmış; finalde yeşil/mor zemin doğrudan kâğıt kenarına ulaşıyor, dış gölge yok. Dal taşıyıcısı kaynak kırağı sözcüğü için sanatsal yorumdur. 740×836 özgün sanat büyütülmeden3840×2160RGBA; özgün4K/poz hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "dal_kuru_tek_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/bahce/dal/dal_kuru_tek_001.png",
+        "sha256": "d3faaaa593e794fe0f7a66d4cb609970413a85323dd91020b684f30e070e2fe7",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/dal_kuru_tek_001/r01/dal_kuru_tek_001_r01.png",
+        "native_reference_sha256": "a87a1d9b381e8ba6d268440cf54c367bfe79e812a7780f9c3634fbded4bd42f6"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:28:52.268915+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:29:17.815003+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/doga/dal/dal_kiragili_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "fdc64e3e07e948fde2b1f62b26adabd2b97610438c7b6afcb25da9e724428a3c",
+        "output_sha256": "b0d4f4963df838a058da623a2bc8e501a486c677b3a2328cc7ce67fd5f892fe9",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          740,
+          836
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 170889,
+        "changed_alpha_pixels": 340464,
+        "bbox_in_canvas": [
+          1550,
+          784,
+          2290,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          454,
+          67,
+          1194,
+          903
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/doga/dal/dal_kiragili_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "dal_kuru_tek_001",
@@ -57693,6 +57943,312 @@
       "upload_verified_commit": "2c4079d6b473f69ab5d80f913a925684df34e03d"
     },
     {
+      "id": "fular_boyun_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-37116569-6bf6-43b4-b8e8-39bc2eb1488f.png",
+      "candidate_path": "adaylar/fular_boyun_001/r01/fular_boyun_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6603830547773162,
+        "opaque_fraction": 0.000247242829322364,
+        "bbox": [
+          0,
+          0,
+          1642,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 745,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 272
+        },
+        "largest_component_pixels": {
+          "1": 529730,
+          "16": 501467,
+          "32": 500417,
+          "64": 499113,
+          "128": 497180,
+          "192": 495166,
+          "250": 484890
+        },
+        "tiny_component_pixels": {
+          "1": 1749,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 545
+        },
+        "sha256": "35b091b08fb065e0238200adcc95694e7b86993fefe20752c5bf3eafae227ca5",
+        "bytes": 1191013,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-cinar.json",
+          "source_blob_sha": "7c3864fe27bc177ebd41e0ae89b6993f956754ef",
+          "unit": 18,
+          "unit_title": "Para ve Harcama",
+          "lesson": "D6",
+          "evidence": "güzel bir fular almak istiyor",
+          "json_pointer": "/uniteler/17/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "f110a776e80209b396859194af2d81734b48dce1a35374795d72714124c273a9"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-26T01:24:21.562374+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "fular_boyun_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-767470a5-7a28-41db-a8ca-788fe88a296b.png",
+      "candidate_path": "adaylar/fular_boyun_001/r03/fular_boyun_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8346295043957106,
+        "opaque_fraction": 0.00035465680915650153,
+        "bbox": [
+          113,
+          39,
+          1554,
+          909
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 86,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 54
+        },
+        "largest_component_pixels": {
+          "1": 260017,
+          "16": 250820,
+          "32": 250175,
+          "64": 249226,
+          "128": 247834,
+          "192": 246449,
+          "250": 241637
+        },
+        "tiny_component_pixels": {
+          "1": 169,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 106
+        },
+        "sha256": "821a4faf318c8709501b36a00df9f8dfe46d19a4dc89ae9c604a979be5e0e8ae",
+        "bytes": 650937,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-cinar.json",
+          "source_blob_sha": "7c3864fe27bc177ebd41e0ae89b6993f956754ef",
+          "unit": 18,
+          "unit_title": "Para ve Harcama",
+          "lesson": "D6",
+          "evidence": "güzel bir fular almak istiyor",
+          "json_pointer": "/uniteler/17/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "f110a776e80209b396859194af2d81734b48dce1a35374795d72714124c273a9"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-26T01:25:00.397430+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "fular_boyun_001",
+      "revision": "r04",
+      "status": "FINAL_ACCEPTED",
+      "source": "fular_boyun_001_r04.png",
+      "candidate_path": "adaylar/fular_boyun_001/r04/fular_boyun_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9697603202160494,
+        "opaque_fraction": 0.029698832947530864,
+        "bbox": [
+          1595,
+          961,
+          2245,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 250820,
+          "16": 250820,
+          "32": 250820,
+          "64": 250820,
+          "128": 250820,
+          "192": 246334,
+          "250": 246334
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "44e8a0a612485b49d5052e7329f87a29d999a9412b7dcad3919b74aca3abfd35",
+        "bytes": 690782,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-cinar.json",
+          "source_blob_sha": "7c3864fe27bc177ebd41e0ae89b6993f956754ef",
+          "unit": 18,
+          "unit_title": "Para ve Harcama",
+          "lesson": "D6",
+          "evidence": "güzel bir fular almak istiyor",
+          "json_pointer": "/uniteler/17/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "f110a776e80209b396859194af2d81734b48dce1a35374795d72714124c273a9"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r01 üst kâğıt kenarı kaynak kadrajına değdiği için teknik olarak reddedildi; r02 oluşturulmadı. Yeniden üretilen r03 üzerinden r04 için yeşil/mor detay ve alfa görünümü gerçekten incelendi. Tek turkuaz-fuşya çizgili boyun fuları; üst halka, ortada düğüm ve iki farklı yönlü sivri uç tam görünür. Üst kenar artık kesik değil. Boyun halkası ve uçların arası gerçek alfa; hem iç hem dış sınırda belirgin beyaz makas payı var. Yoğun keçeli bantlar/koyu örtüşmeler, düzensiz turuncu çizgi, sağ alt kâğıt kıvrımı görülüyor; gerçek kumaş görüntüsü yok. Özgün 650×659 sanat büyütülmeden 3840×2160 RGBA tuval; özgün 4K/animasyon hizası iddiası yok."
+      },
+      "ingested_at_utc": "2026-11-26T01:25:02.018265+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:25:26.751232+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/giysi/fular/fular_boyun_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "821a4faf318c8709501b36a00df9f8dfe46d19a4dc89ae9c604a979be5e0e8ae",
+        "output_sha256": "44e8a0a612485b49d5052e7329f87a29d999a9412b7dcad3919b74aca3abfd35",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          650,
+          659
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9366,
+        "changed_alpha_pixels": 259618,
+        "bbox_in_canvas": [
+          1595,
+          961,
+          2245,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          502,
+          146,
+          1152,
+          805
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/giysi/fular/fular_boyun_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "garanti_belgesi_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -66788,6 +67344,249 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "2200d25eb721c0dca5abc671bfe70fc6cb68a346"
+    },
+    {
+      "id": "hava_tahmini_hafta_sonu_24_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-67fb2d5d-f8ba-415e-a863-a352ac0a910b.png",
+      "candidate_path": "adaylar/hava_tahmini_hafta_sonu_24_001/r01/hava_tahmini_hafta_sonu_24_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.46487527751968155,
+        "opaque_fraction": 0.0003739480326708475,
+        "bbox": [
+          0,
+          63,
+          1526,
+          892
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 42,
+          "16": 39,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 41
+        },
+        "largest_component_pixels": {
+          "1": 841370,
+          "16": 828718,
+          "32": 827909,
+          "64": 826924,
+          "128": 825741,
+          "192": 824059,
+          "250": 819369
+        },
+        "tiny_component_pixels": {
+          "1": 66,
+          "16": 179,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 134
+        },
+        "sha256": "cf095f49f1aa453a167f88df067aaf24b21e668c289aaee5516834504ff06a0f",
+        "bytes": 1452081,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D8",
+          "evidence": "Cumartesi sağanak olacakmış, pazar güneşli ve 24 derece.",
+          "json_pointer": "/uniteler/10/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "6fdd0dfbc968c5e9b2f891c8d42432cea0eda309094e9764683facc7127d0f86"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "hava_tahmini_hafta_sonu_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/belgeler/hava-tahmini/hava_tahmini_hafta_sonu_001.png",
+        "sha256": "0417447ebe3888b0eaed36d47b9479b26d9c67305ed3fb16280bc4d664a5d24d",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/hava_tahmini_hafta_sonu_001/r01/hava_tahmini_hafta_sonu_001_r01.png",
+        "native_reference_sha256": "33cfc4f656394b54a8d294ec402aff7e20e92a76c6a643747c93a67c3c759cf4"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:26:36.252437+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "hava_tahmini_hafta_sonu_24_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "hava_tahmini_hafta_sonu_24_001_r02.png",
+      "candidate_path": "adaylar/hava_tahmini_hafta_sonu_24_001/r02/hava_tahmini_hafta_sonu_24_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9001845823688271,
+        "opaque_fraction": 0.09933244116512345,
+        "bbox": [
+          1367,
+          815,
+          2473,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 827909,
+          "16": 827909,
+          "32": 827909,
+          "64": 827909,
+          "128": 827909,
+          "192": 823903,
+          "250": 823903
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "14a22c7d3437ca5c81447ce330b82685170b71a93b69f9652f53d38de2e4186a",
+        "bytes": 1526178,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D8",
+          "evidence": "Cumartesi sağanak olacakmış, pazar güneşli ve 24 derece.",
+          "json_pointer": "/uniteler/10/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "6fdd0dfbc968c5e9b2f891c8d42432cea0eda309094e9764683facc7127d0f86"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r01 teknik reddi korunuyor. Varsayılan alfa16 kenarda ince artık nedeniyle işleme geçmedi; kullanıcı yetkisiyle alfa32 ana kâğıt maskesi kullanıldı, RGB değiştirilmedi ve büyütme yapılmadı. Yeşil/mor kayıpsız detay ve alfa görünümü gerçekten incelendi: tek yeşil çerçeveli tahmin kâğıdı, HAVA TAHMİNİ / Cumartesi Sağanak / Pazar Güneşli,24°C tüm Türkçe harf ve sayılarıyla doğru. Önceki 22°C ve ve şimşek kaldırılmış. Yoğun keçeli katmanlar, düzensiz el yazısı, beyaz çevre payı, sol alt köşe kıvrımı ve çapraz kat izi var. Dışta saçak/ikinci nesne/gölge yok, kâğıt tam. Kaynak16-17FilizU11D8 ile eşleşen kurmaca bilgi. Özgün1106×805 sanat,3840×2160RGBA; özgün4K/poz hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "hava_tahmini_hafta_sonu_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/belgeler/hava-tahmini/hava_tahmini_hafta_sonu_001.png",
+        "sha256": "0417447ebe3888b0eaed36d47b9479b26d9c67305ed3fb16280bc4d664a5d24d",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/hava_tahmini_hafta_sonu_001/r01/hava_tahmini_hafta_sonu_001_r01.png",
+        "native_reference_sha256": "33cfc4f656394b54a8d294ec402aff7e20e92a76c6a643747c93a67c3c759cf4"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:27:14.686919+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:27:41.486725+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/belgeler/hava-tahmini/hava_tahmini_hafta_sonu_24_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "cf095f49f1aa453a167f88df067aaf24b21e668c289aaee5516834504ff06a0f",
+        "output_sha256": "14a22c7d3437ca5c81447ce330b82685170b71a93b69f9652f53d38de2e4186a",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          1106,
+          805
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=32 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 13527,
+        "changed_alpha_pixels": 840827,
+        "bbox_in_canvas": [
+          1367,
+          815,
+          2473,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 32,
+        "source_crop_bbox": [
+          267,
+          72,
+          1373,
+          877
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/belgeler/hava-tahmini/hava_tahmini_hafta_sonu_24_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "havlu_katli_001",
@@ -98730,7 +99529,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/oyuncak/uzaktan-kumandali-araba/kumanda_oyuncak_araba_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "kumanda_televizyon_001",
@@ -114235,6 +115035,253 @@
       "upload_verified_commit": "cfc15a4fbe6be5b4f498f2b295148b1eb4649fb1"
     },
     {
+      "id": "meyve_salatasi_kase_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-913990af-1d10-4e65-ad8c-326a0dc097f1.png",
+      "candidate_path": "adaylar/meyve_salatasi_kase_001/r01/meyve_salatasi_kase_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5157919907708608,
+        "opaque_fraction": 8.013172128661017e-05,
+        "bbox": [
+          0,
+          0,
+          1651,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 409,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 131
+        },
+        "largest_component_pixels": {
+          "1": 760330,
+          "16": 726251,
+          "32": 725610,
+          "64": 724673,
+          "128": 723268,
+          "192": 721798,
+          "250": 714642
+        },
+        "tiny_component_pixels": {
+          "1": 844,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 229
+        },
+        "sha256": "4a193f9821b62c86b8e341016f9cb12f1f19e527a05f46d057f4bd41593e37b0",
+        "bytes": 1611879,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-tohum.json",
+          "source_blob_sha": "5d40b2f6d13ed99b6845928f358d67a06a46e02b",
+          "unit": 5,
+          "unit_title": "Kafede",
+          "lesson": "D5",
+          "evidence": "meyve salata",
+          "json_pointer": "/uniteler/4/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "7b91e7af7035cd2cab2e232768a595678632f74419c5a4c20e3955dae52ba958"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0219"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "salata_kasesi_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/salata/salata_kasesi_001.png",
+        "sha256": "9469a2a029ced2ba3e1e658513bdba821ab7fcd4cbbbfaf56c8b0e2e356da2a1",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/salata_kasesi_001/r01/salata_kasesi_001_r01.png",
+        "native_reference_sha256": "179d383ed483b26a439ae12ab2181362604c036ded692af65b471eec02f0b773"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:20:35.984914+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "meyve_salatasi_kase_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "meyve_salatasi_kase_001_r02.png",
+      "candidate_path": "adaylar/meyve_salatasi_kase_001/r02/meyve_salatasi_kase_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.912440803433642,
+        "opaque_fraction": 0.08705656828703703,
+        "bbox": [
+          1350,
+          754,
+          2489,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 726251,
+          "16": 726251,
+          "32": 726251,
+          "64": 726251,
+          "128": 726251,
+          "192": 722082,
+          "250": 722082
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "63dec6d137111489e0c74a66ab1d5225246a7a701ca07eada92d3c607799e873",
+        "bytes": 1725201,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-tohum.json",
+          "source_blob_sha": "5d40b2f6d13ed99b6845928f358d67a06a46e02b",
+          "unit": 5,
+          "unit_title": "Kafede",
+          "lesson": "D5",
+          "evidence": "meyve salata",
+          "json_pointer": "/uniteler/4/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "7b91e7af7035cd2cab2e232768a595678632f74419c5a4c20e3955dae52ba958"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0219"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor kayıpsız detaylar ve alfa maskesi ayrı ayrı incelendi. Turuncu tek kâsede sarı muz dilimleri, kırmızı çilek kesitleri, turuncu meyve küpleri ve mor üzümler üst üste yerleşiyor; önceki marul/domates/salatalık kaldırılmış. Parçalar kâse yüzeyinde tek kesilmiş kâğıt siluetine bağlı, dışarıda ayrı meyve yok. Yönlü yoğun keçeli mürekkep, düzensiz lacivert sınırlar, tam beyaz makas payı ve sağ üst kıvrım/sağ alt çapraz kat izi görünür. Kaynak metni meyve salata ifadesinde kesiliyor; eksik cümle tamamlanmış sayılmadı, meyve türleri sanatsal seçim. 1139×866 özgün sanat büyütülmeden 3840×2160 RGBA; özgün 4K/animasyon hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "salata_kasesi_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/salata/salata_kasesi_001.png",
+        "sha256": "9469a2a029ced2ba3e1e658513bdba821ab7fcd4cbbbfaf56c8b0e2e356da2a1",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/salata_kasesi_001/r01/salata_kasesi_001_r01.png",
+        "native_reference_sha256": "179d383ed483b26a439ae12ab2181362604c036ded692af65b471eec02f0b773"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:20:37.812948+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:21:01.726565+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/yiyecek/meyve-salatasi/meyve_salatasi_kase_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "4a193f9821b62c86b8e341016f9cb12f1f19e527a05f46d057f4bd41593e37b0",
+        "output_sha256": "63dec6d137111489e0c74a66ab1d5225246a7a701ca07eada92d3c607799e873",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          1139,
+          866
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 35123,
+        "changed_alpha_pixels": 761221,
+        "bbox_in_canvas": [
+          1350,
+          754,
+          2489,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          249,
+          47,
+          1388,
+          913
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/yiyecek/meyve-salatasi/meyve_salatasi_kase_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "meyve_suyu_bardagi_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -121598,7 +122645,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/mutfak/ocak/ocak_yanan_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "oda_karti_ornek_001",
@@ -128219,7 +129267,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/oyuncak/uzaktan-kumandali-araba/oyuncak_araba_kumandali_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "oyuncak_araba_teker_eksik_001",
@@ -131418,7 +132467,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/yiyecek/pasta/pasta_cilekli_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "pasta_devrilmis_001",
@@ -159554,6 +160604,249 @@
       "upload_verified_commit": "53e919f1d5672a1421ce783212ed99e66f0ce794"
     },
     {
+      "id": "sandvic_sebzeli_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-aa96e843-cf90-4aa0-979a-92a5c16bfc2a.png",
+      "candidate_path": "adaylar/sandvic_sebzeli_001/r01/sandvic_sebzeli_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5282943676939427,
+        "opaque_fraction": 0.00023834462980947685,
+        "bbox": [
+          0,
+          17,
+          1620,
+          910
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 129,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 81
+        },
+        "largest_component_pixels": {
+          "1": 741813,
+          "16": 729951,
+          "32": 729369,
+          "64": 728579,
+          "128": 727301,
+          "192": 725954,
+          "250": 720542
+        },
+        "tiny_component_pixels": {
+          "1": 346,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 161
+        },
+        "sha256": "9da5248cd24ae9785cb1248c4c5933696fad09d240e06af70d7839900e68d666",
+        "bytes": 1599096,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-tohum.json",
+          "source_blob_sha": "5d40b2f6d13ed99b6845928f358d67a06a46e02b",
+          "unit": 5,
+          "unit_title": "Kafede",
+          "lesson": "D5",
+          "evidence": "sebzeli sandviç",
+          "json_pointer": "/uniteler/4/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "7b91e7af7035cd2cab2e232768a595678632f74419c5a4c20e3955dae52ba958"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "sandvic_peynirli_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/sandvic/sandvic_peynirli_001.png",
+        "sha256": "fde76f07c85b3f2229834d1800f35bccb4610e5aff7888fdf66236c651134a2a",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/sandvic_peynirli_001/r01/sandvic_peynirli_001_r01.png",
+        "native_reference_sha256": "6d6e1067011fb404a065d71ecde975ed759ea1d69fa7b2fa58a48eabf4f64e53"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:19:04.326380+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "sandvic_sebzeli_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "sandvic_sebzeli_001_r02.png",
+      "candidate_path": "adaylar/sandvic_sebzeli_001/r02/sandvic_sebzeli_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9119947193287037,
+        "opaque_fraction": 0.08752218364197531,
+        "bbox": [
+          1293,
+          900,
+          2547,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 729951,
+          "16": 729951,
+          "32": 729951,
+          "64": 729951,
+          "128": 729951,
+          "192": 725944,
+          "250": 725944
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "6eac2c2177de7269e626dbd7460e397885b61f67f993e8788f7ec07e02612b3e",
+        "bytes": 1675965,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-tohum.json",
+          "source_blob_sha": "5d40b2f6d13ed99b6845928f358d67a06a46e02b",
+          "unit": 5,
+          "unit_title": "Kafede",
+          "lesson": "D5",
+          "evidence": "sebzeli sandviç",
+          "json_pointer": "/uniteler/4/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "7b91e7af7035cd2cab2e232768a595678632f74419c5a4c20e3955dae52ba958"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor detaylar ve alfa görünümü gerçekten incelendi. Tek oval sandviç; kahverengi-turuncu ekmek, krem iç kenar, üç üst çizgi arasında yeşil marul, üç kırmızı domates yarımı ve iki açık yeşil salatalık dilimi var. Önceki sarı peynir tamamen kaldırılmış; et/yumurta görünmüyor. Tek bağlantılı siluet, dışarıda sebze yok. Yönlü yoğun keçeli izler, düzensiz lacivert kontur, beyaz makas payı, sol alt kıvrım ve kat izi belirgin. Kaynak sebzeli sandviçtir; görünmeyen tarif içeriğiyle ilgili iddia yok. Temiz dış alfa, özgün 1254×720 sanat büyütülmeden 3840×2160 tuval. Animasyon hizası ve özgün 4K ayrıntı doğrulanmış sayılmaz."
+      },
+      "pose_reference": {
+        "base_id": "sandvic_peynirli_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/yiyecek/sandvic/sandvic_peynirli_001.png",
+        "sha256": "fde76f07c85b3f2229834d1800f35bccb4610e5aff7888fdf66236c651134a2a",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/sandvic_peynirli_001/r01/sandvic_peynirli_001_r01.png",
+        "native_reference_sha256": "6d6e1067011fb404a065d71ecde975ed759ea1d69fa7b2fa58a48eabf4f64e53"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:19:05.993510+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:19:26.855775+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/yiyecek/sandvic/sandvic_sebzeli_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "9da5248cd24ae9785cb1248c4c5933696fad09d240e06af70d7839900e68d666",
+        "output_sha256": "6eac2c2177de7269e626dbd7460e397885b61f67f993e8788f7ec07e02612b3e",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1254,
+          720
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 12208,
+        "changed_alpha_pixels": 741760,
+        "bbox_in_canvas": [
+          1293,
+          900,
+          2547,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          190,
+          135,
+          1444,
+          855
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/yiyecek/sandvic/sandvic_sebzeli_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "sapka_parti_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -174929,6 +176222,249 @@
       "upload_verified_commit": "2c4079d6b473f69ab5d80f913a925684df34e03d"
     },
     {
+      "id": "suzgec_makarna_dolu_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-62e82261-b62b-4c30-b402-c9e27964b060.png",
+      "candidate_path": "adaylar/suzgec_makarna_dolu_001/r01/suzgec_makarna_dolu_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5819458144212931,
+        "opaque_fraction": 0.0001373686650627603,
+        "bbox": [
+          0,
+          60,
+          1609,
+          901
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 100,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 75
+        },
+        "largest_component_pixels": {
+          "1": 657126,
+          "16": 645628,
+          "32": 644690,
+          "64": 643452,
+          "128": 641503,
+          "192": 639477,
+          "250": 630867
+        },
+        "tiny_component_pixels": {
+          "1": 227,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 121
+        },
+        "sha256": "4d0ffff498b2fc4706950ba8921e0d6d0fa50fc6ab8153e6c0b2011a2bb367fc",
+        "bytes": 1427409,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-kok.json",
+          "source_blob_sha": "53d27b8224295702c1ebc8928dca31b837277fb7",
+          "unit": 3,
+          "unit_title": "Bir Tarif",
+          "lesson": "D4",
+          "evidence": "Makarnayı süzün.",
+          "json_pointer": "/uniteler/2/dersler/3/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "879b15d7cee184aac9ac3b11de9ecad1a3de1705485639737198a7ecc4f54eb7"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "suzgec_mutfak_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/mutfak/suzgec/suzgec_mutfak_001.png",
+        "sha256": "246328410f58cd3223c14129e81660b965da702baf3680d2553ecf03a56164d1",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/suzgec_mutfak_001/r01/suzgec_mutfak_001_r01.png",
+        "native_reference_sha256": "36ef17e23a9884b0a59ec6c00f97957c17a7c417d0aaac05e559edd71ea48220"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:22:03.832984+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "suzgec_makarna_dolu_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "suzgec_makarna_dolu_001_r02.png",
+      "candidate_path": "adaylar/suzgec_makarna_dolu_001/r02/suzgec_makarna_dolu_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9221609760802469,
+        "opaque_fraction": 0.0771702594521605,
+        "bbox": [
+          1245,
+          833,
+          2595,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 645628,
+          "16": 645628,
+          "32": 645628,
+          "64": 645628,
+          "128": 645628,
+          "192": 640081,
+          "250": 640081
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "79fe99089fe6ae34365f6eae23b85f3db9e9732b9512e6bc16b7a622703457f4",
+        "bytes": 1525149,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-kok.json",
+          "source_blob_sha": "53d27b8224295702c1ebc8928dca31b837277fb7",
+          "unit": 3,
+          "unit_title": "Bir Tarif",
+          "lesson": "D4",
+          "evidence": "Makarnayı süzün.",
+          "json_pointer": "/uniteler/2/dersler/3/yeni/5",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "879b15d7cee184aac9ac3b11de9ecad1a3de1705485639737198a7ecc4f54eb7"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor detay ve alfa görünümü ayrı ayrı incelendi. Mavi delikli süzgeç, turuncu iki sap/ağız ve üç ayak korunmuş; içinde açık sarı, kısa, çapraz kesilmiş içi boş penne makarnalar var. İç delik çizimleri kâğıt üzerindedir; iki sap deliği gerçek alfa ve her ikisinde kesintisiz beyaz İÇ makas payı görülüyor. Dış kâğıt kenarı tam, sağ üst kıvrım ve kat izi belirgin. Yoğun keçeli mürekkep/düzensiz lacivert çizgi uygun. Tek dolu süzgeç, su akışı/damla/ayrı makarna yok. Kaynak Makarnayı süzün eyleminin sonuç durumu olarak çizildi. 1350×787 özgün sanat büyütülmeden 3840×2160 RGBA; özgün 4K ve poz hizası doğrulaması iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "suzgec_mutfak_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/mutfak/suzgec/suzgec_mutfak_001.png",
+        "sha256": "246328410f58cd3223c14129e81660b965da702baf3680d2553ecf03a56164d1",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/suzgec_mutfak_001/r01/suzgec_mutfak_001_r01.png",
+        "native_reference_sha256": "36ef17e23a9884b0a59ec6c00f97957c17a7c417d0aaac05e559edd71ea48220"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:22:05.527330+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:22:25.540549+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/mutfak/suzgec/suzgec_makarna_dolu_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "4d0ffff498b2fc4706950ba8921e0d6d0fa50fc6ab8153e6c0b2011a2bb367fc",
+        "output_sha256": "79fe99089fe6ae34365f6eae23b85f3db9e9732b9512e6bc16b7a622703457f4",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          1350,
+          787
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11725,
+        "changed_alpha_pixels": 657098,
+        "bbox_in_canvas": [
+          1245,
+          833,
+          2595,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          159,
+          95,
+          1509,
+          882
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/mutfak/suzgec/suzgec_makarna_dolu_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "suzgec_mutfak_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -183961,6 +185497,289 @@
       "upload_verified_commit": "be601f4df8f7c4239b4078da2ea6ed9f9516f4ee"
     },
     {
+      "id": "telefon_buzlanma_uyarisi_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-53df15ba-41f6-4e5d-a923-95c9b3a0a586.png",
+      "candidate_path": "adaylar/telefon_buzlanma_uyarisi_001/r01/telefon_buzlanma_uyarisi_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.738568355968658,
+        "opaque_fraction": 0.00017160813346282333,
+        "bbox": [
+          138,
+          66,
+          1604,
+          897
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 66,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 122
+        },
+        "largest_component_pixels": {
+          "1": 411186,
+          "16": 405487,
+          "32": 405035,
+          "64": 404372,
+          "128": 403450,
+          "192": 402573,
+          "250": 397773
+        },
+        "tiny_component_pixels": {
+          "1": 138,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 432
+        },
+        "sha256": "fe0ac192048a0e382f491906b37bfd45026678ad465a181e976c1fa9fbb7c3c8",
+        "bytes": 898667,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D5",
+          "evidence": "Yarın yollar buzlu olacak.",
+          "json_pointer": "/uniteler/10/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "d6b2ef62425e79d174807f23cb3dd785e7e8fdc429dba5090bcabda2af39406d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "telefon_mobil_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_mobil_001.png",
+        "sha256": "6fa6e9832f3ac76d851d4aee77e2bec78ca6f5715b5e372a0b52902cbc225d4b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_mobil_001/r01/telefon_mobil_001_r01.png",
+        "native_reference_sha256": "f19f7b3a7fb781c388f8636f80d1f7c2f1256091d1a2ae10ed7089c6a35eccd8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:16:00.861925+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "telefon_buzlanma_uyarisi_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "telefon_buzlanma_uyarisi_001_r02.png",
+      "candidate_path": "adaylar/telefon_buzlanma_uyarisi_001/r02/telefon_buzlanma_uyarisi_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9511131606867284,
+        "opaque_fraction": 0.04854612750771605,
+        "bbox": [
+          1651,
+          797,
+          2189,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 405487,
+          "16": 405487,
+          "32": 405487,
+          "64": 405487,
+          "128": 405487,
+          "192": 402661,
+          "250": 402661
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "ec11a67fd031753f04e7017449dad758f6d85c816d14ca671b2754962d025ba3",
+        "bytes": 982787,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D5",
+          "evidence": "Yarın yollar buzlu olacak.",
+          "json_pointer": "/uniteler/10/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "d6b2ef62425e79d174807f23cb3dd785e7e8fdc429dba5090bcabda2af39406d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil ve mor kayıpsız detaylar ile alfa görünümü ayrı ayrı incelendi. Tek kırmızı kâğıt telefon; mavi ekran üzerinde turuncu ünlem üçgeni ve eksiksiz YARIN / YOLLAR / BUZLU yazısı okunuyor. Uyarı ve yazılar tek telefon yüzeyinde; ayrı pano/nesne yok. Yoğun yönlü keçeli mürekkep, düzensiz lacivert sınır, çevre boyunca beyaz makas payı ve sağ üst kâğıt kıvrımı görünür. Dış alfa temiz, gölge veya kopuk artık yok. Kaynaktaki telefona gelen buzlanma uyarısı karşılandı; canlı hava/yol bilgisi değildir. Özgün 538×823 sanat büyütülmeden 3840×2160 RGBA tuval; özgün 4K/poz hizası doğrulaması iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "telefon_mobil_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_mobil_001.png",
+        "sha256": "6fa6e9832f3ac76d851d4aee77e2bec78ca6f5715b5e372a0b52902cbc225d4b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_mobil_001/r01/telefon_mobil_001_r01.png",
+        "native_reference_sha256": "f19f7b3a7fb781c388f8636f80d1f7c2f1256091d1a2ae10ed7089c6a35eccd8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:16:02.507734+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:16:19.419311+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/telefon/telefon_buzlanma_uyarisi_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "fe0ac192048a0e382f491906b37bfd45026678ad465a181e976c1fa9fbb7c3c8",
+        "output_sha256": "ec11a67fd031753f04e7017449dad758f6d85c816d14ca671b2754962d025ba3",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          538,
+          823
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 5837,
+        "changed_alpha_pixels": 411041,
+        "bbox_in_canvas": [
+          1651,
+          797,
+          2189,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          547,
+          71,
+          1085,
+          894
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/telefon/telefon_buzlanma_uyarisi_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "telefon_cevapsiz_1_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -186508,7 +188327,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/esya/telefon/telefon_gelen_arama_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "00a9a97ff460b2cbcd88e755baff0b0377430a10"
     },
     {
       "id": "telefon_goruntulu_arama_001",
@@ -186793,6 +188613,289 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "be601f4df8f7c4239b4078da2ea6ed9f9516f4ee"
+    },
+    {
+      "id": "telefon_hava_35_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-82faa6ac-fa50-4f89-9fd0-4951f978eccf.png",
+      "candidate_path": "adaylar/telefon_hava_35_001/r01/telefon_hava_35_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7413414162882813,
+        "opaque_fraction": 0.00011186307959058112,
+        "bbox": [
+          25,
+          37,
+          1246,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 113,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 128
+        },
+        "largest_component_pixels": {
+          "1": 406715,
+          "16": 401150,
+          "32": 400694,
+          "64": 399998,
+          "128": 399106,
+          "192": 398234,
+          "250": 393070
+        },
+        "tiny_component_pixels": {
+          "1": 246,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 411
+        },
+        "sha256": "0f27345c0a6b1600f75be5f7ae93767a4d04f968934e97d72eb39b4dd8a6ac3a",
+        "bytes": 867403,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D6",
+          "evidence": "Hafta sonu sıcaklık otuz beş dereceyi bulacak.",
+          "json_pointer": "/uniteler/10/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "ab81f6f64e4aa9c7a9086936ab80326dc2bb9d0d796cb7a006d6c7d01fbee7f8"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "telefon_hava_hamburg_12_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/teknoloji/telefon/telefon_hava_hamburg_12_001.png",
+        "sha256": "f76220f47fadd5fb06228e02f3e733d304c27410423d2437f418fc6803fee405",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_hava_hamburg_12_001/r01/telefon_hava_hamburg_12_001_r01.png",
+        "native_reference_sha256": "779d8d744c5fdae4af5f4974c875b23f485638ab65468f156deb294da6125c60"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:08:03.880447+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "telefon_hava_35_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "telefon_hava_35_001_r02.png",
+      "candidate_path": "adaylar/telefon_hava_35_001/r02/telefon_hava_35_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.951636043595679,
+        "opaque_fraction": 0.04803084008487654,
+        "bbox": [
+          1653,
+          804,
+          2187,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 401150,
+          "16": 401150,
+          "32": 401150,
+          "64": 401150,
+          "128": 401150,
+          "192": 398387,
+          "250": 398387
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "889313ca8032699c707f153ef09f2a1af82440c0bf4f03eed17d95ccb12a71eb",
+        "bytes": 953296,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D6",
+          "evidence": "Hafta sonu sıcaklık otuz beş dereceyi bulacak.",
+          "json_pointer": "/uniteler/10/dersler/5/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "ab81f6f64e4aa9c7a9086936ab80326dc2bb9d0d796cb7a006d6c7d01fbee7f8"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil ve mor kayıpsız detaylar ile alfa görünümü ayrı ayrı incelendi. Tek kırmızı kâğıt telefon; mavi ekran içinde HAVA, belirgin 35°C ve SICAK tam okunuyor. Hamburg/12°C/bulut/damla önceki durumdan kalmamış. Yoğun keçeli mürekkep katmanları, düzensiz lacivert kontur, kesintisiz değişken beyaz makas payı ve sağ üst kıvrım korunmuş. Dışarıda gölge, saçak veya ikinci nesne yok. Kurmaca ders ekranı; kaynak 35 dereceyi doğruluyor, telefon taşıyıcısı tasarım yorumudur. Piksel büyütmeden özgün 534×816 sınır 3840×2160 RGBA tuvale yerleştirildi; özgün 4K ayrıntı veya animasyon hizalama iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "telefon_hava_hamburg_12_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/teknoloji/telefon/telefon_hava_hamburg_12_001.png",
+        "sha256": "f76220f47fadd5fb06228e02f3e733d304c27410423d2437f418fc6803fee405",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_hava_hamburg_12_001/r01/telefon_hava_hamburg_12_001_r01.png",
+        "native_reference_sha256": "779d8d744c5fdae4af5f4974c875b23f485638ab65468f156deb294da6125c60"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T01:08:05.609001+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:13:42.011788+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/telefon/telefon_hava_35_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "0f27345c0a6b1600f75be5f7ae93767a4d04f968934e97d72eb39b4dd8a6ac3a",
+        "output_sha256": "889313ca8032699c707f153ef09f2a1af82440c0bf4f03eed17d95ccb12a71eb",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          534,
+          816
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 5811,
+        "changed_alpha_pixels": 406773,
+        "bbox_in_canvas": [
+          1653,
+          804,
+          2187,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          548,
+          79,
+          1082,
+          895
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/telefon/telefon_hava_35_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "telefon_hava_hamburg_12_001",
@@ -193340,6 +195443,229 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "2200d25eb721c0dca5abc671bfe70fc6cb68a346"
+    },
+    {
+      "id": "termometre_hava_eksi_5_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-ada1c68a-f09e-4c7a-a503-286101b2eba1.png",
+      "candidate_path": "adaylar/termometre_hava_eksi_5_001/r01/termometre_hava_eksi_5_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.31765555323919886,
+        "opaque_fraction": 3.877072644900823e-05,
+        "bbox": [
+          0,
+          0,
+          1652,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 189,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 169
+        },
+        "largest_component_pixels": {
+          "1": 1072722,
+          "16": 1049565,
+          "32": 1048731,
+          "64": 1047531,
+          "128": 1045818,
+          "192": 1043999,
+          "250": 1032668
+        },
+        "tiny_component_pixels": {
+          "1": 502,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 376
+        },
+        "sha256": "710f006d4fb0b23457c94199c7468f3e606136c66cf63176e53510055029c0ca",
+        "bytes": 2053573,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D2",
+          "evidence": "Termometre sıfırın altında beş ____ gösteriyor.",
+          "json_pointer": "/uniteler/10/dersler/1/test/2/soru",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "51c1c50f7d3a7d0266485c961fddab0f71295b88ab78cd8ba379016ed371340e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-26T01:14:34.956250+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "termometre_hava_eksi_5_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "termometre_hava_eksi_5_001_r02.png",
+      "candidate_path": "adaylar/termometre_hava_eksi_5_001/r02/termometre_hava_eksi_5_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8734610098379629,
+        "opaque_fraction": 0.12599320023148147,
+        "bbox": [
+          1293,
+          693,
+          2546,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 1049565,
+          "16": 1049565,
+          "32": 1049565,
+          "64": 1049565,
+          "128": 1049565,
+          "192": 1045038,
+          "250": 1045038
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "8439f344d23b47988e772c9c81394b9cb1970af8f203383db9c483e11617b18e",
+        "bytes": 2112326,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D2",
+          "evidence": "Termometre sıfırın altında beş ____ gösteriyor.",
+          "json_pointer": "/uniteler/10/dersler/1/test/2/soru",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "51c1c50f7d3a7d0266485c961fddab0f71295b88ab78cd8ba379016ed371340e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor kayıpsız detay ve alfa görünümü gerçekten incelendi. Tek mavi dijital ortam termometresi, krem ekran üzerinde belirgin ayrı eksi işaretiyle -5°C; turuncu güç düğmesi ve üç lacivert havalandırma çizgisi aynı gövdede. Klinik prob veya ikinci çelişkili ölçüm yok. Geniş yönlü keçeli mürekkep darbeleri ve koyu örtüşmeler, düzensiz lacivert çizgi, bütün çevrede beyaz makas payı ve sağ alt kıvrım/çapraz kat izi görülüyor. Kâğıt kesilmemiş, fon/gölge/ayrık parça yok. Kaynak sıfırın altında beş dereceyi doğruluyor. Özgün 1253×927 sanat büyütülmeden 3840×2160 tuvale yerleştirildi; yerel işlem yalnız alfa ve tuval, özgün 4K veya animasyon testi iddiası yok."
+      },
+      "ingested_at_utc": "2026-11-26T01:14:36.907324+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:15:02.177936+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/hava/termometre/termometre_hava_eksi_5_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "710f006d4fb0b23457c94199c7468f3e606136c66cf63176e53510055029c0ca",
+        "output_sha256": "8439f344d23b47988e772c9c81394b9cb1970af8f203383db9c483e11617b18e",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1253,
+          927
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 24003,
+        "changed_alpha_pixels": 1073491,
+        "bbox_in_canvas": [
+          1293,
+          693,
+          2546,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          183,
+          3,
+          1436,
+          930
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/hava/termometre/termometre_hava_eksi_5_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "termometre_tek_001",
@@ -202267,6 +204593,229 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "53e919f1d5672a1421ce783212ed99e66f0ce794"
+    },
+    {
+      "id": "ucus_bilgi_panosu_rotar_3_saat_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-6bf8c62c-5d19-4e5f-b4d6-44c0cff6c682.png",
+      "candidate_path": "adaylar/ucus_bilgi_panosu_rotar_3_saat_001/r01/ucus_bilgi_panosu_rotar_3_saat_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.3758351595828524,
+        "opaque_fraction": 5.593153979529056e-05,
+        "bbox": [
+          0,
+          23,
+          1570,
+          917
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 121,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 145
+        },
+        "largest_component_pixels": {
+          "1": 981753,
+          "16": 964333,
+          "32": 963530,
+          "64": 962387,
+          "128": 960819,
+          "192": 959097,
+          "250": 949060
+        },
+        "tiny_component_pixels": {
+          "1": 278,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 283
+        },
+        "sha256": "216eb06d1d60a819ef8b7941ed3ed8695b507d4762944a25126b7e6deee8c4d4",
+        "bytes": 1897392,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D5",
+          "evidence": "üç saat rötar yaptı.",
+          "json_pointer": "/uniteler/10/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "d6b2ef62425e79d174807f23cb3dd785e7e8fdc429dba5090bcabda2af39406d"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "ingested_at_utc": "2026-11-26T01:17:15.738945+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "ucus_bilgi_panosu_rotar_3_saat_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "ucus_bilgi_panosu_rotar_3_saat_001_r02.png",
+      "candidate_path": "adaylar/ucus_bilgi_panosu_rotar_3_saat_001/r02/ucus_bilgi_panosu_rotar_3_saat_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.883736858603395,
+        "opaque_fraction": 0.11574182581018519,
+        "bbox": [
+          1262,
+          830,
+          2577,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 964333,
+          "16": 964333,
+          "32": 964333,
+          "64": 964333,
+          "128": 964333,
+          "192": 960009,
+          "250": 960009
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "b31f61f9c66f44428698ddffecba6be799962db868e7d0bb87e0b057f15ba8c5",
+        "bytes": 1959106,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 11,
+          "unit_title": "Hava ve İklim",
+          "lesson": "D5",
+          "evidence": "üç saat rötar yaptı.",
+          "json_pointer": "/uniteler/10/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "d6b2ef62425e79d174807f23cb3dd785e7e8fdc429dba5090bcabda2af39406d"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Yeşil/mor kayıpsız detaylar ve alfa görünümü incelendi. Tek mavi çerçeveli kâğıt bilgi ekranı; UÇUŞ BİLGİSİ, kırmızı 3 SAAT RÖTAR ve YOĞUN SİS tüm Türkçe işaretleriyle doğru okunuyor. Yazı tek yüzeyde, tablo/grid/ayrı levha yok. Geniş yoğun keçeli darbeler, koyu bindirmeler, düzensiz çizgi, çevrede ince-değişken beyaz makas payı ve sağ alt kâğıt kıvrımı/çapraz kat izi korunmuş. Dış alanda artık/gölge ve kesik kenar yok. D5 kaynak üç saat ve sis ile eşleşiyor; D9 iki saat ayrı kalıyor. Özgün 1315×790 çizim büyütülmeden 3840×2160 şeffaf tuvale kondu; gerçek 4K ayrıntı/animasyon hizası iddiası yok."
+      },
+      "ingested_at_utc": "2026-11-26T01:17:17.791692+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T01:17:37.362248+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/ucus-bilgisi/ucus_bilgi_panosu_rotar_3_saat_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "216eb06d1d60a819ef8b7941ed3ed8695b507d4762944a25126b7e6deee8c4d4",
+        "output_sha256": "b31f61f9c66f44428698ddffecba6be799962db868e7d0bb87e0b057f15ba8c5",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1315,
+          790
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 17698,
+        "changed_alpha_pixels": 981925,
+        "bbox_in_canvas": [
+          1262,
+          830,
+          2577,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          172,
+          80,
+          1487,
+          870
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/ucus-bilgisi/ucus_bilgi_panosu_rotar_3_saat_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "un_paketi_kapali_001",
@@ -215983,10 +218532,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 819,
-    "accepted_png_count": 827,
+    "verified_png_count": 827,
+    "accepted_png_count": 837,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-26T01:04:08.724334+00:00"
+  "updated_at_utc": "2026-11-26T01:31:31.465953+00:00"
 }
