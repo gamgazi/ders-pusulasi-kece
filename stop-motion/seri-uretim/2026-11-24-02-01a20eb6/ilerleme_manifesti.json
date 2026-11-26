@@ -3,10 +3,10 @@
   "date": "2026-11-26",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 2032,
-  "image_generation_calls": 1024,
-  "final_accepted": 915,
-  "rejected": 1117,
+  "png_revisions": 2038,
+  "image_generation_calls": 1027,
+  "final_accepted": 918,
+  "rejected": 1120,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -45299,7 +45299,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/yapilar/deniz-feneri/deniz_feneri_sonuk_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "08c4c778cfa439793218b4f619ec19be32248674"
     },
     {
       "id": "deniz_kabugu_tek_001",
@@ -103304,7 +103305,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/egitim/kitap/kitap_kayip_fener_kapak_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "08c4c778cfa439793218b4f619ec19be32248674"
     },
     {
       "id": "kitaplik_bos_001",
@@ -150343,6 +150345,249 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "aa95fafebb6fe7818a9105d3d95af7ab8b601805"
+    },
+    {
+      "id": "peron_2_levhasi_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-ebdcb8ae-f624-4667-ba5b-6cacb52c4e4a.png",
+      "candidate_path": "adaylar/peron_2_levhasi_001/r01/peron_2_levhasi_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7055039177501284,
+        "opaque_fraction": 0.00013283740701381508,
+        "bbox": [
+          105,
+          32,
+          1427,
+          765
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 80,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 85
+        },
+        "largest_component_pixels": {
+          "1": 463184,
+          "16": 455805,
+          "32": 455233,
+          "64": 454571,
+          "128": 453569,
+          "192": 452529,
+          "250": 447834
+        },
+        "tiny_component_pixels": {
+          "1": 162,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 278
+        },
+        "sha256": "4935c746b1100af5ee6831c8fdbce363fbaa30f2d4a84e366b828dacc14fed75",
+        "bytes": 848302,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-kok.json",
+          "source_blob_sha": "53d27b8224295702c1ebc8928dca31b837277fb7",
+          "unit": 8,
+          "unit_title": "Ulaşım",
+          "lesson": "D3",
+          "evidence": "İzmir treni ikinci perondan kalkıyor.",
+          "json_pointer": "/uniteler/7/dersler/2/test/1/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "cd693cca4d8876fe3c29d23c4ac0dd53e7909dba08516434b987e001ff7e651e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "ucus_bilgi_panosu_rotar_2_saat_001",
+        "base_revision": "r04",
+        "canonical_png": "stop-motion/yardimci-nesneler/ulasim/ucus-bilgisi/ucus_bilgi_panosu_rotar_2_saat_001.png",
+        "sha256": "53fbc978648326416abfa4c002ada16853c3413bde801f5b0ac953bc41b175a0",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/ucus_bilgi_panosu_rotar_2_saat_001/r03/ucus_bilgi_panosu_rotar_2_saat_001_r03.png",
+        "native_reference_sha256": "72a0bfcb66a65105f5c8fb2269ce31f2c80f6f479c6774445dc1a630d5fb85a5"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:49:06.965662+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "peron_2_levhasi_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "peron_2_levhasi_001_r02.png",
+      "candidate_path": "adaylar/peron_2_levhasi_001/r02/peron_2_levhasi_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9450466579861111,
+        "opaque_fraction": 0.0545947868441358,
+        "bbox": [
+          1470,
+          1074,
+          2370,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 455805,
+          "16": 455805,
+          "32": 455805,
+          "64": 455805,
+          "128": 455805,
+          "192": 452831,
+          "250": 452831
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "a36eede1ed870f7da7a6755a3c09cbaed75347edb202e8ef1f1fe65a4cac73cb",
+        "bytes": 889795,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-kok.json",
+          "source_blob_sha": "53d27b8224295702c1ebc8928dca31b837277fb7",
+          "unit": 8,
+          "unit_title": "Ulaşım",
+          "lesson": "D3",
+          "evidence": "İzmir treni ikinci perondan kalkıyor.",
+          "json_pointer": "/uniteler/7/dersler/2/test/1/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "cd693cca4d8876fe3c29d23c4ac0dd53e7909dba08516434b987e001ff7e651e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "R02 yeşil detay, mor detay ve alfa görünümü gerçekten açılıp incelendi. Tek yatay krem levha, kalın mavi çerçeve; yalnız PERON ve büyük2yazıyor. Harf/rakam açık, eski uçuş/rötar/sis yazısı yok. Yoğun keçeli kalem mürekkebi ve çakışan mavi izler, düzensiz el çizgisi, değişken beyaz makas payı, sağ alt kıvrım ve çapraz kağıt kat izi korunuyor. Dış alan gerçek alfa; iç yüzey opak, kopuk parça/sahne/gölge yok. Kaynaktaki ikinci peron bilgisini ayrı levha olarak temsil eder; yön/şehir/sefer/gerçek işletme bilgisi eklenmedi. Çizim büyütülmeden3840×2160tuvalde; özgün4Kveanimasyon hizası iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "ucus_bilgi_panosu_rotar_2_saat_001",
+        "base_revision": "r04",
+        "canonical_png": "stop-motion/yardimci-nesneler/ulasim/ucus-bilgisi/ucus_bilgi_panosu_rotar_2_saat_001.png",
+        "sha256": "53fbc978648326416abfa4c002ada16853c3413bde801f5b0ac953bc41b175a0",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/ucus_bilgi_panosu_rotar_2_saat_001/r03/ucus_bilgi_panosu_rotar_2_saat_001_r03.png",
+        "native_reference_sha256": "72a0bfcb66a65105f5c8fb2269ce31f2c80f6f479c6774445dc1a630d5fb85a5"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:49:08.570085+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T06:49:37.112002+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/peron-levhasi/peron_2_levhasi_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "4935c746b1100af5ee6831c8fdbce363fbaa30f2d4a84e366b828dacc14fed75",
+        "output_sha256": "a36eede1ed870f7da7a6755a3c09cbaed75347edb202e8ef1f1fe65a4cac73cb",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          900,
+          546
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7541,
+        "changed_alpha_pixels": 463126,
+        "bbox_in_canvas": [
+          1470,
+          1074,
+          2370,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          384,
+          214,
+          1284,
+          760
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/peron-levhasi/peron_2_levhasi_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "pet_sise_kapali_001",
@@ -213911,7 +214156,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/olcum/termometre/termometre_hava_35_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "08c4c778cfa439793218b4f619ec19be32248674"
     },
     {
       "id": "termometre_hava_eksi_5_001",
@@ -220395,6 +220641,249 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "8ec5a9a581f0ab297f94358065d8176d80227e77"
+    },
+    {
+      "id": "tren_bilgi_panosu_rotar_30_dakika_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-9f5009bb-9de4-4fd8-88b2-2cbb86f58008.png",
+      "candidate_path": "adaylar/tren_bilgi_panosu_rotar_30_dakika_001/r01/tren_bilgi_panosu_rotar_30_dakika_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6066531837757857,
+        "opaque_fraction": 0.00023707345845049295,
+        "bbox": [
+          0,
+          9,
+          1636,
+          925
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 74,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 112
+        },
+        "largest_component_pixels": {
+          "1": 618727,
+          "16": 607425,
+          "32": 606850,
+          "64": 605959,
+          "128": 604727,
+          "192": 603443,
+          "250": 597393
+        },
+        "tiny_component_pixels": {
+          "1": 146,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 345
+        },
+        "sha256": "cbe74426501ab809c3adbf469c5171252e9133cbaa8a884a02fe0b3a9d3d9d83",
+        "bytes": 1117318,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-kok.json",
+          "source_blob_sha": "53d27b8224295702c1ebc8928dca31b837277fb7",
+          "unit": 8,
+          "unit_title": "Ulaşım",
+          "lesson": "D6",
+          "evidence": "Gece treni: kalkış 22.00. Bugün 30 dakika rötar var.",
+          "json_pointer": "/uniteler/7/dersler/5/test/2/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "66d3faa29b38df26caf86d0ae8779ae1c6cdfacf6db129c6fc6a0bab35516b3e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "ucus_bilgi_panosu_rotar_2_saat_001",
+        "base_revision": "r04",
+        "canonical_png": "stop-motion/yardimci-nesneler/ulasim/ucus-bilgisi/ucus_bilgi_panosu_rotar_2_saat_001.png",
+        "sha256": "53fbc978648326416abfa4c002ada16853c3413bde801f5b0ac953bc41b175a0",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/ucus_bilgi_panosu_rotar_2_saat_001/r03/ucus_bilgi_panosu_rotar_2_saat_001_r03.png",
+        "native_reference_sha256": "72a0bfcb66a65105f5c8fb2269ce31f2c80f6f479c6774445dc1a630d5fb85a5"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:48:02.480109+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "tren_bilgi_panosu_rotar_30_dakika_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "tren_bilgi_panosu_rotar_30_dakika_001_r02.png",
+      "candidate_path": "adaylar/tren_bilgi_panosu_rotar_30_dakika_001/r02/tren_bilgi_panosu_rotar_30_dakika_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9267668547453703,
+        "opaque_fraction": 0.07282033661265432,
+        "bbox": [
+          1405,
+          982,
+          2434,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 607425,
+          "16": 607425,
+          "32": 607425,
+          "64": 607425,
+          "128": 607425,
+          "192": 604001,
+          "250": 604001
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "d82594897c2bbdb5c9344bcac3f393f686d5a6f7251a10860dd4e24c1e8ded42",
+        "bytes": 1184725,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-kok.json",
+          "source_blob_sha": "53d27b8224295702c1ebc8928dca31b837277fb7",
+          "unit": 8,
+          "unit_title": "Ulaşım",
+          "lesson": "D6",
+          "evidence": "Gece treni: kalkış 22.00. Bugün 30 dakika rötar var.",
+          "json_pointer": "/uniteler/7/dersler/5/test/2/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "66d3faa29b38df26caf86d0ae8779ae1c6cdfacf6db129c6fc6a0bab35516b3e"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "R02 yeşil detay, mor detay ve alfa görünümü gerçekten açılıp incelendi. Tek yatay krem bilgi panosu; kalın mavi çerçeve, düzensiz beyaz makas payı, sağ alt beyaz kıvrım ve çapraz kağıt izi görülüyor. Tam üç satır okunuyor: GECE TRENİ / Kalkış 22:00 / Rötar 30 dakika. Türkçe İ, ı, ş ve ö doğru; eski uçuş/sis/iki saat yazıları kalmamış. İç yüzey opak, dışı gerçek alfa, bağımsız gölge veya ek nesne yok. 16–17 kök U8/D6 metnindeki planlı saat ve gecikmeyi gösterir; hesaplanan22:30cevabı veya gerçek sefer bilgisi eklenmedi. Yoğun keçeli kalem izleri korunmuş; büyütmeden şeffaf3840×2160tuval, özgün4K ayrıntı iddiası yok."
+      },
+      "pose_reference": {
+        "base_id": "ucus_bilgi_panosu_rotar_2_saat_001",
+        "base_revision": "r04",
+        "canonical_png": "stop-motion/yardimci-nesneler/ulasim/ucus-bilgisi/ucus_bilgi_panosu_rotar_2_saat_001.png",
+        "sha256": "53fbc978648326416abfa4c002ada16853c3413bde801f5b0ac953bc41b175a0",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/ucus_bilgi_panosu_rotar_2_saat_001/r03/ucus_bilgi_panosu_rotar_2_saat_001_r03.png",
+        "native_reference_sha256": "72a0bfcb66a65105f5c8fb2269ce31f2c80f6f479c6774445dc1a630d5fb85a5"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:48:04.115211+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T06:48:23.261572+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ulasim/tren-bilgisi/tren_bilgi_panosu_rotar_30_dakika_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "cbe74426501ab809c3adbf469c5171252e9133cbaa8a884a02fe0b3a9d3d9d83",
+        "output_sha256": "d82594897c2bbdb5c9344bcac3f393f686d5a6f7251a10860dd4e24c1e8ded42",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1029,
+          638
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11448,
+        "changed_alpha_pixels": 618483,
+        "bbox_in_canvas": [
+          1405,
+          982,
+          2434,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          308,
+          166,
+          1337,
+          804
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ulasim/tren-bilgisi/tren_bilgi_panosu_rotar_30_dakika_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "tren_lokomotif_001",
@@ -227566,6 +228055,255 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "12070ab83446e5c42c6518090247e5c09c2cbea8"
+    },
+    {
+      "id": "valiz_yarim_hazirlanmis_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-d4b8c9b2-6585-40af-b77a-a9f8144d226a.png",
+      "candidate_path": "adaylar/valiz_yarim_hazirlanmis_001/r01/valiz_yarim_hazirlanmis_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.6224557505249938,
+        "opaque_fraction": 0.00013728650677025865,
+        "bbox": [
+          0,
+          39,
+          1501,
+          907
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 120,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 93
+        },
+        "largest_component_pixels": {
+          "1": 593799,
+          "16": 578598,
+          "32": 577815,
+          "64": 576705,
+          "128": 575125,
+          "192": 573356,
+          "250": 566312
+        },
+        "tiny_component_pixels": {
+          "1": 211,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 198
+        },
+        "sha256": "97170e4a59892ef1c4b2c85ba4589de858fd9cbe2af473e10a1a4d4c60730d27",
+        "bytes": 1210312,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 10,
+          "unit_title": "Deyimler",
+          "lesson": "D3",
+          "evidence": "valizi yarım kaldı",
+          "json_pointer": "/uniteler/9/dersler/2/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "b1e62e5bcc35877e8e1be0cd850dfbe5cfd933118eea4ffb377d73afbdd8d647"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0860",
+        "R2277"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "valiz_acik_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/seyahat/valiz/valiz_acik_bos_001.png",
+        "sha256": "61b1d96890b95c2354a1faaeff61baf529c9619facacac4c4e4bb4a4d4787c1e",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/valiz_acik_bos_001/r01/valiz_acik_bos_001_r01.png",
+        "native_reference_sha256": "95849aef3f62cb92e8da185296dc31001748c9597d7cd58b0bc496764906437b"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:44:15.547282+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "valiz_yarim_hazirlanmis_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "valiz_yarim_hazirlanmis_001_r02.png",
+      "candidate_path": "adaylar/valiz_yarim_hazirlanmis_001/r02/valiz_yarim_hazirlanmis_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9302423321759259,
+        "opaque_fraction": 0.06921802662037037,
+        "bbox": [
+          1381,
+          891,
+          2459,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 578598,
+          "16": 578598,
+          "32": 578598,
+          "64": 578598,
+          "128": 578598,
+          "192": 574122,
+          "250": 574122
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "0f1a0e5ca7aeb6c3eb9952767123f106dc49f5801b2365e2f5d5301491af9a94",
+        "bytes": 1314075,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 10,
+          "unit_title": "Deyimler",
+          "lesson": "D3",
+          "evidence": "valizi yarım kaldı",
+          "json_pointer": "/uniteler/9/dersler/2/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "b1e62e5bcc35877e8e1be0cd850dfbe5cfd933118eea4ffb377d73afbdd8d647"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0860",
+        "R2277"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "R02 yeşil detay, mor detay ve alfa görünümü gerçekten açılıp incelendi. Tek açık turuncu/sarı valiz; sol kapak boş, sağ ana bölümün yalnız alt kısmında katlı kırmızı giysi, üst kısmı boş sarı. Mavi çapraz kayış ve toka giysinin önünde; içerik aynı tek kağıt kesitinin içinde. Mavi üst tutamak deliği gerçek alfa ve beyaz iç makas paylı. Yoğun keçeli kalem izleri, düzensiz lacivert çizgi, değişken beyaz makas payı ve sağ alt kağıt kıvrımı var. Gömülü sahne, bağımsız gölge veya kopuk parça yok. Çizim büyütülmeden 3840×2160 RGBA tuvale alındı; özgün4K ayrıntı ve poz dizisi hizası iddiası yok. 7–9 ağaç U10/D3 yarım kalan valiz hazırlığına dayanır; giysi türü/rengi tasarım yorumudur, tam yüzde50 hacim ölçümü değildir."
+      },
+      "pose_reference": {
+        "base_id": "valiz_acik_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/seyahat/valiz/valiz_acik_bos_001.png",
+        "sha256": "61b1d96890b95c2354a1faaeff61baf529c9619facacac4c4e4bb4a4d4787c1e",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/valiz_acik_bos_001/r01/valiz_acik_bos_001_r01.png",
+        "native_reference_sha256": "95849aef3f62cb92e8da185296dc31001748c9597d7cd58b0bc496764906437b"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T06:44:17.255763+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T06:44:52.937704+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/seyahat/valiz/valiz_yarim_hazirlanmis_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "97170e4a59892ef1c4b2c85ba4589de858fd9cbe2af473e10a1a4d4c60730d27",
+        "output_sha256": "0f1a0e5ca7aeb6c3eb9952767123f106dc49f5801b2365e2f5d5301491af9a94",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1078,
+          729
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 15412,
+        "changed_alpha_pixels": 593768,
+        "bbox_in_canvas": [
+          1381,
+          891,
+          2459,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          276,
+          118,
+          1354,
+          847
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/seyahat/valiz/valiz_yarim_hazirlanmis_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "vapur_yandan_001",
@@ -240994,10 +241732,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 912,
-    "accepted_png_count": 915,
+    "verified_png_count": 915,
+    "accepted_png_count": 918,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-26T06:32:39.038092+00:00"
+  "updated_at_utc": "2026-11-26T06:51:50.374272+00:00"
 }
