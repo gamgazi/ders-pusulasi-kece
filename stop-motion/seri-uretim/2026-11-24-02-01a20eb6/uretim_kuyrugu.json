@@ -33835,6 +33835,92 @@
       },
       "accepted_revision": "r02",
       "final_sha256": "5586b522fa3ba0e74b687ebb27f0df77e7ed551664228389d5beecc31f604c2f"
+    },
+    {
+      "id": "su_pompasi_motorlu_001",
+      "title": "Tek motorlu yüzey su pompası",
+      "category": "yardimci-nesneler/teknoloji/su-pompasi",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 6,
+          "unit_title": "Ünlü Biri",
+          "lesson": "D6",
+          "evidence": "güneşle çalışan bir su pompası",
+          "json_pointer": "/uniteler/5/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "e8da79a23395d2dfd90f8662aa0328d46595ebcf1114f3ec521079a9e9309701"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "role": "independent missing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "su_pompasi",
+        "su_pompa",
+        "motorlu_pompa",
+        "elektrikli_pompa",
+        "solar_pompa"
+      ],
+      "dedup_scope": "996 records, 913 canonical PNGs, 907 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Tam U6 okundu. K0402 ve pompa_el_001 native r01 gerçekten açıldı; bunlar T kollu hava pompası, motorlu su pompası değil. Yalnız pompa/motor birleşik cihazı üretilir. Güneş paneli mevcut gunes_paneli_001 olarak ayrı korunur; bu PNGde ikinci nesne/panel/tarla/su akışı yok. Yüzey santrifüj pompası seçimi sanatsal nesne yorumudur; kaynak mekanizma, marka, model, ölçü veya mühendislik şeması belirtmez. Üretici birincil kaynak pump/motor/controller ayrımını doğrular; bu parça tam çalışır güneşli tesisat iddiası taşımaz. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "accepted_revision": "r04",
+      "final_sha256": "7a6dd2974ec29ce08fac7e7dc51245b7e70304982fc3b436330c9469cae99006"
+    },
+    {
+      "id": "saat_calar_arka_acik_001",
+      "title": "Tek arka kapağı açık mekanizmalı çalar saat",
+      "category": "yardimci-nesneler/esya/saat",
+      "state": "FINAL_ACCEPTED",
+      "source_evidence": [
+        {
+          "source": "pusula/ders-pusulasi/7-9-agac.json",
+          "source_blob_sha": "f7967b249d953dcb96ed35aefcbd3d1a90f846dc",
+          "unit": 6,
+          "unit_title": "Ünlü Biri",
+          "lesson": "D6",
+          "evidence": "Eski saatleri söker, içine bakardı.",
+          "json_pointer": "/uniteler/5/dersler/5/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "e8da79a23395d2dfd90f8662aa0328d46595ebcf1114f3ec521079a9e9309701"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0621",
+        "R1356",
+        "R1755",
+        "R3119",
+        "R3120",
+        "R3121",
+        "R3142",
+        "R3143",
+        "R3144"
+      ],
+      "role": "missing pose of existing paper helper",
+      "historical_name_matches": [],
+      "dedup_aliases": [
+        "saat_calar_arka_acik",
+        "saat_mekanizma",
+        "saat_ici_acik",
+        "saat_acik_govde"
+      ],
+      "dedup_scope": "996 records, 913 canonical PNGs, 908 queue items",
+      "source_is_action_inference": true,
+      "semantic_review": "Tam U6 ve mevcut çalar saat native r01 görüldü. Eski saatlerin içini inceleme eylemi için mevcut çift kırmızı çanlı turkuaz çalar saatin arka kapağı alınmış görünümü seçildi. Kaynak saat türünü belirtmez; çalar saat seçimi ve basitleştirilmiş üç dişli/spiral yerleşimi tasarım yorumudur, gerçek mekanizma veya çalışma oranı şeması değildir. Kapak, alet, vida ve parçalar ayrıca gösterilmez; bütün mekanizma saat gövdesine bağlı ve aynı opak kâğıda çizilir. Mevcut saatler ve zaman gösterimleri değiştirilmez. Seçilen tam mevcut ders alanı okundu. Mevcut R/K kartlar ve temel yardımcı nesne dosyaları korunur. Üretim sonrası her PNG için ayrı teknik ve üç görünümde sanatsal QA gerekir; poz hizası/animasyon henüz doğrulanmış değildir. Tüm müfredat ayrıştırması bitmedi.",
+      "pose_reference": {
+        "base_id": "saat_calar_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/saat/saat_calar_001.png",
+        "sha256": "1634225ca397da673b9842a0709b7f716c1bc80e9facdb172d1cb42ad49a5631",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/saat_calar_001/r01/saat_calar_001_r01.png",
+        "native_reference_sha256": "dfe90fc4a1f45a39c3aeffa1a5344c49fe325c83edf3f2fab5dddbf9d6e6024e"
+      },
+      "accepted_revision": "r02",
+      "final_sha256": "e9675f98d6e6adf2e19fb48067de9da47f9c3a4822c0e8bc0c8d9323ff35c139"
     }
   ]
 }
