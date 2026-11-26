@@ -2,7 +2,7 @@
   "full_source_files_read": 35,
   "units_read": 616,
   "lessons_read": 5040,
-  "explicitly_linked_lessons": 620,
+  "explicitly_linked_lessons": 625,
   "full_curriculum_decomposition_complete": false,
   "library_complete": false,
   "note": "Okuma kayıtları kaynak SHA ve tam ünite/ders sayılarıyla doğrulandı. Açık kuyruk ve mevcut varlık tekrar-kullanım bağlantıları birleştirildi; tekrar-kullanım kanıtlarında gerçek PNG SHA, JSON alanı ve alan SHA eşleşmesi denetlendi. Bağlantı bulunması tüm ders sahnesinin tamamlandığı anlamına gelmez. Bağlantısız ders otomatik eksik asset sayılmaz.",
@@ -16732,9 +16732,13 @@
           "unit": 4,
           "lesson": "D1",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "tisorttan_canta_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "tisorttan_canta_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -22919,9 +22923,13 @@
           "unit": 13,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "telefon_harcama_takibi_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "telefon_harcama_takibi_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -24445,9 +24453,13 @@
           "unit": 15,
           "lesson": "D3",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "sahil_temizligi_duyurusu_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "sahil_temizligi_duyurusu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -24455,10 +24467,12 @@
           "lesson": "D4",
           "all_present_fields_read": true,
           "explicit_queue_links": [
+            "kombi_ariza_001",
             "kombi_kapali_001"
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
+            "kombi_ariza_001",
             "kombi_kapali_001"
           ],
           "all_scene_requirements_reconciled": false
@@ -24467,9 +24481,13 @@
           "unit": 15,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "telefon_mulakat_epostasi_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "telefon_mulakat_epostasi_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -24494,9 +24512,13 @@
           "unit": 15,
           "lesson": "D8",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "toplanti_carsamba_duyurusu_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "toplanti_carsamba_duyurusu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -30531,9 +30553,13 @@
             "kum_yigini_001",
             "tuz_paketi_kapali_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "bardak_dibinde_kum_001",
+            "bardak_su_dolu_001"
+          ],
           "linked_final_accepted_ids": [
             "bardak_dibinde_kum_001",
+            "bardak_su_dolu_001",
             "kum_yigini_001",
             "tuz_paketi_kapali_001"
           ],
@@ -30555,7 +30581,9 @@
           "explicit_queue_links": [
             "ordek_oyuncak_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "ordek_oyuncak_001"
+          ],
           "linked_final_accepted_ids": [
             "ordek_oyuncak_001"
           ],
@@ -48796,7 +48824,7 @@
       ]
     }
   ],
-  "validated_reuse_link_records": 39,
+  "validated_reuse_link_records": 42,
   "reuse_evidence_records": [
     {
       "record": "denetim/brokoli_yeniden_kullanim_843.json",
@@ -49101,6 +49129,30 @@
       "unit": 14,
       "lesson": "D3",
       "sha256": "9b0ffca3a952c9816aad641a1eb7e67ca07c4bcc23f1199fd5051ba1635a5ed4"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_875.json",
+      "id": "bardak_dibinde_kum_001",
+      "source": "pusula/ders-pusulasi/4-6-cinar.json",
+      "unit": 5,
+      "lesson": "D5",
+      "sha256": "288a28ab4877f5aff170ad0847f78333d451cb1f33d713bd25d0f944c24aa3ff"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_875.json",
+      "id": "bardak_su_dolu_001",
+      "source": "pusula/ders-pusulasi/4-6-cinar.json",
+      "unit": 5,
+      "lesson": "D5",
+      "sha256": "b1136c974ba1f6a879a3125ba4a860b9c3c3b40a8bf50b2a6f9e5af90b4467bc"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_875.json",
+      "id": "ordek_oyuncak_001",
+      "source": "pusula/ders-pusulasi/4-6-cinar.json",
+      "unit": 5,
+      "lesson": "D7",
+      "sha256": "114905b22d25a8320cba68bec5462421c5b41be5f72943e9a65be56f622a1a6f"
     },
     {
       "record": "denetim/saksi_yeniden_kullanim_825.json",

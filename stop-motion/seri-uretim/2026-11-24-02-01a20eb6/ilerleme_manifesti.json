@@ -3,10 +3,10 @@
   "date": "2026-11-26",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 1916,
-  "image_generation_calls": 966,
-  "final_accepted": 863,
-  "rejected": 1053,
+  "png_revisions": 1930,
+  "image_generation_calls": 973,
+  "final_accepted": 869,
+  "rejected": 1061,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -44679,7 +44679,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/bilim/dikey-tarim/dikey_tarim_rafi_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "960f16f5451042c510e47aae4044e75f06a5223f"
     },
     {
       "id": "dikkat_isareti_001",
@@ -84444,7 +84445,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/saglik/kan-tupu/kan_tahlili_tupu_kapali_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "960f16f5451042c510e47aae4044e75f06a5223f"
     },
     {
       "id": "kan_torbasi_tek_001",
@@ -84667,7 +84669,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/saglik/kan-torbasi/kan_torbasi_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "960f16f5451042c510e47aae4044e75f06a5223f"
     },
     {
       "id": "kanepe_bos_001",
@@ -88744,7 +88747,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/muzik/kaset/kaset_ses_tek_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "960f16f5451042c510e47aae4044e75f06a5223f"
     },
     {
       "id": "kasik_tek_001",
@@ -98678,6 +98682,249 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "9b9e01bed65858a4cdfa4aa17184726ff5548527"
+    },
+    {
+      "id": "kombi_ariza_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-966906b2-81d2-4025-8e68-90586ab03a98.png",
+      "candidate_path": "adaylar/kombi_ariza_001/r01/kombi_ariza_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7686207536520753,
+        "opaque_fraction": 4.5126583243927616e-05,
+        "bbox": [
+          547,
+          133,
+          1552,
+          894
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 41,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 83
+        },
+        "largest_component_pixels": {
+          "1": 363984,
+          "16": 356423,
+          "32": 355899,
+          "64": 355184,
+          "128": 354161,
+          "192": 353243,
+          "250": 348613
+        },
+        "tiny_component_pixels": {
+          "1": 57,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 243
+        },
+        "sha256": "22bf731edf80d07c38f474020033baa6db10ceb6fab2951449bcfafeab740b8a",
+        "bytes": 806553,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D4",
+          "evidence": "Ev sahibi 'Kombiyi yarın tamir ettiririm' dedi.",
+          "json_pointer": "/uniteler/14/dersler/3/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "89dd97e83855609d9abead1eef636e834c5a864ef3686e85c46a2ad897a04488"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "kombi_kapali_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/ev/kombi/kombi_kapali_001.png",
+        "sha256": "5f3dc76a1fb18e6440f9d89fb4e9bb1ca0204e2f43362f9da6df322e0b464641",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kombi_kapali_001/r01/kombi_kapali_001_r01.png",
+        "native_reference_sha256": "c70977d8b14d0690eb491c97eee1e26c698def65889d6a7a2a0999a21eea7024"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:08:19.923076+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "kombi_ariza_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "kombi_ariza_001_r02.png",
+      "candidate_path": "adaylar/kombi_ariza_001/r02/kombi_ariza_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9570284770447531,
+        "opaque_fraction": 0.04265456211419753,
+        "bbox": [
+          1659,
+          872,
+          2181,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 356423,
+          "16": 356423,
+          "32": 356423,
+          "64": 356423,
+          "128": 356423,
+          "192": 353794,
+          "250": 353794
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "eb20a3d1990407bda742f52597a48c834c32227c2602f4af13ae43a91bac00a6",
+        "bytes": 855254,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D4",
+          "evidence": "Ev sahibi 'Kombiyi yarın tamir ettiririm' dedi.",
+          "json_pointer": "/uniteler/14/dersler/3/yeni/4",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "89dd97e83855609d9abead1eef636e834c5a864ef3686e85c46a2ad897a04488"
+        }
+      ],
+      "felt_cards_preserved": [],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Ham ve r02 yeşil detay, alfa, ayrı mor detay gerçekten incelendi. Tek kapalı turkuaz kombi, kobalt sağ yüz, krem panel, iki turuncu düğme ve altı havalandırma çizgisi korunuyor. Panelde ARIZA doğru, noktasız I ile okunaklı. Kaynak tamir edileceğini söylüyor; genel arıza göstergesi tasarım çıkarımı, arıza nedeni/kodu veya teknik çözüm iddiası değil. Boru, alet, duvar, duman ve ayrı parça yok. Yoğun geniş turkuaz/mavi marker örtüşmeleri, düzensiz lacivert kontur, değişken beyaz makas payı, sağ üst kıvrım ve sol alt kat izi uygun. 522×748 doğal çizim büyütülmeden 3840×2160 RGBA tuvalde; dış alfa temiz, teknik kontroller geçti."
+      },
+      "pose_reference": {
+        "base_id": "kombi_kapali_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/ev/kombi/kombi_kapali_001.png",
+        "sha256": "5f3dc76a1fb18e6440f9d89fb4e9bb1ca0204e2f43362f9da6df322e0b464641",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kombi_kapali_001/r01/kombi_kapali_001_r01.png",
+        "native_reference_sha256": "c70977d8b14d0690eb491c97eee1e26c698def65889d6a7a2a0999a21eea7024"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:08:21.570157+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:08:46.904435+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/ev/kombi/kombi_ariza_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "22bf731edf80d07c38f474020033baa6db10ceb6fab2951449bcfafeab740b8a",
+        "output_sha256": "eb20a3d1990407bda742f52597a48c834c32227c2602f4af13ae43a91bac00a6",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          522,
+          748
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7618,
+        "changed_alpha_pixels": 363959,
+        "bbox_in_canvas": [
+          1659,
+          872,
+          2181,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          549,
+          140,
+          1071,
+          888
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/ev/kombi/kombi_ariza_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "kombi_kapali_001",
@@ -128564,7 +128811,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/egitim/aliskanlik-takibi/okuma_aliskanlik_takibi_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "960f16f5451042c510e47aae4044e75f06a5223f"
     },
     {
       "id": "okuma_listesi_001",
@@ -161089,6 +161337,253 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "395b50caf61d9e3b59ca88389376ed3fee109d77"
+    },
+    {
+      "id": "sahil_temizligi_duyurusu_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-fb0e0a08-bdae-40b4-b2f0-66f20ff9c61a.png",
+      "candidate_path": "adaylar/sahil_temizligi_duyurusu_001/r01/sahil_temizligi_duyurusu_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5295254971551185,
+        "opaque_fraction": 0.0006076199095942929,
+        "bbox": [
+          57,
+          77,
+          1634,
+          866
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 54,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 67
+        },
+        "largest_component_pixels": {
+          "1": 740148,
+          "16": 730457,
+          "32": 729933,
+          "64": 729074,
+          "128": 727661,
+          "192": 726207,
+          "250": 720770
+        },
+        "tiny_component_pixels": {
+          "1": 74,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 292
+        },
+        "sha256": "dba70e7f05b600fb4b1e41920093bd41274c3b1e50c461391234d8e8ac461cd4",
+        "bytes": 1425602,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D3",
+          "evidence": "Sahil temizliği cumartesi saat 10'da.",
+          "json_pointer": "/uniteler/14/dersler/2/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "1bd7d5634b876023f9efae0c697d647486f82d589b1be054268fb24b41a33df4"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1867"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "kagit_duz_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/kagit/kagit_duz_bos_001.png",
+        "sha256": "fbadef6842800499fb97b77712683d0aaf4f15511fc6ccb14a187b7e6c7225f5",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kagit_duz_bos_001/r01/kagit_duz_bos_001_r01.png",
+        "native_reference_sha256": "22573e846ccb300f9dfb6d3d31bb95bcc3275ada6dea6917a8ab7d0687abfba8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:17:55.422190+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "sahil_temizligi_duyurusu_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "sahil_temizligi_duyurusu_001_r02.png",
+      "candidate_path": "adaylar/sahil_temizligi_duyurusu_001/r02/sahil_temizligi_duyurusu_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9119337143132716,
+        "opaque_fraction": 0.08759379822530865,
+        "bbox": [
+          1358,
+          907,
+          2481,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 730457,
+          "16": 730457,
+          "32": 730457,
+          "64": 730457,
+          "128": 730457,
+          "192": 726538,
+          "250": 726538
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "4de2ed9ab2e52b250e8ebeb15c546d1c934b92cf04e62a314da30ce5717780ec",
+        "bytes": 1506784,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D3",
+          "evidence": "Sahil temizliği cumartesi saat 10'da.",
+          "json_pointer": "/uniteler/14/dersler/2/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "1bd7d5634b876023f9efae0c697d647486f82d589b1be054268fb24b41a33df4"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1867"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02; yeşil, alfa ve ayrı mor detay gerçekten incelendi. Tek krem yatay kâğıt sayfasında SAHİL TEMİZLİĞİ / CUMARTESİ / 10:00 / Eldiven getirmeyi unutma! dört satır doğru; İ/Ğ harfleri ve son ünlem okunuyor, ek nokta yok. Kaynak16–17FilizU15D3 ile gün/saat/hatırlatma uyumlu. Turuncu başlık çizgisi ve mavi dalga sayfa üzerine mürekkep, ayrı nesne değil. Harflerde yoğun keçeli kalem örtüşmeleri, değişken çizgi ve el yazısı var; krem kâğıt opak. Değişken beyaz dış kesim payı, sağ alt kıvrım/kat izi, temiz dış alfa ve tek bağlantılı siluet kabul. Arka plan/gölge/kırpılma yok. 1123x713 özgün çizim büyütülmeden3840x2160tuval; native4Kveanimasyoniddiasıyok. Kurmaca ders duyurusu; gerçek tarih veya kurum eklenmedi."
+      },
+      "pose_reference": {
+        "base_id": "kagit_duz_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/kagit/kagit_duz_bos_001.png",
+        "sha256": "fbadef6842800499fb97b77712683d0aaf4f15511fc6ccb14a187b7e6c7225f5",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kagit_duz_bos_001/r01/kagit_duz_bos_001_r01.png",
+        "native_reference_sha256": "22573e846ccb300f9dfb6d3d31bb95bcc3275ada6dea6917a8ab7d0687abfba8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:17:57.143315+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:18:29.321642+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/belgeler/duyuru/sahil_temizligi_duyurusu_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "dba70e7f05b600fb4b1e41920093bd41274c3b1e50c461391234d8e8ac461cd4",
+        "output_sha256": "4de2ed9ab2e52b250e8ebeb15c546d1c934b92cf04e62a314da30ce5717780ec",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          1123,
+          713
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 9765,
+        "changed_alpha_pixels": 739248,
+        "bbox_in_canvas": [
+          1358,
+          907,
+          2481,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          263,
+          138,
+          1386,
+          851
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/belgeler/duyuru/sahil_temizligi_duyurusu_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "saksafon_tek_001",
@@ -194371,6 +194866,289 @@
       "upload_verified_commit": "677cb63c94d5f727ec0a809e148d64a356013a5e"
     },
     {
+      "id": "telefon_harcama_takibi_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-df87988b-ee25-43f6-9b7a-d59741126441.png",
+      "candidate_path": "adaylar/telefon_harcama_takibi_001/r01/telefon_harcama_takibi_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7804833247741129,
+        "opaque_fraction": 2.0338741743742024e-05,
+        "bbox": [
+          300,
+          56,
+          1610,
+          874
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 52,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 41
+        },
+        "largest_component_pixels": {
+          "1": 345233,
+          "16": 338636,
+          "32": 338167,
+          "64": 337547,
+          "128": 336618,
+          "192": 335681,
+          "250": 330894
+        },
+        "tiny_component_pixels": {
+          "1": 110,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 91
+        },
+        "sha256": "a2df1b838f500b016f36b8412f4f3f11d270b92db4c8ceedfc412af1cf91f52f",
+        "bytes": 782402,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-fidan.json",
+          "source_blob_sha": "b81a03ad052c6c2852b888c81c3e0cacccbcb611",
+          "unit": 13,
+          "unit_title": "Para ve Harcama",
+          "lesson": "D5",
+          "evidence": "banka uygulamasından harcamalarını her akşam kontrol ediyor",
+          "json_pointer": "/uniteler/12/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "c030fbb4c25d298147ddb2b0a337407f76db0683c6cc6f6c8b4364462636417a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "telefon_mobil_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_mobil_001.png",
+        "sha256": "6fa6e9832f3ac76d851d4aee77e2bec78ca6f5715b5e372a0b52902cbc225d4b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_mobil_001/r01/telefon_mobil_001_r01.png",
+        "native_reference_sha256": "f19f7b3a7fb781c388f8636f80d1f7c2f1256091d1a2ae10ed7089c6a35eccd8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:05:10.835793+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "telefon_harcama_takibi_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "telefon_harcama_takibi_001_r02.png",
+      "candidate_path": "adaylar/telefon_harcama_takibi_001/r02/telefon_harcama_takibi_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9591729359567901,
+        "opaque_fraction": 0.04052047164351852,
+        "bbox": [
+          1674,
+          876,
+          2166,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 338636,
+          "16": 338636,
+          "32": 338636,
+          "64": 338636,
+          "128": 338636,
+          "192": 336093,
+          "250": 336093
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "d55dd5748fd90ede28816f5346e763d76b9ea6faf6f1a6e6b84e8db22812648a",
+        "bytes": 842426,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-fidan.json",
+          "source_blob_sha": "b81a03ad052c6c2852b888c81c3e0cacccbcb611",
+          "unit": 13,
+          "unit_title": "Para ve Harcama",
+          "lesson": "D5",
+          "evidence": "banka uygulamasından harcamalarını her akşam kontrol ediyor",
+          "json_pointer": "/uniteler/12/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "c030fbb4c25d298147ddb2b0a337407f76db0683c6cc6f6c8b4364462636417a"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Ham ve son r02 yeşil detay, alfa ve ayrı mor detay gerçekten incelendi. Tek kırmızı telefon; krem HARCAMALAR başlığı, mavi ekranda Kahve/Atıştırmalık/Abonelik üç doğru yazılmış satır ve üç turuncu tire var. Satırlar ve ayırıcı çizgiler cihazın ekranına çizili, ayrı etiket veya kart değiller. Kaynağın üç harcama örneğini gösteriyor; tutar, bakiye, tarih, banka/kişi bilgisi yok. Kırmızı gövde ve mavi ekranda yoğun geniş yönlü mürekkep, koyu bindirmeler, düzensiz lacivert çizgiler, dış beyaz kesim ve sağ üst kâğıt kıvrımı/kat izi uygun. Ekran opak, dış alfa temiz, tek bağlı nesne. 492×744 doğal çizim büyütülmeden 3840×2160 RGBA tuvale yerleştirildi. Teknik kontroller geçti; gerçek banka uygulaması veya hesap kaydı değildir."
+      },
+      "pose_reference": {
+        "base_id": "telefon_mobil_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_mobil_001.png",
+        "sha256": "6fa6e9832f3ac76d851d4aee77e2bec78ca6f5715b5e372a0b52902cbc225d4b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_mobil_001/r01/telefon_mobil_001_r01.png",
+        "native_reference_sha256": "f19f7b3a7fb781c388f8636f80d1f7c2f1256091d1a2ae10ed7089c6a35eccd8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:05:12.448305+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:05:49.746031+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/telefon/telefon_harcama_takibi_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "a2df1b838f500b016f36b8412f4f3f11d270b92db4c8ceedfc412af1cf91f52f",
+        "output_sha256": "d55dd5748fd90ede28816f5346e763d76b9ea6faf6f1a6e6b84e8db22812648a",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          492,
+          744
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 6741,
+        "changed_alpha_pixels": 345334,
+        "bbox_in_canvas": [
+          1674,
+          876,
+          2166,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          571,
+          121,
+          1063,
+          865
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/telefon/telefon_harcama_takibi_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "telefon_hava_35_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -196230,6 +197008,289 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "266d6d6a769dade8c733ca2d789f9a88645edff5"
+    },
+    {
+      "id": "telefon_mulakat_epostasi_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-01e7cabf-56d5-4d8d-9521-57dd888938cb.png",
+      "candidate_path": "adaylar/telefon_mulakat_epostasi_001/r01/telefon_mulakat_epostasi_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.8024472591003158,
+        "opaque_fraction": 5.021126867986312e-05,
+        "bbox": [
+          0,
+          112,
+          1393,
+          873
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 65,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 68
+        },
+        "largest_component_pixels": {
+          "1": 310655,
+          "16": 303604,
+          "32": 303174,
+          "64": 302640,
+          "128": 301792,
+          "192": 300997,
+          "250": 296882
+        },
+        "tiny_component_pixels": {
+          "1": 131,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 147
+        },
+        "sha256": "b2d94864673ca415d90ff2c6be24d90dc6e480ccdc9524e480aaba5f55feea1a",
+        "bytes": 720336,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D5",
+          "evidence": "Mülakat gelecek pazartesi, online olacaktı.",
+          "json_pointer": "/uniteler/14/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "7064c57ea258622fe05407ac8b201005675efb8c92bd0197c187972eaaf9584f"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "telefon_mobil_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_mobil_001.png",
+        "sha256": "6fa6e9832f3ac76d851d4aee77e2bec78ca6f5715b5e372a0b52902cbc225d4b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_mobil_001/r01/telefon_mobil_001_r01.png",
+        "native_reference_sha256": "f19f7b3a7fb781c388f8636f80d1f7c2f1256091d1a2ae10ed7089c6a35eccd8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:06:53.656534+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "telefon_mulakat_epostasi_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "telefon_mulakat_epostasi_001_r02.png",
+      "candidate_path": "adaylar/telefon_mulakat_epostasi_001/r02/telefon_mulakat_epostasi_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9633965084876543,
+        "opaque_fraction": 0.03631124614197531,
+        "bbox": [
+          1688,
+          911,
+          2152,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 303604,
+          "16": 303604,
+          "32": 303604,
+          "64": 303604,
+          "128": 303604,
+          "192": 301180,
+          "250": 301180
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "b760a24058e0f2ce34ebbbc8ecdd0101e31cb5f3539c118b51abad080d7dfde6",
+        "bytes": 778455,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D5",
+          "evidence": "Mülakat gelecek pazartesi, online olacaktı.",
+          "json_pointer": "/uniteler/14/dersler/4/oku",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "7064c57ea258622fe05407ac8b201005675efb8c92bd0197c187972eaaf9584f"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "Ham ve r02 yeşil detay, alfa ve ayrı mor detay gerçekten incelendi. Tek kırmızı telefonun mavi ekranında sarı zarf simgesi ve MÜLAKAT / GELECEK / PAZARTESİ / 10:00 / ONLINE beş satır doğru. MÜLAKATta Ü ve PAZARTESİ sonunda noktalı İ okunur; 10:00 kaynak saat on ifadesiyle uyumlu. Gelecek pazartesi/online kaynak görünen D5te, saat on aynı metindeki not ve D6da var; gerçek randevu/tarih bilgisi değildir. Tüm metin ve zarf tek cihaz ekranında; kişi/şirket/adres yok. Yoğun kırmızı-mavi marker ve sarı vuruşlar, düzensiz lacivert çevre, beyaz kesim payı, sağ üst kıvrım/kat izi geçiyor. 464×709 doğal çizim büyütülmedi; dış alfa temiz ve tek bağlantılı. Özgün 4K veya poz hizası doğrulaması iddiası yok; kabul."
+      },
+      "pose_reference": {
+        "base_id": "telefon_mobil_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_mobil_001.png",
+        "sha256": "6fa6e9832f3ac76d851d4aee77e2bec78ca6f5715b5e372a0b52902cbc225d4b",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_mobil_001/r01/telefon_mobil_001_r01.png",
+        "native_reference_sha256": "f19f7b3a7fb781c388f8636f80d1f7c2f1256091d1a2ae10ed7089c6a35eccd8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:06:55.215859+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:07:20.731437+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/teknoloji/telefon/telefon_mulakat_epostasi_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "b2d94864673ca415d90ff2c6be24d90dc6e480ccdc9524e480aaba5f55feea1a",
+        "output_sha256": "b760a24058e0f2ce34ebbbc8ecdd0101e31cb5f3539c118b51abad080d7dfde6",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          464,
+          709
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 7216,
+        "changed_alpha_pixels": 310730,
+        "bbox_in_canvas": [
+          1688,
+          911,
+          2152,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          579,
+          125,
+          1043,
+          834
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/teknoloji/telefon/telefon_mulakat_epostasi_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "telefon_podcast_001",
@@ -205611,6 +206672,759 @@
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
       "github_binary_uploaded": true,
       "upload_verified_commit": "fa30712a5a441cc3305b8529b0a5ed771d8d20bd"
+    },
+    {
+      "id": "tisorttan_canta_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-d2ead6ea-ce3e-4c22-b1b1-896de7484efb.png",
+      "candidate_path": "adaylar/tisorttan_canta_001/r01/tisorttan_canta_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7626964595335309,
+        "opaque_fraction": 0.00010232929439820205,
+        "bbox": [
+          41,
+          21,
+          1620,
+          917
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 107,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 123
+        },
+        "largest_component_pixels": {
+          "1": 373215,
+          "16": 361860,
+          "32": 361303,
+          "64": 360542,
+          "128": 359341,
+          "192": 358134,
+          "250": 352228
+        },
+        "tiny_component_pixels": {
+          "1": 147,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 262
+        },
+        "sha256": "29fc3f9a6e71acba38921a00bbaf6c0a14d53954b271529d805b7c63547df3ae",
+        "bytes": 730462,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-orman.json",
+          "source_blob_sha": "2d7beb97d7ca27695056208158cc83756715a68b",
+          "unit": 4,
+          "unit_title": "Bir Projeyi Başlatmak",
+          "lesson": "D1",
+          "evidence": "Eski tişörtleri keserek çanta yapacağız.",
+          "json_pointer": "/uniteler/3/dersler/0/ornek/… -mAk suretiyle …/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "bac55ac5094635ec7276cec099531d4c59efdab486c43ff4d448fe72ad1d184e"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0224",
+        "R0851",
+        "R0852",
+        "R1149",
+        "R3286"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "tisort_kolsuz_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/giyim/tisort/tisort_kolsuz_001.png",
+        "sha256": "915fabcf7dd20efe10ffb9f7cc575f66add2244b1b22285587f721a83702512c",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/tisort_kolsuz_001/r01/tisort_kolsuz_001_r01.png",
+        "native_reference_sha256": "ec5723eb6bb3eb63a7789596c3c46367ab71ecbe161e08c668b93da482099eaf"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:14:26.147447+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "tisorttan_canta_001",
+      "revision": "r02",
+      "status": "REJECTED",
+      "source": "tisorttan_canta_001_r02.png",
+      "candidate_path": "adaylar/tisorttan_canta_001/r02/tisorttan_canta_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9563729745370371,
+        "opaque_fraction": 0.043195408950617284,
+        "bbox": [
+          1600,
+          845,
+          2240,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 361860,
+          "16": 361860,
+          "32": 361860,
+          "64": 361860,
+          "128": 361860,
+          "192": 358280,
+          "250": 358280
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "04b480432266417cf28239dcd13e47455b03a7850cea9a222f6a6b21757fe0b4",
+        "bytes": 782514,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-orman.json",
+          "source_blob_sha": "2d7beb97d7ca27695056208158cc83756715a68b",
+          "unit": 4,
+          "unit_title": "Bir Projeyi Başlatmak",
+          "lesson": "D1",
+          "evidence": "Eski tişörtleri keserek çanta yapacağız.",
+          "json_pointer": "/uniteler/3/dersler/0/ornek/… -mAk suretiyle …/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "bac55ac5094635ec7276cec099531d4c59efdab486c43ff4d448fe72ad1d184e"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0224",
+        "R0851",
+        "R0852",
+        "R1149",
+        "R3286"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": false,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02; yeşil detay, alfa ve mor detay gerçekten incelendi. Tek bağlı beyaz kesilmiş kâğıt, sarı yoğun keçeli mürekkep, düzensiz lacivert çizgi, turuncu yaka ve sağ alt kâğıt kıvrımı korunuyor. Ancak üstteki iki şerit açıkta bitiyor; kapalı taşıma sapı/arka bağlantısı görünmüyor, bitmiş çanta yerine altı bağlanmış atlet okunuyor. Nesne kimliği RED. Yalnız sapları kapalı kemer olacak şekilde yeniden çizim gerekir. Teknik 3840x2160 RGBA geçişi sanatsal kabul değildir; büyütme yapılmadı."
+      },
+      "pose_reference": {
+        "base_id": "tisort_kolsuz_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/giyim/tisort/tisort_kolsuz_001.png",
+        "sha256": "915fabcf7dd20efe10ffb9f7cc575f66add2244b1b22285587f721a83702512c",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/tisort_kolsuz_001/r01/tisort_kolsuz_001_r01.png",
+        "native_reference_sha256": "ec5723eb6bb3eb63a7789596c3c46367ab71ecbe161e08c668b93da482099eaf"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:14:27.740702+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:15:11.619273+00:00",
+      "artistic_accepted": false,
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "29fc3f9a6e71acba38921a00bbaf6c0a14d53954b271529d805b7c63547df3ae",
+        "output_sha256": "04b480432266417cf28239dcd13e47455b03a7850cea9a222f6a6b21757fe0b4",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          640,
+          775
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 11502,
+        "changed_alpha_pixels": 373188,
+        "bbox_in_canvas": [
+          1600,
+          845,
+          2240,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          508,
+          106,
+          1148,
+          881
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "tisorttan_canta_001",
+      "revision": "r03",
+      "status": "REJECTED",
+      "source": "exec-f08a1f61-80cf-4126-8048-c6af5d52f700.png",
+      "candidate_path": "adaylar/tisorttan_canta_001/r03/tisorttan_canta_001_r03.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7591558441145476,
+        "opaque_fraction": 8.903524587401131e-05,
+        "bbox": [
+          0,
+          39,
+          1535,
+          913
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 169,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 68
+        },
+        "largest_component_pixels": {
+          "1": 378230,
+          "16": 366405,
+          "32": 365744,
+          "64": 364864,
+          "128": 363562,
+          "192": 362164,
+          "250": 356637
+        },
+        "tiny_component_pixels": {
+          "1": 294,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 133
+        },
+        "sha256": "4e70eaca27e914f623019e9ed295bf6d85b911ce3643366e685e7a1f9a3b0c1d",
+        "bytes": 742198,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-orman.json",
+          "source_blob_sha": "2d7beb97d7ca27695056208158cc83756715a68b",
+          "unit": 4,
+          "unit_title": "Bir Projeyi Başlatmak",
+          "lesson": "D1",
+          "evidence": "Eski tişörtleri keserek çanta yapacağız.",
+          "json_pointer": "/uniteler/3/dersler/0/ornek/… -mAk suretiyle …/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "bac55ac5094635ec7276cec099531d4c59efdab486c43ff4d448fe72ad1d184e"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0224",
+        "R0851",
+        "R0852",
+        "R1149",
+        "R3286"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "tisort_kolsuz_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/giyim/tisort/tisort_kolsuz_001.png",
+        "sha256": "915fabcf7dd20efe10ffb9f7cc575f66add2244b1b22285587f721a83702512c",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/tisort_kolsuz_001/r01/tisort_kolsuz_001_r01.png",
+        "native_reference_sha256": "ec5723eb6bb3eb63a7789596c3c46367ab71ecbe161e08c668b93da482099eaf"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:16:11.727497+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "tisorttan_canta_001",
+      "revision": "r04",
+      "status": "FINAL_ACCEPTED",
+      "source": "tisorttan_canta_001_r04.png",
+      "candidate_path": "adaylar/tisorttan_canta_001/r04/tisorttan_canta_001_r04.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9558250144675926,
+        "opaque_fraction": 0.04370792341820988,
+        "bbox": [
+          1598,
+          812,
+          2241,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 366405,
+          "16": 366405,
+          "32": 366405,
+          "64": 366405,
+          "128": 366405,
+          "192": 362531,
+          "250": 362531
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "48968736839fd2633b055cd5e6ac661c1fed1b72521a538ff483119414096b9f",
+        "bytes": 796163,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r03",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-orman.json",
+          "source_blob_sha": "2d7beb97d7ca27695056208158cc83756715a68b",
+          "unit": 4,
+          "unit_title": "Bir Projeyi Başlatmak",
+          "lesson": "D1",
+          "evidence": "Eski tişörtleri keserek çanta yapacağız.",
+          "json_pointer": "/uniteler/3/dersler/0/ornek/… -mAk suretiyle …/1",
+          "match": "exact_json_leaf",
+          "leaf_sha256": "bac55ac5094635ec7276cec099531d4c59efdab486c43ff4d448fe72ad1d184e"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R0224",
+        "R0851",
+        "R0852",
+        "R1149",
+        "R3286"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r04; yeşil detay, alfa önizleme ve mor detay ayrı ayrı gerçekten incelendi. Sarı atlet gövdesi/turuncu yaka altı beş bağlı düğümle kapanmış yuvarlak çanta olarak okunuyor. r02deki açık sap uçları tamamlanmış kapalı sarı kemere dönüştü; oval sap boşluğu gerçek alfadır ve çevresinde lacivert çizgiden ayrılan kesintisiz beyaz iç makas payı var. Tek bağlı nesne; geniş sarı keçeli çizgiler, koyu mürekkep örtüşmeleri, küçük beyaz mürekkep boşlukları ve düzensiz lacivert kontur korunmuş. Dış beyaz kâğıt payı ve sağ alt belirgin kâğıt kıvrımı/çapraz kat izi kabul. Arka plan, kopuk parça ve yüzer gölge yok. Teknik RGBA/alfa bağlılık ölçümleri geçti. Özgün boyutta 3840x2160 şeffaf tuvale taşındı; büyütme/özgün4Kayrıntı/poz animasyonu iddiası yok. Sap ve düğüm tasarımı kaynak eski tişörtten çanta isteğinin sanatsal yorumu; gerçek tekstil fotoğrafı değil."
+      },
+      "pose_reference": {
+        "base_id": "tisort_kolsuz_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/giyim/tisort/tisort_kolsuz_001.png",
+        "sha256": "915fabcf7dd20efe10ffb9f7cc575f66add2244b1b22285587f721a83702512c",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/tisort_kolsuz_001/r01/tisort_kolsuz_001_r01.png",
+        "native_reference_sha256": "ec5723eb6bb3eb63a7789596c3c46367ab71ecbe161e08c668b93da482099eaf"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:16:13.351941+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:16:42.503747+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/esya/geri-donusum-cantasi/tisorttan_canta_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "4e70eaca27e914f623019e9ed295bf6d85b911ce3643366e685e7a1f9a3b0c1d",
+        "output_sha256": "48968736839fd2633b055cd5e6ac661c1fed1b72521a538ff483119414096b9f",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          643,
+          808
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 12301,
+        "changed_alpha_pixels": 378549,
+        "bbox_in_canvas": [
+          1598,
+          812,
+          2241,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          507,
+          74,
+          1150,
+          882
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/esya/geri-donusum-cantasi/tisorttan_canta_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
+      "id": "toplanti_carsamba_duyurusu_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-f1fdbe47-6e1f-4e0d-9d0d-a25d1c0a0fe5.png",
+      "candidate_path": "adaylar/toplanti_carsamba_duyurusu_001/r01/toplanti_carsamba_duyurusu_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1671,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.5505061971710958,
+        "opaque_fraction": 0.0005214921544049234,
+        "bbox": [
+          180,
+          15,
+          1474,
+          941
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 99,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 164
+        },
+        "largest_component_pixels": {
+          "1": 706618,
+          "16": 696391,
+          "32": 695827,
+          "64": 694830,
+          "128": 693483,
+          "192": 692182,
+          "250": 685880
+        },
+        "tiny_component_pixels": {
+          "1": 171,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 596
+        },
+        "sha256": "85f41767596a8c0bf937e8c8fb4ad6b2946b1dcfa57073e35a20a6d60953cb95",
+        "bytes": 1315848,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D8",
+          "evidence": "Pazartesi toplantısı iptal. Yeni toplantı çarşamba 14.00'te.",
+          "json_pointer": "/uniteler/14/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "f2524798544414f0205328fd6c838817e2c4a7d837ab4010b9751c6fcee94c1d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1867"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "kagit_duz_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/kagit/kagit_duz_bos_001.png",
+        "sha256": "fbadef6842800499fb97b77712683d0aaf4f15511fc6ccb14a187b7e6c7225f5",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kagit_duz_bos_001/r01/kagit_duz_bos_001_r01.png",
+        "native_reference_sha256": "22573e846ccb300f9dfb6d3d31bb95bcc3275ada6dea6917a8ab7d0687abfba8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:19:40.106754+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "toplanti_carsamba_duyurusu_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "toplanti_carsamba_duyurusu_001_r02.png",
+      "candidate_path": "adaylar/toplanti_carsamba_duyurusu_001/r02/toplanti_carsamba_duyurusu_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9160408227237654,
+        "opaque_fraction": 0.0835011574074074,
+        "bbox": [
+          1405,
+          889,
+          2435,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 696391,
+          "16": 696391,
+          "32": 696391,
+          "64": 696391,
+          "128": 696391,
+          "192": 692592,
+          "250": 692592
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "ec6dab2639843280be76c3f525b652411d0fc38aecc2a82cc0c9f16a9cb7647f",
+        "bytes": 1390263,
+        "original_generated_dimensions": [
+          1671,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/16-17-filiz.json",
+          "source_blob_sha": "4a589b9098499d5216db6a095c6e1ce3a1176083",
+          "unit": 15,
+          "unit_title": "Haberi İletiyorum",
+          "lesson": "D8",
+          "evidence": "Pazartesi toplantısı iptal. Yeni toplantı çarşamba 14.00'te.",
+          "json_pointer": "/uniteler/14/dersler/7/test/0/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "f2524798544414f0205328fd6c838817e2c4a7d837ab4010b9751c6fcee94c1d"
+        }
+      ],
+      "felt_cards_preserved": [
+        "R1867"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "r02; yeşil detay, alfa ve ayrı mor detay gerçekten incelendi. Tek krem kâğıt duyuruda lacivert TOPLANTI; kırmızı PAZARTESİ / İPTAL; boşlukla ayrılan mavi ÇARŞAMBA / 14:00. Tüm sözcükler/saat ve Türkçe İ/Ç/Ş doğru; iptal eski pazartesiye, yeni saat çarşambaya ait. Kaynak16–17FilizU15D8 uyumlu. Her harf kâğıda işlenmiş yoğun geniş keçeli kalem mürekkebi, koyu örtüşmeler ve düzensiz çizgilerle okunur. Değişken beyaz dış makas payı, sağ alt beyaz kıvrım ve çapraz kat izi kabul. Tek bağlı opak kâğıt, dış gerçek alfa, arka plan/kopuk obje/gölge yok. 1030x731sanat büyütülmeden3840x2160tuval; özgün4Kayrıntı/animasyonhizasıiddiasıyok. Gerçek kurum/tarih eklenmedi."
+      },
+      "pose_reference": {
+        "base_id": "kagit_duz_bos_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/egitim/kagit/kagit_duz_bos_001.png",
+        "sha256": "fbadef6842800499fb97b77712683d0aaf4f15511fc6ccb14a187b7e6c7225f5",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/kagit_duz_bos_001/r01/kagit_duz_bos_001_r01.png",
+        "native_reference_sha256": "22573e846ccb300f9dfb6d3d31bb95bcc3275ada6dea6917a8ab7d0687abfba8"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T03:19:41.832226+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T03:20:11.253426+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/belgeler/duyuru/toplanti_carsamba_duyurusu_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "85f41767596a8c0bf937e8c8fb4ad6b2946b1dcfa57073e35a20a6d60953cb95",
+        "output_sha256": "ec6dab2639843280be76c3f525b652411d0fc38aecc2a82cc0c9f16a9cb7647f",
+        "source_dimensions": [
+          1671,
+          941
+        ],
+        "native_crop_dimensions": [
+          1030,
+          731
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 10398,
+        "changed_alpha_pixels": 705954,
+        "bbox_in_canvas": [
+          1405,
+          889,
+          2435,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          316,
+          176,
+          1346,
+          907
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/belgeler/duyuru/toplanti_carsamba_duyurusu_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
     },
     {
       "id": "toprak_nem_sensoru_001",
@@ -225811,7 +227625,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/egitim/zihin-haritasi/zihin_haritasi_mercanlar_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "960f16f5451042c510e47aae4044e75f06a5223f"
     },
     {
       "id": "zil_kapi_001",
@@ -226503,10 +228318,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 857,
-    "accepted_png_count": 863,
+    "verified_png_count": 863,
+    "accepted_png_count": 869,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-26T03:01:38.352504+00:00"
+  "updated_at_utc": "2026-11-26T03:23:28.458333+00:00"
 }
