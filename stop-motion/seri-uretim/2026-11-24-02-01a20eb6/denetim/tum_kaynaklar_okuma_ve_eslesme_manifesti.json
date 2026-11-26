@@ -2,7 +2,7 @@
   "full_source_files_read": 35,
   "units_read": 616,
   "lessons_read": 5040,
-  "explicitly_linked_lessons": 638,
+  "explicitly_linked_lessons": 642,
   "full_curriculum_decomposition_complete": false,
   "library_complete": false,
   "note": "Okuma kayıtları kaynak SHA ve tam ünite/ders sayılarıyla doğrulandı. Açık kuyruk ve mevcut varlık tekrar-kullanım bağlantıları birleştirildi; tekrar-kullanım kanıtlarında gerçek PNG SHA, JSON alanı ve alan SHA eşleşmesi denetlendi. Bağlantı bulunması tüm ders sahnesinin tamamlandığı anlamına gelmez. Bağlantısız ders otomatik eksik asset sayılmaz.",
@@ -11488,8 +11488,12 @@
           "lesson": "D5",
           "all_present_fields_read": true,
           "explicit_queue_links": [],
-          "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "explicit_reuse_links": [
+            "saksi_toprak_dolu_001"
+          ],
+          "linked_final_accepted_ids": [
+            "saksi_toprak_dolu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -20117,7 +20121,9 @@
           "unit": 11,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "cizgi_grafik_ekran_yillar_001"
+          ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [],
           "all_scene_requirements_reconciled": false
@@ -20443,15 +20449,21 @@
           "lesson": "D3",
           "all_present_fields_read": true,
           "explicit_queue_links": [],
-          "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "explicit_reuse_links": [
+            "gunes_paneli_001"
+          ],
+          "linked_final_accepted_ids": [
+            "gunes_paneli_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
           "unit": 15,
           "lesson": "D4",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "kazak_dikisle_onarilmis_001"
+          ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [],
           "all_scene_requirements_reconciled": false
@@ -24878,7 +24890,10 @@
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
-            "salca_kavanozu_001"
+            "domates_dogranmis_parca_001",
+            "patates_dogranmis_parca_001",
+            "salca_kavanozu_001",
+            "sogan_dogranmis_parca_001"
           ],
           "all_scene_requirements_reconciled": false
         },
@@ -24899,7 +24914,9 @@
             "zamanlayici_kirk_dakika_001"
           ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "zamanlayici_kirk_dakika_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -24925,7 +24942,9 @@
             "sarimsak_kesik_dis_001"
           ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "sarimsak_kesik_dis_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -24938,6 +24957,7 @@
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
+            "kepce_corba_dolu_001",
             "sarimsak_butun_001"
           ],
           "all_scene_requirements_reconciled": false
@@ -24981,7 +25001,10 @@
             "zamanlayici_on_bes_dakika_001"
           ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "biber_yesil_dilim_001",
+            "zamanlayici_on_bes_dakika_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -48913,7 +48936,7 @@
       ]
     }
   ],
-  "validated_reuse_link_records": 54,
+  "validated_reuse_link_records": 56,
   "reuse_evidence_records": [
     {
       "record": "denetim/brokoli_yeniden_kullanim_843.json",
@@ -49338,6 +49361,22 @@
       "unit": 13,
       "lesson": "D5",
       "sha256": "5e1ca515e0a3e5a82f47572aa68e4bde921a715773f60463aac669151824b93b"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_900.json",
+      "id": "gunes_paneli_001",
+      "source": "pusula/ders-pusulasi/16-17-agac.json",
+      "unit": 15,
+      "lesson": "D3",
+      "sha256": "657a62ddc02a631015fcf188dd286d1102eee8dadf2f0639ca5c5025596f1288"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_900.json",
+      "id": "saksi_toprak_dolu_001",
+      "source": "pusula/ders-pusulasi/13-15-cinar.json",
+      "unit": 6,
+      "lesson": "D5",
+      "sha256": "7dc1f28b4dfb742982d635ffbc302f88b909a1eacf98bec1dcf063fb4f2f0165"
     },
     {
       "record": "denetim/saksi_yeniden_kullanim_825.json",
