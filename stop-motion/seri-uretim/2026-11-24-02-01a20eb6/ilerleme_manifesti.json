@@ -3,10 +3,10 @@
   "date": "2026-11-26",
   "workflow": "one object, one call, one PNG, technical QA, visual QA, immutable decision, hash, upload and readback",
   "complete_library": false,
-  "png_revisions": 2042,
-  "image_generation_calls": 1029,
-  "final_accepted": 920,
-  "rejected": 1122,
+  "png_revisions": 2044,
+  "image_generation_calls": 1030,
+  "final_accepted": 921,
+  "rejected": 1123,
   "native_asset_pass_4k_pending": 0,
   "assets": [
     {
@@ -69337,7 +69337,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/ev/gorev-listesi/gorev_listesi_gazi_aile_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "235de6a77f36f484b1d3029d098f5b144d3a0dc4"
     },
     {
       "id": "gozleme_tek_001",
@@ -103800,7 +103801,8 @@
       "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
       "repository_png_path": "stop-motion/yardimci-nesneler/egitim/kitap/kitap_ormanin_sesi_kapak_001.png",
       "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true,
+      "upload_verified_commit": "235de6a77f36f484b1d3029d098f5b144d3a0dc4"
     },
     {
       "id": "kitaplik_bos_001",
@@ -205774,6 +205776,289 @@
       "upload_verified_commit": "677cb63c94d5f727ec0a809e148d64a356013a5e"
     },
     {
+      "id": "telefon_grup_mesaji_kutuphane_001",
+      "revision": "r01",
+      "status": "REJECTED",
+      "source": "exec-7ce7bf42-86d9-4111-beed-cf06d6b52183.png",
+      "candidate_path": "adaylar/telefon_grup_mesaji_kutuphane_001/r01/telefon_grup_mesaji_kutuphane_001_r01.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.7458839471396103,
+        "opaque_fraction": 4.32198262054518e-05,
+        "bbox": [
+          0,
+          77,
+          1511,
+          895
+        ],
+        "transparent_edges": false,
+        "components_all_pixels": {
+          "1": 69,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 96
+        },
+        "largest_component_pixels": {
+          "1": 399595,
+          "16": 394447,
+          "32": 393942,
+          "64": 393243,
+          "128": 392292,
+          "192": 391256,
+          "250": 386527
+        },
+        "tiny_component_pixels": {
+          "1": 165,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 252
+        },
+        "sha256": "07a8a8d766a58a70f853d11801f09e00f17af08a4ca1163c39153e9722a0ba42",
+        "bytes": 853484,
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": false,
+        "master_canvas_target_pass": false
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-kok.json",
+          "source_blob_sha": "cceeb3130f04a609b9b44bf482b23b107c188172",
+          "unit": 12,
+          "unit_title": "Telefonda",
+          "lesson": "D6",
+          "evidence": "Grup sohbetine yeni bir mesaj geldi: Yarın saat dörtte kütüphanede buluşalım.",
+          "json_pointer": "/uniteler/11/dersler/5/test/2/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "24b5837828dfa47c54dc2ddca611fb7da23e1fac375a6fcee8601325723f1b86"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": false,
+      "visual_review": {
+        "state": "NOT_FINAL_REVIEWED",
+        "notes": "Generated view inspected for subject; technical input fails delivery gate. Final corrected PNG must be visually inspected on both colored backgrounds."
+      },
+      "pose_reference": {
+        "base_id": "telefon_yeni_mesaj_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_yeni_mesaj_001.png",
+        "sha256": "2856c051d8600eb0d5cd57b14e3ca45089bc9c7c6f0f3733742450e70dcfc81e",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_yeni_mesaj_001/r01/telefon_yeni_mesaj_001_r01.png",
+        "native_reference_sha256": "89f740fdbdca89bf9fee532b081b1360209f982f7f9f108b64aa54d82802326e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T07:10:07.539008+00:00",
+      "batch_started_on": "2026-11-24",
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe"
+    },
+    {
+      "id": "telefon_grup_mesaji_kutuphane_001",
+      "revision": "r02",
+      "status": "FINAL_ACCEPTED",
+      "source": "telefon_grup_mesaji_kutuphane_001_r02.png",
+      "candidate_path": "adaylar/telefon_grup_mesaji_kutuphane_001/r02/telefon_grup_mesaji_kutuphane_001_r02.png",
+      "metrics": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "zero_alpha_fraction": 0.9524441792052469,
+        "opaque_fraction": 0.04722318672839506,
+        "bbox": [
+          1655,
+          807,
+          2184,
+          1620
+        ],
+        "transparent_edges": true,
+        "components_all_pixels": {
+          "1": 1,
+          "16": 1,
+          "32": 1,
+          "64": 1,
+          "128": 1,
+          "192": 1,
+          "250": 1
+        },
+        "largest_component_pixels": {
+          "1": 394447,
+          "16": 394447,
+          "32": 394447,
+          "64": 394447,
+          "128": 394447,
+          "192": 391688,
+          "250": 391688
+        },
+        "tiny_component_pixels": {
+          "1": 0,
+          "16": 0,
+          "32": 0,
+          "64": 0,
+          "128": 0,
+          "192": 0,
+          "250": 0
+        },
+        "sha256": "fde48bec631158f243472d4754b639bf0fad20b4e6cb9d18bbaf5a730741b097",
+        "bytes": 937339,
+        "original_generated_dimensions": [
+          1672,
+          941
+        ],
+        "source_artwork_upscaled": false,
+        "source_revision": "r01",
+        "duplicate_historical_sha256_matches": [],
+        "technical_rgba_pass": true,
+        "master_canvas_target_pass": true
+      },
+      "curriculum": [
+        {
+          "source": "pusula/ders-pusulasi/13-15-kok.json",
+          "source_blob_sha": "cceeb3130f04a609b9b44bf482b23b107c188172",
+          "unit": 12,
+          "unit_title": "Telefonda",
+          "lesson": "D6",
+          "evidence": "Grup sohbetine yeni bir mesaj geldi: Yarın saat dörtte kütüphanede buluşalım.",
+          "json_pointer": "/uniteler/11/dersler/5/test/2/soru",
+          "match": "substring_of_exact_json_leaf",
+          "leaf_sha256": "24b5837828dfa47c54dc2ddca611fb7da23e1fac375a6fcee8601325723f1b86"
+        }
+      ],
+      "felt_cards_preserved": [
+        "K0305",
+        "R1427",
+        "R1429",
+        "R1509",
+        "R1740",
+        "R1741",
+        "R1746",
+        "R1747",
+        "R1748",
+        "R1751",
+        "R1752",
+        "R1753",
+        "R1756",
+        "R1757",
+        "R1760",
+        "R2147",
+        "R2465",
+        "R3376",
+        "R3506"
+      ],
+      "final_accepted": true,
+      "visual_review": {
+        "one_object": true,
+        "object_identity": true,
+        "dense_marker_ink": true,
+        "childlike_irregular_lines": true,
+        "variable_white_scissor_border": true,
+        "physical_paper_curl_or_crease": true,
+        "no_embedded_backdrop": true,
+        "no_floating_shadow": true,
+        "reviewed_green_purple_and_alpha": true,
+        "decision_notes": "R02 yeşil detay, mor detay ve alfa görünümü gerçekten açılıp incelendi. Tek kırmızı telefon; ekran içinde GRUP SOHBETİ ve Yarın saat / dörtte / kütüphanede / buluşalım. satırları doğru ve okunur. Ö/ü/ı/ş/İ işaretleri doğru; sarı zarf ve Yeni mesaj eski bildirimi yok. Krem mesaj alanı ekranın çizili parçası, ayrı nesne değil. Yoğun kırmızı/turkuaz keçeli kalem, koyu örtüşmeler, küçük beyaz kâğıt aralıkları, düzensiz lacivert çizgi ve değişken beyaz makas payı görülüyor. Sağ üst beyaz kıvrım var; iç alan opak, dış alfa temiz, kopuk parça/zemin/gölge yok. Kaynak13–15kökU12/D6kurmaca grupmesajıdır; gerçek randevu veya mesaj gönderilmedi. 529×813çizim büyütülmeden3840×2160tuvale alındı; özgün4K/animasyonhizası iddiasıyok."
+      },
+      "pose_reference": {
+        "base_id": "telefon_yeni_mesaj_001",
+        "base_revision": "r02",
+        "canonical_png": "stop-motion/yardimci-nesneler/esya/telefon/telefon_yeni_mesaj_001.png",
+        "sha256": "2856c051d8600eb0d5cd57b14e3ca45089bc9c7c6f0f3733742450e70dcfc81e",
+        "base_preserved": true,
+        "native_reference_png": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6/adaylar/telefon_yeni_mesaj_001/r01/telefon_yeni_mesaj_001_r01.png",
+        "native_reference_sha256": "89f740fdbdca89bf9fee532b081b1360209f982f7f9f108b64aa54d82802326e"
+      },
+      "pose_alignment_validated": false,
+      "ingested_at_utc": "2026-11-26T07:10:09.171337+00:00",
+      "batch_started_on": "2026-11-24",
+      "visual_reviewed_at_utc": "2026-11-26T07:11:08.038435+00:00",
+      "artistic_accepted": true,
+      "final_path": "yardimci-nesneler/teknoloji/telefon/telefon_grup_mesaji_kutuphane_001.png",
+      "technical_processing": {
+        "authorization": "User 2026-11-24: Yerel teknik düzeltmeyi uygula",
+        "source_sha256": "07a8a8d766a58a70f853d11801f09e00f17af08a4ca1163c39153e9722a0ba42",
+        "output_sha256": "fde48bec631158f243472d4754b639bf0fad20b4e6cb9d18bbaf5a730741b097",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "native_crop_dimensions": [
+          529,
+          813
+        ],
+        "canvas_dimensions": [
+          3840,
+          2160
+        ],
+        "native_4k": false,
+        "upscaled": false,
+        "rgb_of_retained_pixels_unchanged": true,
+        "alpha_algorithm": "largest 8-connected alpha>=16 silhouette; preserve silhouette; opaque interior; one-pixel alpha128 perimeter; no RGB editing; native-size translation only",
+        "removed_low_alpha_or_island_pixels": 5367,
+        "changed_alpha_pixels": 399738,
+        "bbox_in_canvas": [
+          1655,
+          807,
+          2184,
+          1620
+        ],
+        "baseline": 1620,
+        "alpha_threshold": 16,
+        "source_crop_bbox": [
+          551,
+          79,
+          1080,
+          892
+        ]
+      },
+      "generation_type": "Digital simulation of marker on white paper; not physically photographed craft",
+      "approval_authority": "Assistant per-image QA under user-delegated routine artistic acceptance",
+      "master_blob_sha": "2e4ce3827c240d26085ea5d08116b8785cb21fbe",
+      "repository_png_path": "stop-motion/yardimci-nesneler/teknoloji/telefon/telefon_grup_mesaji_kutuphane_001.png",
+      "source_artwork_use_limit": "Native size or smaller; transparent 4K canvas is not native 4K detail",
+      "github_binary_uploaded": false
+    },
+    {
       "id": "telefon_harcama_takibi_001",
       "revision": "r01",
       "status": "REJECTED",
@@ -242229,10 +242514,10 @@
   },
   "upload": {
     "status": "CHECKPOINT_PARTIAL_OR_PENDING",
-    "verified_png_count": 918,
-    "accepted_png_count": 920,
+    "verified_png_count": 920,
+    "accepted_png_count": 921,
     "batch_path": "stop-motion/seri-uretim/2026-11-24-02-01a20eb6"
   },
   "batch_started_on": "2026-11-24",
-  "updated_at_utc": "2026-11-26T07:03:21.944091+00:00"
+  "updated_at_utc": "2026-11-26T07:14:28.424246+00:00"
 }
