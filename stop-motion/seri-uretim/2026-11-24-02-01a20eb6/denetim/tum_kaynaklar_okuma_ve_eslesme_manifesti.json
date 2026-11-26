@@ -2,7 +2,7 @@
   "full_source_files_read": 35,
   "units_read": 616,
   "lessons_read": 5040,
-  "explicitly_linked_lessons": 603,
+  "explicitly_linked_lessons": 607,
   "full_curriculum_decomposition_complete": false,
   "library_complete": false,
   "note": "Okuma kayıtları kaynak SHA ve tam ünite/ders sayılarıyla doğrulandı. Açık kuyruk ve mevcut varlık tekrar-kullanım bağlantıları birleştirildi; tekrar-kullanım kanıtlarında gerçek PNG SHA, JSON alanı ve alan SHA eşleşmesi denetlendi. Bağlantı bulunması tüm ders sahnesinin tamamlandığı anlamına gelmez. Bağlantısız ders otomatik eksik asset sayılmaz.",
@@ -36362,11 +36362,17 @@
           "lesson": "D2",
           "all_present_fields_read": true,
           "explicit_queue_links": [
-            "harita_hava_durumu_001"
+            "harita_hava_durumu_001",
+            "televizyon_futbol_maci_001",
+            "televizyon_hava_haritasi_001",
+            "televizyon_oyuncak_reklami_001"
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
-            "harita_hava_durumu_001"
+            "harita_hava_durumu_001",
+            "televizyon_futbol_maci_001",
+            "televizyon_hava_haritasi_001",
+            "televizyon_oyuncak_reklami_001"
           ],
           "all_scene_requirements_reconciled": false
         },
@@ -36616,9 +36622,13 @@
           "unit": 8,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "odev_kagidi_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "odev_kagidi_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -36742,7 +36752,8 @@
           "lesson": "D4",
           "all_present_fields_read": true,
           "explicit_queue_links": [
-            "fasulye_paketi_kapali_001"
+            "fasulye_paketi_kapali_001",
+            "fasulye_pismis_tabak_001"
           ],
           "explicit_reuse_links": [
             "fasulye_paketi_kapali_001",
@@ -36751,6 +36762,7 @@
           ],
           "linked_final_accepted_ids": [
             "fasulye_paketi_kapali_001",
+            "fasulye_pismis_tabak_001",
             "filiz_koklu_001",
             "pamuk_parcasi_tek_001"
           ],
@@ -37498,8 +37510,12 @@
           "lesson": "D7",
           "all_present_fields_read": true,
           "explicit_queue_links": [],
-          "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "explicit_reuse_links": [
+            "tesekkur_karti_001"
+          ],
+          "linked_final_accepted_ids": [
+            "tesekkur_karti_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -42964,7 +42980,9 @@
           "explicit_queue_links": [
             "forma_tek_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "forma_tek_001"
+          ],
           "linked_final_accepted_ids": [
             "forma_tek_001"
           ],
@@ -46293,9 +46311,13 @@
           "unit": 6,
           "lesson": "D2",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "gazete_kucuk_ilan_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "gazete_kucuk_ilan_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -48390,9 +48412,15 @@
           "unit": 16,
           "lesson": "D4",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "takvim_masa_pazar_isaretli_001",
+            "takvim_masa_pazartesi_isaretli_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "takvim_masa_pazar_isaretli_001",
+            "takvim_masa_pazartesi_isaretli_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -48700,7 +48728,7 @@
       ]
     }
   ],
-  "validated_reuse_link_records": 27,
+  "validated_reuse_link_records": 29,
   "reuse_evidence_records": [
     {
       "record": "denetim/brokoli_yeniden_kullanim_843.json",
@@ -48909,6 +48937,22 @@
       "unit": 5,
       "lesson": "D1",
       "sha256": "e0aac6f2e61277b4f34176b6478b372cdb43b8cbeb3e78652a09b46266261455"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_858.json",
+      "id": "tesekkur_karti_001",
+      "source": "pusula/ders-pusulasi/4-6-orman.json",
+      "unit": 20,
+      "lesson": "D7",
+      "sha256": "7d7cb27d6361adc059cdabf7d53c9debbfd3786d5fba8a8fb25b914e4b8b45d4"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_858.json",
+      "id": "forma_tek_001",
+      "source": "pusula/ders-pusulasi/7-9-fidan.json",
+      "unit": 18,
+      "lesson": "D7",
+      "sha256": "e0d278201b3c8a02dc351f0691ab1ceb4fa2320b34bcbec8fa3e73f42a45615c"
     },
     {
       "record": "denetim/saksi_yeniden_kullanim_825.json",
