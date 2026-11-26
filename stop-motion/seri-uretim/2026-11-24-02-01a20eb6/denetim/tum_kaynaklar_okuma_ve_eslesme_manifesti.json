@@ -2,7 +2,7 @@
   "full_source_files_read": 35,
   "units_read": 616,
   "lessons_read": 5040,
-  "explicitly_linked_lessons": 628,
+  "explicitly_linked_lessons": 635,
   "full_curriculum_decomposition_complete": false,
   "library_complete": false,
   "note": "Okuma kayıtları kaynak SHA ve tam ünite/ders sayılarıyla doğrulandı. Açık kuyruk ve mevcut varlık tekrar-kullanım bağlantıları birleştirildi; tekrar-kullanım kanıtlarında gerçek PNG SHA, JSON alanı ve alan SHA eşleşmesi denetlendi. Bağlantı bulunması tüm ders sahnesinin tamamlandığı anlamına gelmez. Bağlantısız ders otomatik eksik asset sayılmaz.",
@@ -12535,7 +12535,9 @@
           "unit": 3,
           "lesson": "D1",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "zamanlayici_altmis_dakika_001"
+          ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [],
           "all_scene_requirements_reconciled": false
@@ -12553,9 +12555,13 @@
           "unit": 3,
           "lesson": "D3",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "bilgisayar_video_kurgu_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "bilgisayar_video_kurgu_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -12564,14 +12570,19 @@
           "all_present_fields_read": true,
           "explicit_queue_links": [
             "cirpici_tek_001",
+            "firin_kapagi_acik_001",
             "firin_kapali_001",
-            "kek_kalibi_bos_001"
+            "kek_kalibi_bos_001",
+            "kek_kalipta_pismis_001",
+            "zamanlayici_yirmi_dakika_001"
           ],
           "explicit_reuse_links": [],
           "linked_final_accepted_ids": [
             "cirpici_tek_001",
             "firin_kapali_001",
-            "kek_kalibi_bos_001"
+            "kek_kalibi_bos_001",
+            "kek_kalipta_pismis_001",
+            "zamanlayici_yirmi_dakika_001"
           ],
           "all_scene_requirements_reconciled": false
         },
@@ -12580,8 +12591,16 @@
           "lesson": "D5",
           "all_present_fields_read": true,
           "explicit_queue_links": [],
-          "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "explicit_reuse_links": [
+            "kova_mavi_dolu_001",
+            "pompa_el_001",
+            "zimpara_kagidi_tek_001"
+          ],
+          "linked_final_accepted_ids": [
+            "kova_mavi_dolu_001",
+            "pompa_el_001",
+            "zimpara_kagidi_tek_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -12590,11 +12609,15 @@
           "all_present_fields_read": true,
           "explicit_queue_links": [
             "ic_lastik_sonuk_001",
+            "ic_lastik_yamali_001",
             "yama_lastik_tek_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "yama_lastik_tek_001"
+          ],
           "linked_final_accepted_ids": [
             "ic_lastik_sonuk_001",
+            "ic_lastik_yamali_001",
             "yama_lastik_tek_001"
           ],
           "all_scene_requirements_reconciled": false
@@ -13427,9 +13450,17 @@
           "unit": 13,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
-          "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "explicit_queue_links": [
+            "limonata_bardagi_001"
+          ],
+          "explicit_reuse_links": [
+            "meyve_suyu_bardagi_001",
+            "tost_tek_001"
+          ],
+          "linked_final_accepted_ids": [
+            "meyve_suyu_bardagi_001",
+            "tost_tek_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -14869,6 +14900,8 @@
           "all_present_fields_read": true,
           "explicit_queue_links": [
             "bugday_suda_kase_001",
+            "incir_kuru_dogranmis_parca_001",
+            "kayisi_kuru_dogranmis_parca_001",
             "nohut_suda_kase_001",
             "tarcin_cubugu_tek_001"
           ],
@@ -22141,8 +22174,12 @@
           "explicit_queue_links": [
             "sira_numarasi_fisi_001"
           ],
-          "explicit_reuse_links": [],
+          "explicit_reuse_links": [
+            "basvuru_formu_ornek_001",
+            "sira_numarasi_fisi_001"
+          ],
           "linked_final_accepted_ids": [
+            "basvuru_formu_ornek_001",
             "sira_numarasi_fisi_001"
           ],
           "all_scene_requirements_reconciled": false
@@ -22169,18 +22206,26 @@
           "unit": 4,
           "lesson": "D4",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "ikametgah_belgesi_ornek_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "ikametgah_belgesi_ornek_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
           "unit": 4,
           "lesson": "D5",
           "all_present_fields_read": true,
-          "explicit_queue_links": [],
+          "explicit_queue_links": [
+            "ogrenci_belgesi_ornek_001"
+          ],
           "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "linked_final_accepted_ids": [
+            "ogrenci_belgesi_ornek_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -22188,8 +22233,12 @@
           "lesson": "D6",
           "all_present_fields_read": true,
           "explicit_queue_links": [],
-          "explicit_reuse_links": [],
-          "linked_final_accepted_ids": [],
+          "explicit_reuse_links": [
+            "ogrenci_ulasim_karti_001"
+          ],
+          "linked_final_accepted_ids": [
+            "ogrenci_ulasim_karti_001"
+          ],
           "all_scene_requirements_reconciled": false
         },
         {
@@ -48847,7 +48896,7 @@
       ]
     }
   ],
-  "validated_reuse_link_records": 45,
+  "validated_reuse_link_records": 54,
   "reuse_evidence_records": [
     {
       "record": "denetim/brokoli_yeniden_kullanim_843.json",
@@ -49200,6 +49249,78 @@
       "unit": 9,
       "lesson": "D5",
       "sha256": "3f8d771b6e3916fd453195b68092904735fb74ca1ab301ca84345cf69bf0206b"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "basvuru_formu_ornek_001",
+      "source": "pusula/ders-pusulasi/16-17-fidan.json",
+      "unit": 4,
+      "lesson": "D1",
+      "sha256": "812e04f39ffe2884017a9d19c32acb3eb0d039b52e96e15dfbd114d5b9bccf7c"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "sira_numarasi_fisi_001",
+      "source": "pusula/ders-pusulasi/16-17-fidan.json",
+      "unit": 4,
+      "lesson": "D1",
+      "sha256": "2a6e4bc80456c9b1d258e7e1e4f75e043afd7550b1a71a573b9c7f5bedc040c7"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "ogrenci_ulasim_karti_001",
+      "source": "pusula/ders-pusulasi/16-17-fidan.json",
+      "unit": 4,
+      "lesson": "D6",
+      "sha256": "b318c3710df2d60b52a446d0b270ed1335cdd95206c0b4407d6020360952cc20"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "kova_mavi_dolu_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 3,
+      "lesson": "D5",
+      "sha256": "8296475cdb478f9df421f864afff2b0b6b6253a66c76211c0a7e2a72dc2297db"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "pompa_el_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 3,
+      "lesson": "D5",
+      "sha256": "ac8e34e0598b59068f003affeed8085c59e6975d9f7decd17dd6a12d8ab64164"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "zimpara_kagidi_tek_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 3,
+      "lesson": "D5",
+      "sha256": "3a207d766f092a81046ed751e5385c96531359cd2e51ea9913a7c46fdbda2eab"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887.json",
+      "id": "yama_lastik_tek_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 3,
+      "lesson": "D6",
+      "sha256": "a22a380ea711b4b2986dc5dbe184bd2761f3276145d57934d81388cbd999c678"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887_ek.json",
+      "id": "tost_tek_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 13,
+      "lesson": "D5",
+      "sha256": "35b36459b8f475f96a418da2156d43247ed8714eaefd715e9cb238c98bbf6324"
+    },
+    {
+      "record": "denetim/mevcut_eslesmeler_887_ek.json",
+      "id": "meyve_suyu_bardagi_001",
+      "source": "pusula/ders-pusulasi/13-15-fidan.json",
+      "unit": 13,
+      "lesson": "D5",
+      "sha256": "5e1ca515e0a3e5a82f47572aa68e4bde921a715773f60463aac669151824b93b"
     },
     {
       "record": "denetim/saksi_yeniden_kullanim_825.json",
